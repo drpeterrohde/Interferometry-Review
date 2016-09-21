@@ -2,7 +2,34 @@
 \contentsline {section}{\numberline {}Contents}{1}{section*.1}
 \tocdepth@restore 
 \contentsline {section}{\numberline {I}Introduction}{1}{section*.2}
-\contentsline {section}{\numberline {II}Linear Optics Quantum Computation}{1}{section*.3}
-\contentsline {section}{\numberline {III}Boson-sampling}{1}{section*.4}
-\contentsline {section}{\numberline {IV}Conclusion}{1}{section*.5}
-\contentsline {section}{\numberline {}Acknowledgments}{1}{section*.6}
+\contentsline {section}{\numberline {II}Mathematical Background}{1}{section*.3}
+\contentsline {section}{\numberline {III}Optical Encoding of Quantum Information}{1}{section*.4}
+\contentsline {subsection}{\numberline {A}Single-Photons}{1}{section*.5}
+\contentsline {subsubsection}{\numberline {1}Polarisation}{1}{section*.6}
+\contentsline {subsubsection}{\numberline {2}Dual-Rail}{1}{section*.7}
+\contentsline {subsubsection}{\numberline {3}Time-Bins}{1}{section*.8}
+\contentsline {subsection}{\numberline {B}Continuous-Variables}{1}{section*.9}
+\contentsline {subsubsection}{\numberline {1}Coherent States}{1}{section*.10}
+\contentsline {subsubsection}{\numberline {2}Squeezed States}{1}{section*.11}
+\contentsline {section}{\numberline {IV}Efficient Circuit Decompositions of Linear Optics Networks}{1}{section*.12}
+\contentsline {section}{\numberline {V}Experimental Implementation}{1}{section*.13}
+\contentsline {subsection}{\numberline {A}State Preparation}{1}{section*.14}
+\contentsline {subsubsection}{\numberline {1}Single-Photons}{1}{section*.15}
+\contentsline {subsubsection}{\numberline {2}Bell Pairs}{1}{section*.16}
+\contentsline {subsubsection}{\numberline {3}Coherent States}{1}{section*.17}
+\contentsline {subsubsection}{\numberline {4}Squeezed States}{1}{section*.18}
+\contentsline {subsection}{\numberline {B}Linear Optics Networks}{1}{section*.19}
+\contentsline {subsubsection}{\numberline {1}Bulk Optics}{1}{section*.20}
+\contentsline {subsubsection}{\numberline {2}Waveguides}{1}{section*.21}
+\contentsline {subsubsection}{\numberline {3}Time-Bins}{1}{section*.22}
+\contentsline {subsection}{\numberline {C}Measurement}{2}{section*.23}
+\contentsline {subsubsection}{\numberline {1}Photodetection}{2}{section*.24}
+\contentsline {subsubsection}{\numberline {2}Homodyning}{2}{section*.25}
+\contentsline {section}{\numberline {VI}Applications for Linear Optics Interferometry}{2}{section*.26}
+\contentsline {subsection}{\numberline {A}Linear Optics Quantum Computation}{2}{section*.27}
+\contentsline {subsection}{\numberline {B}Boson-Sampling}{2}{section*.28}
+\contentsline {subsection}{\numberline {C}Quantum Metrology}{2}{section*.29}
+\contentsline {subsection}{\numberline {D}Encrypted Quantum Computation}{2}{section*.30}
+\contentsline {section}{\numberline {VII}State of the Art}{2}{section*.31}
+\contentsline {section}{\numberline {VIII}Conclusion}{2}{section*.32}
+\contentsline {section}{\numberline {}Acknowledgments}{2}{section*.33}
