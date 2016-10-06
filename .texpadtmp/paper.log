@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.14)  26 SEP 2016 09:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.14)  7 OCT 2016 00:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -423,13 +423,13 @@ Package rerunfilecheck Info: File `paper.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
  ) 
 Here is how much of TeX's memory you used:
- 8034 strings out of 493117
- 113080 string characters out of 6135432
- 221230 words of memory out of 5000000
- 11364 multiletter control sequences out of 15000+600000
+ 8035 strings out of 493117
+ 113092 string characters out of 6135432
+ 220230 words of memory out of 5000000
+ 11365 multiletter control sequences out of 15000+600000
  13964 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 32i,7n,35p,238b,358s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32i,7n,35p,238b,339s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
 usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr
@@ -443,7 +443,7 @@ l/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/local
 exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/tex
 live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
 Output written on /Users/peterrohde/OneDrive/Documents/Publications/GitHub/Inte
-rferometry-Review/.texpadtmp/paper.pdf (2 pages, 136953 bytes).
+rferometry-Review/.texpadtmp/paper.pdf (2 pages, 137749 bytes).
 PDF statistics:
  248 PDF objects out of 1000 (max. 8388607)
  229 compressed objects within 3 object streams
