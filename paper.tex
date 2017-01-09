@@ -12,6 +12,8 @@
 \newcommand{\sihui}[1]{{\color{Orchid}{#1}}}
 \newcommand{\peter}[1]{{\color{YellowGreen}{#1}}}
 \newcommand{\comment}[1]{{\color{blue}{#1}}}
+\newcommand{\ah}{\hat{a}}
+\newcommand{\adagh}{\hat{a}^\dag}
 
 \begin{document}
 
@@ -60,8 +62,12 @@
 \comment{Let's add comments and questions like this}
 
 \section{Mathematical background}
+\comment{Mathematical representation for LO networks, and very basic background on quantum optics}\\
+\sihui{A idealized single photon in a quantum interferometer is described by its creation operator $\adagh_{j,\alpha}$, where $j$ is the path label and $\alpha$ is a quantum number that describes any internal degrees of freedom of the photon. The creation and annihilation operators satisfy the bosonic comutator relationship $[\ah_{j,\alpha},\adagh_{k,\beta}]=\delta_{j,k}\delta_{\alpha,\beta}$. When multiple photons are present, they experience quantum interference when both quantum labels are the same.
 
-\comment{Mathematical representation for LO networks, and very basic background on quantum optics}
+A linear optical interferometer}
+
+
 
 \section{Optical encoding of quantum information}
 
