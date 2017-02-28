@@ -1,0 +1,142 @@
+\begin{thebibliography}{11}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname bibnamefont\endcsname\relax
+  \def\bibnamefont#1{#1}\fi
+\expandafter\ifx\csname bibfnamefont\endcsname\relax
+  \def\bibfnamefont#1{#1}\fi
+\expandafter\ifx\csname citenamefont\endcsname\relax
+  \def\citenamefont#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\bibinfo}[2]{#2}
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{\citenamefont{Tillmann et~al.}(2015)\citenamefont{Tillmann, Tan,
+  Stoeckl, Sanders, de~Guise, Heilmann, Nolte, Szameit, and
+  Walther}}]{bib:Tillmann2015}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Tillmann}},
+  \bibinfo{author}{\bibfnamefont{S.-H.} \bibnamefont{Tan}},
+  \bibinfo{author}{\bibfnamefont{S.~E.} \bibnamefont{Stoeckl}},
+  \bibinfo{author}{\bibfnamefont{B.~C.} \bibnamefont{Sanders}},
+  \bibinfo{author}{\bibfnamefont{H.}~\bibnamefont{de~Guise}},
+  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Heilmann}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Nolte}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Szameit}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Walther}},
+  \bibinfo{journal}{Phys. Rev. X} \textbf{\bibinfo{volume}{5}},
+  \bibinfo{pages}{041015} (\bibinfo{year}{2015}),
+  \urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevX.5.041015}.
+
+\bibitem[{\citenamefont{Bozinovic et~al.}(2013)\citenamefont{Bozinovic, Yue,
+  Ren, Tur, Kristensen, Huang, Willner, and Ramachandran}}]{bib:Bozinovic2013}
+\bibinfo{author}{\bibfnamefont{N.}~\bibnamefont{Bozinovic}},
+  \bibinfo{author}{\bibfnamefont{Y.}~\bibnamefont{Yue}},
+  \bibinfo{author}{\bibfnamefont{Y.}~\bibnamefont{Ren}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Tur}},
+  \bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Kristensen}},
+  \bibinfo{author}{\bibfnamefont{H.}~\bibnamefont{Huang}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Willner}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Ramachandran}},
+  \bibinfo{journal}{Science} \textbf{\bibinfo{volume}{340}},
+  \bibinfo{pages}{1545} (\bibinfo{year}{2013}).
+
+\bibitem[{\citenamefont{Nicolas et~al.}(2014)\citenamefont{Nicolas, Veissier,
+  Giner, Giacobino, Maxein, and Laurat}}]{bib:Nicolas2014}
+\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Nicolas}},
+  \bibinfo{author}{\bibfnamefont{L.}~\bibnamefont{Veissier}},
+  \bibinfo{author}{\bibfnamefont{L.}~\bibnamefont{Giner}},
+  \bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Giacobino}},
+  \bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Maxein}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Laurat}},
+  \bibinfo{journal}{Nat.~Photonics} \textbf{\bibinfo{volume}{8}},
+  \bibinfo{pages}{234} (\bibinfo{year}{2014}).
+
+\bibitem[{\citenamefont{Humphreys et~al.}(2013)\citenamefont{Humphreys,
+  Metcalf, Spring, Moore, Jin, Barbieri, Kolthammer, and
+  Walmsley}}]{bib:Humphreys2013}
+\bibinfo{author}{\bibfnamefont{P.~C.} \bibnamefont{Humphreys}},
+  \bibinfo{author}{\bibfnamefont{B.~J.} \bibnamefont{Metcalf}},
+  \bibinfo{author}{\bibfnamefont{J.~B.} \bibnamefont{Spring}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Moore}},
+  \bibinfo{author}{\bibfnamefont{X.-M.} \bibnamefont{Jin}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Barbieri}},
+  \bibinfo{author}{\bibfnamefont{W.~S.} \bibnamefont{Kolthammer}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{I.~A.}
+  \bibnamefont{Walmsley}}, \bibinfo{journal}{Phys. Rev. Lett.}
+  \textbf{\bibinfo{volume}{111}}, \bibinfo{pages}{150501}
+  (\bibinfo{year}{2013}),
+  \urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevLett.111.150501}.
+
+\bibitem[{\citenamefont{Donohue et~al.}(2013)\citenamefont{Donohue, Agnew,
+  Lavoie, and Resch}}]{bib:Donohue2013}
+\bibinfo{author}{\bibfnamefont{J.~M.} \bibnamefont{Donohue}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Agnew}},
+  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Lavoie}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{K.~J.} \bibnamefont{Resch}},
+  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{111}},
+  \bibinfo{pages}{153602} (\bibinfo{year}{2013}),
+  \urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevLett.111.153602}.
+
+\bibitem[{\citenamefont{Reck et~al.}(1994)\citenamefont{Reck, Zeilinger,
+  Bernstein, and Bertani}}]{bib:Reck1994}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Reck}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Zeilinger}},
+  \bibinfo{author}{\bibfnamefont{H.~J.} \bibnamefont{Bernstein}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Bertani}},
+  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{73}},
+  \bibinfo{pages}{58} (\bibinfo{year}{1994}),
+  \urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevLett.73.58}.
+
+\bibitem[{\citenamefont{Dhand and Goyal}(2015)}]{bib:Dhand2015}
+\bibinfo{author}{\bibfnamefont{I.}~\bibnamefont{Dhand}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{S.~K.} \bibnamefont{Goyal}},
+  \bibinfo{journal}{Phys. Rev. A} \textbf{\bibinfo{volume}{92}},
+  \bibinfo{pages}{043813} (\bibinfo{year}{2015}),
+  \urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevA.92.043813}.
+
+\bibitem[{\citenamefont{Tan et~al.}(2013)\citenamefont{Tan, Gao, de~Guise, and
+  Sanders}}]{bib:Tan2013}
+\bibinfo{author}{\bibfnamefont{S.-H.} \bibnamefont{Tan}},
+  \bibinfo{author}{\bibfnamefont{Y.~Y.} \bibnamefont{Gao}},
+  \bibinfo{author}{\bibfnamefont{H.}~\bibnamefont{de~Guise}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{B.~C.} \bibnamefont{Sanders}},
+  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{110}},
+  \bibinfo{pages}{113603} (\bibinfo{year}{2013}),
+  \urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevLett.110.113603}.
+
+\bibitem[{\citenamefont{de~Guise et~al.}(2014)\citenamefont{de~Guise, Tan,
+  Poulin, and Sanders}}]{bib:deGuise2014}
+\bibinfo{author}{\bibfnamefont{H.}~\bibnamefont{de~Guise}},
+  \bibinfo{author}{\bibfnamefont{S.-H.} \bibnamefont{Tan}},
+  \bibinfo{author}{\bibfnamefont{I.~P.} \bibnamefont{Poulin}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{B.~C.}
+  \bibnamefont{Sanders}}, \bibinfo{journal}{Phys. Rev. A}
+  \textbf{\bibinfo{volume}{89}}, \bibinfo{pages}{063819}
+  (\bibinfo{year}{2014}),
+  \urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevA.89.063819}.
+
+\bibitem[{\citenamefont{de~Guise et~al.}(2016)\citenamefont{de~Guise, Spivak,
+  Kulp, and Dhand}}]{bib:deGuise2015}
+\bibinfo{author}{\bibfnamefont{H.}~\bibnamefont{de~Guise}},
+  \bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Spivak}},
+  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Kulp}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{I.}~\bibnamefont{Dhand}},
+  \bibinfo{journal}{J.~Phys.~A:Math.~Theor.} \textbf{\bibinfo{volume}{49}},
+  \bibinfo{pages}{09LT01} (\bibinfo{year}{2016}).
+
+\bibitem[{\citenamefont{Ra et~al.}(2013)\citenamefont{Ra, Tichy, Lim, Kwon,
+  Mintert, Buchleitner, and Kim}}]{bib:Ra2013}
+\bibinfo{author}{\bibfnamefont{Y.-S.} \bibnamefont{Ra}},
+  \bibinfo{author}{\bibfnamefont{M.~C.} \bibnamefont{Tichy}},
+  \bibinfo{author}{\bibfnamefont{H.-T.} \bibnamefont{Lim}},
+  \bibinfo{author}{\bibfnamefont{O.}~\bibnamefont{Kwon}},
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Mintert}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Buchleitner}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{Y.-H.} \bibnamefont{Kim}},
+  \bibinfo{journal}{Proceedings of the National Academy of Sciences}
+  \textbf{\bibinfo{volume}{110}}, \bibinfo{pages}{1227} (\bibinfo{year}{2013}),
+  \eprint{http://www.pnas.org/content/110/4/1227.full.pdf},
+  \urlprefix\url{http://www.pnas.org/content/110/4/1227.abstract}.
+
+\end{thebibliography}
