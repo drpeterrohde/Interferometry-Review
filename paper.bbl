@@ -1,4 +1,4 @@
-\begin{thebibliography}{17}
+\begin{thebibliography}{19}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname bibnamefont\endcsname\relax
   \def\bibnamefont#1{#1}\fi
@@ -206,5 +206,23 @@
   \textbf{\bibinfo{volume}{13}}, \bibinfo{pages}{013006}
   (\bibinfo{year}{2011}),
   \urlprefix\url{http://stacks.iop.org/1367-2630/13/i=1/a=013006}.
+
+\bibitem[{\citenamefont{Laing and O'Brien}(2012)}]{bib:Laing12}
+\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Laing}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{O'Brien}},
+  \bibinfo{journal}{arXiv: 1208.2868v1}  (\bibinfo{year}{2012}).
+
+\bibitem[{\citenamefont{Rahimi-Keshari
+  et~al.}(2013)\citenamefont{Rahimi-Keshari, Broome, Fickler, Fedrizzi, Ralph,
+  and White}}]{bib:Rahimi-Keshari13}
+\bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Rahimi-Keshari}},
+  \bibinfo{author}{\bibfnamefont{M.~A.} \bibnamefont{Broome}},
+  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Fickler}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Fedrizzi}},
+  \bibinfo{author}{\bibfnamefont{T.~C.} \bibnamefont{Ralph}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{A.~G.} \bibnamefont{White}},
+  \bibinfo{journal}{Opt. Express} \textbf{\bibinfo{volume}{21}},
+  \bibinfo{pages}{13450} (\bibinfo{year}{2013}),
+  \urlprefix\url{http://www.opticsexpress.org/abstract.cfm?URI=oe-21-11-13450}.
 
 \end{thebibliography}
