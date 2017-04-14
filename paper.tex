@@ -61,9 +61,13 @@
 
 \comment{Let's add comments and questions like this}
 
+Technical advancements have been made on many fronts. It is possible now to put single-photon sources and linear-optical networks on a silica chip. The advantage of using such integrated photonics over bulk optics is that it is more stable against phase fluctuations, and miniaturized. This increases the scalability of optical implementations of quantum information protocols.
+
+
 \section{Mathematical background}
 \comment{Mathematical representation for LO networks, and very basic background on quantum optics}\\
-\sihui{A idealized single photon in a quantum interferometer is described by its creation operator $\adagh_{j}$, where $j$ is the label of the mode the photon is in  within the interferometer. The creation and annihilation operators satisfy the bosonic comutator relationship $[\ah_{j},\adagh_{k}]=\delta_{j,k}$. A similar commutator relationship can be  written up when more degrees of freedom, such as polarization, orbital angular momentum, and time-bins \cite{bib:Tillmann2015,bib:Bozinovic2013, bib:Nicolas2014, bib:Humphreys2013, bib:Donohue2013}, are present. When multiple photons are present, they experience quantum interference when all quantum labels are the same.
+
+A idealized single photon in a quantum interferometer is described by its creation operator $\adagh_{j}$, where $j$ is the label of the mode the photon is in  within the interferometer. The creation and annihilation operators satisfy the bosonic comutator relationship $[\ah_{j},\adagh_{k}]=\delta_{j,k}$. A similar commutator relationship can be  written up when more degrees of freedom, such as polarization, orbital angular momentum, and time-bins \cite{bib:Tillmann2015,bib:Bozinovic2013, bib:Nicolas2014, bib:Humphreys2013, bib:Donohue2013}, are present. When multiple photons are present, they experience quantum interference when all quantum labels are the same.
 
 The action of a $2d$-port linear optical interferometer (with an equal number of input and output ports) is expressed as an application of unitary operations on the creation operators,
 
@@ -71,15 +75,13 @@ The action of a $2d$-port linear optical interferometer (with an equal number of
 b_i^{\dag}=\sum_{j=1}^d U_{ij}a_j^\dag \ ,
 \end{align}
 where $a_j^\dag$ and $b_i^\dag$ are the creation operators of a single input and output photon in the $j$-th and $i$-th modes respectively, and $U\in SU(d)$. All such transformation can be expressed as sequence of beamsplitters and waveplates \cite{bib:Reck1994}. In the case when photons have additional labels, for instance, if they have internal labels on top of spatial labels, it is also possible to derive an analogous decomposition, known as a cosine-sine decomposition \cite{bib:Dhand2015}, that realizes the unitary transformation on the photons into a sequence of beamsplitters and internal transformations. Toolkits using group theory are being developed to deal with partial distinguishabilities among interfering photons \cite{bib:Tan2013,bib:deGuise2014,bib:deGuise2015}. Others use
-quantum-to-classical transitions to explain multiparticle interference \cite{bib:Ra2013}.
-
-}
+quantum-to-classical transitions to explain multiparticle interference \cite{bib:Ra2013}. \sihui{Experimental implementation [Walmsley, Jennewein]}
 
 
 
-\section{Optical encoding of quantum information}
+\section{Optical encoding of quantum information on single-photons}
 
-\subsection{Single-photons}
+%\subsection{Single-photons}
 
 \subsubsection{Polarisation}
 
@@ -87,20 +89,31 @@ quantum-to-classical transitions to explain multiparticle interference \cite{bib
 
 \subsubsection{Time-bins}
 
-\subsection{Continuous-variables}
+%\subsection{Continuous-variables}
 
-\subsubsection{Coherent states}
+%\subsubsection{Coherent states}
 
-\subsubsection{Squeezed states}
+%\subsubsection{Squeezed states}
 
 \section{Efficient circuit decompositions of linear optics networks}
 
 \comment{Discuss the Reck et al. decomposition}
-The task of implementing an arbitrary quantum computation on linear optics comes down to implementing an arbitrary $n\times n$ unitary matrix. If a non-unitary transformation is desired, it can be embedded within a unitary matrix with larger dimensions. An algorithm for expressing an arbitrary unitary matrix in terms of beamsplitters and phase-shifters, or equivalently Mach-Zedner interferometers, exists \cite{bib:Reck1994,bib:Englert2001} and has been widely used {\bf (find examples)}. Later, it has been shown that any nontrivial beam splitter is universal for linear optics \cite{bib:Bouland2014}.
+
+The task of implementing an arbitrary quantum computation on linear optics comes down to implementing an arbitrary $n\times n$ unitary matrix. If a non-unitary transformation is desired, it can be embedded within a unitary matrix with larger dimensions. An algorithm for expressing an arbitrary unitary matrix {\it exactly} in terms of a sequence of $\mathcal{O}(n^2)$ beamsplitters and phase-shifters exists \cite{bib:Reck1994}. Alternatively, Mach-Zedner interferometer can also be used as building blocks instead of beamsplitters and phase shifters \cite{bib:Reck1994, bib:Englert2001}. Later, it has been shown that any nontrivial beam splitter, that does more than swapping modes around or add phases to them, is universal for linear optics \cite{bib:Bouland2014}. However, they do not provide a construction for arbitrary unitaries.
+
+If the linear optical transformations can be realized on various degrees of freedom of light, then it is possible to realize a $n\times n$ arbitrary unitary transformation, where $n=n_s n_p$ for $n_s$ spatial modes, and $n_p$ internal modes, by a sequence of $\mathcal{O}(n_s^2 n_p)$ beamsplitters and $\mathcal{O}(n_s^2)$ internal transformations \cite{bib:Dhand2015}. Their approach reduces the required number of beamsplitters but increases the total number of optical elements needed increases by a factor of 2.
+
+\section{Reconstructing the linear optical network}
+\sihui{Discuss the role of quantum tomography here. 
+Algorithms using O'Brien and Laing, Schaffner and Tillmann--using single-photon, and two-photon inputs to reconstruct the Euler angles of the circuit.
+Others using coherent-state inputs which has a lower requirement on the state-preparation side.}
+
+In many practical situations, the structure of a linear optical device in terms of its constituent beamsplitters and phase shifters is known once it is built. However, owing to manufacturing imperfections, a precise characterization of these devices is still needed post-production. One of the ways, this can be done is via a quantum process tomography \cite{bib:Mitchell03,bib:Obrien04,bib:Lobino08,bib:Saleh11} . However, quantum process tomography is an expensive method in terms of number of measurements required to characterize the network, and it becomes impractical for large optical networks which can be as large as 900 modes (check citations for number of modes).
 
 \section{Experimental implementation}
 
 \subsection{State preparation}
+\sihui{Cat state--Schoelkopf group}
 
 \subsubsection{Single-photons}
 

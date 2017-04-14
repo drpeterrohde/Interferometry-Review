@@ -1,4 +1,4 @@
-\begin{thebibliography}{13}
+\begin{thebibliography}{17}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname bibnamefont\endcsname\relax
   \def\bibnamefont#1{#1}\fi
@@ -155,5 +155,56 @@
   \bibinfo{journal}{Phys. Rev. A} \textbf{\bibinfo{volume}{89}},
   \bibinfo{pages}{062316} (\bibinfo{year}{2014}),
   \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevA.89.062316}.
+
+\bibitem[{\citenamefont{Mitchell et~al.}(2003)\citenamefont{Mitchell, Ellenor,
+  Schneider, and Steinberg}}]{bib:Mitchell03}
+\bibinfo{author}{\bibfnamefont{M.~W.} \bibnamefont{Mitchell}},
+  \bibinfo{author}{\bibfnamefont{C.~W.} \bibnamefont{Ellenor}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Schneider}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{A.~M.}
+  \bibnamefont{Steinberg}}, \bibinfo{journal}{Phys. Rev. Lett.}
+  \textbf{\bibinfo{volume}{91}}, \bibinfo{pages}{120402}
+  (\bibinfo{year}{2003}).
+
+\bibitem[{\citenamefont{O'Brien et~al.}(2004)\citenamefont{O'Brien, Pryde,
+  Gilchrist, James, Langford, Ralph, and White}}]{bib:Obrien04}
+\bibinfo{author}{\bibfnamefont{J.~L.} \bibnamefont{O'Brien}},
+  \bibinfo{author}{\bibfnamefont{G.~J.} \bibnamefont{Pryde}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Gilchrist}},
+  \bibinfo{author}{\bibfnamefont{D.~F.~V.} \bibnamefont{James}},
+  \bibinfo{author}{\bibfnamefont{N.~K.} \bibnamefont{Langford}},
+  \bibinfo{author}{\bibfnamefont{T.~C.} \bibnamefont{Ralph}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{A.~G.} \bibnamefont{White}},
+  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{93}},
+  \bibinfo{pages}{080502} (\bibinfo{year}{2004}),
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.93.080502}.
+
+\bibitem[{\citenamefont{Lobino et~al.}(2008)\citenamefont{Lobino, Korystov,
+  Kupchak, Figueroa, Sanders, and Lvovsky}}]{bib:Lobino08}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Lobino}},
+  \bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Korystov}},
+  \bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Kupchak}},
+  \bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Figueroa}},
+  \bibinfo{author}{\bibfnamefont{B.~C.} \bibnamefont{Sanders}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{A.~I.}
+  \bibnamefont{Lvovsky}}, \bibinfo{journal}{Science}
+  \textbf{\bibinfo{volume}{322}}, \bibinfo{pages}{563} (\bibinfo{year}{2008}),
+  ISSN \bibinfo{issn}{0036-8075},
+  \eprint{http://science.sciencemag.org/content/322/5901/563.full.pdf},
+  \urlprefix\url{http://science.sciencemag.org/content/322/5901/563}.
+
+\bibitem[{\citenamefont{Rahimi-Keshari
+  et~al.}(2011)\citenamefont{Rahimi-Keshari, Scherer, Mann, Rezakhani, Lvovsky,
+  and Sanders}}]{bib:Saleh11}
+\bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Rahimi-Keshari}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Scherer}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Mann}},
+  \bibinfo{author}{\bibfnamefont{A.~T.} \bibnamefont{Rezakhani}},
+  \bibinfo{author}{\bibfnamefont{A.~I.} \bibnamefont{Lvovsky}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{B.~C.}
+  \bibnamefont{Sanders}}, \bibinfo{journal}{New Journal of Physics}
+  \textbf{\bibinfo{volume}{13}}, \bibinfo{pages}{013006}
+  (\bibinfo{year}{2011}),
+  \urlprefix\url{http://stacks.iop.org/1367-2630/13/i=1/a=013006}.
 
 \end{thebibliography}

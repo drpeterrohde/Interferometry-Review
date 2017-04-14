@@ -4,46 +4,51 @@ The top-level auxiliary file: paper.aux
 The style file: apsrev.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: paper.bib
+Repeated entry---line 2120 of file paper.bib
+ : @article{bib:OBrien04
+ :                      ,
+I'm skipping whatever remains of this entry
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 13 entries,
+You've used 17 entries,
             3411 wiz_defined-function locations,
-            1288 strings with 13630 characters,
-and the built_in function-call counts, 11932 in all, are:
-= -- 613
-> -- 533
-< -- 67
-+ -- 470
-- -- 130
-* -- 1739
-:= -- 1190
-add.period$ -- 13
-call.type$ -- 13
-change.case$ -- 52
-chr.to.int$ -- 13
-cite$ -- 13
-duplicate$ -- 1027
-empty$ -- 927
-format.name$ -- 303
-if$ -- 2220
+            1325 strings with 14732 characters,
+and the built_in function-call counts, 15872 in all, are:
+= -- 809
+> -- 721
+< -- 90
++ -- 638
+- -- 176
+* -- 2328
+:= -- 1574
+add.period$ -- 17
+call.type$ -- 17
+change.case$ -- 68
+chr.to.int$ -- 17
+cite$ -- 17
+duplicate$ -- 1365
+empty$ -- 1229
+format.name$ -- 407
+if$ -- 2951
 int.to.chr$ -- 1
-int.to.str$ -- 14
-missing$ -- 156
-newline$ -- 54
-num.names$ -- 39
-pop$ -- 266
+int.to.str$ -- 18
+missing$ -- 207
+newline$ -- 66
+num.names$ -- 51
+pop$ -- 350
 preamble$ -- 1
-purify$ -- 52
+purify$ -- 68
 quote$ -- 0
-skip$ -- 443
+skip$ -- 587
 stack$ -- 0
-substring$ -- 359
-swap$ -- 887
-text.length$ -- 65
+substring$ -- 470
+swap$ -- 1188
+text.length$ -- 88
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 78
+type$ -- 102
 warning$ -- 0
-while$ -- 39
+while$ -- 51
 width$ -- 0
-write$ -- 155
+write$ -- 200
+(There was 1 error message)
