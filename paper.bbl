@@ -1,4 +1,4 @@
-\begin{thebibliography}{19}
+\begin{thebibliography}{23}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname bibnamefont\endcsname\relax
   \def\bibnamefont#1{#1}\fi
@@ -224,5 +224,48 @@
   \bibinfo{journal}{Opt. Express} \textbf{\bibinfo{volume}{21}},
   \bibinfo{pages}{13450} (\bibinfo{year}{2013}),
   \urlprefix\url{http://www.opticsexpress.org/abstract.cfm?URI=oe-21-11-13450}.
+
+\bibitem[{\citenamefont{Dhand et~al.}(2016)\citenamefont{Dhand, Khalid, Lu, and
+  Sanders}}]{Dhand16}
+\bibinfo{author}{\bibfnamefont{I.}~\bibnamefont{Dhand}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Khalid}},
+  \bibinfo{author}{\bibfnamefont{H.}~\bibnamefont{Lu}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{B.~C.} \bibnamefont{Sanders}},
+  \bibinfo{journal}{Journal of Optics} \textbf{\bibinfo{volume}{18}},
+  \bibinfo{pages}{035204} (\bibinfo{year}{2016}),
+  \urlprefix\url{http://stacks.iop.org/2040-8986/18/i=3/a=035204}.
+
+\bibitem[{\citenamefont{Spagnolo et~al.}(2016)\citenamefont{Spagnolo, Maiorino,
+  Vitelli, Bentivegna, Crespi, Ramponi, Mataloni, Osellame, and
+  Sciarrino}}]{bib:Spagnolo16}
+\bibinfo{author}{\bibfnamefont{N.}~\bibnamefont{Spagnolo}},
+  \bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Maiorino}},
+  \bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Vitelli}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Bentivegna}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Crespi}},
+  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Ramponi}},
+  \bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Mataloni}},
+  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Osellame}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Sciarrino}}
+  (\bibinfo{year}{2016}), \eprint{arXiv:1610.03291v1}.
+
+\bibitem[{\citenamefont{Tillmann et~al.}(2016)\citenamefont{Tillmann, Schmidt,
+  and Walther}}]{bib:Tillmann16}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Tillmann}},
+  \bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Schmidt}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Walther}},
+  \bibinfo{journal}{Journal of Optics} \textbf{\bibinfo{volume}{18}},
+  \bibinfo{pages}{114002} (\bibinfo{year}{2016}),
+  \urlprefix\url{http://stacks.iop.org/2040-8986/18/i=11/a=114002}.
+
+\bibitem[{\citenamefont{Heilmann et~al.}(2015)\citenamefont{Heilmann, Gräfe,
+  Nolte, and Szameit}}]{bib:Heilmann15}
+\bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Heilmann}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Gräfe}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Nolte}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Szameit}},
+  \bibinfo{journal}{Science Bulletin} \textbf{\bibinfo{volume}{60}},
+  \bibinfo{pages}{96 } (\bibinfo{year}{2015}), ISSN \bibinfo{issn}{2095-9273},
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S2095927316305400}.
 
 \end{thebibliography}

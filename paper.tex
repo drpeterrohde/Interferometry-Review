@@ -97,20 +97,31 @@ quantum-to-classical transitions to explain multiparticle interference \cite{bib
 
 \section{Efficient circuit decompositions of linear optics networks}
 
-\comment{Discuss the Reck et al. decomposition}
-
 The task of implementing an arbitrary quantum computation on linear optics comes down to implementing an arbitrary $n\times n$ unitary matrix. If a non-unitary transformation is desired, it can be embedded within a unitary matrix with larger dimensions. An algorithm for expressing an arbitrary unitary matrix {\it exactly} in terms of a sequence of $\mathcal{O}(n^2)$ beamsplitters and phase-shifters exists \cite{bib:Reck1994}. Alternatively, Mach-Zedner interferometer can also be used as building blocks instead of beamsplitters and phase shifters \cite{bib:Reck1994, bib:Englert2001}. Later, it has been shown that any nontrivial beam splitter, that does more than swapping modes around or add phases to them, is universal for linear optics \cite{bib:Bouland2014}. However, they do not provide a construction for arbitrary unitaries.
 
 If the linear optical transformations can be realized on various degrees of freedom of light, then it is possible to realize a $n\times n$ arbitrary unitary transformation, where $n=n_s n_p$ for $n_s$ spatial modes, and $n_p$ internal modes, by a sequence of $\mathcal{O}(n_s^2 n_p)$ beamsplitters and $\mathcal{O}(n_s^2)$ internal transformations \cite{bib:Dhand2015}. Their approach reduces the required number of beamsplitters but increases the total number of optical elements needed increases by a factor of 2.
 
 \section{Reconstructing the linear optical network}
-\sihui{Discuss the role of quantum tomography here. 
-Algorithms using O'Brien and Laing, Schaffner and Tillmann--using single-photon, and two-photon inputs to reconstruct the Euler angles of the circuit.
-Others using coherent-state inputs which has a lower requirement on the state-preparation side.}
 
 In many practical situations, the structure of a linear optical device in terms of its constituent beamsplitters and phase shifters is known once it is built. However, owing to manufacturing imperfections, a precise characterization of these devices is still needed post-production. One of the ways, this can be done is via a quantum process tomography \cite{bib:Mitchell03,bib:Obrien04,bib:Lobino08,bib:Saleh11} . However, quantum process tomography is an expensive method in terms of number of measurements required to characterize the network, and it becomes impractical for large optical networks which can now be as large as 900 modes (check citations for number of modes). Alternative characterization protocols have been developed using quantum interference of various quantum light sources \cite{bib:Laing12,bib:Rahimi-Keshari13} in the linear optical device.
 
-Generally, the unitary matrix of the $d\times d$ linear optical device are complex numbers $U_{ij}=r_{ij}e^{i\theta_{ij}}$, where $0 \leq r_{ij}\leq 1$, and $0\leq \theta_{ij}\leq 2\pi$. The scheme in \cite{bib:Laing12} relies on injecting one-photon and two-photon states into the linear optical network with correlated photon detection. First, they note some equivalencies: two unitaries $U$ and $U'$ are equivalent if there exist two diagonal unitary matrices $D_1^U$ and $D_2^U$ such that $U'=D^U_1 U D^U_2$, because these diagonal matrices are regarded as unknown and trivial phases on the input and output ports of the network, to which the one-photon and two-photon data are insensitive to. This reduces the first row and first column elements to real numbers, i.e. $\theta_{1j}=\theta_{i1}=0$. Second, the photon statistics remain unchanged under the complex conjugation of $U$. Thus, the imaginary part of $M_{2,2}$ must be non-negative.
+Generally, the unitary matrix of the $d\times d$ linear optical device are complex numbers $U_{ij}=r_{ij}e^{i\theta_{ij}}$, where $0 \leq r_{ij}\leq 1$, and $0\leq \theta_{ij}\leq 2\pi$. The scheme in \cite{bib:Laing12} relies on injecting one-photon and two-photon states into the linear optical network with correlated photon detection. First, they note some equivalencies: two unitaries $U$ and $U'$ are equivalent if there exist two diagonal unitary matrices $D_1^U$ and $D_2^U$ such that $U'=D^U_1 U D^U_2$, because these diagonal matrices are regarded as unknown and trivial phases on the input and output ports of the network, to which the one-photon and two-photon data are insensitive to. This reduces the first row and first column elements to real numbers, i.e. $\theta_{1j}=\theta_{i1}=0$. Second, the photon statistics remain unchanged under the complex conjugation of $U$. Thus, the imaginary part of $M_{2,2}$ must be non-negative. Then assuming that the first two rows and columns are non-vanishing, and that there is no total loss in the interferometer, the matrix to be recovered is
+\begin{align}
+U=\left (\begin{array}{cccc}
+r_{11} & r_{12} & \ldots & r_{1m} \\
+r_{21} & r_{22}e^{i\theta_{22}} &\ldots & r_{2m}e^{i\theta_{2m}}\\
+\vdots & \vdots & \ddots & \vdots \\
+r_{m1} & r_{m2}e^{i\theta_{m2}} & \ldots & r_{mm}e^{i\theta_{mm}}
+ \end{array}\right ) \ .
+\end{align}
+In the paper, they showed that it is possible to write the paramaters $r_{ij}$, and $\theta_{ij}$ for $i,j\geq 2$ in terms of the $2m-1$ real parameters of the first column and row, and the visibility of two-photon inputs. The remaining $2m-1$ real parameters can be found via one-photon 
+transmissions.  An increased accuracy of the characterization is possible by estimating and correcting systematic errors that arise due to mode mismatch \cite{Dhand16}. Others have used numerical methods to find the closest parameters that yield the observed visibilities \cite{bib:Spagnolo16,bib:Tillmann16}.
+
+Another characterization method was presented that is similar to \cite{bib:Laing12} with the important exception that coherent states are to be used instead \cite{bib:Rahimi-Keshari13,bib:Heilmann15}. Such states are produced by a standard laser source, thus reducing the resource needed. The $r_{jk}$ terms are found by the square root of the ratios of output intensity at the $k$th port to the input intensity at the $j$th port. The remaining phases $\theta_{ij}$ are found by the interference pattern given by a two-mode coherent state $\ket{\alpha_1}\ket{\alpha_2}$ created by splitting a single coherent state on a 50-50 beamsplitter, and then imparting a relative phase, $\phi$, between them. The states $\ket{\alpha_1}$ and $\ket{\alpha_2}$ are input into port 1, and $j$ respectively. The output intensity at the $j$th port is 
+\begin{align}
+I_k=I(r_{1k}^2+r_{jk}^2+2 r_{1k}r_{kj}\cos(\phi+\theta_{jk})) \ ,
+\end{align}
+where $\theta_{jk}=0$ for $k=1$. By scanning the phase shift $\phi$ and then locating the maximum value of $I_k$ for $j=2,\ldots, m$, all unknown phases can be found via $\theta_{jk}=2\pi-\phi$. An elegant extension of the scheme of Rahimi-Keshari {\it et al.} removes the need for precise control of the phase shift $\phi$ \cite{bib:Heilmann15} by suggesting instead to plot the output intensity $I_k$ with respect to the input intensity $I$. In time, the natural drift in the laser source will cause this plot to trace out an ellipse, known as a Lissajous figure. whose orientation and direction of evolution will give the phase $\theta_{jk}$ and its sign respectively.
 
 \section{Experimental implementation}
 
