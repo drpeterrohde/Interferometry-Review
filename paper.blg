@@ -10,45 +10,45 @@ Repeated entry---line 2213 of file paper.bib
 I'm skipping whatever remains of this entry
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 27 entries,
+You've used 28 entries,
             3411 wiz_defined-function locations,
-            1399 strings with 17077 characters,
-and the built_in function-call counts, 24533 in all, are:
-= -- 1257
-> -- 1107
-< -- 138
-+ -- 976
-- -- 270
-* -- 3587
-:= -- 2448
-add.period$ -- 27
-call.type$ -- 27
-change.case$ -- 108
-chr.to.int$ -- 27
-cite$ -- 27
-duplicate$ -- 2122
-empty$ -- 1908
-format.name$ -- 627
-if$ -- 4560
+            1405 strings with 17200 characters,
+and the built_in function-call counts, 25234 in all, are:
+= -- 1296
+> -- 1132
+< -- 141
++ -- 998
+- -- 276
+* -- 3685
+:= -- 2523
+add.period$ -- 28
+call.type$ -- 28
+change.case$ -- 112
+chr.to.int$ -- 28
+cite$ -- 28
+duplicate$ -- 2187
+empty$ -- 1966
+format.name$ -- 642
+if$ -- 4690
 int.to.chr$ -- 1
-int.to.str$ -- 28
-missing$ -- 319
-newline$ -- 96
-num.names$ -- 81
-pop$ -- 555
+int.to.str$ -- 29
+missing$ -- 329
+newline$ -- 99
+num.names$ -- 84
+pop$ -- 572
 preamble$ -- 1
-purify$ -- 108
+purify$ -- 112
 quote$ -- 0
-skip$ -- 905
+skip$ -- 930
 stack$ -- 0
-substring$ -- 716
-swap$ -- 1824
-text.length$ -- 135
+substring$ -- 736
+swap$ -- 1876
+text.length$ -- 138
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 162
+type$ -- 168
 warning$ -- 0
-while$ -- 79
+while$ -- 82
 width$ -- 0
-write$ -- 307
+write$ -- 317
 (There was 1 error message)
