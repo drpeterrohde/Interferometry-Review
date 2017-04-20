@@ -1,4 +1,4 @@
-\begin{thebibliography}{23}
+\begin{thebibliography}{27}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname bibnamefont\endcsname\relax
   \def\bibnamefont#1{#1}\fi
@@ -139,6 +139,39 @@
   \eprint{http://www.pnas.org/content/110/4/1227.full.pdf},
   \urlprefix\url{http://www.pnas.org/content/110/4/1227.abstract}.
 
+\bibitem[{\citenamefont{Brendel et~al.}(1999)\citenamefont{Brendel, Gisin,
+  Tittel, and Zbinden}}]{bib:Brendel99}
+\bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Brendel}},
+  \bibinfo{author}{\bibfnamefont{N.}~\bibnamefont{Gisin}},
+  \bibinfo{author}{\bibfnamefont{W.}~\bibnamefont{Tittel}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{H.}~\bibnamefont{Zbinden}},
+  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{82}},
+  \bibinfo{pages}{2594} (\bibinfo{year}{1999}),
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.82.2594}.
+
+\bibitem[{\citenamefont{Thew et~al.}(2002)\citenamefont{Thew, Tanzilli, Tittel,
+  Zbinden, and Gisin}}]{bib:Thew02}
+\bibinfo{author}{\bibfnamefont{R.~T.} \bibnamefont{Thew}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Tanzilli}},
+  \bibinfo{author}{\bibfnamefont{W.}~\bibnamefont{Tittel}},
+  \bibinfo{author}{\bibfnamefont{H.}~\bibnamefont{Zbinden}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{N.}~\bibnamefont{Gisin}},
+  \bibinfo{journal}{Phys. Rev. A} \textbf{\bibinfo{volume}{66}},
+  \bibinfo{pages}{062304} (\bibinfo{year}{2002}),
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevA.66.062304}.
+
+\bibitem[{\citenamefont{Marcikic et~al.}(2004)\citenamefont{Marcikic,
+  de~Riedmatten, Tittel, Zbinden, Legr\'e, and Gisin}}]{bib:Marcikic04}
+\bibinfo{author}{\bibfnamefont{I.}~\bibnamefont{Marcikic}},
+  \bibinfo{author}{\bibfnamefont{H.}~\bibnamefont{de~Riedmatten}},
+  \bibinfo{author}{\bibfnamefont{W.}~\bibnamefont{Tittel}},
+  \bibinfo{author}{\bibfnamefont{H.}~\bibnamefont{Zbinden}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Legr\'e}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{N.}~\bibnamefont{Gisin}},
+  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{93}},
+  \bibinfo{pages}{180502} (\bibinfo{year}{2004}),
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.93.180502}.
+
 \bibitem[{\citenamefont{Englert et~al.}(2001)\citenamefont{Englert, Kurtsiefer,
   and Weinfurter}}]{bib:Englert2001}
 \bibinfo{author}{\bibfnamefont{B.-G.} \bibnamefont{Englert}},
@@ -267,5 +300,15 @@
   \bibinfo{journal}{Science Bulletin} \textbf{\bibinfo{volume}{60}},
   \bibinfo{pages}{96 } (\bibinfo{year}{2015}), ISSN \bibinfo{issn}{2095-9273},
   \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S2095927316305400}.
+
+\bibitem[{\citenamefont{Motes et~al.}(2014)\citenamefont{Motes, Gilchrist,
+  Dowling, and Rohde}}]{bib:Motes14}
+\bibinfo{author}{\bibfnamefont{K.~R.} \bibnamefont{Motes}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Gilchrist}},
+  \bibinfo{author}{\bibfnamefont{J.~P.} \bibnamefont{Dowling}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{P.~P.} \bibnamefont{Rohde}},
+  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{113}},
+  \bibinfo{pages}{120501} (\bibinfo{year}{2014}),
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.113.120501}.
 
 \end{thebibliography}
