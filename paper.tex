@@ -91,7 +91,11 @@ quantum-to-classical transitions to explain multiparticle interference \cite{bib
 Time-bin qubits is quantum information that is encoded on the time-of-arrival of single photons. It was first conceived for a single-photon passing through a Mach-Zedner interferometer with its two paths having different lengths \cite{bib:Brendel99}. If the photon passes through the shorter (longer) path, then it will arrive at the output port in an ``early" (``late") time bin labelled $\ket{e}$ ($\ket{\ell}$). Thus, photon will exit the interferometer in a state that is a superposition of these two states. Owing to difficulties in implementing qubit operations in this basis, it was at that time mostly used for demonstrating quantum communication over long distance \cite{bib:Thew02,bib:Marcikic04}. With the advent of faster optical components, and single-photon detectors, it has become feasible to perform any single qubit operations, and a post-selected CPHASE gate on time-bin qubits \cite{bib:Humphreys2013}. These gates form an universal set for quantum computing. At the same time, an ultrafast measurement technique for recovering time-bin qubits was also demonstrated \cite{bib:Donohue2013}.
 
 In Humphrey {\it et al.} \cite{bib:Humphreys2013}, the time-bin qubits have a polarization register which is used to toggle between the mode in which qubits are stored and transmitted, {\it i.e.} the ``register" mode, and the mode in which qubits are manipulated, {\it i.e.} the ``processing" mode using a polarization rotation. Other operations needed are a displacement operation moves a time-bin qubit in the processing polarization in time relative to other qubits, a partial polarization rotation between the register and processing polarizations to couple them, and a photon number measurement in a bin. The polarization rotation and polarization coupling operations were implemented using a fast integrated optical switch based on polarization-sensitive cross-phase modulation with a switching time of less than 10 ps. The displacement was implemented using a calcite crystal of a size that is of a path-length difference equal to an integer multiple of the time-bin separation. Using these operations and post-selection using a single-photon detectors, the authors were able to perform a heralded CPHASE gate \cite{bib:KLM01}.
- 
+
+In Donohue {\it et al.} \cite{bib:Donohue2013}, time bins were converted into frequency bins using a nonlinear optical process known as sum-frequency generation (SFG) by pumping them on a crystal with a laser beam. The waveforms of the input photons and the pump beam are chirped in opposite directions in frequency, so that the output is a set of two peaks separated in frequency by an amount proportional to the time separation of the time bins. The output can then be measured with detectors that are slow compared to this separation. This is unlike conventional time-bin measurements which involves sending a time-bin state through an unbalanced Mach-Zedner interferometer matched to a bin separation to produce three output pulses that are separated by the time delay, and then having to resolve the middle pulse in time. 
+
+Apart from these promising advances in produce time-bin qubit gates and ultrafast time-bin measurements, scalable networks using time-bin encoding are also possible using a loop-based architecture \cite{bib:Motes14}. This is discussed in more detail in Section \ref{sec:timebins}.
+
 %\subsection{Continuous-variables}
 
 %\subsubsection{Coherent states}
@@ -146,7 +150,7 @@ where $\theta_{jk}=0$ for $k=1$. By scanning the phase shift $\phi$ and then loc
 
 \subsubsection{Waveguides}
 
-\subsubsection{Time-bins}
+\subsubsection{Time-bins}\label{sec:timebins}
 
 \comment{Discuss fibre-loop architecture}
 

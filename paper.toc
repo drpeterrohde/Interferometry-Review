@@ -21,13 +21,13 @@
 \contentsline {subsubsection}{\numberline {3}Time-bins}{3}{section*.19}
 \contentsline {subsection}{\numberline {C}Measurement}{3}{section*.20}
 \contentsline {subsubsection}{\numberline {1}Photodetection}{3}{section*.21}
-\contentsline {subsubsection}{\numberline {2}Homodyning}{3}{section*.22}
-\contentsline {section}{\numberline {VII}Applications for linear optics interferometry}{3}{section*.23}
-\contentsline {subsection}{\numberline {A}Linear optics quantum computation}{3}{section*.24}
-\contentsline {subsection}{\numberline {B}Boson-sampling}{3}{section*.25}
-\contentsline {subsection}{\numberline {C}Quantum metrology}{3}{section*.26}
-\contentsline {subsection}{\numberline {D}Encrypted quantum computation}{3}{section*.27}
-\contentsline {section}{\numberline {VIII}State of the art}{3}{section*.28}
+\contentsline {subsubsection}{\numberline {2}Homodyning}{4}{section*.22}
+\contentsline {section}{\numberline {VII}Applications for linear optics interferometry}{4}{section*.23}
+\contentsline {subsection}{\numberline {A}Linear optics quantum computation}{4}{section*.24}
+\contentsline {subsection}{\numberline {B}Boson-sampling}{4}{section*.25}
+\contentsline {subsection}{\numberline {C}Quantum metrology}{4}{section*.26}
+\contentsline {subsection}{\numberline {D}Encrypted quantum computation}{4}{section*.27}
+\contentsline {section}{\numberline {VIII}State of the art}{4}{section*.28}
 \contentsline {section}{\numberline {IX}Conclusion}{4}{section*.29}
 \contentsline {section}{\numberline {}Acknowledgments}{4}{section*.30}
 \contentsline {section}{\numberline {}References}{4}{section*.31}
