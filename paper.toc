@@ -19,8 +19,8 @@
 \contentsline {subsubsection}{\numberline {1}Bulk-optics}{3}{section*.17}
 \contentsline {subsubsection}{\numberline {2}Waveguides}{3}{section*.18}
 \contentsline {subsubsection}{\numberline {3}Time-bins}{3}{section*.19}
-\contentsline {subsection}{\numberline {C}Measurement}{3}{section*.20}
-\contentsline {subsubsection}{\numberline {1}Photodetection}{3}{section*.21}
+\contentsline {subsection}{\numberline {C}Measurement}{4}{section*.20}
+\contentsline {subsubsection}{\numberline {1}Photodetection}{4}{section*.21}
 \contentsline {subsubsection}{\numberline {2}Homodyning}{4}{section*.22}
 \contentsline {section}{\numberline {VII}Applications for linear optics interferometry}{4}{section*.23}
 \contentsline {subsection}{\numberline {A}Linear optics quantum computation}{4}{section*.24}

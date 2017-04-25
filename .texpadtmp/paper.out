@@ -1,33 +1,31 @@
 \BOOKMARK [1][-]{section*.1}{Contents}{}% 1
 \BOOKMARK [1][-]{section*.2}{Introduction}{}% 2
 \BOOKMARK [1][-]{section*.3}{Mathematical background}{}% 3
-\BOOKMARK [1][-]{section*.4}{Optical encoding of quantum information}{}% 4
-\BOOKMARK [2][-]{section*.5}{Single-photons}{section*.4}% 5
-\BOOKMARK [3][-]{section*.6}{Polarisation}{section*.5}% 6
-\BOOKMARK [3][-]{section*.7}{Dual-rail}{section*.5}% 7
-\BOOKMARK [3][-]{section*.8}{Time-bins}{section*.5}% 8
-\BOOKMARK [2][-]{section*.9}{Continuous-variables}{section*.4}% 9
-\BOOKMARK [3][-]{section*.10}{Coherent states}{section*.9}% 10
-\BOOKMARK [3][-]{section*.11}{Squeezed states}{section*.9}% 11
-\BOOKMARK [1][-]{section*.12}{Efficient circuit decompositions of linear optics networks}{}% 12
-\BOOKMARK [1][-]{section*.13}{Experimental implementation}{}% 13
-\BOOKMARK [2][-]{section*.14}{State preparation}{section*.13}% 14
-\BOOKMARK [3][-]{section*.15}{Single-photons}{section*.14}% 15
-\BOOKMARK [3][-]{section*.16}{Bell pairs}{section*.14}% 16
-\BOOKMARK [3][-]{section*.17}{Coherent states}{section*.14}% 17
-\BOOKMARK [3][-]{section*.18}{Squeezed states}{section*.14}% 18
-\BOOKMARK [2][-]{section*.19}{Linear optics networks}{section*.13}% 19
-\BOOKMARK [3][-]{section*.20}{Bulk-optics}{section*.19}% 20
-\BOOKMARK [3][-]{section*.21}{Waveguides}{section*.19}% 21
-\BOOKMARK [3][-]{section*.22}{Time-bins}{section*.19}% 22
-\BOOKMARK [2][-]{section*.23}{Measurement}{section*.13}% 23
-\BOOKMARK [3][-]{section*.24}{Photodetection}{section*.23}% 24
-\BOOKMARK [3][-]{section*.25}{Homodyning}{section*.23}% 25
-\BOOKMARK [1][-]{section*.26}{Applications for linear optics interferometry}{}% 26
-\BOOKMARK [2][-]{section*.27}{Linear optics quantum computation}{section*.26}% 27
-\BOOKMARK [2][-]{section*.28}{Boson-sampling}{section*.26}% 28
-\BOOKMARK [2][-]{section*.29}{Quantum metrology}{section*.26}% 29
-\BOOKMARK [2][-]{section*.30}{Encrypted quantum computation}{section*.26}% 30
-\BOOKMARK [1][-]{section*.31}{State of the art}{}% 31
-\BOOKMARK [1][-]{section*.32}{Conclusion}{}% 32
-\BOOKMARK [1][-]{section*.33}{Acknowledgments}{}% 33
+\BOOKMARK [1][-]{section*.4}{Optical encoding of quantum information on single-photons}{}% 4
+\BOOKMARK [2][-]{section*.5}{Polarisation}{section*.4}% 5
+\BOOKMARK [3][-]{section*.6}{Dual-rail}{section*.5}% 6
+\BOOKMARK [3][-]{section*.7}{Time-bins}{section*.5}% 7
+\BOOKMARK [1][-]{section*.8}{Efficient circuit decompositions of linear optics networks}{}% 8
+\BOOKMARK [1][-]{section*.9}{Reconstructing the linear optical network}{}% 9
+\BOOKMARK [1][-]{section*.10}{Experimental implementation}{}% 10
+\BOOKMARK [2][-]{section*.11}{State preparation}{section*.10}% 11
+\BOOKMARK [3][-]{section*.12}{Single-photons}{section*.11}% 12
+\BOOKMARK [3][-]{section*.13}{Bell pairs}{section*.11}% 13
+\BOOKMARK [3][-]{section*.14}{Coherent states}{section*.11}% 14
+\BOOKMARK [3][-]{section*.15}{Squeezed states}{section*.11}% 15
+\BOOKMARK [2][-]{section*.16}{Linear optics networks}{section*.10}% 16
+\BOOKMARK [3][-]{section*.17}{Bulk-optics}{section*.16}% 17
+\BOOKMARK [3][-]{section*.18}{Waveguides}{section*.16}% 18
+\BOOKMARK [3][-]{section*.19}{Time-bins}{section*.16}% 19
+\BOOKMARK [2][-]{section*.20}{Measurement}{section*.10}% 20
+\BOOKMARK [3][-]{section*.21}{Photodetection}{section*.20}% 21
+\BOOKMARK [3][-]{section*.22}{Homodyning}{section*.20}% 22
+\BOOKMARK [1][-]{section*.23}{Applications for linear optics interferometry}{}% 23
+\BOOKMARK [2][-]{section*.24}{Linear optics quantum computation}{section*.23}% 24
+\BOOKMARK [2][-]{section*.25}{Boson-sampling}{section*.23}% 25
+\BOOKMARK [2][-]{section*.26}{Quantum metrology}{section*.23}% 26
+\BOOKMARK [2][-]{section*.27}{Encrypted quantum computation}{section*.23}% 27
+\BOOKMARK [1][-]{section*.28}{State of the art}{}% 28
+\BOOKMARK [1][-]{section*.29}{Conclusion}{}% 29
+\BOOKMARK [1][-]{section*.30}{Acknowledgments}{}% 30
+\BOOKMARK [1][-]{section*.31}{References}{}% 31
