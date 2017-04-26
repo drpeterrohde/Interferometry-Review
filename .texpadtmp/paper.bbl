@@ -1,4 +1,4 @@
-\begin{thebibliography}{32}
+\begin{thebibliography}{45}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname bibnamefont\endcsname\relax
   \def\bibnamefont#1{#1}\fi
@@ -376,5 +376,200 @@
   \bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Liu}},
   \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Qin}}, \bibnamefont{et~al.}
   (\bibinfo{year}{2016}{\natexlab{b}}), \eprint{quant-ph:1612.06956}.
+
+\bibitem[{\citenamefont{Muller et~al.}(2007)\citenamefont{Muller, Flagg,
+  Bianucci, Wang, Deppe, Ma, Zhang, Salamo, Xiao, and Shih}}]{bib:Muller07}
+\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Muller}},
+  \bibinfo{author}{\bibfnamefont{E.~B.} \bibnamefont{Flagg}},
+  \bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Bianucci}},
+  \bibinfo{author}{\bibfnamefont{X.~Y.} \bibnamefont{Wang}},
+  \bibinfo{author}{\bibfnamefont{D.~G.} \bibnamefont{Deppe}},
+  \bibinfo{author}{\bibfnamefont{W.}~\bibnamefont{Ma}},
+  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Zhang}},
+  \bibinfo{author}{\bibfnamefont{G.~J.} \bibnamefont{Salamo}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Xiao}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{C.~K.} \bibnamefont{Shih}},
+  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{99}},
+  \bibinfo{pages}{187402} (\bibinfo{year}{2007}),
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.99.187402}.
+
+\bibitem[{\citenamefont{Nick~Vamivakas
+  et~al.}(2009)\citenamefont{Nick~Vamivakas, Zhao, Lu, and
+  Atature}}]{bib:Vamivakas09}
+\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Nick~Vamivakas}},
+  \bibinfo{author}{\bibfnamefont{Y.}~\bibnamefont{Zhao}},
+  \bibinfo{author}{\bibfnamefont{C.-Y.} \bibnamefont{Lu}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Atature}},
+  \bibinfo{journal}{Nat Phys} \textbf{\bibinfo{volume}{5}},
+  \bibinfo{pages}{198} (\bibinfo{year}{2009}),
+  \urlprefix\url{http://dx.doi.org/10.1038/nphys1182}.
+
+\bibitem[{\citenamefont{Flagg et~al.}(2009)\citenamefont{Flagg, Muller,
+  Robertson, Founta, Deppe, Xiao, Ma, Salamo, and Shih}}]{bib:Flagg09}
+\bibinfo{author}{\bibfnamefont{E.~B.} \bibnamefont{Flagg}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Muller}},
+  \bibinfo{author}{\bibfnamefont{J.~W.} \bibnamefont{Robertson}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Founta}},
+  \bibinfo{author}{\bibfnamefont{D.~G.} \bibnamefont{Deppe}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Xiao}},
+  \bibinfo{author}{\bibfnamefont{W.}~\bibnamefont{Ma}},
+  \bibinfo{author}{\bibfnamefont{G.~J.} \bibnamefont{Salamo}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{C.~K.} \bibnamefont{Shih}},
+  \bibinfo{journal}{Nat Phys} \textbf{\bibinfo{volume}{5}},
+  \bibinfo{pages}{203} (\bibinfo{year}{2009}),
+  \urlprefix\url{http://dx.doi.org/10.1038/nphys1184}.
+
+\bibitem[{\citenamefont{Ates et~al.}(2009)\citenamefont{Ates, Ulrich,
+  Reitzenstein, L\"offler, Forchel, and Michler}}]{bib:Ates09}
+\bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Ates}},
+  \bibinfo{author}{\bibfnamefont{S.~M.} \bibnamefont{Ulrich}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Reitzenstein}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{L\"offler}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Forchel}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Michler}},
+  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{103}},
+  \bibinfo{pages}{167402} (\bibinfo{year}{2009}),
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.103.167402}.
+
+\bibitem[{\citenamefont{Englund et~al.}(2010)\citenamefont{Englund, Majumdar,
+  Faraon, Toishi, Stoltz, Petroff, and Vu\ifmmode \check{c}\else
+  \v{c}\fi{}kovi\ifmmode~\acute{c}\else \'{c}\fi{}}}]{bib:Dirk10}
+\bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Englund}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Majumdar}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Faraon}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Toishi}},
+  \bibinfo{author}{\bibfnamefont{N.}~\bibnamefont{Stoltz}},
+  \bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Petroff}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Vu\ifmmode \check{c}\else
+  \v{c}\fi{}kovi\ifmmode~\acute{c}\else \'{c}\fi{}}}, \bibinfo{journal}{Phys.
+  Rev. Lett.} \textbf{\bibinfo{volume}{104}}, \bibinfo{pages}{073904}
+  (\bibinfo{year}{2010}),
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.104.073904}.
+
+\bibitem[{\citenamefont{He et~al.}(2013{\natexlab{a}})\citenamefont{He, He,
+  Wei, Wu, Atature, Schneider, Hofling, Kamp, Lu, and Pan}}]{bib:1748}
+\bibinfo{author}{\bibfnamefont{Y.-M.} \bibnamefont{He}},
+  \bibinfo{author}{\bibfnamefont{Y.}~\bibnamefont{He}},
+  \bibinfo{author}{\bibfnamefont{Y.-J.} \bibnamefont{Wei}},
+  \bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Wu}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Atature}},
+  \bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Schneider}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Hofling}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Kamp}},
+  \bibinfo{author}{\bibfnamefont{C.-Y.} \bibnamefont{Lu}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{J.-W.} \bibnamefont{Pan}},
+  \bibinfo{journal}{Nat Nano} \textbf{\bibinfo{volume}{8}},
+  \bibinfo{pages}{213} (\bibinfo{year}{2013}{\natexlab{a}}),
+  \urlprefix\url{http://dx.doi.org/10.1038/nnano.2012.262}.
+
+\bibitem[{\citenamefont{Jayakumar et~al.}(2013)\citenamefont{Jayakumar,
+  Predojevi\ifmmode~\acute{c}\else \'{c}\fi{}, Huber, Kauten, Solomon, and
+  Weihs}}]{bib:Jayakumar13}
+\bibinfo{author}{\bibfnamefont{H.}~\bibnamefont{Jayakumar}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Predojevi\ifmmode~\acute{c}\else
+  \'{c}\fi{}}}, \bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Huber}},
+  \bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Kauten}},
+  \bibinfo{author}{\bibfnamefont{G.~S.} \bibnamefont{Solomon}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{G.}~\bibnamefont{Weihs}},
+  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{110}},
+  \bibinfo{pages}{135505} (\bibinfo{year}{2013}),
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.110.135505}.
+
+\bibitem[{\citenamefont{Wei et~al.}(2014)\citenamefont{Wei, He, Chen, Hu, He,
+  Wu, Schneider, Kamp, Höfling, Lu et~al.}}]{bib:Wei14}
+\bibinfo{author}{\bibfnamefont{Y.-J.} \bibnamefont{Wei}},
+  \bibinfo{author}{\bibfnamefont{Y.-M.} \bibnamefont{He}},
+  \bibinfo{author}{\bibfnamefont{M.-C.} \bibnamefont{Chen}},
+  \bibinfo{author}{\bibfnamefont{Y.-N.} \bibnamefont{Hu}},
+  \bibinfo{author}{\bibfnamefont{Y.}~\bibnamefont{He}},
+  \bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Wu}},
+  \bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Schneider}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Kamp}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Höfling}},
+  \bibinfo{author}{\bibfnamefont{C.-Y.} \bibnamefont{Lu}},
+  \bibnamefont{et~al.}, \bibinfo{journal}{Nano Letters}
+  \textbf{\bibinfo{volume}{14}}, \bibinfo{pages}{6515} (\bibinfo{year}{2014}),
+  \bibinfo{note}{pMID: 25357153}, \eprint{http://dx.doi.org/10.1021/nl503081n},
+  \urlprefix\url{http://dx.doi.org/10.1021/nl503081n}.
+
+\bibitem[{\citenamefont{Muller et~al.}(2014)\citenamefont{Muller, Bounouar,
+  Jons, Glassl, and P.}}]{bib:Muller14}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Muller}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Bounouar}},
+  \bibinfo{author}{\bibfnamefont{K.~D.} \bibnamefont{Jons}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Glassl}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{P.}}, \bibinfo{journal}{Nat
+  Photon} \textbf{\bibinfo{volume}{8}}, \bibinfo{pages}{224}
+  (\bibinfo{year}{2014}),
+  \urlprefix\url{http://dx.doi.org/10.1038/nphoton.2013.377}.
+
+\bibitem[{\citenamefont{Unsleber et~al.}(2015)\citenamefont{Unsleber,
+  Schneider, Maier, He, Gerhardt, Lu, Pan, Kamp, and
+  H\"{o}fling}}]{bib:Unsleber15}
+\bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Unsleber}},
+  \bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Schneider}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Maier}},
+  \bibinfo{author}{\bibfnamefont{Y.-M.} \bibnamefont{He}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Gerhardt}},
+  \bibinfo{author}{\bibfnamefont{C.-Y.} \bibnamefont{Lu}},
+  \bibinfo{author}{\bibfnamefont{J.-W.} \bibnamefont{Pan}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Kamp}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{H\"{o}fling}},
+  \bibinfo{journal}{Opt. Express} \textbf{\bibinfo{volume}{23}},
+  \bibinfo{pages}{32977} (\bibinfo{year}{2015}),
+  \urlprefix\url{http://www.opticsexpress.org/abstract.cfm?URI=oe-23-26-32977}.
+
+\bibitem[{\citenamefont{Ding et~al.}(2016)\citenamefont{Ding, He, Duan,
+  Gregersen, Chen, Unsleber, Maier, Schneider, Kamp, H\"ofling
+  et~al.}}]{bib:Ding16}
+\bibinfo{author}{\bibfnamefont{X.}~\bibnamefont{Ding}},
+  \bibinfo{author}{\bibfnamefont{Y.}~\bibnamefont{He}},
+  \bibinfo{author}{\bibfnamefont{Z.-C.} \bibnamefont{Duan}},
+  \bibinfo{author}{\bibfnamefont{N.}~\bibnamefont{Gregersen}},
+  \bibinfo{author}{\bibfnamefont{M.-C.} \bibnamefont{Chen}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Unsleber}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Maier}},
+  \bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Schneider}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Kamp}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{H\"ofling}},
+  \bibnamefont{et~al.}, \bibinfo{journal}{Phys. Rev. Lett.}
+  \textbf{\bibinfo{volume}{116}}, \bibinfo{pages}{020401}
+  (\bibinfo{year}{2016}),
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.116.020401}.
+
+\bibitem[{\citenamefont{He et~al.}(2013{\natexlab{b}})\citenamefont{He, He,
+  Wei, Jiang, Chen, Xiong, Zhao, Schneider, Kamp, H\"ofling
+  et~al.}}]{bib:237403}
+\bibinfo{author}{\bibfnamefont{Y.}~\bibnamefont{He}},
+  \bibinfo{author}{\bibfnamefont{Y.-M.} \bibnamefont{He}},
+  \bibinfo{author}{\bibfnamefont{Y.-J.} \bibnamefont{Wei}},
+  \bibinfo{author}{\bibfnamefont{X.}~\bibnamefont{Jiang}},
+  \bibinfo{author}{\bibfnamefont{M.-C.} \bibnamefont{Chen}},
+  \bibinfo{author}{\bibfnamefont{F.-L.} \bibnamefont{Xiong}},
+  \bibinfo{author}{\bibfnamefont{Y.}~\bibnamefont{Zhao}},
+  \bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Schneider}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Kamp}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{H\"ofling}},
+  \bibnamefont{et~al.}, \bibinfo{journal}{Phys. Rev. Lett.}
+  \textbf{\bibinfo{volume}{111}}, \bibinfo{pages}{237403}
+  (\bibinfo{year}{2013}{\natexlab{b}}),
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.111.237403}.
+
+\bibitem[{\citenamefont{Sweeney et~al.}(2014)\citenamefont{Sweeney, Carter,
+  Bracker, Kim, Kim, Yang, Vora, Brereton, Cleveland, and
+  Gammon}}]{bib:Sweeney14}
+\bibinfo{author}{\bibfnamefont{T.~M.} \bibnamefont{Sweeney}},
+  \bibinfo{author}{\bibfnamefont{S.~G.} \bibnamefont{Carter}},
+  \bibinfo{author}{\bibfnamefont{A.~S.} \bibnamefont{Bracker}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Kim}},
+  \bibinfo{author}{\bibfnamefont{C.~S.} \bibnamefont{Kim}},
+  \bibinfo{author}{\bibfnamefont{L.}~\bibnamefont{Yang}},
+  \bibinfo{author}{\bibfnamefont{P.~M.} \bibnamefont{Vora}},
+  \bibinfo{author}{\bibfnamefont{P.~G.} \bibnamefont{Brereton}},
+  \bibinfo{author}{\bibfnamefont{E.~R.} \bibnamefont{Cleveland}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Gammon}},
+  \bibinfo{journal}{Nat Photon} \textbf{\bibinfo{volume}{8}},
+  \bibinfo{pages}{442} (\bibinfo{year}{2014}),
+  \urlprefix\url{http://dx.doi.org/10.1038/nphoton.2014.84}.
 
 \end{thebibliography}
