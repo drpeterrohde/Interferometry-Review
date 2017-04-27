@@ -4,51 +4,51 @@ The top-level auxiliary file: /Users/sihui_tan/Documents/Interferometry-Review/.
 The style file: apsrev.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: ../paper.bib
-Repeated entry---line 2479 of file ../paper.bib
+Repeated entry---line 2495 of file ../paper.bib
  : @article{bib:OBrien04
  :                      ,
 I'm skipping whatever remains of this entry
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 45 entries,
+You've used 46 entries,
             3411 wiz_defined-function locations,
-            1532 strings with 23047 characters,
-and the built_in function-call counts, 46059 in all, are:
-= -- 2205
-> -- 2327
-< -- 289
-+ -- 2116
-- -- 572
-* -- 6861
-:= -- 4453
-add.period$ -- 45
-call.type$ -- 45
-change.case$ -- 181
+            1537 strings with 23439 characters,
+and the built_in function-call counts, 47506 in all, are:
+= -- 2265
+> -- 2415
+< -- 300
++ -- 2201
+- -- 594
+* -- 7083
+:= -- 4584
+add.period$ -- 46
+call.type$ -- 46
+change.case$ -- 185
 chr.to.int$ -- 43
-cite$ -- 45
-duplicate$ -- 3966
-empty$ -- 3471
-format.name$ -- 1285
-if$ -- 8469
-int.to.chr$ -- 3
-int.to.str$ -- 46
-missing$ -- 594
-newline$ -- 150
-num.names$ -- 135
-pop$ -- 931
+cite$ -- 46
+duplicate$ -- 4087
+empty$ -- 3573
+format.name$ -- 1332
+if$ -- 8731
+int.to.chr$ -- 4
+int.to.str$ -- 47
+missing$ -- 612
+newline$ -- 153
+num.names$ -- 138
+pop$ -- 943
 preamble$ -- 1
-purify$ -- 180
+purify$ -- 184
 quote$ -- 0
-skip$ -- 1782
+skip$ -- 1853
 stack$ -- 0
-substring$ -- 1154
-swap$ -- 3519
-text.length$ -- 286
+substring$ -- 1184
+swap$ -- 3634
+text.length$ -- 297
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 270
+type$ -- 276
 warning$ -- 0
-while$ -- 132
+while$ -- 135
 width$ -- 0
-write$ -- 503
+write$ -- 514
 (There was 1 error message)

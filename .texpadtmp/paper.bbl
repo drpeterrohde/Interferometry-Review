@@ -1,4 +1,4 @@
-\begin{thebibliography}{45}
+\begin{thebibliography}{46}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname bibnamefont\endcsname\relax
   \def\bibnamefont#1{#1}\fi
@@ -519,24 +519,6 @@
   \bibinfo{pages}{32977} (\bibinfo{year}{2015}),
   \urlprefix\url{http://www.opticsexpress.org/abstract.cfm?URI=oe-23-26-32977}.
 
-\bibitem[{\citenamefont{Ding et~al.}(2016)\citenamefont{Ding, He, Duan,
-  Gregersen, Chen, Unsleber, Maier, Schneider, Kamp, H\"ofling
-  et~al.}}]{bib:Ding16}
-\bibinfo{author}{\bibfnamefont{X.}~\bibnamefont{Ding}},
-  \bibinfo{author}{\bibfnamefont{Y.}~\bibnamefont{He}},
-  \bibinfo{author}{\bibfnamefont{Z.-C.} \bibnamefont{Duan}},
-  \bibinfo{author}{\bibfnamefont{N.}~\bibnamefont{Gregersen}},
-  \bibinfo{author}{\bibfnamefont{M.-C.} \bibnamefont{Chen}},
-  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Unsleber}},
-  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Maier}},
-  \bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Schneider}},
-  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Kamp}},
-  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{H\"ofling}},
-  \bibnamefont{et~al.}, \bibinfo{journal}{Phys. Rev. Lett.}
-  \textbf{\bibinfo{volume}{116}}, \bibinfo{pages}{020401}
-  (\bibinfo{year}{2016}),
-  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.116.020401}.
-
 \bibitem[{\citenamefont{He et~al.}(2013{\natexlab{b}})\citenamefont{He, He,
   Wei, Jiang, Chen, Xiong, Zhao, Schneider, Kamp, H\"ofling
   et~al.}}]{bib:237403}
@@ -571,5 +553,40 @@
   \bibinfo{journal}{Nat Photon} \textbf{\bibinfo{volume}{8}},
   \bibinfo{pages}{442} (\bibinfo{year}{2014}),
   \urlprefix\url{http://dx.doi.org/10.1038/nphoton.2014.84}.
+
+\bibitem[{\citenamefont{Ding et~al.}(2016)\citenamefont{Ding, He, Duan,
+  Gregersen, Chen, Unsleber, Maier, Schneider, Kamp, H\"ofling
+  et~al.}}]{bib:Ding16}
+\bibinfo{author}{\bibfnamefont{X.}~\bibnamefont{Ding}},
+  \bibinfo{author}{\bibfnamefont{Y.}~\bibnamefont{He}},
+  \bibinfo{author}{\bibfnamefont{Z.-C.} \bibnamefont{Duan}},
+  \bibinfo{author}{\bibfnamefont{N.}~\bibnamefont{Gregersen}},
+  \bibinfo{author}{\bibfnamefont{M.-C.} \bibnamefont{Chen}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Unsleber}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Maier}},
+  \bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Schneider}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Kamp}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{H\"ofling}},
+  \bibnamefont{et~al.}, \bibinfo{journal}{Phys. Rev. Lett.}
+  \textbf{\bibinfo{volume}{116}}, \bibinfo{pages}{020401}
+  (\bibinfo{year}{2016}),
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.116.020401}.
+
+\bibitem[{\citenamefont{Wang et~al.}(2016{\natexlab{c}})\citenamefont{Wang,
+  Duan, Li, Chen, Li, He, Chen, He, Ding, Peng et~al.}}]{bib:213601}
+\bibinfo{author}{\bibfnamefont{H.}~\bibnamefont{Wang}},
+  \bibinfo{author}{\bibfnamefont{Z.-C.} \bibnamefont{Duan}},
+  \bibinfo{author}{\bibfnamefont{Y.-H.} \bibnamefont{Li}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Chen}},
+  \bibinfo{author}{\bibfnamefont{J.-P.} \bibnamefont{Li}},
+  \bibinfo{author}{\bibfnamefont{Y.-M.} \bibnamefont{He}},
+  \bibinfo{author}{\bibfnamefont{M.-C.} \bibnamefont{Chen}},
+  \bibinfo{author}{\bibfnamefont{Y.}~\bibnamefont{He}},
+  \bibinfo{author}{\bibfnamefont{X.}~\bibnamefont{Ding}},
+  \bibinfo{author}{\bibfnamefont{C.-Z.} \bibnamefont{Peng}},
+  \bibnamefont{et~al.}, \bibinfo{journal}{Phys. Rev. Lett.}
+  \textbf{\bibinfo{volume}{116}}, \bibinfo{pages}{213601}
+  (\bibinfo{year}{2016}{\natexlab{c}}),
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.116.213601}.
 
 \end{thebibliography}
