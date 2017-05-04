@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  4 MAY 2017 11:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  5 MAY 2017 02:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -364,12 +364,12 @@ Overfull \hbox (3.50012pt too wide) detected at line 30
 
 
 Overfull \hbox (3.50012pt too wide) detected at line 31
- \OT1/cmr/m/n/8 10
+ \OT1/cmr/m/n/8 11
  []
 
 
 Overfull \hbox (3.50012pt too wide) detected at line 32
- \OT1/cmr/m/n/8 10
+ \OT1/cmr/m/n/8 11
  []
 
 )
@@ -441,7 +441,20 @@ Underfull \hbox (badness 1184) in paragraph at lines 288--289
 \OT1/cmr/m/n/10 (SNSPD) which have re-cently be-come com-mer-cially
  []
 
-[8] [9] (/Users/sihui_tan/Documents/Interferometry-Review/.texpadtmp/paper.bbl
+[8] [9] <phE.pdf, id=1104, 168.63pt x 126.4725pt>
+File: phE.pdf Graphic file (type pdf)
+ <use phE.pdf>
+Package pdftex.def Info: phE.pdf used on input line 342.
+(pdftex.def)             Requested size: 172.19925pt x 129.15268pt.
+ <MORDOR.pdf, id=1109, 315.88817pt x 158.5925pt>
+File: MORDOR.pdf Graphic file (type pdf)
+ <use MORDOR.pdf>
+Package pdftex.def Info: MORDOR.pdf used on input line 353.
+(pdftex.def)             Requested size: 246.0pt x 123.50803pt.
+ [10 <./phE.pdf> <./MORDOR.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./MORDOR.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] (/Users/sihui_tan/Documents/Interferometry-Review/.texpadtmp/paper.bbl
 Underfull \hbox (badness 4531) in paragraph at lines 92--97
  \OT1/cmr/m/n/9 URL [][]$\OT1/cmtt/m/n/9 http : / / link . aps . org / doi / 10 . 1103 / PhysRevA . 92 .
  []
@@ -496,7 +509,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 273--285
  \OT1/cmtt/m/n/9 / / www . degruyter . com / view / j / nanoph . ahead-[]of-[]print /
  []
 
-[10]
+
 Underfull \hbox (badness 2846) in paragraph at lines 317--327
  []\OT1/cmr/m/n/9 N. Spag-nolo, E. Maior-ino, C. Vitelli, M. Ben-tivegna,
  []
@@ -513,7 +526,7 @@ Underfull \hbox (badness 4686) in paragraph at lines 339--346
  \OT1/cmr/m/n/9 Sci-ence Bul-letin \OT1/cmr/bx/n/9 60\OT1/cmr/m/n/9 , 96  (2015), ISSN 2095-9273,
  []
 
-
+[11]
 Underfull \hbox (badness 2027) in paragraph at lines 451--462
  \OT1/cmr/m/n/9 P. Petroff, and J. Vu^^Tckovi^^Sc, Phys. Rev. Lett. \OT1/cmr/bx/n/9 104\OT1/cmr/m/n/9 ,
  []
@@ -560,7 +573,7 @@ Underfull \hbox (badness 4531) in paragraph at lines 740--750
  \OT1/cmr/m/n/9 URL [][]$\OT1/cmtt/m/n/9 https : / / link . aps . org / doi / 10 . 1103 / RevModPhys .
  []
 
-[11]
+
 Underfull \hbox (badness 3954) in paragraph at lines 829--837
  \OT1/cmr/m/n/9 Opt. Ex-press \OT1/cmr/bx/n/9 15\OT1/cmr/m/n/9 , 14539 (2007), URL [][]$\OT1/cmtt/m/n/9 http : / / www .
  []
@@ -590,7 +603,7 @@ Underfull \hbox (badness 6825) in paragraph at lines 850--855
  \OT1/cmr/m/n/9 080502 (2016), URL [][]$\OT1/cmtt/m/n/9 https : / / link . aps . org / doi / 10 .
  []
 
-
+[12]
 Underfull \hbox (badness 3407) in paragraph at lines 930--941
  \OT1/cmr/m/n/9 J. Fiur^^Sa^^Tsek, Phys. Rev. Lett. \OT1/cmr/bx/n/9 100\OT1/cmr/m/n/9 , 180501 (2008),
  []
@@ -685,7 +698,7 @@ Underfull \hbox (badness 2005) in paragraph at lines 1186--1199
  []\OT1/cmr/m/n/9 J. W. Sil-ver-stone, D. Bon-neau, K. Ohira, N. Suzuki,
  []
 
-[12]
+
 Underfull \hbox (badness 6047) in paragraph at lines 1202--1213
  []\OT1/cmr/m/n/9 R. Prevedel, P. Walther, F. Tiefen-bacher, P. Bohi,
  []
@@ -695,32 +708,58 @@ Underfull \hbox (badness 1527) in paragraph at lines 1202--1213
  \OT1/cmr/m/n/9 R. Kaltenbaek, T. Jen-newein, and A. Zeilinger, Na-
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 1265--1272
+ []\OT1/cmr/m/n/9 V. Gio-van-netti, S. Lloyd, and L. Mac-cone, Sci-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1265--1272
+ \OT1/cmr/m/n/9 ence \OT1/cmr/bx/n/9 306\OT1/cmr/m/n/9 , 1330 (2004), ISSN 0036-8075, eprint
+ []
+
+
+Overfull \hbox (16.9726pt too wide) in paragraph at lines 1265--1272
+ \OT1/cmr/m/n/9 http://science.sciencemag.org/content/306/5700/1330.full.pdf,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1265--1272
+ \OT1/cmr/m/n/9 URL [][]$\OT1/cmtt/m/n/9 http : / / science . sciencemag . org / content / 306 /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1274--1279
+ \OT1/cmr/m/n/9 http://dx.doi.org/10.1080/00107510802091298, URL
+ []
+
 )
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 358.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 358.
-[13] (/Users/sihui_tan/Documents/Interferometry-Review/.texpadtmp/paper.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 358.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 358.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 383.
+[13]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 383.
+ (/Users/sihui_tan/Documents/Interferometry-Review/.texpadtmp/paper.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 383.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 383.
 Package rerunfilecheck Info: File `paper.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
  ) 
 Here is how much of TeX's memory you used:
- 8539 strings out of 493089
- 121982 string characters out of 6134842
- 260810 words of memory out of 5000000
- 11750 multiletter control sequences out of 15000+600000
+ 8574 strings out of 493089
+ 122558 string characters out of 6134842
+ 260969 words of memory out of 5000000
+ 11774 multiletter control sequences out of 15000+600000
  15739 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 32i,16n,35p,1270b,684s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2015/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on /Users/sihui_tan/Documents/Interferometry-Review/.texpadtmp/paper.pdf (13 pages, 1062306 bytes).
+ 32i,16n,35p,1270b,631s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on /Users/sihui_tan/Documents/Interferometry-Review/.texpadtmp/paper.pdf (13 pages, 2418042 bytes).
 PDF statistics:
- 1406 PDF objects out of 1440 (max. 8388607)
- 1128 compressed objects within 12 object streams
- 164 named destinations out of 1000 (max. 500000)
- 266 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1591 PDF objects out of 1728 (max. 8388607)
+ 1216 compressed objects within 13 object streams
+ 173 named destinations out of 1000 (max. 500000)
+ 276 words of extra memory for PDF output out of 10000 (max. 10000000)
 

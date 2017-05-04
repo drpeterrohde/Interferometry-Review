@@ -4,64 +4,64 @@ The top-level auxiliary file: /Users/sihui_tan/Documents/Interferometry-Review/.
 The style file: apsrev.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: ../paper.bib
-Repeated entry---line 3079 of file ../paper.bib
+Repeated entry---line 3144 of file ../paper.bib
  : @article{bib:Pittman03
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3123 of file ../paper.bib
+Repeated entry---line 3188 of file ../paper.bib
  : @article{bib:OBrien04
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3504 of file ../paper.bib
+Repeated entry---line 3569 of file ../paper.bib
  : @article{bib:Chen17
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3523 of file ../paper.bib
+Repeated entry---line 3588 of file ../paper.bib
  : @article{bib:Shapiro07
  :                       ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Rohde"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 101 entries,
+You've used 105 entries,
             3411 wiz_defined-function locations,
-            1912 strings with 38838 characters,
-and the built_in function-call counts, 100890 in all, are:
-= -- 4891
-> -- 4993
-< -- 625
-+ -- 4519
-- -- 1228
-* -- 14969
-:= -- 9828
-add.period$ -- 101
-call.type$ -- 101
-change.case$ -- 405
-chr.to.int$ -- 98
-cite$ -- 101
-duplicate$ -- 8712
-empty$ -- 7661
-format.name$ -- 2767
-if$ -- 18606
+            1941 strings with 39748 characters,
+and the built_in function-call counts, 103877 in all, are:
+= -- 5060
+> -- 5099
+< -- 639
++ -- 4607
+- -- 1254
+* -- 15399
+:= -- 10148
+add.period$ -- 105
+call.type$ -- 105
+change.case$ -- 421
+chr.to.int$ -- 102
+cite$ -- 105
+duplicate$ -- 8977
+empty$ -- 7908
+format.name$ -- 2829
+if$ -- 19169
 int.to.chr$ -- 4
-int.to.str$ -- 102
-missing$ -- 1311
-newline$ -- 318
-num.names$ -- 303
-pop$ -- 2013
+int.to.str$ -- 106
+missing$ -- 1352
+newline$ -- 330
+num.names$ -- 315
+pop$ -- 2075
 preamble$ -- 1
-purify$ -- 404
+purify$ -- 420
 quote$ -- 0
-skip$ -- 3930
+skip$ -- 4037
 stack$ -- 0
-substring$ -- 2583
-swap$ -- 7683
-text.length$ -- 615
+substring$ -- 2679
+swap$ -- 7902
+text.length$ -- 628
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 604
+type$ -- 628
 warning$ -- 0
-while$ -- 296
+while$ -- 308
 width$ -- 0
-write$ -- 1118
+write$ -- 1165
 (There were 4 error messages)

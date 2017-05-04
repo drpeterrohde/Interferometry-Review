@@ -1,4 +1,4 @@
-\begin{thebibliography}{101}
+\begin{thebibliography}{105}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname bibnamefont\endcsname\relax
   \def\bibnamefont#1{#1}\fi
@@ -1259,5 +1259,43 @@
   \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{112}},
   \bibinfo{pages}{103602} (\bibinfo{year}{2014}),
   \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.112.103602}.
+
+\bibitem[{\citenamefont{Giovannetti et~al.}(2004)\citenamefont{Giovannetti,
+  Lloyd, and Maccone}}]{bib:Giovannetti04}
+\bibinfo{author}{\bibfnamefont{V.}~\bibnamefont{Giovannetti}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Lloyd}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{L.}~\bibnamefont{Maccone}},
+  \bibinfo{journal}{Science} \textbf{\bibinfo{volume}{306}},
+  \bibinfo{pages}{1330} (\bibinfo{year}{2004}), ISSN \bibinfo{issn}{0036-8075},
+  \eprint{http://science.sciencemag.org/content/306/5700/1330.full.pdf},
+  \urlprefix\url{http://science.sciencemag.org/content/306/5700/1330}.
+
+\bibitem[{\citenamefont{Dowling}(2008)}]{bib:Dowling08}
+\bibinfo{author}{\bibfnamefont{J.~P.} \bibnamefont{Dowling}},
+  \bibinfo{journal}{Contemporary Physics} \textbf{\bibinfo{volume}{49}},
+  \bibinfo{pages}{125} (\bibinfo{year}{2008}),
+  \eprint{http://dx.doi.org/10.1080/00107510802091298},
+  \urlprefix\url{http://dx.doi.org/10.1080/00107510802091298}.
+
+\bibitem[{\citenamefont{Giovannetti et~al.}(2011)\citenamefont{Giovannetti,
+  Lloyd, and Maccone}}]{bib:Giovannetti11}
+\bibinfo{author}{\bibfnamefont{V.}~\bibnamefont{Giovannetti}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Lloyd}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{L.}~\bibnamefont{Maccone}},
+  \bibinfo{journal}{Nat Photon} \textbf{\bibinfo{volume}{5}},
+  \bibinfo{pages}{222} (\bibinfo{year}{2011}),
+  \urlprefix\url{http://dx.doi.org/10.1038/nphoton.2011.35}.
+
+\bibitem[{\citenamefont{Motes et~al.}(2015)\citenamefont{Motes, Olson, Rabeaux,
+  Dowling, Olson, and Rohde}}]{bib:Motes15}
+\bibinfo{author}{\bibfnamefont{K.~R.} \bibnamefont{Motes}},
+  \bibinfo{author}{\bibfnamefont{J.~P.} \bibnamefont{Olson}},
+  \bibinfo{author}{\bibfnamefont{E.~J.} \bibnamefont{Rabeaux}},
+  \bibinfo{author}{\bibfnamefont{J.~P.} \bibnamefont{Dowling}},
+  \bibinfo{author}{\bibfnamefont{S.~J.} \bibnamefont{Olson}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{P.~P.} \bibnamefont{Rohde}},
+  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{114}},
+  \bibinfo{pages}{170802} (\bibinfo{year}{2015}),
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.114.170802}.
 
 \end{thebibliography}

@@ -280,14 +280,14 @@ while those of the non-photon-number-resolving detectors are given by
 The dominant challenge facing the experimental implementation of both types of detectors is inefficiency due to loss, which results in higher photon-number being confused as having lower photon-number. In some protocols, such as type-II fusion, which relies on coincidence detection, inefficiency is not problematic. However, in most applications, including type-I fusion, this is highly problematic as photon-number confusion results in decoherence via projecting onto the wrong photon-number, unknown to the observer. Other common problems that plague these detectors are dark counts which add spurious counts from the background, and dead-time which causes the detector to lose counts during a period when it is inactive immediately after the detection of photons.
 
 
-\subsubsection{Non-PNR Detectors}
+\subsubsection{Non-photon-number-resolving detectors}
 The first type of non-PNR detectors are photomultiplier tubes (PMTs). A PMT comprises of a vacuum tube with a photocathode for light absorption. The photoelectric effect then releases electrons in the photocathode, and this current is multiplied by a cascade of secondary electron emissions from a series of electrodes. This amplified signal can be picked up to indicate the presence of photons.
 
 In applications for quantum information processing, a well-established alternative to PMTs is the avalanche photodiode (APD). These are devices made up of semiconductor material, usually silicon, which is structured as a p-n junction and put into Geiger mode operation. When a photon is incident on the APD, electrons that are generated undergo an avalanche and the current that is generated can be measured. APDs are affordable, offer low dark count rates with reasonable efficiency, and can be made to operate in wavelengths in the visible to near-infrared range. A downside to using APD is their deadtime. This is a period of time following an avalanche during which the avalanche is stopped by a quenching circuit to reset the APD. No photons can be detected during the deadtime and contributes to photon loss in an APD. 
 
 The last type of non-PNR detectors we discuss is the superconducting nanowire single-photon detector (SNSPD) which have recently become commercially available. This detector uses a narrow superconducting wire that is carrying a current operating at just below the critical current density. Above this current density, the superconducting wire would undergo a phase change back to its normal resistance which happens when it absorbs an incident photon. The current in the wire would then by-pass it to go through the neighboring region which is still superconducting, and therefore at a lower resistance. This causes a voltage spike in the neighboring region which can be detected.
 
-\subsubsection{PNR detectors}
+\subsubsection{Photon-number-resolving detectors}
 
 Multiple technologies for realizing PNR detectors already exist and have been described by multiple reviews \cite{bib:Hadfield09,bib:Eisaman11}, so we shall only outline a few notable examples here. One of these is the superconducting transition edge sensor (TES) . In TES, a layer of superconducting material is operated at a temperature in its transition between superconducting and normal resistance. Any small change in temperature will thus cause a large change in resistance of this layer which can be measured. This happens when photons are absorbed, and heats up the superconductor. Such detectors can be made so sensitive that the energy of single photons can be detected. Another advantage of the TES is its high efficiency which can be made very close to 100\% \cite{bib:Rosenberg05}, and low dark count rates. However, they are quite slow, have low maximum counting rates, and are costly to operate due to their very low operating temperatures.
 
@@ -324,13 +324,38 @@ To date, the quantum computation still requires the use of non-deterministic ope
 
 
  
-  \subsection{Boson-sampling}
+\subsection{Boson-sampling}\label{sec:bosonsampling}
+\sihui{Peter to do this.}
 
 \subsection{Quantum metrology}
+An archetypal task for quantum metrology is the following: Given a Mach-Zedner interferometer, with an unknown phase shift of magnitude $\varphi$ inserted in one of the two paths (see Fig. \ref{fig:MZ}), can one deduce $\varphi$ via a judicious use of quantum states and measurements with a higher sensitivity than that of a completely classical interferometer? It is well-known that one indeed can, and the standard deviation, $\Delta\varphi$, after $N$ trials using quantum estimation is
+\begin{align}
+\Delta\varphi=\frac{1}{N} \ ,	
+\end{align}
+which gets a $\sqrt{N}$ improvement over classical phase estimation. As this sensitivity is also a fundamental limit arising from Heisenberg's uncertainty principle; we cannot measure definitively the phase, it is known as the Heisenberg limit. Most famously, a family of entangled states known as NOON states achieve this limit using $N$ photons in a single trial. A NOON state is a superposition state in which $N$ photons are either in the first or second path:
+\begin{align}
+\ket{\psi^{\rm (NOON)}_n}=\frac{1}{\sqrt{2}}(\ket{N,0}+\ket{0,N})\ .	
+\end{align}
+ Many reviews have been written for quantum metrology and Heisenberg-limited quantum phase estimation \cite{bib:Giovannetti04,bib:Dowling08,bib:Giovannetti11} so we will not dwell on the history of this application. Instead, we will discuss a new paradigm for quantum metrology that has arisen from our understanding of Boson-sampling.
+ 
+ \begin{figure}[!htb]
+\includegraphics[width=0.7\columnwidth]{phE}
+\caption{A schematic diagram of the Mach-Zehnder interferometer comprising of two 50/50 beamsplitters with a phase shift $\varphi$ in one of its two paths.} \label{fig:MZ}	
+\end{figure}
+ 
+ As discussed in Section \ref{sec:bosonsampling}, the resources needed for Boson-sampling is readily available, but executes a task that is believed to be hard classically. Surprisingly, an entanglement between a large number of spatial modes is possible with single photons in a passive linear optical device. This so-called number-path entanglement can be harnessed for quantum metrology without the use of entangled states like the NOON state \cite{bib:Motes15}. Here, the phase shift to be estimated, $\varphi$, manifests itself as a linear phase gradient across $N$ modes (See Fig. \ref{fig:MORDOR}). By straddling these modes among a quantum Fourier transform and its conjugate operation, it is possible to achieve 
+\begin{align}
+\Delta \varphi=\mathcal{O}\left(\frac{1}{N^{3/2}}\right) \ ,	
+\end{align}
+with just a string of $N$ single photons, one photon per mode, for up to at least $N=25$ modes. 
 
-\comment{Discuss NOON states - Heisenberg limited}
+\begin{figure}[!htb]
+\includegraphics[width=\columnwidth]{MORDOR}
+\caption{Architecture of the quantum Fourier transform interferometer for metrology using single-photon states. QFT: Quantum Fourier transform circuit, and $\varphi_k=(k-1)\varphi$. Single photons are injected into the input modes on the left-hand-side, and a $N$-fold coincidence measurement is conducted at the output on the right-hand-side.} \label{fig:MORDOR}	
+\end{figure}
 
-\comment{Discuss MORDOR scheme}
+
+
 
 \section{Conclusion}
 
