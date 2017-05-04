@@ -4,51 +4,64 @@ The top-level auxiliary file: /Users/sihui_tan/Documents/Interferometry-Review/.
 The style file: apsrev.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: ../paper.bib
-Repeated entry---line 2495 of file ../paper.bib
+Repeated entry---line 3079 of file ../paper.bib
+ : @article{bib:Pittman03
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3123 of file ../paper.bib
  : @article{bib:OBrien04
  :                      ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 3504 of file ../paper.bib
+ : @article{bib:Chen17
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3523 of file ../paper.bib
+ : @article{bib:Shapiro07
+ :                       ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Rohde"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 46 entries,
+You've used 101 entries,
             3411 wiz_defined-function locations,
-            1537 strings with 23439 characters,
-and the built_in function-call counts, 47506 in all, are:
-= -- 2265
-> -- 2415
-< -- 300
-+ -- 2201
-- -- 594
-* -- 7083
-:= -- 4584
-add.period$ -- 46
-call.type$ -- 46
-change.case$ -- 185
-chr.to.int$ -- 43
-cite$ -- 46
-duplicate$ -- 4087
-empty$ -- 3573
-format.name$ -- 1332
-if$ -- 8731
+            1912 strings with 38838 characters,
+and the built_in function-call counts, 100890 in all, are:
+= -- 4891
+> -- 4993
+< -- 625
++ -- 4519
+- -- 1228
+* -- 14969
+:= -- 9828
+add.period$ -- 101
+call.type$ -- 101
+change.case$ -- 405
+chr.to.int$ -- 98
+cite$ -- 101
+duplicate$ -- 8712
+empty$ -- 7661
+format.name$ -- 2767
+if$ -- 18606
 int.to.chr$ -- 4
-int.to.str$ -- 47
-missing$ -- 612
-newline$ -- 153
-num.names$ -- 138
-pop$ -- 943
+int.to.str$ -- 102
+missing$ -- 1311
+newline$ -- 318
+num.names$ -- 303
+pop$ -- 2013
 preamble$ -- 1
-purify$ -- 184
+purify$ -- 404
 quote$ -- 0
-skip$ -- 1853
+skip$ -- 3930
 stack$ -- 0
-substring$ -- 1184
-swap$ -- 3634
-text.length$ -- 297
+substring$ -- 2583
+swap$ -- 7683
+text.length$ -- 615
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 276
+type$ -- 604
 warning$ -- 0
-while$ -- 135
+while$ -- 296
 width$ -- 0
-write$ -- 514
-(There was 1 error message)
+write$ -- 1118
+(There were 4 error messages)

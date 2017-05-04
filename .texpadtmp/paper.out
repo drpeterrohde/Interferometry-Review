@@ -10,22 +10,21 @@
 \BOOKMARK [1][-]{section*.10}{Experimental implementation}{}% 10
 \BOOKMARK [2][-]{section*.11}{State preparation}{section*.10}% 11
 \BOOKMARK [3][-]{section*.12}{Single-photons}{section*.11}% 12
-\BOOKMARK [3][-]{section*.13}{Bell pairs}{section*.11}% 13
-\BOOKMARK [3][-]{section*.14}{Coherent states}{section*.11}% 14
-\BOOKMARK [3][-]{section*.15}{Squeezed states}{section*.11}% 15
+\BOOKMARK [3][-]{section*.13}{Einstein-Podolsky-Rosen \(EPR\) pairs}{section*.11}% 13
+\BOOKMARK [3][-]{section*.14}{Greenberger-Horne-Zeilinger \(GHZ\) states}{section*.11}% 14
+\BOOKMARK [3][-]{section*.15}{Cluster states}{section*.11}% 15
 \BOOKMARK [2][-]{section*.16}{Linear optics networks}{section*.10}% 16
 \BOOKMARK [3][-]{section*.17}{Bulk-optics}{section*.16}% 17
 \BOOKMARK [3][-]{section*.18}{Waveguides}{section*.16}% 18
 \BOOKMARK [3][-]{section*.19}{Time-bins}{section*.16}% 19
-\BOOKMARK [2][-]{section*.20}{Measurement}{section*.10}% 20
-\BOOKMARK [3][-]{section*.21}{Photodetection}{section*.20}% 21
-\BOOKMARK [3][-]{section*.22}{Homodyning}{section*.20}% 22
+\BOOKMARK [2][-]{section*.20}{Photodetection}{section*.10}% 20
+\BOOKMARK [3][-]{section*.21}{Non-PNR Detectors}{section*.20}% 21
+\BOOKMARK [3][-]{section*.22}{PNR detectors}{section*.20}% 22
 \BOOKMARK [1][-]{section*.23}{Applications for linear optics interferometry}{}% 23
-\BOOKMARK [2][-]{section*.24}{Linear optics quantum computation}{section*.23}% 24
-\BOOKMARK [2][-]{section*.25}{Boson-sampling}{section*.23}% 25
-\BOOKMARK [2][-]{section*.26}{Quantum metrology}{section*.23}% 26
-\BOOKMARK [2][-]{section*.27}{Encrypted quantum computation}{section*.23}% 27
-\BOOKMARK [1][-]{section*.28}{State of the art}{}% 28
-\BOOKMARK [1][-]{section*.29}{Conclusion}{}% 29
-\BOOKMARK [1][-]{section*.30}{Acknowledgments}{}% 30
-\BOOKMARK [1][-]{section*.31}{References}{}% 31
+\BOOKMARK [2][-]{section*.24}{Linear optics quantum computation \(LOQC\)}{section*.23}% 24
+\BOOKMARK [3][-]{section*.25}{Challenges and Progress in LOQC}{section*.24}% 25
+\BOOKMARK [2][-]{section*.26}{Boson-sampling}{section*.23}% 26
+\BOOKMARK [2][-]{section*.27}{Quantum metrology}{section*.23}% 27
+\BOOKMARK [1][-]{section*.28}{Conclusion}{}% 28
+\BOOKMARK [1][-]{section*.29}{Acknowledgments}{}% 29
+\BOOKMARK [1][-]{section*.30}{References}{}% 30
