@@ -1,12 +1,17 @@
-\documentclass[aps,rmp,twocolumn,amsmath,amssymb,nofootinbib,superscriptaddress]{revtex4}
+%\documentclass[aps,rmp,twocolumn,amsmath,amssymb,nofootinbib,superscripta
+%ddress]{revtex4}
+\documentclass[times,final]{elsarticle}
+\usepackage{revip}
+\usepackage{framed,multirow}
+\usepackage{hyperref,mathrsfs,amsmath,amssymb,url,latexsym}
 
 \newcommand{\bra}[1]{\langle#1|}
 \newcommand{\ket}[1]{|#1\rangle}
 \newcommand{\op}[2]{\hat{\textbf{#1}}_{#2}}
 \newcommand{\dagop}[2]{\hat{\textbf{#1}}_{#2}^\dag}
-\usepackage[pdftex]{graphicx}
-\usepackage{mathrsfs}
-\usepackage[colorlinks]{hyperref}
+\usepackage{graphicx}
+
+%\usepackage[colorlinks]{hyperref}
 \usepackage[dvipsnames]{xcolor}
 
 \newcommand{\sihui}[1]{{\color{Orchid}{#1}}}
@@ -15,44 +20,83 @@
 \newcommand{\ah}{\hat{a}}
 \newcommand{\adagh}{\hat{a}^\dag}
 
-\begin{document}
+\definecolor{newcolor}{rgb}{.8,.349,.1}
 
-\bibliographystyle{apsrev}
+\journal{Reviews in Physics}
+
+
+
+\begin{document}
+\verso{Tan and Rohde}
+
+\begin{frontmatter}
 
 %
 % Title
 %
 
-\title{The Resurgence of the Linear Optics Interferometer --- Recent Advances \& Applications}
+\title{The Resurgence of the linear optics interferometer --- recent advances \& applications}
 
 %
 % Authors
 %
 
-\author{Si-Hui Tan}
-\email[]{sihui\_tan@sutd.edu.sg}
-\affiliation{Singapore University of Technology and Design, Singapore University of Technology and Design, 8 Somapah Rd, Singapore 487372}
-\affiliation{Centre for 
-Quantum Technologies, National University of Singapore, Block S15, 3 Science Drive 2, Singapore 117543, Singapore}
-\author{Peter P. Rohde}
-\email[]{dr.rohde@gmail.com}
-\homepage{http://www.peterrohde.org}
-\affiliation{Centre for Quantum Software \& Information (CQSI), Faculty of Engineering \& Information Technology, University of Technology Sydney, NSW 2007, Australia}
+\author[1,2]{Si-Hui \snm{Tan}}
 
-\date{\today}
+\author[3]{Peter P. \snm{Rohde}\corref{cor1}}
+\cortext[cor1]{Corresponding author: dr.rohde@gmail.com ;http://
+www.peterrohde.org}
 
-\frenchspacing
+\address[1]{Singapore University of Technology and Design, Singapore 
+University of Technology and Design, 8 Somapah Rd, Singapore 487372}
+\address[2]{Centre for 
+Quantum Technologies, National University of Singapore, Block S15, 3 
+Science Drive 2, Singapore 117543, Singapore}
+\address[3]{Centre for Quantum Software \& Information (CQSI), Faculty 
+of Engineering \& Information Technology, University of Technology 
+Sydney, NSW 2007, Australia}
 
-%
-% Abstract
-%
+
+
+\received{}
+\finalform{}
+\accepted{}
+\availableonline{}
+\communicated{}
+
 
 \begin{abstract}
+%%%
+Please Type your abstract here. Type your abstract here. Type your abstract
+here. Type your abstract here. Type your abstract here. Type your
+abstract here. Type your abstract here. Type your abstract here. Type
+your abstract here. Type your abstract here. Type your abstract here.
+Type your abstract here. Type your abstract here.Type your abstract here. 
+Type your abstract here. Type your abstract here. Type your abstract here. 
+Type your abstract here. Type your abstract here. Type your abstract here.
+
+Please Type your abstract here. Type your abstract here. Type your abstract
+Please Type your abstract here. Type your abstract here. Type your abstract
+here. Type your abstract here. Type your abstract here. Type your
+abstract here. Type your abstract here. Type your abstract here. Type
+your abstract here. Type your abstract here. Type your abstract here.
+Type your abstract here. Type your abstract here.
+Please Type your abstract here. Type your abstract here. 
+Type your abstract here.
+%%%%
 \end{abstract}
 
-\maketitle
 
-\tableofcontents
+\begin{keyword}
+%% MSC codes here, in the form: \MSC code \sep code
+%% or \MSC[2008] code \sep code (2000 is the default)
+\MSC 41A05\sep 41A10\sep 65D05\sep 65D17
+%% Keywords
+\KWD Keyword1\sep Keyword2\sep Keyword3
+\end{keyword}
+
+\end{frontmatter}
+
 
 \section{Introduction}
 
@@ -83,7 +127,7 @@ These encodings are all isomorphic to one another, but nonetheless, because they
 
 %\subsection{Single-photons}
 
-\subsubsection{Polarisation}
+\subsection{Polarisation}
 
 In polarisation encoding, the polarisation of a single photon in a single spatial mode encodes a logical qubit. Specifically, we represent the logical qubit as,
 \begin{align}
@@ -95,7 +139,7 @@ Polarisation encoding has the elegance that the most common optical error mechan
 
 When physically constructing protocols based on polarisation-encoding, for obvious reasons it is extremely important that optical components be polarisation-preserving. Not doing so would obviously corrupt the logical state. Some waveguide technologies, for example, exhibit different refractive indices for the two polarisations.
 
-\subsubsection{Dual-rail}
+\subsection{Dual-rail}
 
 In dual-rail encoding, a single photon encodes a logical qubit as a superposition across two spatial modes,
 \begin{align}
@@ -106,7 +150,7 @@ where $\ket{i,j}$ is a two-mode state with $i$ ($j$) photons in the first (secon
 Unfortunately, because the two basis states evolve via independent paths, our dual-rail qubits are susceptible to path-length-mismatch, a problem that does not affect polarisation encoding. Nonetheless, there are certain advantages to using two paths as opposed to one as is the case in single-rail encoding where the presence or absence of a photon denotes the logical bit. The loss of a photon in a dual-rail qubit is easily noted by its absence, whereas in a single-rail encoding, it would have been confused for one of the states. Moreover, a no-go result precludes universal quantum computation using just linear optics without the use of measurements in a single-rail encoding \cite{bib:Wu13}, thus making dual-rail encoding a more attractive alternative.
 
 
-\subsubsection{Time-bins}
+\subsection{Time-bins}
 
 Time-bin qubits encode quantum information into the time-of-arrival of single photons, which have fixed polarisation and reside in a single spatial mode. Effectively, we discretise the direction of propagation of photons into discrete bins, which are treated as orthogonal basis states. Specifically, we are employing the encoding,
 \begin{align}
@@ -137,7 +181,8 @@ Apart from these promising advances in implementing time-bin qubit gates and ult
 The task of implementing an arbitrary quantum computation on linear optics comes down to implementing an arbitrary $n\times n$ unitary matrix. If a non-unitary transformation is desired, it can be embedded within a unitary matrix with larger dimensions. An algorithm for expressing an arbitrary unitary matrix {\it exactly} in terms of a sequence of beamsplitters and phase-shifters was described by Reck \emph{et al.} \cite{bib:Reck1994}. This decomposition requires $\mathcal{O}(n^2)$ linear optical elements, and the algorithm for finding the decomposition has polynomial runtime. Thus, such decompositions can always be determined and implemented efficiently. The layout for the original Reck \emph{et al.} decomposition is shown in Fig.~\ref{fig:Reck}. However, since then a multitude of alternate decompositions have been found. A notable downside of the original decomposition is that different photons experience different circuit depth, i.e pass through different numbers of optical elements, resulting in asymmetry in losses and the accumulation of errors.
 
 \begin{figure}[!htb]
-\includegraphics[width=\columnwidth]{reck}
+\centering
+\includegraphics[width=0.7\columnwidth]{reck}
 \caption{Efficient decomposition of arbitrary linear optics networks into a sequence of beamsplitters and phase-shifters.} \label{fig:Reck}	
 \end{figure}
 
@@ -214,7 +259,8 @@ Cluster states form another class of multiparty entangled states, and were conce
 These states can be represented as a graph, in which vertices are qubits initialized into the superposition state $\ket{+}=\frac{1}{\sqrt{2}}(\ket{0}+\ket{1})$, with CPHASE operation applied between edges, as shown in Fig.~\ref{fig:cluster}. For this reason, such states are also referred to as graph states. The CPHASE operations generate entanglement between the qubits, and because they commute, are independent of ordering. Cluster states are a resource state for a model of quantum computation known as measurement-based quantum computation (MBQC). Here, having such a state as a resource enables universal quantum computation using only single-qubit measurements \cite{bib:Raussendorf03}. Therefore, the preparation of such states is highly valuable, generating much interest in their efficient preparation.
 
 \begin{figure}[!htb]
-\includegraphics[width=0.6\columnwidth]{cluster_state}
+\centering
+\includegraphics[width=0.3\columnwidth]{cluster_state}
 \caption{The representation of cluster states as a graph. Vertices represent qubits initialised into the $\ket{+}$ state, while edges represent the application on CPHASE gates, the ordering of which is irrelevant.} \label{fig:cluster}	
 \end{figure}
 
@@ -223,7 +269,8 @@ Unfortunately, implementing CPHASE gates using linear optics is complicated and 
 Although these gates are non-deterministic and consume qubits, strategies have been described for efficiently preparing arbitrarily large cluster states of arbitrary topology, and using far fewer optical elements than by directly employing CPHASE gates.
 
 \begin{figure}[!htb]
-\includegraphics[width=0.7\columnwidth]{fusion}
+\centering
+\includegraphics[width=0.4\columnwidth]{fusion}
 \caption{Fusion gates for joining smaller cluster states into larger ones. Both require only a single polarising beamsplitter, and waveplates. The type-I and -II fusion gates consume 1 or 2 qubits (photons) respectively, creating an edge between the remaining graphs. The type-I gate consumes one fewer photon, but requires number-resolved detection on the detected mode. The type-II gate requires only on/off photodetection, but consumes an additional photon. Thus, the type-I gate can be employed to fuse two Bell pairs into a 3-qubit cluster state, whereas the type-II gate will only grow clusters when beginning with at least 3 qubits per cluster.} \label{fig:fusion}	
 \end{figure}
 
@@ -246,7 +293,8 @@ Alternately, integrated waveguide devices can be employed to implement identical
 Using time-bin encoding of optical qubits, the obvious question is how to perform operations upon them. In \cite{bib:Motes14}, a dual-loop architecture was presented for implementing arbitrary passive linear-optics on photonic pulse-trains, shown in Fig.~\ref{fig:FL_arch}.
 
 \begin{figure}[!htb]
-\includegraphics[width=\columnwidth]{full_architecture}
+\centering
+\includegraphics[width=0.5\columnwidth]{full_architecture}
 \caption{A fibre-loop architecture for implementing arbitrary linear optics operations upon a time-bin-encoded pulse-train. The source prepares the temporally encoded pulse-train, with time-bin separation $\tau$. The pulse-train then enters a dual-loop configuration. The inner loop has length exactly $\tau$, while the outer one has length $>n\tau$ ($n$ is the number of optical modes). The architecture is controlled via three dynamically controlled beamsplitters. The first and last need only be on/off switches, whose sole purpose is to couple in the prepared pulse-train, keep it within the outer loop for the required duration, and then couple out of the outer loop, yielding the transformed pulse-train. The central beamsplitter must be able to implement arbitrary classically-controlled beamsplitter operations.} \label{fig:FL_arch}	
 \end{figure}
 
@@ -257,7 +305,8 @@ The workings of the scheme can be thought of as follows: the inner loop allows a
 As a simple example of how such time-bin encoding maps to other encodings, in Fig.~\ref{fig:PBS_TB} we show the isomorphism between the polarising beamsplitter operation and a pairwise temporal beamsplitter operation. This implies a direct mapping for implementing cluster state preparation within the time-bin scheme.
 
 \begin{figure}[!htb]
-\includegraphics[width=0.7\columnwidth]{PBS_TB}
+\centering
+\includegraphics[width=0.4\columnwidth]{PBS_TB}
 \caption{Mapping between two polarisation-encoded qubits undergoing a polarising beamsplitter (PBS) operation, and its equivalent representation using 4 time-bins in a pulse-train. The PBS completely reflects (transmits) the vertical (horizontal) polarisations. The evolution of the four logical basis states, and their respective outputs, are shown explicitly. Writing out this PBS transformation in matrix form yields a permutation. Taking this permutation and relabelling the modes, we obtain the time-bin transformation shown underneath -- a simple swap of two of the four time-bins.} \label{fig:PBS_TB}	
 \end{figure}
 
@@ -339,7 +388,8 @@ which gets a $\sqrt{N}$ improvement over classical phase estimation. As this sen
  Many reviews have been written for quantum metrology and Heisenberg-limited quantum phase estimation \cite{bib:Giovannetti04,bib:Dowling08,bib:Giovannetti11} so we will not dwell on the history of this application. Instead, we will discuss a new paradigm for quantum metrology that has arisen from our understanding of Boson-sampling.
  
  \begin{figure}[!htb]
-\includegraphics[width=0.7\columnwidth]{phE}
+ \centering
+\includegraphics[width=0.4\columnwidth]{phE}
 \caption{A schematic diagram of the Mach-Zehnder interferometer comprising of two 50/50 beamsplitters with a phase shift $\varphi$ in one of its two paths.} \label{fig:MZ}	
 \end{figure}
  
@@ -350,7 +400,8 @@ which gets a $\sqrt{N}$ improvement over classical phase estimation. As this sen
 with just a string of $N$ single photons, one photon per mode, for up to at least $N=25$ modes. 
 
 \begin{figure}[!htb]
-\includegraphics[width=\columnwidth]{MORDOR}
+\centering
+\includegraphics[width=0.5\columnwidth]{MORDOR}
 \caption{Architecture of the quantum Fourier transform interferometer for metrology using single-photon states. QFT: Quantum Fourier transform circuit, and $\varphi_k=(k-1)\varphi$. Single photons are injected into the input modes on the left-hand-side, and a $N$-fold coincidence measurement is conducted at the output on the right-hand-side.} \label{fig:MORDOR}	
 \end{figure}
 
@@ -369,15 +420,18 @@ Although there are countless physical architectures for the implementation of qu
 % Acknowledgments
 %
 
-\begin{acknowledgments}
+\section*{Acknowledgments}
 P.P.R. is funded by an ARC Future Fellowship (project FT160100397). This research was supported in part by the Singapore National Research Foundation under NRF Award No. NRF-NRFF2013-01. ST acknowldeges support from the Air Force Office of Scientific Research under AOARD grant FA2386-15-1-4082.
-
-\end{acknowledgments}
 
 %
 % Bibliography
 %
 
+\section*{References}
+
+%% `Elsevier LaTeX' style
+\bibliographystyle{elsarticle-num}
+%%%%%%%%%%%%%%%%%%%%%%%
 \bibliography{paper}
 
 \end{document}
