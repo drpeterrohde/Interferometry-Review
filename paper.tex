@@ -3,7 +3,7 @@
 \documentclass[times,final]{elsarticle}
 \usepackage{revip}
 \usepackage{framed,multirow}
-\usepackage{hyperref,mathrsfs,amsmath,amssymb,url,latexsym}
+\usepackage{hyperref,mathrsfs,amsmath,amssymb,latexsym}
 
 \newcommand{\bra}[1]{\langle#1|}
 \newcommand{\ket}[1]{|#1\rangle}
@@ -100,9 +100,95 @@ Type your abstract here.
 
 \section{Introduction}
 
-\comment{To do}
 
-Technical advancements have been made on many fronts. It is possible now to put single-photon sources and linear-optical networks on a silica chip. The advantage of using such integrated photonics over bulk optics is that it is more stable against phase fluctuations, and miniaturized. This increases the scalability of optical implementations of quantum information protocols.
+Technical advancements in linear optics have been made on many fronts that make it increasingly attractive for quantum computing applications. It is possible now to put single-photon sources and detectors together with linear-optical networks on a silica chip. The advantage of using such integrated photonics over bulk optics is that it is more stable against phase fluctuations, and miniaturized. This increases the scalability of optical implementations of quantum information protocols. Having all components on chip reduces coupling losses
+
+In combination with the relative ease of transferring quantum states of light through fiber cables, it forms a powerful combination between quantum communication and quantum information processing on-chip.
+
+Spontaneous parametric down-conversion (SPDC), a nonlinear optical process, has been the workhorse for providing entanglement in quantum states of light. Through SPDC, indistinguishable single-photon pairs have been a run-of-the-mill process for a few decades, but faced scalability issues as it is a probabilistic process.
+
+
+There are several proposals for building
+quantum computers that manipulate the state of light,
+ranging from cat-state logic to encoding a qubit in a
+harmonic  oscillator  and  optical  continuous-variable
+quantum computing. Cat states are states of the form, where is a weak coherent state. The logical qubits are determined by the sign of the relative phase Ralph et al., 2003. Gottesman, Kitaev, and
+Preskil proposed quantum error correction codes for
+harmonic oscillators that are used to encode qubit states
+and showed that fault-tolerant quantum computing is
+possible using quantum optics Gottesman et al., 2001.
+Lloyd and Braunstein showed how the concept of quan-
+tum computing can be extended to continuous variables
+and how electromagnetic fields are a natural physical
+representation of this formalism Lloyd and Braunstein,
+1999. For a review article on optical quantum informa-
+tion processing with continuous variables, see
+Braunstein and van Loock 2005.
+
+
+In this review, we focus on quantum computing with
+linear quantum optics and single photons. It has the ad-
+vantage that the smallest unit of quantum information,
+the photon, is potentially free from decoherence: The
+quantum information stored in a photon tends to stay
+there. The downside is that photons do not naturally
+interact with each other, and in order to apply two-qubit
+quantum gates such interactions are essential. There-
+fore, if we are to construct an optical quantum com-
+puter, we have to introduce an effective interaction be-
+tween photons in one way or another. In Sec. I.D, we
+review the use of so-called large cross-Kerr nonlineari-
+ties to induce a single-photon controlled-NOT operation.
+However, naturally occurring nonlinearities of this sort
+are many orders of magnitude too small for our purposes. An alternative way to induce an effective interaction between photons is to make projective measurements with photodetectors. The difficulty with this
+technique is that such optical quantum gates are proba-
+bilistic: More often than not, the gate fails and destroys
+the information in the quantum computation. This can
+be circumvented by using an exponential number of op-
+tical modes, but scalability requires only a polynomial
+number of modes see also Sec. I.D. In 2001, Knill, Laflamme, and Milburn
+2001
+
+
+KLM constructed a
+protocol in which probabilistic two-photon gates are
+teleported into a quantum circuit with high probability.
+Subsequent error correction in the quantum circuit is
+used to bring the error rate down to fault-tolerant levels.
+We describe the KLM protocol in detail in Sec. II.
+Initially, the KLM protocol was designed as a proof
+that linear optics and projective measurements allow for
+scalable quantum computing in principle. However, it
+subsequently spurred new experiments in quantum op-
+tics, demonstrating the operation of high-fidelity proba-
+bilistic two-photon gates. On the theoretical front, sev-
+eral improvements of the protocol were proposed,
+leading to ever smaller overhead costs on the computa-
+tion. A number of these improvements is based on
+cluster-state quantum computing, or the one-way quan-
+tum computer. Recently, a circuit-based model was
+shown to have similar scaling properties as the best-
+known cluster-state model. In Sec. III, we describe sev-
+eral improvements to linear optical quantum informa-
+tion processing in considerable detail, and in Sec. IV, we
+describe the issues involved in the use of realistic com-
+ponents such as photon detectors, photon sources, and
+quantum memories. Given these realistic components,
+we discuss loss tolerance and general error correction
+for linear optical quantum computing (LOQC) in Sec. V.
+We will restrict our discussion to the theory of single-
+photon implementations of quantum information pro-
+cessors, and assume some familiarity with the basic con-
+cepts of quantum computing. For an introduction to
+quantum computation and quantum information, see,
+e.g., Nielsen and Chuang 2000. In Sec. VI we conclude
+with an outlook on other promising optical quantum in-
+formation processing techniques, such as photonic band-
+gap structures, weak cross-Kerr nonlinearities, and hy-
+brid matter-photon systems. We start our review with a
+short introduction to linear optics, N-port optical inter-
+ferometers, and circuits, and define the different versions of the optical qubit.
+
 
 \section{Mathematical background}
 
