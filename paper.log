@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  9 MAY 2017 17:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  9 MAY 2017 23:49
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -889,131 +889,108 @@ Underfull \hbox (badness 10000) in paragraph at lines 98--98
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 112.
+(hyperref)                removing `\<def>-command' on input line 107.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\cnotenum' on input line 112.
+(hyperref)                removing `\cnotenum' on input line 107.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 112.
+(hyperref)                removing `\<def>-command' on input line 107.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@corref' on input line 112.
+(hyperref)                removing `\@corref' on input line 107.
 
 [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
- <./elsevier-logo.pdf> <./revip-logo.pdf>]
-! Text line contains an invalid character.
-l.118 ...ical qubits are determined by the sign^^B
-                                                   of the relative phase^^B ...
-
-? 
-! Text line contains an invalid character.
-l.118 ...d by the sign^^B of the relative phase^^B
-                                                   Ralph et al., 2003. Gotte...
-
-? 
-! Text line contains an invalid character.
-l.153 ^^B
-         2001
-? 
-! Text line contains an invalid character.
-l.154 ^^C
-         
-? 
-! Text line contains an invalid character.
-l.155 ^^B
-         
-? 
-[2] [3] [4] <reck.pdf, id=202, 394.58363pt x 204.78508pt>
+ <./elsevier-logo.pdf> <./revip-logo.pdf>] [2] [3]
+<reck.pdf, id=195, 394.58363pt x 204.78508pt>
 File: reck.pdf Graphic file (type pdf)
  <use reck.pdf>
-Package pdftex.def Info: reck.pdf used on input line 274.
-(pdftex.def)             Requested size: 327.1036pt x 169.77156pt.
-
-[5 <./reck.pdf>]
+Package pdftex.def Info: reck.pdf used on input line 188.
+(pdftex.def)             Requested size: 233.64645pt x 121.2596pt.
+ [4 <./reck.pdf>]
+[5]
 Missing character: There is no € in font txr!
 Missing character: There is no   in font txr!
- [6] <cluster_state.pdf, id=403, 286.30765pt x 242.46686pt>
+ [6] <cluster_state.pdf, id=432, 286.30765pt x 242.46686pt>
 File: cluster_state.pdf Graphic file (type pdf)
 
 <use cluster_state.pdf>
-Package pdftex.def Info: cluster_state.pdf used on input line 352.
+Package pdftex.def Info: cluster_state.pdf used on input line 266.
 (pdftex.def)             Requested size: 140.18929pt x 118.72469pt.
- [7] <fusion.pdf, id=443, 270.50322pt x 153.41916pt>
+ <fusion.pdf, id=434, 270.50322pt x 153.41916pt>
 File: fusion.pdf Graphic file (type pdf)
 
 <use fusion.pdf>
-Package pdftex.def Info: fusion.pdf used on input line 362.
+Package pdftex.def Info: fusion.pdf used on input line 276.
 (pdftex.def)             Requested size: 186.9143pt x 106.01149pt.
- [8 <./cluster_state.pdf> <./fusion.pdf>]
-<full_architecture.pdf, id=620, 286.46323pt x 132.80385pt>
+ [7 <./cluster_state.pdf> <./fusion.pdf>]
+<full_architecture.pdf, id=616, 286.46323pt x 132.80385pt>
 File: full_architecture.pdf Graphic file (type pdf)
 
 <use full_architecture.pdf>
-Package pdftex.def Info: full_architecture.pdf used on input line 386.
+Package pdftex.def Info: full_architecture.pdf used on input line 300.
 (pdftex.def)             Requested size: 233.64645pt x 108.32028pt.
- <PBS_TB.pdf, id=622, 212.34843pt x 285.74916pt>
+ [8 <./full_architecture.pdf>]
+<PBS_TB.pdf, id=665, 212.34843pt x 285.74916pt>
 File: PBS_TB.pdf Graphic file (type pdf)
-
-<use PBS_TB.pdf>
-Package pdftex.def Info: PBS_TB.pdf used on input line 398.
+ <use PBS_TB.pdf>
+Package pdftex.def Info: PBS_TB.pdf used on input line 312.
 (pdftex.def)             Requested size: 186.9143pt x 251.52544pt.
 
 
-Package natbib Warning: Citation `Rohde' on page 9 undefined on input line 402.
+Package natbib Warning: Citation `Rohde' on page 9 undefined on input line 316.
 
 
-[9 <./full_architecture.pdf>] [10 <./PBS_TB.pdf>] [11] [12]
-<phE.pdf, id=923, 168.63pt x 126.4725pt>
+[9 <./PBS_TB.pdf>] [10] [11] <phE.pdf, id=913, 168.63pt x 126.4725pt>
 File: phE.pdf Graphic file (type pdf)
- <use phE.pdf>
-Package pdftex.def Info: phE.pdf used on input line 481.
-(pdftex.def)             Requested size: 186.9143pt x 140.18929pt.
 
-<MORDOR.pdf, id=927, 315.88817pt x 158.5925pt>
+<use phE.pdf>
+Package pdftex.def Info: phE.pdf used on input line 395.
+(pdftex.def)             Requested size: 186.9143pt x 140.18929pt.
+ <MORDOR.pdf, id=917, 315.88817pt x 158.5925pt>
 File: MORDOR.pdf Graphic file (type pdf)
  <use MORDOR.pdf>
-Package pdftex.def Info: MORDOR.pdf used on input line 493.
+Package pdftex.def Info: MORDOR.pdf used on input line 407.
 (pdftex.def)             Requested size: 233.64645pt x 117.30577pt.
- [13 <./phE.pdf> <./MORDOR.pdf
 
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./MORDOR.pdf): PDF inclusion
-: multiple pdfs with page group included in a single page
->] (./paper.bbl [14]
+[12 <./phE.pdf>] (./paper.bbl [13 <./MORDOR.pdf>] [14]
 Missing character: There is no Ã in font txr!
 Missing character: There is no ¤ in font txr!
- [15]
 Missing character: There is no Ã in font txr!
 Missing character: There is no ¶ in font txr!
- [16] [17]
+ [15] [16]
 Missing character: There is no Ã in font txr!
 Missing character: There is no ¶ in font txr!
- [18])
+ [17])
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 526.
-[19]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 526.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 440.
+[18]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 440.
  (./paper.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 526.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 526.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 440.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 440.
 Package rerunfilecheck Info: File `paper.out' has not changed.
 (rerunfilecheck)             Checksum: 9425EFF890530C474142F80DF36F6F2C;1996.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 526.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 440.
  ) 
 Here is how much of TeX's memory you used:
- 8793 strings out of 493089
- 125405 string characters out of 6134842
- 232878 words of memory out of 5000000
+ 8792 strings out of 493089
+ 125398 string characters out of 6134842
+ 233877 words of memory out of 5000000
  11903 multiletter control sequences out of 15000+600000
  45882 words of font info for 114 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,17n,36p,1270b,882s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,17n,36p,1270b,846s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/tex
 live/2015/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></usr/local/texlive/20
@@ -1026,10 +1003,10 @@ txfonts/txsy.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/u
 hvr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/loca
 l/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on paper.pdf (19 pages, 2355612 bytes).
+Output written on paper.pdf (18 pages, 2352750 bytes).
 PDF statistics:
- 1507 PDF objects out of 1728 (max. 8388607)
- 1139 compressed objects within 12 object streams
- 182 named destinations out of 1000 (max. 500000)
+ 1502 PDF objects out of 1728 (max. 8388607)
+ 1135 compressed objects within 12 object streams
+ 181 named destinations out of 1000 (max. 500000)
  262 words of extra memory for PDF output out of 10000 (max. 10000000)
 
