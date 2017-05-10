@@ -52,15 +52,6 @@ M.~Reck, A.~Zeilinger, H.~J. Bernstein, P.~Bertani,
   {\path{doi:10.1103/PhysRevLett.73.58}}.
 \newline\urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevLett.73.58}
 
-\bibitem{bib:Dhand2015}
-I.~Dhand, S.~K. Goyal,
-  \href{http://link.aps.org/doi/10.1103/PhysRevA.92.043813}{Realization of
-  arbitrary discrete unitary transformations using spatial and internal modes
-  of light}, Phys. Rev. A 92 (2015) 043813.
-\newblock \href {http://dx.doi.org/10.1103/PhysRevA.92.043813}
-  {\path{doi:10.1103/PhysRevA.92.043813}}.
-\newline\urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevA.92.043813}
-
 \bibitem{bib:Tan2013}
 S.-H. Tan, Y.~Y. Gao, H.~de~Guise, B.~C. Sanders,
   \href{http://link.aps.org/doi/10.1103/PhysRevLett.110.113603}{Su(3) quantum
@@ -94,6 +85,24 @@ Y.-S. Ra, M.~C. Tichy, H.-T. Lim, O.~Kwon, F.~Mintert, A.~Buchleitner, Y.-H.
   {http://dx.doi.org/10.1073/pnas.1206910110}
   {\path{doi:10.1073/pnas.1206910110}}.
 \newline\urlprefix\url{http://www.pnas.org/content/110/4/1227.abstract}
+
+\bibitem{bib:Agne17}
+S.~Agne, T.~Kauten, J.~Jin, E.~Meyer-Scott, J.~Z. Salvail, D.~R. Hamel, K.~J.
+  Resch, G.~Weihs, T.~Jennewein,
+  \href{https://link.aps.org/doi/10.1103/PhysRevLett.118.153602}{Observation of
+  genuine three-photon interference}, Phys. Rev. Lett. 118 (2017) 153602.
+\newblock \href {http://dx.doi.org/10.1103/PhysRevLett.118.153602}
+  {\path{doi:10.1103/PhysRevLett.118.153602}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.118.153602}
+
+\bibitem{bib:Menssen17}
+A.~J. Menssen, A.~E. Jones, B.~J. Metcalf, M.~C. Tichy, S.~Barz, W.~S.
+  Kolthammer, I.~A. Walmsley,
+  \href{https://link.aps.org/doi/10.1103/PhysRevLett.118.153603}{Distinguishability
+  and many-particle interference}, Phys. Rev. Lett. 118 (2017) 153603.
+\newblock \href {http://dx.doi.org/10.1103/PhysRevLett.118.153603}
+  {\path{doi:10.1103/PhysRevLett.118.153603}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.118.153603}
 
 \bibitem{bib:Wu13}
 L.-A. Wu, P.~Walther, D.~A. Lidar,
@@ -157,6 +166,15 @@ A.~Bouland, S.~Aaronson,
 \newblock \href {http://dx.doi.org/10.1103/PhysRevA.89.062316}
   {\path{doi:10.1103/PhysRevA.89.062316}}.
 \newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevA.89.062316}
+
+\bibitem{bib:Dhand2015}
+I.~Dhand, S.~K. Goyal,
+  \href{http://link.aps.org/doi/10.1103/PhysRevA.92.043813}{Realization of
+  arbitrary discrete unitary transformations using spatial and internal modes
+  of light}, Phys. Rev. A 92 (2015) 043813.
+\newblock \href {http://dx.doi.org/10.1103/PhysRevA.92.043813}
+  {\path{doi:10.1103/PhysRevA.92.043813}}.
+\newline\urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevA.92.043813}
 
 \bibitem{bib:Mitchell03}
 M.~W. Mitchell, C.~W. Ellenor, S.~Schneider, A.~M. Steinberg, Diagnosis,

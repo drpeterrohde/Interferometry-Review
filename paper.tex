@@ -106,7 +106,7 @@ Technical advancements in linear optics have been made on many fronts that make 
 In the last decade, single photons have been produced mainly through spontaneous parametric down-conversion (SPDC), a nonlinear optical process. SPDC produces single photons in correlated pairs that has been the workhorse for providing entanglement in quantum states of light. Through development and improvement in production schemes, the number of high quality indistinguishable photons that can be simultaneously produced have increased steadily over the years. Single-photon pairs, once a novelty, are now run-of-the-mill business for quantum optical labs, and in the last five years, three photons have become the standard benchmark. Experiments with up to ten photons have now been demonstrated. We have also seen the meteoric rise of quantum dots in the role for producing single photons. It is now possible to use a quantum dot to produce multiple single photons which are highly indistinguishable. Quantum dots produce single photons on demand, a significant advantage over SPDC which is an inherently probabilistic process.
 
 The degree of control over single photons has also improved. Using advanced techniques and equipment to manipulate their polarization, time-of-arrival, and orbital angular momentum \cite{bib:Tillmann2015,bib:Bozinovic2013, bib:Nicolas2014, bib:Humphreys2013, bib:Donohue2013}, new ways to engineer entangled quantum states and implement quantum operations have been discovered. These expand the toolbox of baseline resources we have for implementing quantum computations, which could prove crucial in the race to achieve quantum supremacy, that is, the demonstration of a computational task with a quantum  device that is not possible with any known algorithm running on an existing classical supercomputer in a reasonable amount of time. We begin in Section \ref{sec:math} with an overview of the mathematical treatment of linear optical transformation on single photons.
-And in Section \ref{sec:encoding}
+And in Section \ref{sec:encoding}...
 
 
 
@@ -122,7 +122,9 @@ Additional quantum labels are added to the creation and annihilation operators w
 \begin{align}
 [\ah_{j,\alpha},\adagh_{k,\beta}]=\delta_{j,k}\delta_{\alpha,\beta}\ ,
 \end{align}
-where $\alpha$ and $\beta$ represent these other degrees of freedom. As a consequence, quantum interference between multiple photons only occur when all quantum labels are the same. It is also possible to derive an analogous decomposition to that of Reck {\it et al.~}that realizes the unitary transformation on such photons as a sequence of beamsplitters and internal transformations. Toolkits using group theory are being developed to deal with partial distinguishabilities among interfering photons \cite{bib:Tan2013,bib:deGuise2014,bib:deGuise2015}. Others use quantum-to-classical transitions to explain multiparticle interference \cite{bib:Ra2013}. \sihui{Experimental implementation [Walmsley, Jennewein]}
+where $\alpha$ and $\beta$ represent these other degrees of freedom. As a consequence, quantum interference between multiple photons only occur when all quantum labels are the same. It is also possible to derive an analogous decomposition to that of Reck {\it et al.~}that realizes the unitary transformation on such photons as a sequence of beamsplitters and internal transformations.
+
+Control of indistinguishability of these photons may enable future applications. Mathematical methods have been developed to deal with partial distinguishabilities among interfering photons, including those using group theory \cite{bib:Tan2013,bib:deGuise2014,bib:deGuise2015}, and quantum-to-classical transitions \cite{bib:Ra2013}. Recently, genuine three-photon interference that has no independent entanglement between any two subpairs of photons was demonstrated  \cite{bib:Agne17,bib:Menssen17}.
 
 \section{Optical encoding of quantum information on single-photons}\label{sec:encoding}
 
