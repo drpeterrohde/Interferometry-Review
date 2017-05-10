@@ -101,29 +101,33 @@ Type your abstract here.
 \section{Introduction}
 
 
-Technical advancements in linear optics have been made on many fronts that make it increasingly attractive for quantum computing applications. It is possible now to put single-photon sources and detectors together with linear-optical networks on a silica chip. The advantage of using such integrated photonics over bulk optics is that it is more stable against phase fluctuations, and miniaturized. This increases the scalability of optical implementations of quantum information protocols. Having all components on chip reduces coupling losses which would be crucial for fault-tolerant quantum computing. With the advantage of potentially piggybacking on existing communication infrastructure, and the relative ease of transporting quantum states of light, as compared to say trapped ions or superconducting qubits, it forms a powerful platform for quantum information processing.
+Technical advancements in linear optics have been made on many fronts that make it increasingly attractive for quantum computing applications. It is possible now to put single-photon sources and detectors together with linear-optical networks on a silica chip. The advantage of using such integrated photonics over bulk optics is that it is more stable against phase fluctuations, and miniaturized. This increases the scalability of optical implementations of quantum information protocols. Having all components on chip reduces coupling losses which would be crucial for fault-tolerant quantum computing. With the advantage of potentially piggybacking on existing communication infrastructure, and the relative ease of transporting quantum states of light, as compared to say trapped ions or superconducting qubits, linear optics forms a powerful platform for quantum information processing.
 
 In the last decade, single photons have been produced mainly through spontaneous parametric down-conversion (SPDC), a nonlinear optical process. SPDC produces single photons in correlated pairs that has been the workhorse for providing entanglement in quantum states of light. Through development and improvement in production schemes, the number of high quality indistinguishable photons that can be simultaneously produced have increased steadily over the years. Single-photon pairs, once a novelty, are now run-of-the-mill business for quantum optical labs, and in the last five years, three photons have become the standard benchmark. Experiments with up to ten photons have now been demonstrated. We have also seen the meteoric rise of quantum dots in the role for producing single photons. It is now possible to use a quantum dot to produce multiple single photons which are highly indistinguishable. Quantum dots produce single photons on demand, a significant advantage over SPDC which is an inherently probabilistic process.
 
 The degree of control over single photons has also improved. Using advanced techniques and equipment to manipulate their polarization, time-of-arrival, and orbital angular momentum, new ways to engineer entangled quantum states and implement quantum operations have been discovered. These expand the toolbox of baseline resources we have for implementing quantum computations, which could prove crucial in the race to achieve quantum supremacy, that is, the demonstration of a computational task with a quantum  device that is not possible with any known algorithm running on an existing classical supercomputer in a reasonable amount of time,
 
-In Section xxx, ...
+In Section \ref{sec:math}, ...
+And in Section \ref{sec:encoding}
 
 
 
+\section{Mathematical background}\label{sec:math}
 
-\section{Mathematical background}
-
-An idealized single photon in a quantum interferometer is described by its creation operator $\adagh_{j}$, where $j$ is the label of the mode the photon is in  within the interferometer. The creation and annihilation operators satisfy the bosonic comutation relationship $[\ah_{j},\adagh_{k}]=\delta_{j,k}$. A similar commutation relationship can be written when additional degrees of freedom, such as polarization, orbital angular momentum, and time-bins \cite{bib:Tillmann2015,bib:Bozinovic2013, bib:Nicolas2014, bib:Humphreys2013, bib:Donohue2013}, are present. When multiple photons are present, they experience quantum interference when all quantum labels are the same.
-
-The action of a $2d$-port linear optical interferometer (with an equal number of input and output ports) is expressed as an application of unitary operations on the creation operators,
-
+A single photon in a quantum interferometer is described by its creation and annihilation operators, $\adagh_{j}$ and $\hat{a}_j$ respectively, where $j$ is the mode label of the interferometer. These operators satisfy the bosonic comutation relationship $[\ah_{j},\adagh_{k}]=\delta_{j,k}$. The action of a $2d$-port linear optical interferometer that has an equal number of input and output ports is expressed as an application of unitary operations on the creation operators,
 \begin{align}
 b_i^{\dag}=\sum_{j=1}^d U_{ij}a_j^\dag \ ,
 \end{align}
-where $a_j^\dag$ and $b_i^\dag$ are the creation operators of a single input and output photon in the $j$-th and $i$-th modes respectively, and $U\in SU(d)$. All such transformations can be expressed as sequences of beamsplitters and phase-shifters \cite{bib:Reck1994}. In the case when photons have additional labels, for instance, if they have internal labels on top of spatial labels, it is also possible to derive an analogous decomposition, known as a cosine-sine decomposition \cite{bib:Dhand2015}, that realizes the unitary transformation on the photons as a sequence of beamsplitters and internal transformations. Toolkits using group theory are being developed to deal with partial distinguishabilities among interfering photons \cite{bib:Tan2013,bib:deGuise2014,bib:deGuise2015}. Others use quantum-to-classical transitions to explain multiparticle interference \cite{bib:Ra2013}. \sihui{Experimental implementation [Walmsley, Jennewein]}
+where $a_j^\dag$ and $b_i^\dag$ are the creation operators of a single input and output photon in the $j$-th and $i$-th modes respectively, and $U\in SU(d)$. All such transformations can be expressed as sequences of beamsplitters and phase-shifters \cite{bib:Reck1994}. By convention, the interferometer is assumed to act only on the spatial mode of the input state.
 
-\section{Optical encoding of quantum information on single-photons}
+Additional quantum labels (represented by $\alpha, \beta$) are added on when other degrees of freedom, such as polarization, orbital angular momentum, and time-bins \cite{bib:Tillmann2015,bib:Bozinovic2013, bib:Nicolas2014, bib:Humphreys2013, bib:Donohue2013}, are present:
+\begin{align}
+[\ah_{j,\alpha},\adagh_{k,\beta}]=\delta_{j,k}\delta_{\alpha,\beta}\ .
+\end{align}
+As a consequence, quantum interference between multiple photons only occur when all quantum labels are the same.
+In the case when photons have additional labels, for instance, if they have internal labels on top of spatial labels, it is also possible to derive an analogous decomposition, known as a cosine-sine decomposition \cite{bib:Dhand2015}, that realizes the unitary transformation on the photons as a sequence of beamsplitters and internal transformations. Toolkits using group theory are being developed to deal with partial distinguishabilities among interfering photons \cite{bib:Tan2013,bib:deGuise2014,bib:deGuise2015}. Others use quantum-to-classical transitions to explain multiparticle interference \cite{bib:Ra2013}. \sihui{Experimental implementation [Walmsley, Jennewein]}
+
+\section{Optical encoding of quantum information on single-photons}\label{sec:encoding}
 
 Using quantum states of light, there are a multitude of approaches to encoding quantum information. Beginning with a logical qubit,
 \begin{align}
