@@ -23,45 +23,45 @@ Warning--I didn't find a database entry for "Rohde"
 Warning--empty journal in bib:Spagnolo16
 Warning--empty journal in bib:WangHe16
 Warning--empty chapter and pages in bib:GHZ89
-You've used 107 entries,
+You've used 104 entries,
             2937 wiz_defined-function locations,
-            1546 strings with 37072 characters,
-and the built_in function-call counts, 40329 in all, are:
-= -- 3651
-> -- 2174
+            1522 strings with 36276 characters,
+and the built_in function-call counts, 39194 in all, are:
+= -- 3539
+> -- 2126
 < -- 1
-+ -- 796
-- -- 689
-* -- 4019
-:= -- 6111
-add.period$ -- 171
-call.type$ -- 107
-change.case$ -- 107
++ -- 778
+- -- 674
+* -- 3907
+:= -- 5945
+add.period$ -- 165
+call.type$ -- 104
+change.case$ -- 104
 chr.to.int$ -- 0
-cite$ -- 110
-duplicate$ -- 1026
-empty$ -- 3776
-format.name$ -- 792
-if$ -- 9726
+cite$ -- 107
+duplicate$ -- 996
+empty$ -- 3665
+format.name$ -- 774
+if$ -- 9448
 int.to.chr$ -- 0
-int.to.str$ -- 107
-missing$ -- 108
-newline$ -- 483
-num.names$ -- 107
-pop$ -- 562
+int.to.str$ -- 104
+missing$ -- 105
+newline$ -- 468
+num.names$ -- 104
+pop$ -- 547
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1801
+skip$ -- 1750
 stack$ -- 0
-substring$ -- 2115
-swap$ -- 348
+substring$ -- 2048
+swap$ -- 336
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 3
-while$ -- 238
-width$ -- 110
-write$ -- 1089
+while$ -- 231
+width$ -- 107
+write$ -- 1056
 (There were 4 error messages)

@@ -111,37 +111,6 @@ L.-A. Wu, P.~Walther, D.~A. Lidar,
   1394 EP --.
 \newline\urlprefix\url{http://dx.doi.org/10.1038/srep01394}
 
-\bibitem{bib:Brendel99}
-J.~Brendel, N.~Gisin, W.~Tittel, H.~Zbinden,
-  \href{https://link.aps.org/doi/10.1103/PhysRevLett.82.2594}{Pulsed
-  energy-time entangled twin-photon source for quantum communication}, Phys.
-  Rev. Lett. 82 (1999) 2594--2597.
-\newblock \href {http://dx.doi.org/10.1103/PhysRevLett.82.2594}
-  {\path{doi:10.1103/PhysRevLett.82.2594}}.
-\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.82.2594}
-
-\bibitem{bib:Thew02}
-R.~T. Thew, S.~Tanzilli, W.~Tittel, H.~Zbinden, N.~Gisin,
-  \href{https://link.aps.org/doi/10.1103/PhysRevA.66.062304}{Experimental
-  investigation of the robustness of partially entangled qubits over 11 km},
-  Phys. Rev. A 66 (2002) 062304.
-\newblock \href {http://dx.doi.org/10.1103/PhysRevA.66.062304}
-  {\path{doi:10.1103/PhysRevA.66.062304}}.
-\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevA.66.062304}
-
-\bibitem{bib:Marcikic04}
-I.~Marcikic, H.~de~Riedmatten, W.~Tittel, H.~Zbinden, M.~Legr\'e, N.~Gisin,
-  \href{https://link.aps.org/doi/10.1103/PhysRevLett.93.180502}{Distribution of
-  time-bin entangled qubits over 50 km of optical fiber}, Phys. Rev. Lett. 93
-  (2004) 180502.
-\newblock \href {http://dx.doi.org/10.1103/PhysRevLett.93.180502}
-  {\path{doi:10.1103/PhysRevLett.93.180502}}.
-\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.93.180502}
-
-\bibitem{bib:KLM01}
-E.~Knill, R.~Laflamme, G.~Milburn, A scheme for efficient quantum computation
-  with linear optics, Nature (London) 409 (2001) 46.
-
 \bibitem{bib:Motes14}
 K.~R. Motes, A.~Gilchrist, J.~P. Dowling, P.~P. Rohde,
   \href{https://link.aps.org/doi/10.1103/PhysRevLett.113.120501}{Scalable boson
@@ -593,6 +562,10 @@ D.~A. Kalashnikov, S.-H. Tan, T.~S. Iskhakov, M.~V. Chekhova, L.~A. Krivitsky,
 \newblock \href {http://dx.doi.org/10.1364/OL.37.002829}
   {\path{doi:10.1364/OL.37.002829}}.
 \newline\urlprefix\url{http://ol.osa.org/abstract.cfm?URI=ol-37-14-2829}
+
+\bibitem{bib:KLM01}
+E.~Knill, R.~Laflamme, G.~Milburn, A scheme for efficient quantum computation
+  with linear optics, Nature (London) 409 (2001) 46.
 
 \bibitem{bib:Brod16}
 D.~J. Brod, J.~Combes,
