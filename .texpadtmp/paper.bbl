@@ -388,42 +388,6 @@ H.~Wang, Z.-C. Duan, Y.-H. Li, S.~Chen, J.-P. Li, Y.-M. He, M.-C. Chen, Y.~He,
   {\path{doi:10.1103/PhysRevLett.116.213601}}.
 \newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.116.213601}
 
-\bibitem{bib:Kim01}
-Y.-H. Kim, S.~P. Kulik, Y.~Shih,
-  \href{https://link.aps.org/doi/10.1103/PhysRevA.63.060301}{Bell-state
-  preparation using pulsed nondegenerate two-photon entanglement}, Phys. Rev. A
-  63 (2001) 060301.
-\newblock \href {http://dx.doi.org/10.1103/PhysRevA.63.060301}
-  {\path{doi:10.1103/PhysRevA.63.060301}}.
-\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevA.63.060301}
-
-\bibitem{bib:Kim03}
-Y.-H. Kim, S.~P. Kulik, M.~V. Chekhova, W.~P. Grice, Y.~Shih,
-  \href{https://link.aps.org/doi/10.1103/PhysRevA.67.010301}{Experimental
-  entanglement concentration and universal bell-state synthesizer}, Phys. Rev.
-  A 67 (2003) 010301.
-\newblock \href {http://dx.doi.org/10.1103/PhysRevA.67.010301}
-  {\path{doi:10.1103/PhysRevA.67.010301}}.
-\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevA.67.010301}
-
-\bibitem{bib:Brida07}
-G.~Brida, M.~Chekhova, M.~Genovese, L.~Krivitsky,
-  \href{https://link.aps.org/doi/10.1103/PhysRevA.76.053807}{Generation of
-  different bell states within the spontaneous parametric down-conversion
-  phase-matching bandwidth}, Phys. Rev. A 76 (2007) 053807.
-\newblock \href {http://dx.doi.org/10.1103/PhysRevA.76.053807}
-  {\path{doi:10.1103/PhysRevA.76.053807}}.
-\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevA.76.053807}
-
-\bibitem{bib:Dayan07}
-B.~Dayan, Y.~Bromberg, I.~Afek, Y.~Silberberg,
-  \href{https://link.aps.org/doi/10.1103/PhysRevA.75.043804}{Spectral
-  polarization and spectral phase control of time-energy entangled photons},
-  Phys. Rev. A 75 (2007) 043804.
-\newblock \href {http://dx.doi.org/10.1103/PhysRevA.75.043804}
-  {\path{doi:10.1103/PhysRevA.75.043804}}.
-\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevA.75.043804}
-
 \bibitem{bib:Pittman03}
 T.~B. Pittman, M.~M. Donegan, M.~J. Fitch, B.~C. Jacobs, J.~D. Franson, P.~Kok,
   H.~Lee, J.~P. Dowling, Heralded two-photon entanglement from probabilistic
@@ -498,6 +462,14 @@ H.~J. Briegel, R.~Raussendorf, Persistent entanglement in arrays of interacting
 \bibitem{bib:Raussendorf03}
 R.~Raussendorf, D.~E. Browne, H.~J. Briegel, Measurement-based quantum
   computation on cluster states, Phys. Rev. A 68 (2003) 022312.
+
+\bibitem{Rohde15}
+P.~P. Rohde, \href{https://link.aps.org/doi/10.1103/PhysRevA.91.012306}{Simple
+  scheme for universal linear-optics quantum computing with constant
+  experimental complexity using fiber loops}, Phys. Rev. A 91 (2015) 012306.
+\newblock \href {http://dx.doi.org/10.1103/PhysRevA.91.012306}
+  {\path{doi:10.1103/PhysRevA.91.012306}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevA.91.012306}
 
 \bibitem{bib:Hadfield09}
 R.~H. Hadfield, \href{http://dx.doi.org/10.1038/nphoton.2009.230}{Single-photon
