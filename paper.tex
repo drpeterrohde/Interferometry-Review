@@ -251,17 +251,37 @@ If the linear optical transformations can be realized on various degrees of free
 
 In many practical situations, the structure of a linear optical device in terms of its constituent beamsplitters and phase-shifters is known once it is built. However, owing to manufacturing imperfections, a precise characterization of these devices may still be needed post-production. One approach for achieving this is via quantum process tomography \cite{bib:Mitchell03,bib:Obrien04,bib:Lobino08,bib:Saleh11}. However, quantum process tomography is an expensive approach in terms of the number of measurements required to characterize the network, with exponential overhead, becoming impractical for large optical networks which can contain hundreds of modes using present-day technology \cite{bib:Harris16}. To mitigate this problem, alternative characterization protocols have been developed using quantum interference of various quantum light sources \cite{bib:Laing12,bib:Rahimi-Keshari13} in the linear optical device.
 
-Generally, the unitary matrices of $d\times d$ linear optical devices are complex $U_{ij}=r_{ij}e^{i\theta_{ij}}$, where $0 \leq r_{ij}\leq 1$, and $0\leq \theta_{ij}\leq 2\pi$. The scheme in \cite{bib:Laing12} relies on injecting one- and two-photon states into the network with correlated photon detection. First, they note some equivalencies: two unitaries $U$ and $U'$ are equivalent if there exist two diagonal unitary matrices $D_1^U$ and $D_2^U$ such that $U'=D^U_1 U D^U_2$, because these diagonal matrices are regarded as unknown and trivial phases on the input and output ports of the network, to which the one- and two-photon data are insensitive to. This reduces the first row and column elements to real numbers, i.e. $\theta_{1j}=\theta_{i1}=0$. Second, the photo-statistics remain invariant under complex conjugation by $U$. Thus, the imaginary part of $M_{2,2}$ must be non-negative. Then, assuming the first two rows and columns are non-vanishing, and there is no total loss in the interferometer, the matrix to be recovered is
-\begin{align}
-U=\left (\begin{array}{cccc}
-r_{11} & r_{12} & \ldots & r_{1m} \\
-r_{21} & r_{22}e^{i\theta_{22}} &\ldots & r_{2m}e^{i\theta_{2m}}\\
-\vdots & \vdots & \ddots & \vdots \\
-r_{m1} & r_{m2}e^{i\theta_{m2}} & \ldots & r_{mm}e^{i\theta_{mm}}
- \end{array}\right ) \ .
-\end{align}
-They showed it is possible to write the parameters $r_{ij}$, and $\theta_{ij}$ for $i,j\geq 2$ in terms of the $2m-1$ real parameters of the first column and row, and the visibility of two-photon inputs. The remaining $2m-1$ real parameters can be found via one-photon 
-transmissions. An increased accuracy in the characterization is possible by estimating and correcting systematic errors that arise due to mode mismatch \cite{Dhand16}. Others have used numerical methods to find the closest parameters that yield the observed visibilities \cite{bib:Spagnolo16,bib:Tillmann16}.
+Generally, the unitary matrices of $d\times d$ linear optical devices are complex $U_{ij}=r_{ij}e^{i\theta_{ij}}$, where $0 \leq r_{ij}\leq 1$, and $0\leq \theta_{ij}\leq 2\pi$. To characterize these numbers, one can do so by injecting one- and two-photon states into the network with correlated photon detection \cite{bib:Laing12}. With some mathematical simplifications, the first row and first column elements can be reduced to real numbers, and then found via one-photon transmissions. The remaining $r_{ij}$ and $\theta_{ij}$ parameters can then be written in terms of these real parameters, and the visibility of two-photon inputs.
+%
+%
+%First, they note some equivalencies: two unitaries $U$ and $U'$ are 
+%equivalent if there exist two diagonal unitary matrices $D_1^U$ and 
+%$D_2^U$ such that $U'=D^U_1 U D^U_2$, because these diagonal matrices are 
+%regarded as unknown and trivial phases on the input and output ports of 
+%the network, to which the one- and two-photon data are insensitive to. 
+%This reduces the first row and column elements to real numbers, i.e. $
+%\theta_{1j}=\theta_{i1}=0$. Second, the photo-statistics remain invariant 
+%under complex conjugation by $U$. Thus, the imaginary part of $M_{2,2}$ 
+%must be non-negative. Then, assuming the first two rows and columns are 
+%non-vanishing, and there is no total loss in the interferometer, the 
+%matrix to be recovered is
+%\begin{align}
+%U=\left (\begin{array}{cccc}
+%r_{11} & r_{12} & \ldots & r_{1m} \\
+%r_{21} & r_{22}e^{i\theta_{22}} &\ldots & r_{2m}e^{i\theta_{2m}}\\
+%\vdots & \vdots & \ddots & \vdots \\
+%r_{m1} & r_{m2}e^{i\theta_{m2}} & \ldots & r_{mm}e^{i\theta_{mm}}
+% \end{array}\right ) \ .
+%\end{align}
+%They showed it is possible to write the parameters  for $i,j\geq 2$  The
+% remaining $2m-1$ real parameters can be found via one-photon 
+%transmissions.
+%
+An increased accuracy in the characterization is possible by estimating 
+and correcting systematic errors that arise due to mode mismatch 
+\cite{Dhand16}. Others have used numerical methods to find the closest 
+parameters that yield the observed visibilities 
+\cite{bib:Spagnolo16,bib:Tillmann16}.
 
 Another characterization method was presented that is similar to \cite{bib:Laing12} with the important exception that coherent states are to be used instead of Fock states \cite{bib:Rahimi-Keshari13,bib:Heilmann15}. Such states are produced by a standard laser source, thus reducing experimental resources. The $r_{jk}$ terms are found by the square root of the ratios of output intensities at the $k$th port to the input intensity at the $j$th port. The remaining phases $\theta_{ij}$ are found by the interference pattern given by a two-mode coherent state $\ket{\alpha_1}\ket{\alpha_2}$ created by splitting a single coherent state on a 50-50 beamsplitter, and then imparting a relative phase, $\phi$, between them. The states $\ket{\alpha_1}$ and $\ket{\alpha_2}$ are input into port 1, and $j$ respectively. The output intensity at the $j$th port is then
 \begin{align}
@@ -363,7 +383,7 @@ As a simple example of how such time-bin encoding maps to other encodings, in Fi
 
 \begin{figure}[!htb]
 \centering
-\includegraphics[width=0.4\columnwidth]{PBS_TB}
+\includegraphics[width=0.6\columnwidth]{PBS_TB}
 \caption{Mapping between two polarisation-encoded qubits undergoing a polarising beamsplitter (PBS) operation, and its equivalent representation using 4 time-bins in a pulse-train. The PBS completely reflects (transmits) the vertical (horizontal) polarisations. The evolution of the four logical basis states, and their respective outputs, are shown explicitly. Writing out this PBS transformation in matrix form yields a permutation. Taking this permutation and relabelling the modes, we obtain the time-bin transformation shown underneath -- a simple swap of two of the four time-bins.} \label{fig:PBS_TB}	
 \end{figure}
 
