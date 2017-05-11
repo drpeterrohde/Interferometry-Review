@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  12 MAY 2017 00:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  12 MAY 2017 00:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -873,36 +873,33 @@ Missing character: There is no ¶ in font txr!
 Missing character: There is no Ã in font txr!
 Missing character: There is no ¶ in font txr!
  [14])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 527.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 525.
  [15]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 527.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 525.
  (/Users/sihui_tan/Documents/Interferometry-Review/.texpadtmp/paper.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 527.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 527.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 525.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 525.
 Package rerunfilecheck Info: File `paper.out' has not changed.
 (rerunfilecheck)             Checksum: E9A4EA2DE2EF65D1EE70FD3C780C9590;1715.
 
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 527.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 525.
  ) 
 Here is how much of TeX's memory you used:
- 8728 strings out of 493089
- 125118 string characters out of 6134842
- 232211 words of memory out of 5000000
+ 8727 strings out of 493089
+ 125108 string characters out of 6134842
+ 232210 words of memory out of 5000000
  11861 multiletter control sequences out of 15000+600000
  45620 words of font info for 114 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,14n,36p,1421b,751s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,14n,36p,1421b,756s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /Users/sihui_tan/Documents/Interferometry-Review/.texpadtmp/paper.pdf (15 pages, 1866555 bytes).
+Output written on /Users/sihui_tan/Documents/Interferometry-Review/.texpadtmp/paper.pdf (15 pages, 1866491 bytes).
 PDF statistics:
- 1377 PDF objects out of 1440 (max. 8388607)
- 969 compressed objects within 10 object streams
- 160 named destinations out of 1000 (max. 500000)
+ 1376 PDF objects out of 1440 (max. 8388607)
+ 968 compressed objects within 10 object streams
+ 159 named destinations out of 1000 (max. 500000)
  233 words of extra memory for PDF output out of 10000 (max. 10000000)
 
