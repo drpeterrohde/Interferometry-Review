@@ -11,6 +11,7 @@
 \newcommand{\dagop}[2]{\hat{\textbf{#1}}_{#2}^\dag}
 \usepackage{graphicx}
 
+
 %\usepackage[colorlinks]{hyperref}
 \usepackage[dvipsnames]{xcolor}
 
@@ -107,7 +108,7 @@ In the last decade, single photons have been produced mainly through spontaneous
 
 The degree of control over single photons has also improved. Using advanced techniques and equipment to manipulate their polarization, time-of-arrival, and orbital angular momentum \cite{bib:Tillmann2015,bib:Bozinovic2013, bib:Nicolas2014, bib:Humphreys2013, bib:Donohue2013}, new ways to engineer entangled quantum states and implement quantum operations have been discovered. These expand the toolbox of baseline resources we have for implementing quantum computations, which could prove crucial in the race to achieve quantum supremacy, that is, the demonstration of a computational task with a quantum  device that is not possible with any known algorithm running on an existing classical supercomputer in a reasonable amount of time.
 
-We begin in Section \ref{sec:math} with an overview of the mathematical treatment of linear optical transformation on single photons, and in Section \ref{sec:encoding} with a description of some commonly used qubit encodings. Any unitary transformation acting on the spatial label of single photons can be efficiently decomposed into a network of beamsplitters and phase-shifters. We discuss this, and an analogous decomposition for single photons with additional internal states, in Section \ref{sec:decomp}.
+We begin in Section \ref{sec:math} with an overview of the mathematical treatment of linear optical transformation on single photons, and in Section \ref{sec:encoding} with a description of some commonly used qubit encodings. Any unitary transformation acting on the spatial label of single photons can be efficiently decomposed into a network of beamsplitters and phase-shifters. We discuss this, and an analogous decomposition for single photons with additional internal states, in Section \ref{sec:decomp}. For applying any linear optical circuit, one needs an accurate description of its unitary representation. A full quantum tomography is costly and time-consuming. Some practical methods have been devised to do this reconstruction without resorting to tomography, and these are described in Section \ref{sec:reconstruction}.
 
 \section{Mathematical background}\label{sec:math}
 
@@ -247,7 +248,7 @@ Alternatively, Mach-Zedner interferometers can also be employed as building bloc
 
 If the linear optical transformations can be realized on various degrees of freedom of light, then it is possible to realize a $n\times n$ arbitrary unitary transformation, where $n=n_s n_p$ for $n_s$ spatial modes, and $n_p$ internal modes, by a sequence of $\mathcal{O}(n_s^2 n_p)$ beamsplitters and $\mathcal{O}(n_s^2)$ internal transformations \cite{bib:Dhand2015}. This approach reduces the required number of beamsplitters but increases the total number of optical elements needed by a factor of 2.
 
-\section{Reconstructing the linear optical network}
+\section{Reconstructing the linear optical network}\label{sec:reconstruction}
 
 In many practical situations, the structure of a linear optical device in terms of its constituent beamsplitters and phase-shifters is known once it is built. However, owing to manufacturing imperfections, a precise characterization of these devices may still be needed post-production. One approach for achieving this is via quantum process tomography \cite{bib:Mitchell03,bib:Obrien04,bib:Lobino08,bib:Saleh11}. However, quantum process tomography is an expensive approach in terms of the number of measurements required to characterize the network, with exponential overhead, becoming impractical for large optical networks which can contain hundreds of modes using present-day technology \cite{bib:Harris16}. To mitigate this problem, alternative characterization protocols have been developed using quantum interference of various quantum light sources \cite{bib:Laing12,bib:Rahimi-Keshari13} in the linear optical device.
 
@@ -283,13 +284,13 @@ and correcting systematic errors that arise due to mode mismatch
 parameters that yield the observed visibilities 
 \cite{bib:Spagnolo16,bib:Tillmann16}.
 
-Another characterization method was presented that is similar to \cite{bib:Laing12} with the important exception that coherent states are to be used instead of Fock states \cite{bib:Rahimi-Keshari13,bib:Heilmann15}. Such states are produced by a standard laser source, thus reducing experimental resources. The $r_{jk}$ terms are found by the square root of the ratios of output intensities at the $k$th port to the input intensity at the $j$th port. The remaining phases $\theta_{ij}$ are found by the interference pattern given by a two-mode coherent state $\ket{\alpha_1}\ket{\alpha_2}$ created by splitting a single coherent state on a 50-50 beamsplitter, and then imparting a relative phase, $\phi$, between them. The states $\ket{\alpha_1}$ and $\ket{\alpha_2}$ are input into port 1, and $j$ respectively. The output intensity at the $k$th port is then
+A similar method to that of Laing and O'Brien \cite{bib:Laing12} uses coherent states instead of Fock states \cite{bib:Rahimi-Keshari13,bib:Heilmann15} to probe the interferometer. Such states are produced by a standard laser source, thus reducing experimental resources. The $r_{jk}$ terms are found by the square root of the ratios of output intensities at the $k$th port to the input intensity at the $j$th port. The remaining phases $\theta_{ij}$ are found by the interference pattern given by a two-mode coherent state $\ket{\alpha_1}\ket{\alpha_2}$ created by splitting a single coherent state on a 50-50 beamsplitter, and then imparting a relative phase, $\phi$, between them. The states $\ket{\alpha_1}$ and $\ket{\alpha_2}$ are input into port 1, and $j$ respectively. The output intensity at the $k$th port is then
 \begin{align}
 I_k=I(r_{1k}^2+r_{jk}^2+2 r_{1k}r_{kj}\cos(\phi+\theta_{jk})) \ ,
 \end{align}
 where $\theta_{jk}=0$ for $k=1$, and $I$ is the intensity of the input coherent states. By scanning the phase shift $\phi$ and locating the maximum value of $I_k$ for $j=2,\ldots, m$, all unknown phases can be found via $\theta_{jk}=2\pi-\phi$. An elegant extension of the scheme of Rahimi-Keshari {\it et al.} removes the need for precise control of the phase-shift $\phi$ \cite{bib:Heilmann15} by suggesting instead to plot the output intensity $I_k$ with respect to the input intensity $I$. In time, the natural drift in the laser source will cause this plot to trace out an ellipse, known as a Lissajous figure, whose orientation and direction of evolution will give the phase $\theta_{jk}$ and its sign respectively.
 
-\section{Experimental implementation}
+\section{Experimental implementation}\label{sec:expt}
 
 Significant progress has been made in the experimental realisation of linear optics protocols, and have become standard and widespread. We now discuss some of these advances.
 
@@ -442,43 +443,22 @@ The dominant challenge facing the experimental implementation of both types of d
 
 \section{Applications for linear optics interferometry}
 
-\subsection{Linear optics quantum computation (LOQC)}\label{sec:LOQC}
-With the advancement in single-photon state preparation, detectors and quantum interferometers, quantum computation using linear optics has become feasible. 
-For universal quantum computation using linear optics and single photon inputs, nonlinear couplings between the different optical modes are needed. Photons, being bosons, do not interact with one another like the way fermions do. Hence, some careful engineering has to be done in order to achieve this nonlinear coupling between modes. Some of the methods used to introduce this nonlinearity include measurements and feedforwarding \cite{bib:KLM01}, and  photon-atom interactions \cite{bib:Brod16}. These nonlinearities have been used to construct entangling gates required for (approximate) universality in quantum computation using the circuit model. They have also been used to construct entangled graph states, like the cluster states covered in Section \ref{section:cluster}, that are used in MBQC. Comprehensive reviews have been written previously to cover this topic \cite{bib:Kok05,bib:JW12}, hence we will skip some basic information to focus on recent advances. There are multiple challenges to implementing a scalable, fully-optical quantum computer, and progress has been focused on overcoming these challenges. We will discuss a few of these challenges, and the advances that have been made to overcome them.
+\subsection{Linear optical quantum computation (LOQC)}\label{sec:LOQC}
+The advancements in linear optics discussed in Section \ref{sec:expt}, quantum computation using linear optics have opened up avenues for implementation. One of the key requirements is nonlinear couplings between the different optical modes. Photons do not naturally interact with one another so some careful engineering is needed to achieve this coupling. Methods used include measurements and feedforwarding \cite{bib:KLM01}, and photon-atom interactions \cite{bib:Brod16}. All models for LOQC also require non-deterministic operations, which succeeds only sometime and have to be repeated. This can be challenging given the limitations of the optical systems. Comprehensive reviews have been written previously to cover this topic \cite{bib:JW12,bib:Kok05}, hence we will focus on recent advances.
 
-To date, the quantum computation still requires the use of non-deterministic operations, each of which succeeds with less than unity probability and has to be run many times before a single try succeeds. Moreover extra qubits are needed for error correction. These requirements put an overhead on the computational cost, in particular at the single photon production stage where a high rate of production of multiple photons is desired for this purpose. Second, feed-forwarding requires detectors with very fast response time. In feedforward control, one mode is measured and then some operation that depend on the measurement outcome are effected on other modes. The readout from the measurement has to happen before the light beam in the target modes passes. The last challenge is that of loss. Loss can happen anywhere in the linear optical network, but is especially problematic in coupling between different mediums, and upon absorption of a photon in a detector. Loss causes computations to fail. In the case that this error is detectable, the computation would have to be repeated. If not, the computation returns a wrong result.
 
+ Integrated photonic circuits has greatly improved the feasibility of LOQC. Their small size and interferometric stability enable the requisite quantum interference to happen in certain LOQC settings. Programmable circuits that are reusable have also emerged \cite{bib:Metcalf14,bib:Carolan15}. This saves resources and lead time for producing new circuits. Combining these chips with existing higher-efficiency sources and detectors will expand their capabilities. Loss can be mitigated by moving all components onto the same chip as the linear optical circuit \cite{bib:Sprengers11, bib:Silverstone14}.  What remains is to have fast feedforward also on chip. This might pose the greatest challenge yet for universal LOQC. Only a handful of experiments have been able to implement adaptive feedforward for the purposes of LOQC \cite{bib:Prevedel07,bib:Xiao-Song12,bib:Mikova12,bib:Zhao14}. The bottleneck is in the speed of modulation in the feedforward circuitry.
  
- Better single-photon sources that have been discussed in Section \ref{sec:singlephotons} are part of the solution to overcoming the above difficulties. Following the footsteps of implementing two-qubit gates using multiple degrees of freedom of single photons \cite{bib:Gasparoni04,bib:Zhao05,bib:Okamoto05,bib:Langford05,bib:Kiesel05,bib:Cernoch08,bib:Gao10,bib:Zhou11}, improvement in our theoretical understanding have also led to more efficient designs of circuits \cite{bib:Lanyon09,bib:Zhou11} that enabled the optical implementation of quantum teleportation of the state of a single photon \cite{bib:Wang15}. In this way, three-qubit \cite{bib:Lanyon09,bib:Micuda13,bib:Patel16} and four-qubit \cite{bib:Starek16} gates have also been implemented using LOQC.
+Better single-photon sources (see Section \ref{sec:singlephotons}) are part of the solution. Improvement in control of their degrees of freedom have also led to more efficient designs of circuits \cite{bib:Zhou11,bib:Lanyon09} that enabled the optical implementation of quantum teleportation of the state of a single photon \cite{bib:Wang15}. In this way, three-qubit \cite{bib:Lanyon09,bib:Micuda13,bib:Patel16} and four-qubit \cite{bib:Starek16} gates have also been implemented using LOQC.
  
- If one wishes to avoid the use of non-deterministic quantum gates, the most promising alternative is to use cross-Kerr nonlinearities which have Hamiltonians for two modes labelled by $a$ and $b$ that is proportional to the form
- \begin{align}
- a^\dag(\omega)a(\omega)b^\dag(\omega)b(\omega) \ .
- \end{align}
- 
- 
- Such Kerr nonlinearities are usually implemented on states of light via 
- atom-photon interactions. Whether such cross-Kerr nonlinearities on 
- single photon will help LOQC is a subject of debate. On one side, the 
- arguments in the negative come down to fundamental noise limits in atom-
- photon interactions using phenomenological model of a cross-Kerr medium 
- \cite{bib:Shapiro06,bib:Shapiro07,bib:Gea-Banacloche10}. On the other 
- hand, an example of a {\sc {\sc cphase}} gate using photons that 
- counterpropagate through multiple atom-mediated cross-Kerr interaction 
- sites has been constructed, and theoretically shown to work via a first 
- principle treatment of the multimode light field and atomic medium 
- \cite{bib:Brod16}. Regardless of who is right in this debate, increments 
- in the strength of Kerr nonlinearities have been achieved in the last 
+Cross-Kerr nonlinearity is a type of nonlinearity implemented through 
+ atom-photon interactions. It has been thought for some time that fundamental noise limits in atom-photon interactions will prevent any help for LOQC \cite{bib:Shapiro06,bib:Shapiro07,bib:Gea-Banacloche10}. However, this belief has been countered by the construction of a {\sc {\sc cphase}} gate using photons that undergo cross-Kerr interaction \cite{bib:Brod16}. Regardless of who is right in this debate, stronger Kerr nonlinearities have been achieved in the last 
  five years \cite{bib:Hoi13,bib:Venkataraman13,bib:Feizpour15,bib:Beck16}, 
  and this avenue remains a tantalizing possibility for deterministic 
  quantum gates.
  
- The advent of integrated photonic circuits has greatly improved the feasibility of LOQC. A small chip on silica can contain what used to be spread over large optical tables in bulk optics. They also offer greater interferometric stability so that the requisite quantum interference to happen is less affected by changes in path lengths. These have been discussed at lengths in another review \cite{bib:Meany15}. Recent breakthroughs with programmable circuits have made a single chip reusable for different applications \cite{bib:Metcalf14,bib:Carolan15}. Previously, a different chip has to be manufactured every time a new interferometer setup is desired which is a waste of resources and requires a lead time for production.
- 
- Combining these chips with existing higher-efficiency sources and detectors will expand their capabilities. Loss can be mitigated by moving all components onto the same chip as the linear optical circuit \cite{bib:Sprengers11, bib:Silverstone14}.  What remains is to have fast feedforward also on chip. This might pose the greatest challenge yet for universal LOQC. Only a handful of experiments have been able to implement adaptive feedforward for the purposes of LOQC \cite{bib:Prevedel07,bib:Xiao-Song12,bib:Mikova12,bib:Zhao14}. The bottleneck is in the speed of modulation in the feedforward circuitry. The successful implementations of feedforward require the use of a delay loop to slow down the target photons so that the modulator has time to catch up.
   
-  Although there has been tremendous progress in pushing for an all-optical universal quantum computer with single photons, it seems likely that an efficient, and fault-tolerant universal quantum computer will require a hybrid system of photonics and something else. Nonetheless, linear optics alone is still a fascinating platform for applications and foundational understanding of quantum mechanics.
-
+  Although there has been tremendous progress in linear optics, it seems likely that an efficient, and fault-tolerant universal quantum computer will require a hybrid system. Nonetheless, linear optics remains fascinating platform for applications and foundation work.
 
  
 \subsection{Boson-sampling}\label{sec:bosonsampling}
@@ -495,11 +475,13 @@ which gets a $\sqrt{N}$ improvement over classical phase estimation. As this sen
 \end{align}
  Many reviews have been written for quantum metrology and Heisenberg-limited quantum phase estimation \cite{bib:Giovannetti04,bib:Dowling08,bib:Giovannetti11} so we will not dwell on the history of this application. Instead, we will discuss a new paradigm for quantum metrology that has arisen from our understanding of Boson-sampling.
  
- \begin{figure}[!htb]
- \centering
-\includegraphics[width=0.3\columnwidth]{phE}
-\caption{A schematic diagram of the Mach-Zehnder interferometer comprising of two 50/50 beamsplitters with a phase shift $\varphi$ in one of its two paths.} \label{fig:MZ}	
-\end{figure}
+% \begin{figure}[!htb]
+% \centering
+%\includegraphics[width=0.3\columnwidth]{phE}
+%\caption{A schematic diagram of the Mach-Zehnder interferometer comprising 
+%of two 50/50 beamsplitters with a phase shift $\varphi$ in one of its two 
+%paths.} \label{fig:MZ}	
+%\end{figure}
  
  As discussed in Section \ref{sec:bosonsampling}, the resources needed for Boson-sampling is readily available, but executes a task that is believed to be hard classically. Surprisingly, an entanglement between a large number of spatial modes is possible with single photons in a passive linear optical device. This so-called number-path entanglement can be harnessed for quantum metrology without the use of entangled states like the NOON state \cite{bib:Motes15}. Here, the phase shift to be estimated, $\varphi$, manifests itself as a linear phase gradient across $N$ modes (See Fig. \ref{fig:MORDOR}). By straddling these modes among a quantum Fourier transform and its conjugate operation, it is possible to achieve 
 \begin{align}

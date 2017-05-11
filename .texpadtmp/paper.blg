@@ -22,45 +22,45 @@ I'm skipping whatever remains of this entry
 Warning--empty journal in bib:Spagnolo16
 Warning--empty journal in bib:WangHe16
 Warning--empty chapter and pages in bib:GHZ89
-You've used 100 entries,
+You've used 92 entries,
             2937 wiz_defined-function locations,
-            1493 strings with 35409 characters,
-and the built_in function-call counts, 37773 in all, are:
-= -- 3403
-> -- 2065
+            1435 strings with 32872 characters,
+and the built_in function-call counts, 34699 in all, are:
+= -- 3126
+> -- 1898
 < -- 1
-+ -- 755
-- -- 655
-* -- 3773
-:= -- 5737
-add.period$ -- 158
-call.type$ -- 100
-change.case$ -- 100
++ -- 694
+- -- 602
+* -- 3463
+:= -- 5271
+add.period$ -- 144
+call.type$ -- 92
+change.case$ -- 92
 chr.to.int$ -- 0
-cite$ -- 103
-duplicate$ -- 957
-empty$ -- 3524
-format.name$ -- 750
-if$ -- 9097
+cite$ -- 95
+duplicate$ -- 881
+empty$ -- 3238
+format.name$ -- 689
+if$ -- 8357
 int.to.chr$ -- 0
-int.to.str$ -- 100
-missing$ -- 101
-newline$ -- 450
-num.names$ -- 100
-pop$ -- 526
+int.to.str$ -- 92
+missing$ -- 93
+newline$ -- 414
+num.names$ -- 92
+pop$ -- 487
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1682
+skip$ -- 1545
 stack$ -- 0
-substring$ -- 1967
-swap$ -- 323
+substring$ -- 1801
+swap$ -- 295
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 3
-while$ -- 223
-width$ -- 103
-write$ -- 1015
+while$ -- 206
+width$ -- 94
+write$ -- 932
 (There were 4 error messages)
