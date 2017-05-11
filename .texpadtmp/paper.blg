@@ -1,67 +1,67 @@
 This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: /Users/sihui_tan/Documents/Interferometry-Review/.texpadtmp/paper.aux
-The style file: apsrev.bst
-Reallocated singl_function (elt_size=4) to 100 items from 50.
+The style file: ../elsarticle-num.bst
 Database file #1: ../paper.bib
-Repeated entry---line 3144 of file ../paper.bib
+Repeated entry---line 3176 of file ../paper.bib
  : @article{bib:Pittman03
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3188 of file ../paper.bib
+Repeated entry---line 3220 of file ../paper.bib
  : @article{bib:OBrien04
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3569 of file ../paper.bib
+Repeated entry---line 3601 of file ../paper.bib
  : @article{bib:Chen17
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3588 of file ../paper.bib
+Repeated entry---line 3620 of file ../paper.bib
  : @article{bib:Shapiro07
  :                       ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Rohde"
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 105 entries,
-            3411 wiz_defined-function locations,
-            1941 strings with 39748 characters,
-and the built_in function-call counts, 103877 in all, are:
-= -- 5060
-> -- 5099
-< -- 639
-+ -- 4607
-- -- 1254
-* -- 15399
-:= -- 10148
-add.period$ -- 105
-call.type$ -- 105
-change.case$ -- 421
-chr.to.int$ -- 102
-cite$ -- 105
-duplicate$ -- 8977
-empty$ -- 7908
-format.name$ -- 2829
-if$ -- 19169
-int.to.chr$ -- 4
-int.to.str$ -- 106
-missing$ -- 1352
-newline$ -- 330
-num.names$ -- 315
-pop$ -- 2075
+Warning--empty journal in bib:Spagnolo16
+Warning--empty journal in bib:WangHe16
+Warning--empty chapter and pages in bib:GHZ89
+You've used 104 entries,
+            2937 wiz_defined-function locations,
+            1523 strings with 36407 characters,
+and the built_in function-call counts, 39194 in all, are:
+= -- 3539
+> -- 2126
+< -- 1
++ -- 778
+- -- 674
+* -- 3907
+:= -- 5945
+add.period$ -- 165
+call.type$ -- 104
+change.case$ -- 104
+chr.to.int$ -- 0
+cite$ -- 107
+duplicate$ -- 996
+empty$ -- 3665
+format.name$ -- 774
+if$ -- 9448
+int.to.chr$ -- 0
+int.to.str$ -- 104
+missing$ -- 105
+newline$ -- 468
+num.names$ -- 104
+pop$ -- 547
 preamble$ -- 1
-purify$ -- 420
+purify$ -- 0
 quote$ -- 0
-skip$ -- 4037
+skip$ -- 1750
 stack$ -- 0
-substring$ -- 2679
-swap$ -- 7902
-text.length$ -- 628
+substring$ -- 2048
+swap$ -- 336
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 628
-warning$ -- 0
-while$ -- 308
-width$ -- 0
-write$ -- 1165
+type$ -- 0
+warning$ -- 3
+while$ -- 231
+width$ -- 107
+write$ -- 1056
 (There were 4 error messages)
