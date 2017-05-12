@@ -10,7 +10,8 @@
 \newcommand{\op}[2]{\hat{\textbf{#1}}_{#2}}
 \newcommand{\dagop}[2]{\hat{\textbf{#1}}_{#2}^\dag}
 \usepackage{graphicx}
-
+\usepackage{caption}
+\usepackage{subcaption}
 
 %\usepackage[colorlinks]{hyperref}
 \usepackage[dvipsnames]{xcolor}
@@ -87,11 +88,11 @@ Linear optics has seen a resurgence owing to its miniaturisation on-chip, and in
 \section{Introduction}
 
 
-Technical advancements in linear optics have been made on many fronts that make it increasingly attractive for quantum computing applications. It is possible now to put single-photon sources and detectors together with linear-optical networks on a silica chip. The advantage of using such integrated photonics over bulk optics is that it is more stable against phase fluctuations, and miniaturized. This increases the scalability of optical implementations of quantum information protocols. Having all components on chip reduces coupling losses which would be crucial for fault-tolerant quantum computing. With the advantage of potentially piggybacking on existing communication infrastructure, and the relative ease of transporting quantum states of light, as compared to say trapped ions or superconducting qubits, linear optics forms a powerful platform for quantum information processing.
+Technical advancements in linear optics have been made on many fronts that make it increasingly attractive for quantum computing applications. It is possible now to put single-photon sources and detectors together with linear-optical networks on a silica chip. The advantage of using such integrated photonics over bulk optics is that it is more stable against phase fluctuations, and miniaturized. This increases the scalability of optical implementations of quantum information protocols. Having all components on chip reduces coupling losses which would be crucial for fault-tolerance. An optical implementation of quantum protocols can potentially piggyback on existing communication infrastructure. Combined withthe relative ease of transporting quantum states of light, as compared to say trapped ions or superconducting qubits, linear optics forms a powerful platform for quantum information processing.
 
-In the last decade, single photons have been produced mainly through spontaneous parametric down-conversion (SPDC), a nonlinear optical process. SPDC produces single photons in correlated pairs that has been the workhorse for providing entanglement in quantum states of light. Through development and improvement in production schemes, the number of high quality indistinguishable photons that can be simultaneously produced have increased steadily over the years. Single-photon pairs, once a novelty, are now run-of-the-mill business for quantum optical labs, and in the last five years, three photons have become the standard benchmark. Experiments with up to ten photons have now been demonstrated. We have also seen the meteoric rise of quantum dots in the role for producing single photons. It is now possible to use a quantum dot to produce multiple single photons which are highly indistinguishable. Quantum dots produce single photons on demand, a significant advantage over SPDC which is an inherently probabilistic process.
+In the last decade, single photons have been produced mainly through a nonlinear optical process know as spontaneous parametric down-conversion (SPDC), a nonlinear optical process. SPDC produces single photons in correlated pairs that has been a staple source of entanglement. Through developments in production, the number of high quality indistinguishable photons that can be simultaneously produced have increased steadily over the years. Single-photon pairs, once a novelty, are now run-of-the-mill business for quantum optical labs, and three photons have become the standard benchmark. Experiments using up to ten photons have been demonstrated. We have also seen the meteoric rise of quantum dots in the role for producing single photons. It is now possible to use a quantum dot to produce multiple single photons which are highly indistinguishable. Quantum dots produce single photons on demand, a significant advantage over SPDC which is an inherently probabilistic process.
 
-The degree of control over single photons has also improved. Using advanced techniques and equipment to manipulate their polarization, time-of-arrival, and orbital angular momentum \cite{bib:Tillmann2015,bib:Bozinovic2013, bib:Nicolas2014, bib:Humphreys2013, bib:Donohue2013}, new ways to engineer entangled quantum states and implement quantum operations have been discovered. These expand the toolbox of baseline resources we have for implementing quantum computations, which could prove crucial in the race to achieve quantum supremacy, that is, the demonstration of a computational task with a quantum  device that is not possible with any known algorithm running on an existing classical supercomputer in a reasonable amount of time.
+Another approach to linear optics is to pack more features known as degrees of freedom onto a single photon, and to increase the degree of control over them. It is possible to manipulate degrees of freedom like polarization, time-of-arrival, and orbital angular momentum \cite{bib:Tillmann2015,bib:Bozinovic2013, bib:Nicolas2014, bib:Humphreys2013, bib:Donohue2013}. Such methods open up new ways to engineer quantum states and quantum operations, and expand the toolbox of baseline resources we have for implementing quantum computations, which could prove crucial in the race to achieve quantum supremacy.
 
 We begin in Section \ref{sec:math} with an overview of the mathematical treatment of linear optical transformation on single photons, and in Section \ref{sec:encoding} with a description of some commonly used qubit encodings. Any unitary transformation acting on the spatial label of single photons can be efficiently decomposed into a network of beamsplitters and phase-shifters. We discuss this, and an extension to handle additional internal states, in Section \ref{sec:decomp}. For applying any linear optical circuit, one needs an accurate description of its unitary representation. A full quantum tomography is costly and time-consuming. Some practical methods have been devised to do this reconstruction without resorting to tomography, and these are described in Section \ref{sec:reconstruction}.
 
@@ -275,15 +276,17 @@ I_k=I(r_{1k}^2+r_{jk}^2+2 r_{1k}r_{kj}\cos(\phi+\theta_{jk})) \ ,
 \end{align}
 where $\theta_{jk}=0$ for $k=1$, and $I$ is the intensity of the input coherent states. By scanning the phase shift $\phi$ and locating the maximum value of $I_k$ for $j=2,\ldots, m$, all unknown phases can be found via $\theta_{jk}=2\pi-\phi$. An elegant extension of the scheme of Rahimi-Keshari {\it et al.} removes the need for precise control of the phase-shift $\phi$ \cite{bib:Heilmann15} by suggesting instead to plot the output intensity $I_k$ with respect to the input intensity $I$. In time, the natural drift in the laser source will cause this plot to trace out an ellipse, known as a Lissajous figure, whose orientation and direction of evolution will give the phase $\theta_{jk}$ and its sign respectively.
 
-\section{Experimental implementation}\label{sec:expt}
+%\section{Experimental implementation}\label{sec:expt}
 
-Significant progress has been made in the experimental realisation of linear optics protocols, and have become standard and widespread. We now discuss some of these advances.
+%Significant progress has been made in the experimental realisation of 
+%linear optics protocols, and have become standard and widespread. We now 
+%discuss some of these advances.
 
-\subsection{State preparation}
+\section{State preparation}
 
 The photonic states that are most commonly employed in linear optics protocols can be divided into Fock states (e.g single-photon), and entangled states, such as EPR, GHZ and cluster states. We will consider advances in each of these.
 
-\subsubsection{Single-photons}\label{sec:singlephotons}
+\subsection{Fock states}\label{sec:singlephotons}
 
 Sources of single photons for applications in quantum information processing can be separated into two main categories: those produced by spontaneous parametric down-conversion (SPDC), and those by solid-state emitters in a cavity. Both categories have seen major development recently in photon-number, with high fidelities. To-date, SPDC has been able to produce up to ten entangled photons \cite{bib:WangChen16,bib:Chen17}, and five-photon quantum interference has been reported using a quantum dot emitter in a microcavity \cite{bib:WangHe16}.
 
@@ -293,12 +296,16 @@ In SPDC, a nonlinear crystal with a large $\chi^{(2)}$ non-linearity is pumped w
 \end{align}
 where $\chi$ is the squeezing parameter. If a single photon were to be detected in one of the modes, it is certain that the other mode would similarly contain a single photon.
 
-Some commonly used nonlinear crystals for SPDC are beta barium borate (BBO), periodically poled lithium niobate (PPLN), and periodically poled  potassium titanyl phosphate (PPKTP). Recently, techniques using bismuth triborate (BiBO) have improved to the extent of becoming one of the record-holders in single-photon production \cite{bib:WangChen16}.
+%Some commonly used nonlinear crystals for SPDC are beta barium borate 
+%(BBO), periodically poled lithium niobate (PPLN), and periodically poled  
+%potassium titanyl phosphate (PPKTP). Recently, techniques using bismuth 
+%triborate (BiBO) have improved to the extent of becoming one of the record-
+%holders in single-photon production \cite{bib:WangChen16}.
 
 Solid-state single photon sources come from semiconducting nanostructures and nitrogen valencies (NV) centers in diamond. Both types are versatile and efficient sources of single photons, however, the photons they produce have suffered from the lack of indistinguishability that is necessary for typical quantum information processing applications. Recent developments in the former have been very promising. Notably, much progress has been made using resonant excitation of quantum dots. Here, laser pulses are used to excite their electronic resonance and trigger the emission of single photons \cite{bib:Muller07,bib:Vamivakas09, bib:Flagg09,bib:Ates09, bib:Dirk10,bib:1748,bib:Jayakumar13,bib:Wei14,bib:Muller14,bib:Unsleber15,
-bib:237403,bib:Sweeney14}. An architecture that embeds the quantum dot in a micropillar cavity with the same resonant frequency as the dot exploits the Purcell effect to achieve higher single-photon production efficiency€ \cite{bib:Ding16,bib:213601}. Such resonant excitation of quantum dots overcomes the homogenous broadening of the excited state that causes degradation of photon purity and improving indistinguishability. Using a time-bin loop-based architecture \cite{bib:Motes14} on a stream of single photons produced by such a quantum dot, the same group was able to demonstrate quantum interference between five indistinguishable photons \cite{bib:WangChen16}.
+bib:237403,bib:Sweeney14}. An architecture that embeds the quantum dot in a micropillar cavity uses a resonant effect to achieve higher production efficiency€ and better photon purity \cite{bib:Ding16,bib:213601}. Using a time-bin loop-based architecture \cite{bib:Motes14} on a stream of such photons, quantum interference was demonstrated between five indistinguishable photons \cite{bib:WangHe16}.
 
-\subsubsection{Einstein-Podolsky-Rosen (EPR) pairs}
+\subsection{Einstein-Podolsky-Rosen (EPR) pairs}
 
 An EPR pair, or Bell pair, is one of the four states,
 \begin{align}
@@ -309,7 +316,7 @@ which are all maximally entangled and locally equivalent to one another. These a
 %\cite{bib:Kim01,bib:Kim03,bib:Brida07,bib:Dayan07}.
 In some applications, it may be desired to have the EPR pairs conditionally prepared, {\it i.e.~}successfully prepared only under certain measurement outcomes of auxiliary modes. Several theoretical approaches have been proposed for this purpose \cite{bib:Pittman03,bib:Sliwa03,bib:Walther07}, and demonstrated \cite{bib:Wagenknecht10,bib:Barz10}.
 
-\subsubsection{Greenberger-Horne-Zeilinger (GHZ) states}
+\subsection{Greenberger-Horne-Zeilinger (GHZ) states}
 
 GHZ states form a class of entangled quantum states on multiple subsystems with at least three parties \cite{bib:GHZ89}. For qubit encodings with $n$ subsystems, a GHZ state is of the form
 \begin{align}
@@ -317,43 +324,73 @@ GHZ states form a class of entangled quantum states on multiple subsystems with 
 \end{align}
 These states are also non-local, and have been used extensively in experimental test for non-locality \cite{bib:JW00,bib:Zhang15}. This has been a subject matter covered in detail by another review \cite{bib:JW12}.
 
-\subsubsection{Cluster states}\label{section:cluster}
+\subsection{Cluster states}\label{section:cluster}
 
 Cluster states form another class of multiparty entangled states, and were conceived in the context of arrays of qubits with an Ising-type interaction \cite{bib:Briegel01}.
 
 These states can be represented as a graph, in which vertices are qubits initialized into the superposition state $\ket{+}=\frac{1}{\sqrt{2}}(\ket{0}+\ket{1})$, with {\sc cphase} operation applied between edges, as shown in Fig.~\ref{fig:cluster}. For this reason, such states are also referred to as graph states. The {\sc cphase} operations generate entanglement between the qubits, and because they commute, are independent of ordering. Cluster states are a resource state for a model of quantum computation known as measurement-based quantum computation (MBQC). Here, having such a state as a resource enables universal quantum computation using only single-qubit measurements \cite{bib:Raussendorf03}. Therefore, the preparation of such states is highly valuable, generating much interest in their efficient preparation.
 
-\begin{figure}[!htb]
+\begin{figure}
 \centering
-\includegraphics[width=0.3\columnwidth]{cluster_state}
-\caption{The representation of cluster states as a graph. Vertices represent qubits initialised into the $\ket{+}$ state, while edges represent the application on {\sc cphase} gates, the ordering of which is irrelevant.} \label{fig:cluster}	
+\begin{subfigure}{.5\columnwidth}
+  \centering
+  \includegraphics[width=.6\columnwidth]{cluster_state}
+  \caption{}
+  \label{fig:cluster}
+\end{subfigure}%
+\begin{subfigure}{.5\columnwidth}
+  \centering
+  \includegraphics[width=.8\columnwidth]{fusion}
+  \caption{}
+  \label{fig:fusion}
+\end{subfigure}
+\caption{(a) The representation of cluster states as a graph. Vertices represent qubits initialised into the $\ket{+}$ state, while edges represent the application on {\sc cphase} gates, the ordering of which is irrelevant. (b) Fusion gates for joining smaller cluster states into larger ones. Both require only a single polarising beamsplitter, and waveplates. The type-I and -II fusion gates consume 1 or 2 qubits (photons) respectively, creating an edge between the remaining graphs. The type-I gate consumes one fewer photon, but requires number-resolved detection on the detected mode. The type-II gate requires only on/off photodetection, but consumes an additional photon. Thus, the type-I gate can be employed to fuse two Bell pairs into a 3-qubit cluster state, whereas the type-II gate will only grow clusters when beginning with at least 3 qubits per cluster. }
+\label{fig:test}
 \end{figure}
 
-Unfortunately, implementing {\sc cphase} gates using linear optics is complicated and highly non-deterministic. A major improvement upon this is to use fusion gates - rotated polarising beamsplitters, which implement projections onto the Bell basis. These operations fuse smaller cluster states, represented using polarisation encoding, into larger ones, consuming one (type-I fusion) or two (type-II fusion) photons in the process. These operations are shown in Fig.~\ref{fig:fusion}. Although these operations are non-deterministic with a success probability of $1/2$, they require only a single beamsplitter, already a major improvement over directly implementing {\sc cphase} gates. Furthermore, unlike {\sc cphase} gates, fusion operations require only high Hong-Ou-Mandel visibility, rather than the Mach-Zehnder stability required within existing {\sc cphase} gate implementations, a major experimental simplification.
+%\begin{figure}[!htb]
+%\centering
+%\includegraphics[width=0.3\columnwidth]{cluster_state}
+%\caption{The representation of cluster states as a graph. Vertices
+% represent qubits initialised into the $\ket{+}$ state, while edges 
+%represent the application on {\sc cphase} gates, the ordering of which is 
+%irrelevant.} \label{fig:cluster}	
+%\end{figure}
+
+Unfortunately, implementing {\sc cphase} gates using linear optics is complicated and highly non-deterministic. A major improvement upon this is to use fusion gates - rotated polarising beamsplitters, which implement projections onto the Bell states. These operations fuse smaller cluster states, represented using polarisation encoding, into larger ones, consuming one (type-I fusion) or two (type-II fusion) photons in the process. These operations are shown in Fig.~\ref{fig:fusion}. Although these operations are non-deterministic with a success probability of $1/2$, they require only a single beamsplitter, already a major improvement over directly implementing {\sc cphase} gates. Furthermore, unlike {\sc cphase} gates, fusion operations require only high Hong-Ou-Mandel visibility, rather than the Mach-Zehnder stability required within existing {\sc cphase} gate implementations, a major experimental simplification.
 
 Although these gates are non-deterministic and consume qubits, strategies have been described for efficiently preparing arbitrarily large cluster states of arbitrary topology, and using far fewer optical elements than by directly employing {\sc cphase} gates.
 
-\begin{figure}[!htb]
-\centering
-\includegraphics[width=0.4\columnwidth]{fusion}
-\caption{Fusion gates for joining smaller cluster states into larger ones. Both require only a single polarising beamsplitter, and waveplates. The type-I and -II fusion gates consume 1 or 2 qubits (photons) respectively, creating an edge between the remaining graphs. The type-I gate consumes one fewer photon, but requires number-resolved detection on the detected mode. The type-II gate requires only on/off photodetection, but consumes an additional photon. Thus, the type-I gate can be employed to fuse two Bell pairs into a 3-qubit cluster state, whereas the type-II gate will only grow clusters when beginning with at least 3 qubits per cluster.} \label{fig:fusion}	
-\end{figure}
+%\begin{figure}[!htb]
+%\centering
+%\includegraphics[width=0.4\columnwidth]{fusion}
+%\caption{Fusion gates for joining smaller cluster states into larger ones. 
+%Both require only a single polarising beamsplitter, and waveplates. The 
+%type-I and -II fusion gates consume 1 or 2 qubits (photons) respectively, 
+%creating an edge between the remaining graphs. The type-I gate consumes one 
+%fewer photon, but requires number-resolved detection on the detected mode. 
+%The type-II gate requires only on/off photodetection, but consumes an 
+%additional photon. Thus, the type-I gate can be employed to fuse two Bell 
+%pairs into a 3-qubit cluster state, whereas the type-II gate will only grow 
+%clusters when beginning with at least 3 qubits per cluster.} %
+%\label{fig:fusion}	
+%\end{figure}
 
-\subsection{Linear optics networks}
+\section{Linear optical networks}\label{sec:network}
 
 Numerous experimental implementations of various linear optics protocols have been demonstrated, using a variety of architectures. The main contenders considered to date are: bulk-optics; waveguides; and time-bin encoding.
 
-\subsubsection{Bulk-optics}
+\subsection{Bulk-optics}
 
 The early implementations of linear optics protocols relied on bulk-optics implementations, in which a circuit is decomposed into a discrete arrangement of optical components, specifically beamsplitters and phase-shifters. This corresponds to a direct implementation of the Reck \emph{et al.~}decomposition shown in Fig.~\ref{fig:Reck}, or subsequent alternate decompositions.
 
 Although this approach is effective and conceptually straightforward, it is highly impractical for large interferometers. For example, the implementation of a 100-mode interferometer requires on the order of 10,000 discrete optical elements, which must all be simultaneously aligned with interferometric stability, a highly experimentally challenging problem, not to mention incredibly physically large.
 
-\subsubsection{Waveguides}
+\subsection{Waveguides}
 
 Alternately, integrated waveguide devices can be employed to implement identical decompositions by etching the modes into paths in an optical chip, where evanescent coupling between closely neighbouring modes implements beamsplitter operations. Such devices are extremely compact, allowing the miniaturisation of large numbers of optical elements. Importantly, such devices are extremely optically stable, mitigating the need for any kind of dynamic stabilisation
 
-\subsubsection{Time-bins}\label{sec:timebins}
+\subsection{Time-bins}\label{sec:timebins}
 
 Using time-bin encoding of optical qubits, the obvious question is how to perform operations upon them. In \cite{bib:Motes14}, a dual-loop architecture was presented for implementing arbitrary passive linear-optics on photonic pulse-trains with time-bin separation $\tau$, shown in Fig.~\ref{fig:FL_arch}. The inner loop has length exactly $\tau$, while the outer one has length $>n\tau$ ($n$ is the 
 number of optical modes). The architecture is controlled via three 
@@ -363,10 +400,30 @@ out of the outer loop, yielding the transformed pulse-train. The central
 beamsplitter must be able to implement arbitrary classically-controlled 
 beamsplitter operations.
 
-\begin{figure}[!htb]
+\begin{figure}
 \centering
-\includegraphics[width=0.4\columnwidth]{full_architecture}
-\caption{A fibre-loop architecture for implementing arbitrary linear optics operations upon a time-bin-encoded pulse-train.
+\begin{subfigure}{.5\columnwidth}
+  \centering
+  \includegraphics[width=0.9\columnwidth]{full_architecture}
+  \caption{}
+  \label{fig:FL_arch}
+\end{subfigure}%
+\begin{subfigure}{0.5\columnwidth}
+  \centering
+  \includegraphics[width=\columnwidth]{PBS_TB}
+  \caption{}
+  \label{fig:fusion}
+\end{subfigure}
+\caption{(a) A fibre-loop architecture for implementing arbitrary linear optics operations upon a time-bin-encoded pulse-train. (b) Mapping between two polarisation-encoded qubits undergoing a polarising beamsplitter (PBS) operation, and its equivalent representation using 4 time-bins in a pulse-train. The PBS completely reflects (transmits) the vertical (horizontal) polarisations. The evolution of the four logical basis states, and their respective outputs, are shown explicitly. Writing out this PBS transformation in matrix form yields a permutation. Taking this permutation and relabelling the modes, we obtain the time-bin transformation shown underneath -- a simple swap of two of the four time-bins.}
+\label{fig:PBS_TB}
+\end{figure}
+
+
+%\begin{figure}[!htb]
+%\centering
+%\includegraphics[width=0.4\columnwidth]{full_architecture}
+%\caption{A fibre-loop architecture for implementing arbitrary linear optics 
+%operations upon a time-bin-encoded pulse-train.
 %The source prepares the temporally encoded pulse-train, with time-bin 
 %separation $\tau$.
 %The pulse-train then enters a dual-loop configuration. The inner loop has 
@@ -378,8 +435,8 @@ beamsplitter operations.
 %couple out of the outer loop, yielding the transformed pulse-train. The 
 %central beamsplitter must be able to implement arbitrary classically-
 %controlled beamsplitter operations.
-} \label{fig:FL_arch}	
-\end{figure}
+%} \label{fig:FL_arch}	
+%\end{figure}
 
 The architecture is frugal in its use of optical components, requiring only three dynamic beamsplitters, and several lengths of fibre. The beauty of this architecture is that the experimental requirements do not increase with the number of optical modes. The only parameter that scales with the number of optical modes is the outer loop, which must be at least long enough to house the entire time-bin-encoded pulse-train. Note, however, that the central beamsplitter must be controllable at sub-$\tau$ time-scales, so as to enable each temporal mode to be addressed individually, which is technically challenging.
 
@@ -387,15 +444,25 @@ The workings of the scheme can be thought of as follows: the inner loop allows a
 
 As a simple example of how such time-bin encoding maps to other encodings, in Fig.~\ref{fig:PBS_TB} we show the isomorphism between the polarising beamsplitter operation and a pairwise temporal beamsplitter operation. This implies a direct mapping for implementing cluster state preparation within the time-bin scheme.
 
-\begin{figure}[!htb]
-\centering
-\includegraphics[width=0.6\columnwidth]{PBS_TB}
-\caption{Mapping between two polarisation-encoded qubits undergoing a polarising beamsplitter (PBS) operation, and its equivalent representation using 4 time-bins in a pulse-train. The PBS completely reflects (transmits) the vertical (horizontal) polarisations. The evolution of the four logical basis states, and their respective outputs, are shown explicitly. Writing out this PBS transformation in matrix form yields a permutation. Taking this permutation and relabelling the modes, we obtain the time-bin transformation shown underneath -- a simple swap of two of the four time-bins.} \label{fig:PBS_TB}	
-\end{figure}
+%\begin{figure}[!htb]
+%\centering
+%\includegraphics[width=0.6\columnwidth]{PBS_TB}
+%\caption{Mapping between two polarisation-encoded qubits undergoing a 
+%polarising beamsplitter (PBS) operation, and its equivalent representation 
+%using 4 time-bins in a pulse-train. The PBS completely reflects (transmits) 
+%the vertical (horizontal) polarisations. The evolution of the four logical 
+%basis states, and their respective outputs, are shown explicitly. Writing 
+%out this PBS transformation in matrix form yields a permutation. Taking 
+%this 
+%permutation and relabelling the modes, we obtain the time-bin 
+%transformation 
+%shown underneath -- a simple swap of two of the four time-bins.} 
+%\label{fig:PBS_TB}	
+%\end{figure}
 
 The above description applies to passive linear optics, which is sufficient for protocols such as {\sc BosonSampling}, but insufficient for universal optical quantum computation, which requires the addition of ancillary states, and measurement with fast-feedforward. To address this, it was shown in \cite{Rohde15} that by dynamically preparing ancillary pulse-trains (from the already-existing source), classically controlled by time-resolved measurements at the output, and changing the switching sequence, we can effectively couple in and out arbitrary subsets of the optical modes, enabling partial measurements to be implemented.
 
-\subsection{Photodetection}
+\section{Photodetection}
 
 Broadly speaking, there are two main classes of photodetectors: non-photon-number-resolving (also referred to as bucket, or on/off) detectors, and photon-number-resolving (PNR) detectors. As the names suggest, non-PNR detectors only detect the presence or absence of photons in an incident beam, while PNR detectors are able to measure its number of photons. The outcomes of a PNR detector are described by the measurement projectors,
 \begin{align}
@@ -429,10 +496,10 @@ The dominant challenge facing the experimental implementation of both types of d
 \section{Applications for linear optics interferometry}
 
 \subsection{Linear optical quantum computation (LOQC)}\label{sec:LOQC}
-The advancements in linear optics discussed in Section \ref{sec:expt}, quantum computation using linear optics have opened up avenues for implementation. One of the key requirements is nonlinear couplings between the different optical modes. Photons do not naturally interact with one another so some careful engineering is needed to achieve this coupling. Methods used include measurements and feedforwarding \cite{bib:KLM01}, and photon-atom interactions \cite{bib:Brod16}. All models for LOQC also require non-deterministic operations, which succeeds only sometime and have to be repeated. This can be challenging given the limitations of the optical systems. Comprehensive reviews have been written previously to cover this topic \cite{bib:JW12,bib:Kok05}, hence we will focus on recent advances.
+The advancements in linear optics have opened up avenues for implementation. One of the key requirements is nonlinear couplings between the different optical modes. Photons do not naturally interact with one another so some careful engineering is needed to achieve this coupling. Methods used include measurements and feedforwarding \cite{bib:KLM01}, and photon-atom interactions \cite{bib:Brod16}. The former requires non-deterministic operations, which succeed only part of the time and have to be repeated. This can be challenging given the limited resources to begin with. Comprehensive reviews have been written previously to cover this topic \cite{bib:JW12,bib:Kok05}, hence we will focus on recent advances.
 
 
- Integrated photonic circuits has greatly improved the feasibility of LOQC. Their small size and interferometric stability enable the requisite quantum interference to happen in certain LOQC settings. Programmable circuits that are reusable have also emerged \cite{bib:Metcalf14,bib:Carolan15}. This saves resources and lead time for producing new circuits. Combining these chips with existing higher-efficiency sources and detectors will expand their capabilities. Loss can be mitigated by moving all components onto the same chip as the linear optical circuit \cite{bib:Sprengers11, bib:Silverstone14}.  What remains is to have fast feedforward also on chip. This might pose the greatest challenge yet for universal LOQC. Only a handful of experiments have been able to implement adaptive feedforward for the purposes of LOQC \cite{bib:Prevedel07,bib:Xiao-Song12,bib:Mikova12,bib:Zhao14}. The bottleneck is in the speed of modulation in the feedforward circuitry.
+ Integrated photonic circuits has greatly improved the feasibility of LOQC. Their small size and interferometric stability enable the requisite quantum interference to happen in certain LOQC settings. Programmable circuits that are reusable have also emerged \cite{bib:Metcalf14,bib:Carolan15}. This saves resources and lead time for producing new circuits. Combining these chips with existing higher-efficiency sources and detectors will expand their capabilities. Loss can be mitigated by moving all components onto the same chip as the linear optical circuit \cite{bib:Sprengers11, bib:Silverstone14}.  What remains is to have fast feedforward also on chip. This might pose the greatest challenge yet for universal LOQC. The bottleneck is in the speed of modulation in the feedforward circuitry; only a handful of experiments have been able to implement adaptive feedforward for the purposes of LOQC \cite{bib:Prevedel07,bib:Xiao-Song12,bib:Mikova12,bib:Zhao14}. 
  
 Better single-photon sources (see Section \ref{sec:singlephotons}) are part of the solution. Improvement in control of their degrees of freedom have also led to more efficient designs of circuits \cite{bib:Zhou11,bib:Lanyon09} that enabled the optical implementation of quantum teleportation of the state of a single photon \cite{bib:Wang15}. In this way, three-qubit \cite{bib:Lanyon09,bib:Micuda13,bib:Patel16} and four-qubit \cite{bib:Starek16} gates have also been implemented using LOQC.
  
@@ -476,7 +543,7 @@ with just a string of $N$ single photons, one photon per mode, for up to at leas
 
 \begin{figure}[!htb]
 \centering
-\includegraphics[width=0.5\columnwidth]{MORDOR}
+\includegraphics[width=0.4\columnwidth]{MORDOR}
 \caption{Architecture of the quantum Fourier transform interferometer for metrology using single-photon states. QFT: Quantum Fourier transform circuit, and $\varphi_k=(k-1)\varphi$. Single photons are injected into the input modes on the left-hand-side, and a $N$-fold coincidence measurement is conducted at the output on the right-hand-side.} \label{fig:MORDOR}	
 \end{figure}
 

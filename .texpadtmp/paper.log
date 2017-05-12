@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  12 MAY 2017 15:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  13 MAY 2017 00:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -591,6 +591,33 @@ Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup11
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 (Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen137
+\captionmargin@=\dimen138
+\captionwidth=\dimen139
+\caption@tempdima=\dimen140
+\caption@indent=\dimen141
+\caption@parindent=\dimen142
+\caption@hangindent=\dimen143
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+)
+
+Package caption Warning: Unsupported document class (or package) detected,
+(caption)                usage of the caption package is not recommended.
+See the caption package documentation for explanation.
+
+Package caption Info: \@makecaption = \long macro:#1#2->\vskip \abovecaptionskip \footnotesize \bfseries \sbox \@tempboxa {#1.~#2}\ifdim \wd \@tempboxa >\hsize #1.~#2\par \else \global \@minipagefalse \hb@xt@ \hsize {\hfil \box \@tempboxa \hfil }\fi \vskip \belowcaptionskip .
+\c@ContinuedFloat=\count120
+Package caption Info: hyperref package is loaded.
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
+\c@subfigure=\count121
+\c@subtable=\count122
 ) (/usr/local/texlive/2015/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
  (/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
@@ -609,54 +636,61 @@ Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/dvipsnam.def
 File: dvipsnam.def 2014/10/14 v3.0j Driver-dependent file (DPC,SPQR)
-)) (/Users/sihui_tan/Documents/Interferometry-Review/.texpadtmp/paper.aux)
+)) (/Users/sihui_tan/Documents/Interferometry-Review/.texpadtmp/paper.aux
+
+LaTeX Warning: Label `fig:fusion' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:fusion' multiply defined.
+
+)
 \openout1 = `paper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 30.
-LaTeX Font Info:    Try loading font information for OML+txmi on input line 30.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 31.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 31.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 30.
-LaTeX Font Info:    Try loading font information for OMS+txsy on input line 30.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 31.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 31.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 30.
-LaTeX Font Info:    Try loading font information for OMX+txex on input line 30.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 31.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 31.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 30.
-LaTeX Font Info:    Try loading font information for U+txexa on input line 30.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 31.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 31.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 30.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 31.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 ) (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count120
-\scratchdimen=\dimen137
+\scratchcounter=\count123
+\scratchdimen=\dimen144
 \scratchbox=\box32
-\nofMPsegments=\count121
-\nofMParguments=\count122
+\nofMPsegments=\count124
+\nofMParguments=\count125
 \everyMPshowfont=\toks23
-\MPscratchCnt=\count123
-\MPscratchDim=\dimen138
-\MPnumerator=\count124
-\makeMPintoPDFobject=\count125
+\MPscratchCnt=\count126
+\MPscratchDim=\dimen145
+\MPnumerator=\count127
+\makeMPintoPDFobject=\count128
 \everyMPtoPDFconversion=\toks24
 ) (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
@@ -704,202 +738,206 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box33
-Package hyperref Info: Link coloring OFF on input line 30.
+Package hyperref Info: Link coloring OFF on input line 31.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
  (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count126
+\c@section@level=\count129
 )
-LaTeX Info: Redefining \ref on input line 30.
-LaTeX Info: Redefining \pageref on input line 30.
-LaTeX Info: Redefining \nameref on input line 30.
+LaTeX Info: Redefining \ref on input line 31.
+LaTeX Info: Redefining \pageref on input line 31.
+LaTeX Info: Redefining \nameref on input line 31.
  (/Users/sihui_tan/Documents/Interferometry-Review/.texpadtmp/paper.out) (/Users/sihui_tan/Documents/Interferometry-Review/.texpadtmp/paper.out)
 \@outlinefile=\write4
 \openout4 = `paper.out'.
 
-LaTeX Font Info:    Try loading font information for OMS+txr on input line 73.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Try loading font information for OMS+txr on input line 74.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/omstxr.fd
 File: omstxr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <10> not available
-(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 73.
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 74.
 
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./elsevier-logo.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<elsevier-logo.pdf, id=100, 59.7432pt x 65.5248pt>
+<elsevier-logo.pdf, id=96, 59.7432pt x 65.5248pt>
 File: elsevier-logo.pdf Graphic file (type pdf)
  <use elsevier-logo.pdf>
-Package pdftex.def Info: elsevier-logo.pdf used on input line 84.
+Package pdftex.def Info: elsevier-logo.pdf used on input line 85.
 (pdftex.def)             Requested size: 59.74303pt x 65.52463pt.
-LaTeX Font Info:    Try loading font information for OT1+txss on input line 84.
+LaTeX Font Info:    Try loading font information for OT1+txss on input line 85.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/ot1txss.fd
 File: ot1txss.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 84.
+(Font)              scaled to size 9.49997pt on input line 85.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 8.07497pt on input line 84.
+(Font)              scaled to size 8.07497pt on input line 85.
 
 
-Package xcolor Warning: Incompatible color definition on input line 84.
+Package xcolor Warning: Incompatible color definition on input line 85.
 
-<revip-logo.pdf, id=103, 235.88126pt x 298.11375pt>
+<revip-logo.pdf, id=99, 235.88126pt x 298.11375pt>
 File: revip-logo.pdf Graphic file (type pdf)
  <use revip-logo.pdf>
-Package pdftex.def Info: revip-logo.pdf used on input line 84.
+Package pdftex.def Info: revip-logo.pdf used on input line 85.
 (pdftex.def)             Requested size: 57.53046pt x 72.46762pt.
 
-Overfull \hbox (1.02495pt too wide) in paragraph at lines 84--84
+Overfull \hbox (1.02495pt too wide) in paragraph at lines 85--85
 [][] 
  []
 
-LaTeX Font Info:    Try loading font information for U+txmia on input line 84.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 85.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 84.
+LaTeX Font Info:    Try loading font information for U+msa on input line 85.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 84.
+LaTeX Font Info:    Try loading font information for U+msb on input line 85.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 84.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 85.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 84.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 85.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 84.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 85.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-Underfull \hbox (badness 10000) in alignment at lines 84--84
+Underfull \hbox (badness 10000) in alignment at lines 85--85
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--84
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
 
  []
 
 
-Underfull \hbox (badness 2837) in paragraph at lines 84--84
+Underfull \hbox (badness 2837) in paragraph at lines 85--85
 \OT1/txr/m/it/8 Keywords: \OT1/txr/m/n/8 Key-word1, Key-word2,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--84
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 84--84
+Underfull \hbox (badness 10000) in alignment at lines 85--85
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--84
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
  
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 93.
+(hyperref)                removing `\<def>-command' on input line 95.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\cnotenum' on input line 93.
+(hyperref)                removing `\cnotenum' on input line 95.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 93.
+(hyperref)                removing `\<def>-command' on input line 95.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@corref' on input line 93.
+(hyperref)                removing `\@corref' on input line 95.
 
 [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
- <./elsevier-logo.pdf> <./revip-logo.pdf>] [2] [3] <reck.pdf, id=184, 394.58363pt x 204.78508pt>
+ <./elsevier-logo.pdf> <./revip-logo.pdf>] [2] [3] <reck.pdf, id=180, 394.58363pt x 204.78508pt>
 File: reck.pdf Graphic file (type pdf)
  <use reck.pdf>
-Package pdftex.def Info: reck.pdf used on input line 228.
+Package pdftex.def Info: reck.pdf used on input line 229.
 (pdftex.def)             Requested size: 233.64645pt x 121.2596pt.
  [4 <./reck.pdf>]
 Missing character: There is no € in font txr!
 Missing character: There is no   in font txr!
- [5] <cluster_state.pdf, id=395, 286.30765pt x 242.46686pt>
+ [5] <cluster_state.pdf, id=396, 286.30765pt x 242.46686pt>
 File: cluster_state.pdf Graphic file (type pdf)
  <use cluster_state.pdf>
-Package pdftex.def Info: cluster_state.pdf used on input line 328.
+Package pdftex.def Info: cluster_state.pdf used on input line 337.
 (pdftex.def)             Requested size: 140.18929pt x 118.72469pt.
- [6 <./cluster_state.pdf>] <fusion.pdf, id=466, 270.50322pt x 153.41916pt>
+ <fusion.pdf, id=397, 270.50322pt x 153.41916pt>
 File: fusion.pdf Graphic file (type pdf)
  <use fusion.pdf>
-Package pdftex.def Info: fusion.pdf used on input line 338.
-(pdftex.def)             Requested size: 186.9143pt x 106.01149pt.
- <full_architecture.pdf, id=470, 286.46323pt x 132.80385pt>
+Package pdftex.def Info: fusion.pdf used on input line 343.
+(pdftex.def)             Requested size: 186.91786pt x 106.01149pt.
+ [6 <./cluster_state.pdf> <./fusion.pdf>] <full_architecture.pdf, id=584, 286.46323pt x 132.80385pt>
 File: full_architecture.pdf Graphic file (type pdf)
  <use full_architecture.pdf>
-Package pdftex.def Info: full_architecture.pdf used on input line 368.
-(pdftex.def)             Requested size: 186.9143pt x 86.65582pt.
- [7 <./fusion.pdf>] <PBS_TB.pdf, id=598, 414.88301pt x 242.9075pt>
+Package pdftex.def Info: full_architecture.pdf used on input line 407.
+(pdftex.def)             Requested size: 210.28038pt x 97.48705pt.
+ <PBS_TB.pdf, id=585, 414.88301pt x 242.9075pt>
 File: PBS_TB.pdf Graphic file (type pdf)
  <use PBS_TB.pdf>
-Package pdftex.def Info: PBS_TB.pdf used on input line 392.
-(pdftex.def)             Requested size: 280.37859pt x 164.15933pt.
- [8 <./full_architecture.pdf> <./PBS_TB.pdf>] [9]
+Package pdftex.def Info: PBS_TB.pdf used on input line 413.
+(pdftex.def)             Requested size: 233.64645pt x 136.7982pt.
+ [7 <./full_architecture.pdf> <./PBS_TB.pdf>] [8]
 
-LaTeX Warning: Reference `fig:MZ' on page 10 undefined on input line 453.
+LaTeX Warning: Reference `fig:MZ' on page 9 undefined on input line 520.
 
-<MORDOR.pdf, id=861, 315.88817pt x 158.5925pt>
+[9] <MORDOR.pdf, id=875, 315.88817pt x 158.5925pt>
 File: MORDOR.pdf Graphic file (type pdf)
  <use MORDOR.pdf>
-Package pdftex.def Info: MORDOR.pdf used on input line 479.
-(pdftex.def)             Requested size: 233.64645pt x 117.30577pt.
- [10] (/Users/sihui_tan/Documents/Interferometry-Review/.texpadtmp/paper.bbl [11 <./MORDOR.pdf>]
+Package pdftex.def Info: MORDOR.pdf used on input line 546.
+(pdftex.def)             Requested size: 186.9143pt x 93.8422pt.
+ (/Users/sihui_tan/Documents/Interferometry-Review/.texpadtmp/paper.bbl [10 <./MORDOR.pdf>] [11]
 Missing character: There is no Ã in font txr!
 Missing character: There is no ¤ in font txr!
- [12]
 Missing character: There is no Ã in font txr!
 Missing character: There is no ¶ in font txr!
- [13]
+ [12] [13]
 Missing character: There is no Ã in font txr!
 Missing character: There is no ¶ in font txr!
  [14])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 510.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 577.
  [15]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 510.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 577.
  (/Users/sihui_tan/Documents/Interferometry-Review/.texpadtmp/paper.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 510.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 510.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 577.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 577.
 Package rerunfilecheck Info: File `paper.out' has not changed.
 (rerunfilecheck)             Checksum: E9A4EA2DE2EF65D1EE70FD3C780C9590;1715.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 510.
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 577.
  ) 
 Here is how much of TeX's memory you used:
- 8727 strings out of 493089
- 125108 string characters out of 6134842
- 232210 words of memory out of 5000000
- 11861 multiletter control sequences out of 15000+600000
- 45620 words of font info for 114 fonts, out of 8000000 for 9000
+ 9784 strings out of 493089
+ 144376 string characters out of 6134842
+ 252718 words of memory out of 5000000
+ 12913 multiletter control sequences out of 15000+600000
+ 45575 words of font info for 114 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,14n,36p,1421b,770s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,14n,38p,1421b,826s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /Users/sihui_tan/Documents/Interferometry-Review/.texpadtmp/paper.pdf (15 pages, 1867084 bytes).
+Output written on /Users/sihui_tan/Documents/Interferometry-Review/.texpadtmp/paper.pdf (15 pages, 1863672 bytes).
 PDF statistics:
- 1377 PDF objects out of 1440 (max. 8388607)
- 969 compressed objects within 10 object streams
- 159 named destinations out of 1000 (max. 500000)
- 233 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1367 PDF objects out of 1440 (max. 8388607)
+ 959 compressed objects within 10 object streams
+ 156 named destinations out of 1000 (max. 500000)
+ 225 words of extra memory for PDF output out of 10000 (max. 10000000)
 
