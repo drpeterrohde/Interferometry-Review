@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{100}
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
 \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
@@ -59,6 +59,95 @@ Y.~Li, P.~C. Humphreys, G.~J. Mendoza, S.~C. Benjamin,
   {\path{doi:10.1103/PhysRevX.5.041007}}.
 \newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevX.5.041007}
 
+\bibitem{bib:Spagnolo12}
+N.~Spagnolo, L.~Aparo, C.~Vitelli, A.~Crespi, R.~Ramponi, R.~Osellame,
+  P.~Mataloni, F.~Sciarrino, \href{http://dx.doi.org/10.1038/srep00862}{Quantum
+  interferometry with three-dimensional geometry}, Scientific Reports 2 (2012)
+  862 EP --.
+\newline\urlprefix\url{http://dx.doi.org/10.1038/srep00862}
+
+\bibitem{bib:Tillmann13}
+M.~Tillmann, B.~Dakic, R.~Heilmann, S.~Nolte, A.~Szameit, P.~Walther,
+  \href{http://dx.doi.org/10.1038/nphoton.2013.102}{Experimental boson
+  sampling}, Nat Photon 7~(7) (2013) 540--544.
+\newline\urlprefix\url{http://dx.doi.org/10.1038/nphoton.2013.102}
+
+\bibitem{bib:Spring13}
+J.~B. Spring, B.~J. Metcalf, P.~C. Humphreys, W.~S. Kolthammer, X.-M. Jin,
+  M.~Barbieri, A.~Datta, N.~Thomas-Peter, N.~K. Langford, D.~Kundys, J.~C.
+  Gates, B.~J. Smith, P.~G.~R. Smith, I.~A. Walmsley,
+  \href{http://science.sciencemag.org/content/339/6121/798}{Boson sampling on a
+  photonic chip}, Science 339~(6121) (2013) 798--801.
+\newblock \href
+  {http://arxiv.org/abs/http://science.sciencemag.org/content/339/6121/798.full.pdf}
+  {\path{arXiv:http://science.sciencemag.org/content/339/6121/798.full.pdf}},
+  \href {http://dx.doi.org/10.1126/science.1231692}
+  {\path{doi:10.1126/science.1231692}}.
+\newline\urlprefix\url{http://science.sciencemag.org/content/339/6121/798}
+
+\bibitem{bib:Broome13}
+M.~A. Broome, A.~Fedrizzi, S.~Rahimi-Keshari, J.~Dove, S.~Aaronson, T.~C.
+  Ralph, A.~G. White,
+  \href{http://science.sciencemag.org/content/339/6121/794}{Photonic boson
+  sampling in a tunable circuit}, Science 339~(6121) (2013) 794--798.
+\newblock \href
+  {http://arxiv.org/abs/http://science.sciencemag.org/content/339/6121/794.full.pdf}
+  {\path{arXiv:http://science.sciencemag.org/content/339/6121/794.full.pdf}},
+  \href {http://dx.doi.org/10.1126/science.1231440}
+  {\path{doi:10.1126/science.1231440}}.
+\newline\urlprefix\url{http://science.sciencemag.org/content/339/6121/794}
+
+\bibitem{bib:WangChen16}
+X.-L. Wang, L.-K. Chen, W.~Li, H.-L. Huang, C.~Liu, C.~Chen, Y.-H. Luo, Z.-E.
+  Su, D.~Wu, Z.-D. Li, H.~Lu, Y.~Hu, X.~Jiang, C.-Z. Peng, L.~Li, N.-L. Liu,
+  Y.-A. Chen, C.-Y. Lu, J.-W. Pan,
+  \href{https://link.aps.org/doi/10.1103/PhysRevLett.117.210502}{Experimental
+  ten-photon entanglement}, Phys. Rev. Lett. 117 (2016) 210502.
+\newblock \href {http://dx.doi.org/10.1103/PhysRevLett.117.210502}
+  {\path{doi:10.1103/PhysRevLett.117.210502}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.117.210502}
+
+\bibitem{bib:Chen17}
+L.-K. Chen, Z.-D. Li, X.-C. Yao, M.~Huang, W.~Li, H.~Lu, X.~Yuan, Y.-B. Zhang,
+  X.~Jiang, C.-Z. Peng, L.~Li, N.-L. Liu, X.~Ma, C.-Y. Lu, Y.-A. Chen, J.-W.
+  Pan,
+  \href{http://www.osapublishing.org/optica/abstract.cfm?URI=optica-4-1-77}{Observation
+  of ten-photon entanglement using thin bib3o6 crystals}, Optica 4~(1) (2017)
+  77--83.
+\newblock \href {http://dx.doi.org/10.1364/OPTICA.4.000077}
+  {\path{doi:10.1364/OPTICA.4.000077}}.
+\newline\urlprefix\url{http://www.osapublishing.org/optica/abstract.cfm?URI=optica-4-1-77}
+
+\bibitem{bib:Ding16}
+X.~Ding, Y.~He, Z.-C. Duan, N.~Gregersen, M.-C. Chen, S.~Unsleber, S.~Maier,
+  C.~Schneider, M.~Kamp, S.~H\"ofling, C.-Y. Lu, J.-W. Pan,
+  \href{https://link.aps.org/doi/10.1103/PhysRevLett.116.020401}{On-demand
+  single photons with high extraction efficiency and near-unity
+  indistinguishability from a resonantly driven quantum dot in a micropillar},
+  Phys. Rev. Lett. 116 (2016) 020401.
+\newblock \href {http://dx.doi.org/10.1103/PhysRevLett.116.020401}
+  {\path{doi:10.1103/PhysRevLett.116.020401}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.116.020401}
+
+\bibitem{bib:WangHe16}
+H.~Wang, Y.~He, Y.-H. Li, Z.-E. Su, B.~Li, H.-L. Huang, X.~Ding, M.-C. Chen,
+  C.~Liu, J.~Qin, J.-P. Li, Y.-M. He, C.~Schneider, M.~Kamp, C.-Z. Peng,
+  S.~Hoefling, C.-Y. Lu, J.-W. Pan, Multi-photon boson-sampling machines
+  beating early classical computers\href
+  {http://arxiv.org/abs/quant-ph:1612.06956}
+  {\path{arXiv:quant-ph:1612.06956}}.
+
+\bibitem{bib:213601}
+H.~Wang, Z.-C. Duan, Y.-H. Li, S.~Chen, J.-P. Li, Y.-M. He, M.-C. Chen, Y.~He,
+  X.~Ding, C.-Z. Peng, C.~Schneider, M.~Kamp, S.~H\"ofling, C.-Y. Lu, J.-W.
+  Pan,
+  \href{https://link.aps.org/doi/10.1103/PhysRevLett.116.213601}{Near-transform-limited
+  single photons from an efficient solid-state quantum emitter}, Phys. Rev.
+  Lett. 116 (2016) 213601.
+\newblock \href {http://dx.doi.org/10.1103/PhysRevLett.116.213601}
+  {\path{doi:10.1103/PhysRevLett.116.213601}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.116.213601}
+
 \bibitem{bib:Tillmann2015}
 M.~Tillmann, S.-H. Tan, S.~E. Stoeckl, B.~C. Sanders, H.~de~Guise, R.~Heilmann,
   S.~Nolte, A.~Szameit, P.~Walther,
@@ -96,6 +185,42 @@ J.~M. Donohue, M.~Agnew, J.~Lavoie, K.~J. Resch,
 \newblock \href {http://dx.doi.org/10.1103/PhysRevLett.111.153602}
   {\path{doi:10.1103/PhysRevLett.111.153602}}.
 \newline\urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevLett.111.153602}
+
+\bibitem{bib:Nielsen04}
+M.~A. Nielsen, Optical quantum computation using cluster states, Phys. Rev.
+  Lett. 93 (2004) 040503.
+
+\bibitem{bib:BrowneRudolph05}
+D.~E. Browne, T.~Rudolph, Resource-efficient linear optics quantum computation,
+  Phys. Rev. Lett. 95 (2005) 010501.
+
+\bibitem{bib:Gimeno-Segovia15}
+M.~Gimeno-Segovia, P.~Shadbolt, D.~E. Browne, T.~Rudolph,
+  \href{https://link.aps.org/doi/10.1103/PhysRevLett.115.020502}{From
+  three-photon greenberger-horne-zeilinger states to ballistic universal
+  quantum computation}, Phys. Rev. Lett. 115 (2015) 020502.
+\newblock \href {http://dx.doi.org/10.1103/PhysRevLett.115.020502}
+  {\path{doi:10.1103/PhysRevLett.115.020502}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.115.020502}
+
+\bibitem{bib:Pant17}
+M.~Pant, D.~Towsley, D.~Englund, S.~Guha, Percolation thresholds for photonic
+  quantum computing, arXiv:1701.03775.
+
+\bibitem{bib:Aaronson11}
+S.~Aaronson, A.~Arkhipov, \href{http://doi.acm.org/10.1145/1993636.1993682}{The
+  computational complexity of linear optics}, in: Proceedings of the
+  Forty-third Annual ACM Symposium on Theory of Computing, STOC '11, ACM, New
+  York, NY, USA, 2011, pp. 333--342.
+\newblock \href {http://dx.doi.org/10.1145/1993636.1993682}
+  {\path{doi:10.1145/1993636.1993682}}.
+\newline\urlprefix\url{http://doi.acm.org/10.1145/1993636.1993682}
+
+\bibitem{bib:Tan16}
+S.-H. Tan, J.~A. Kettlewell, Y.~Ouyang, L.~Chen, J.~F. Fitzsimons,
+  \href{http://dx.doi.org/10.1038/srep33467}{A quantum approach to homomorphic
+  encryption}, Scientific Reports 6 (2016) 33467 EP --.
+\newline\urlprefix\url{http://dx.doi.org/10.1038/srep33467}
 
 \bibitem{bib:Reck1994}
 M.~Reck, A.~Zeilinger, H.~J. Bernstein, P.~Bertani,
@@ -282,35 +407,6 @@ R.~Heilmann, M.~Gräfe, S.~Nolte, A.~Szameit,
   {\path{doi:http://doi.org/10.1007/s11434-014-0688-5}}.
 \newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S2095927316305400}
 
-\bibitem{bib:WangChen16}
-X.-L. Wang, L.-K. Chen, W.~Li, H.-L. Huang, C.~Liu, C.~Chen, Y.-H. Luo, Z.-E.
-  Su, D.~Wu, Z.-D. Li, H.~Lu, Y.~Hu, X.~Jiang, C.-Z. Peng, L.~Li, N.-L. Liu,
-  Y.-A. Chen, C.-Y. Lu, J.-W. Pan,
-  \href{https://link.aps.org/doi/10.1103/PhysRevLett.117.210502}{Experimental
-  ten-photon entanglement}, Phys. Rev. Lett. 117 (2016) 210502.
-\newblock \href {http://dx.doi.org/10.1103/PhysRevLett.117.210502}
-  {\path{doi:10.1103/PhysRevLett.117.210502}}.
-\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.117.210502}
-
-\bibitem{bib:Chen17}
-L.-K. Chen, Z.-D. Li, X.-C. Yao, M.~Huang, W.~Li, H.~Lu, X.~Yuan, Y.-B. Zhang,
-  X.~Jiang, C.-Z. Peng, L.~Li, N.-L. Liu, X.~Ma, C.-Y. Lu, Y.-A. Chen, J.-W.
-  Pan,
-  \href{http://www.osapublishing.org/optica/abstract.cfm?URI=optica-4-1-77}{Observation
-  of ten-photon entanglement using thin bib3o6 crystals}, Optica 4~(1) (2017)
-  77--83.
-\newblock \href {http://dx.doi.org/10.1364/OPTICA.4.000077}
-  {\path{doi:10.1364/OPTICA.4.000077}}.
-\newline\urlprefix\url{http://www.osapublishing.org/optica/abstract.cfm?URI=optica-4-1-77}
-
-\bibitem{bib:WangHe16}
-H.~Wang, Y.~He, Y.-H. Li, Z.-E. Su, B.~Li, H.-L. Huang, X.~Ding, M.-C. Chen,
-  C.~Liu, J.~Qin, J.-P. Li, Y.-M. He, C.~Schneider, M.~Kamp, C.-Z. Peng,
-  S.~Hoefling, C.-Y. Lu, J.-W. Pan, Multi-photon boson-sampling machines
-  beating early classical computers\href
-  {http://arxiv.org/abs/quant-ph:1612.06956}
-  {\path{arXiv:quant-ph:1612.06956}}.
-
 \bibitem{bib:Muller07}
 A.~Muller, E.~B. Flagg, P.~Bianucci, X.~Y. Wang, D.~G. Deppe, W.~Ma, J.~Zhang,
   G.~J. Salamo, M.~Xiao, C.~K. Shih,
@@ -419,28 +515,6 @@ T.~M. Sweeney, S.~G. Carter, A.~S. Bracker, M.~Kim, C.~S. Kim, L.~Yang, P.~M.
   \href{http://dx.doi.org/10.1038/nphoton.2014.84}{Cavity-stimulated raman
   emission from a single quantum dot spin}, Nat Photon 8~(6) (2014) 442--447.
 \newline\urlprefix\url{http://dx.doi.org/10.1038/nphoton.2014.84}
-
-\bibitem{bib:Ding16}
-X.~Ding, Y.~He, Z.-C. Duan, N.~Gregersen, M.-C. Chen, S.~Unsleber, S.~Maier,
-  C.~Schneider, M.~Kamp, S.~H\"ofling, C.-Y. Lu, J.-W. Pan,
-  \href{https://link.aps.org/doi/10.1103/PhysRevLett.116.020401}{On-demand
-  single photons with high extraction efficiency and near-unity
-  indistinguishability from a resonantly driven quantum dot in a micropillar},
-  Phys. Rev. Lett. 116 (2016) 020401.
-\newblock \href {http://dx.doi.org/10.1103/PhysRevLett.116.020401}
-  {\path{doi:10.1103/PhysRevLett.116.020401}}.
-\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.116.020401}
-
-\bibitem{bib:213601}
-H.~Wang, Z.-C. Duan, Y.-H. Li, S.~Chen, J.-P. Li, Y.-M. He, M.-C. Chen, Y.~He,
-  X.~Ding, C.-Z. Peng, C.~Schneider, M.~Kamp, S.~H\"ofling, C.-Y. Lu, J.-W.
-  Pan,
-  \href{https://link.aps.org/doi/10.1103/PhysRevLett.116.213601}{Near-transform-limited
-  single photons from an efficient solid-state quantum emitter}, Phys. Rev.
-  Lett. 116 (2016) 213601.
-\newblock \href {http://dx.doi.org/10.1103/PhysRevLett.116.213601}
-  {\path{doi:10.1103/PhysRevLett.116.213601}}.
-\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.116.213601}
 
 \bibitem{bib:Kim01}
 Y.-H. Kim, S.~P. Kulik, Y.~Shih,
