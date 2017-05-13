@@ -3,64 +3,68 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: /Users/sihui_tan/Documents/Interferometry-Review/.texpadtmp/paper.aux
 The style file: ../elsarticle-num.bst
 Database file #1: ../paper.bib
-Repeated entry---line 3176 of file ../paper.bib
+Repeated entry---line 701 of file ../paper.bib
+ : @article{bib:Kim01
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3266 of file ../paper.bib
  : @article{bib:Pittman03
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3220 of file ../paper.bib
+Repeated entry---line 3310 of file ../paper.bib
  : @article{bib:OBrien04
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3617 of file ../paper.bib
+Repeated entry---line 3707 of file ../paper.bib
  : @article{bib:Chen17
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3636 of file ../paper.bib
+Repeated entry---line 3726 of file ../paper.bib
  : @article{bib:Shapiro07
  :                       ,
 I'm skipping whatever remains of this entry
 Warning--empty journal in bib:Spagnolo16
 Warning--empty journal in bib:WangHe16
 Warning--empty chapter and pages in bib:GHZ89
-You've used 92 entries,
+You've used 97 entries,
             2937 wiz_defined-function locations,
-            1435 strings with 32872 characters,
-and the built_in function-call counts, 34699 in all, are:
-= -- 3126
-> -- 1898
+            1469 strings with 33961 characters,
+and the built_in function-call counts, 36485 in all, are:
+= -- 3307
+> -- 1963
 < -- 1
-+ -- 694
-- -- 602
-* -- 3463
-:= -- 5271
-add.period$ -- 144
-call.type$ -- 92
-change.case$ -- 92
++ -- 719
+- -- 622
+* -- 3637
+:= -- 5527
+add.period$ -- 152
+call.type$ -- 97
+change.case$ -- 97
 chr.to.int$ -- 0
-cite$ -- 95
-duplicate$ -- 881
-empty$ -- 3238
-format.name$ -- 689
-if$ -- 8357
+cite$ -- 100
+duplicate$ -- 931
+empty$ -- 3420
+format.name$ -- 714
+if$ -- 8798
 int.to.chr$ -- 0
-int.to.str$ -- 92
-missing$ -- 93
-newline$ -- 414
-num.names$ -- 92
-pop$ -- 487
+int.to.str$ -- 97
+missing$ -- 98
+newline$ -- 437
+num.names$ -- 97
+pop$ -- 514
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1545
+skip$ -- 1626
 stack$ -- 0
-substring$ -- 1801
-swap$ -- 295
+substring$ -- 1914
+swap$ -- 311
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 3
-while$ -- 206
-width$ -- 94
-write$ -- 932
-(There were 4 error messages)
+while$ -- 219
+width$ -- 99
+write$ -- 983
+(There were 5 error messages)

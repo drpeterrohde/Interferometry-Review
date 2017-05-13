@@ -5,6 +5,60 @@
 \expandafter\ifx\csname href\endcsname\relax
   \def\href#1#2{#2} \def\path#1{#1}\fi
 
+\bibitem{bib:Northup14}
+T.~E. Northup, R.~Blatt,
+  \href{http://dx.doi.org/10.1038/nphoton.2014.53}{Quantum information transfer
+  using photons}, Nat Photon 8~(5) (2014) 356---363.
+\newline\urlprefix\url{http://dx.doi.org/10.1038/nphoton.2014.53}
+
+\bibitem{bib:Lo14}
+H.-K. Lo, M.~Curty, K.~Tamaki,
+  \href{http://dx.doi.org/10.1038/nphoton.2014.149}{Secure quantum key
+  distribution}, Nat Photon 8~(8) (2014) 595--604.
+\newline\urlprefix\url{http://dx.doi.org/10.1038/nphoton.2014.149}
+
+\bibitem{bib:KLM01}
+E.~Knill, R.~Laflamme, G.~Milburn, A scheme for efficient quantum computation
+  with linear optics, Nature (London) 409 (2001) 46.
+
+\bibitem{bib:Meany15}
+T.~Meany, M.~Gr\"a~fe, R.~Heilmann, A.~Perez-Leija, S.~Gross, M.~J. Steel,
+  M.~J. Withford, A.~Szameit,
+  \href{http://dx.doi.org/10.1002/lpor.201500061}{Laser written circuits for
+  quantum photonics}, Laser \& Photonics Reviews 9~(4) (2015) 363--384.
+\newblock \href {http://dx.doi.org/10.1002/lpor.201500061}
+  {\path{doi:10.1002/lpor.201500061}}.
+\newline\urlprefix\url{http://dx.doi.org/10.1002/lpor.201500061}
+
+\bibitem{bib:Sprengers11}
+J.~P. Sprengers, A.~Gaggero, D.~Sahin, S.~Jahanmirinejad, G.~Frucci,
+  F.~Mattioli, R.~Leoni, J.~Beetz, M.~Lermer, M.~Kamp, S.~Höfling,
+  R.~Sanjines, A.~Fiore, \href{http://dx.doi.org/10.1063/1.3657518}{Waveguide
+  superconducting single-photon detectors for integrated quantum photonic
+  circuits}, Applied Physics Letters 99~(18) (2011) 181110.
+\newblock \href {http://arxiv.org/abs/http://dx.doi.org/10.1063/1.3657518}
+  {\path{arXiv:http://dx.doi.org/10.1063/1.3657518}}, \href
+  {http://dx.doi.org/10.1063/1.3657518} {\path{doi:10.1063/1.3657518}}.
+\newline\urlprefix\url{http://dx.doi.org/10.1063/1.3657518}
+
+\bibitem{bib:Silverstone14}
+J.~W. Silverstone, D.~Bonneau, K.~Ohira, N.~Suzuki, H.~Yoshida, N.~Iizuka,
+  M.~Ezaki, C.~M. Natarajan, M.~G. Tanner, R.~H. Hadfield, V.~Zwiller, G.~D.
+  Marshall, J.~G. Rarity, J.~L. O'Brien, M.~G. Thompson,
+  \href{http://dx.doi.org/10.1038/nphoton.2013.339}{On-chip quantum
+  interference between silicon photon-pair sources}, Nat Photon 8~(2) (2014)
+  104--108.
+\newline\urlprefix\url{http://dx.doi.org/10.1038/nphoton.2013.339}
+
+\bibitem{bib:Li15}
+Y.~Li, P.~C. Humphreys, G.~J. Mendoza, S.~C. Benjamin,
+  \href{https://link.aps.org/doi/10.1103/PhysRevX.5.041007}{Resource costs for
+  fault-tolerant linear optical quantum computing}, Phys. Rev. X 5 (2015)
+  041007.
+\newblock \href {http://dx.doi.org/10.1103/PhysRevX.5.041007}
+  {\path{doi:10.1103/PhysRevX.5.041007}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevX.5.041007}
+
 \bibitem{bib:Tillmann2015}
 M.~Tillmann, S.-H. Tan, S.~E. Stoeckl, B.~C. Sanders, H.~de~Guise, R.~Heilmann,
   S.~Nolte, A.~Szameit, P.~Walther,
@@ -388,6 +442,15 @@ H.~Wang, Z.-C. Duan, Y.-H. Li, S.~Chen, J.-P. Li, Y.-M. He, M.-C. Chen, Y.~He,
   {\path{doi:10.1103/PhysRevLett.116.213601}}.
 \newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.116.213601}
 
+\bibitem{bib:Kim01}
+Y.-H. Kim, S.~P. Kulik, Y.~Shih,
+  \href{https://link.aps.org/doi/10.1103/PhysRevA.63.060301}{Bell-state
+  preparation using pulsed nondegenerate two-photon entanglement}, Phys. Rev. A
+  63 (2001) 060301.
+\newblock \href {http://dx.doi.org/10.1103/PhysRevA.63.060301}
+  {\path{doi:10.1103/PhysRevA.63.060301}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevA.63.060301}
+
 \bibitem{bib:Pittman03}
 T.~B. Pittman, M.~M. Donegan, M.~J. Fitch, B.~C. Jacobs, J.~D. Franson, P.~Kok,
   H.~Lee, J.~P. Dowling, Heralded two-photon entanglement from probabilistic
@@ -531,10 +594,6 @@ D.~A. Kalashnikov, S.-H. Tan, T.~S. Iskhakov, M.~V. Chekhova, L.~A. Krivitsky,
   {\path{doi:10.1364/OL.37.002829}}.
 \newline\urlprefix\url{http://ol.osa.org/abstract.cfm?URI=ol-37-14-2829}
 
-\bibitem{bib:KLM01}
-E.~Knill, R.~Laflamme, G.~Milburn, A scheme for efficient quantum computation
-  with linear optics, Nature (London) 409 (2001) 46.
-
 \bibitem{bib:Brod16}
 D.~J. Brod, J.~Combes,
   \href{https://link.aps.org/doi/10.1103/PhysRevLett.117.080502}{Passive cphase
@@ -568,26 +627,6 @@ J.~Carolan, C.~Harrold, C.~Sparrow, E.~Mart{\'\i}n-L{\'o}pez, N.~J. Russell,
   \href {http://dx.doi.org/10.1126/science.aab3642}
   {\path{doi:10.1126/science.aab3642}}.
 \newline\urlprefix\url{http://science.sciencemag.org/content/early/2015/07/08/science.aab3642}
-
-\bibitem{bib:Sprengers11}
-J.~P. Sprengers, A.~Gaggero, D.~Sahin, S.~Jahanmirinejad, G.~Frucci,
-  F.~Mattioli, R.~Leoni, J.~Beetz, M.~Lermer, M.~Kamp, S.~Höfling,
-  R.~Sanjines, A.~Fiore, \href{http://dx.doi.org/10.1063/1.3657518}{Waveguide
-  superconducting single-photon detectors for integrated quantum photonic
-  circuits}, Applied Physics Letters 99~(18) (2011) 181110.
-\newblock \href {http://arxiv.org/abs/http://dx.doi.org/10.1063/1.3657518}
-  {\path{arXiv:http://dx.doi.org/10.1063/1.3657518}}, \href
-  {http://dx.doi.org/10.1063/1.3657518} {\path{doi:10.1063/1.3657518}}.
-\newline\urlprefix\url{http://dx.doi.org/10.1063/1.3657518}
-
-\bibitem{bib:Silverstone14}
-J.~W. Silverstone, D.~Bonneau, K.~Ohira, N.~Suzuki, H.~Yoshida, N.~Iizuka,
-  M.~Ezaki, C.~M. Natarajan, M.~G. Tanner, R.~H. Hadfield, V.~Zwiller, G.~D.
-  Marshall, J.~G. Rarity, J.~L. O'Brien, M.~G. Thompson,
-  \href{http://dx.doi.org/10.1038/nphoton.2013.339}{On-chip quantum
-  interference between silicon photon-pair sources}, Nat Photon 8~(2) (2014)
-  104--108.
-\newline\urlprefix\url{http://dx.doi.org/10.1038/nphoton.2013.339}
 
 \bibitem{bib:Prevedel07}
 R.~Prevedel, P.~Walther, F.~Tiefenbacher, P.~Bohi, R.~Kaltenbaek, T.~Jennewein,
