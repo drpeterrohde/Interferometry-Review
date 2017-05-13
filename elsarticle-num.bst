@@ -1095,7 +1095,7 @@ FUNCTION {output.url}
 { url empty$
     'skip$
     { new.block
-      format.url output
+      %format.url output
       format.lastchecked output
     }
   if$
@@ -1110,7 +1110,7 @@ FUNCTION {output.web.refs}
     'skip$
   if$
   adddoiresolver doi empty$ not and
-    { format.doi output.nonnull }
+    { format.doi output.null }
     'skip$
   if$
 }

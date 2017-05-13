@@ -95,7 +95,7 @@ In the last decade, single photons have been produced mainly through a nonlinear
 
 Another approach to linear optics is to pack more features known as degrees of freedom onto a single photon, and to increase the degree of control over them. It is possible to manipulate degrees of freedom like polarization, time-of-arrival, and orbital angular momentum \cite{bib:Tillmann2015,bib:Bozinovic2013, bib:Nicolas2014, bib:Humphreys2013, bib:Donohue2013}. Since KLM, new proposals for linear optical quantum computations (LOQC) have surfaced \cite{bib:Nielsen04,bib:BrowneRudolph05,bib:Gimeno-Segovia15,bib:Pant17}. Others do not promise universality in their processing, but still performs tasks such as sampling \cite{bib:Aaronson11}, and secure quantum computations \cite{bib:Tan16} that might be hard or impossible with a classical system.  Such methods open up new ways to engineer quantum states and quantum operations, and expand the toolbox of baseline resources we have for implementing quantum computations, which could prove crucial in the race to achieve quantum supremacy.
 
-We begin in Section \ref{sec:math} with an overview of the mathematical treatment of linear optical transformation on single photons, and in Section \ref{sec:encoding} with a description of some commonly used qubit encodings. Any unitary transformation acting on the spatial label of single photons can be efficiently decomposed into a network of beamsplitters and phase-shifters. We discuss this, and an extension to handle additional internal states, in Section \ref{sec:decomp}. For applying any linear optical circuit, one needs an accurate description of its unitary representation. A full quantum tomography is costly and time-consuming. Some practical methods have been devised to do this reconstruction without resorting to tomography, and these are described in Section \ref{sec:reconstruction}. In Section \ref{sec:state}, we recap the experimental breakthroughs in state preparation of single photons, and some entangled quantum states. This is followed by advances in linear optical networks, and photodectors in Sections \ref{sec:network} and \ref{sec:detector} respectively. Last, but not least, we review applications for linear optical interferometry in LOQC, {\sc bosonsampling}, and quantum metrology.
+We begin in Section \ref{sec:math} with an overview of the mathematical treatment of linear optical transformation on single photons, and in Section \ref{sec:encoding} with a description of some commonly used qubit encodings. Any unitary transformation acting on the spatial label of single photons can be efficiently decomposed into a network of beamsplitters and phase-shifters. We discuss this, and an extension to handle additional internal states, in Section \ref{sec:decomp}. For applying any linear optical circuit, one needs an accurate description of its unitary representation. A full quantum tomography is costly and time-consuming. Some practical methods have been devised to do this reconstruction without resorting to tomography, and these are described in Section \ref{sec:reconstruction}. In Section \ref{sec:state}, we recap the experimental breakthroughs in state preparation of single photons, and some entangled quantum states. This is followed by advances in time-bin based architecture for linear optical networks, and photodectors in Sections \ref{sec:timebins} and \ref{sec:detector} respectively. Last, but not least, we review applications for linear optical interferometry in LOQC, {\sc bosonsampling}, and quantum metrology.
 
 \section{Mathematical background}\label{sec:math}
 
@@ -303,8 +303,8 @@ where $\chi$ is the squeezing parameter. If a single photon were to be detected 
 %triborate (BiBO) have improved to the extent of becoming one of the record-
 %holders in single-photon production \cite{bib:WangChen16}.
 
-Solid-state single photon sources are versatile and efficient sources of single photons, however, the photons they produce have suffered from the lack of indistinguishability that is necessary for typical quantum information processing applications. Recent developments using resonant excitation of quantum dots were able to overcome these limitations. Laser pulses are used to excite the electronic resonance of the quantum dots and trigger the emission of high quality single photons \cite{bib:Muller07,bib:Vamivakas09, bib:Flagg09,bib:Ates09, bib:Dirk10,bib:1748,bib:Jayakumar13,bib:Wei14,bib:Muller14,bib:Unsleber15,
-bib:237403,bib:Sweeney14,bib:Ding16,bib:213601}. Using a time-bin loop-based architecture \cite{bib:Motes14} on a stream of such photons, quantum interference was demonstrated between five photons \cite{bib:WangHe16}.
+Solid-state single photon sources are versatile and efficient sources of single photons, however, the photons they produce have suffered from the lack of indistinguishability that is necessary for typical quantum information processing applications. Recent developments using resonant excitation of quantum dots were able to overcome these limitations. Laser pulses are used to excite the electronic resonance of the quantum dots and trigger the emission of high quality single photons \cite{bib:Ding16,bib:213601,bib:Ates09, bib:Dirk10,bib:1748,bib:Jayakumar13,bib:Wei14,bib:Muller14,bib:Unsleber15,
+bib:237403,bib:Sweeney14}. Using a time-bin loop-based architecture \cite{bib:Motes14} on a stream of such photons, quantum interference was demonstrated between five photons \cite{bib:WangHe16}.
 
 \subsection{Einstein-Podolsky-Rosen (EPR) pairs}
 
@@ -377,21 +377,35 @@ Although these gates are non-deterministic and consume qubits, strategies have b
 %\label{fig:fusion}	
 %\end{figure}
 
-\section{Linear optical networks}\label{sec:network}
+%\section{Linear optical networks}\label{sec:network}
 
-Numerous experimental implementations of various linear optics protocols have been demonstrated, using a variety of architectures. The main contenders considered to date are: bulk-optics; waveguides; and time-bin encoding.
+%\subsection{Waveguides}
 
-\subsection{Bulk-optics}
+%Numerous experimental implementations of various linear optics protocols 
+%have been demonstrated, using a variety of architectures. 
+%The main contenders considered to date are: bulk-optics; waveguides; and 
+%time-bin encoding.
+%The early implementations of linear optics protocols relied on bulk-optics 
+%implementations, in which a circuit is decomposed into a discrete 
+%arrangement of optical components, specifically beamsplitters and phase-
+%shifters. This corresponds to a direct implementation of the Reck \emph{et 
+%al.~}decomposition shown in Fig.~\ref{fig:Reck}, or subsequent alternate 
+%decompositions. Although this approach is effective and conceptually 
+%straightforward, it is highly impractical for large interferometers. For 
+%example, the implementation of a 100-mode interferometer requires on the 
+%order of 10,000 discrete optical elements, which must all be simultaneously 
+%aligned with interferometric stability, a highly experimentally challenging 
+%problem, not to mention incredibly physically large.
 
-The early implementations of linear optics protocols relied on bulk-optics implementations, in which a circuit is decomposed into a discrete arrangement of optical components, specifically beamsplitters and phase-shifters. This corresponds to a direct implementation of the Reck \emph{et al.~}decomposition shown in Fig.~\ref{fig:Reck}, or subsequent alternate decompositions.
+%Alternately, integrated waveguide devices can be employed to implement 
+%identical decompositions by etching the modes into paths in an optical 
+%chip, where evanescent coupling between closely neighbouring modes 
+%implements beamsplitter operations. Such devices are extremely compact, 
+%allowing the miniaturisation of large numbers of optical elements. 
+%Importantly, such devices are extremely optically stable, mitigating the 
+%need for any kind of dynamic stabilisation
 
-Although this approach is effective and conceptually straightforward, it is highly impractical for large interferometers. For example, the implementation of a 100-mode interferometer requires on the order of 10,000 discrete optical elements, which must all be simultaneously aligned with interferometric stability, a highly experimentally challenging problem, not to mention incredibly physically large.
-
-\subsection{Waveguides}
-
-Alternately, integrated waveguide devices can be employed to implement identical decompositions by etching the modes into paths in an optical chip, where evanescent coupling between closely neighbouring modes implements beamsplitter operations. Such devices are extremely compact, allowing the miniaturisation of large numbers of optical elements. Importantly, such devices are extremely optically stable, mitigating the need for any kind of dynamic stabilisation
-
-\subsection{Time-bins}\label{sec:timebins}
+\section{Time-bin loop-based architecture for linear optical networks}\label{sec:timebins}
 
 Using time-bin encoding of optical qubits, the obvious question is how to perform operations upon them. In \cite{bib:Motes14}, a dual-loop architecture was presented for implementing arbitrary passive linear-optics on photonic pulse-trains with time-bin separation $\tau$, shown in Fig.~\ref{fig:FL_arch}. The inner loop has length exactly $\tau$, while the outer one has length $>n\tau$ ($n$ is the 
 number of optical modes). The architecture is controlled via three 
@@ -542,12 +556,33 @@ which gets a $\sqrt{N}$ improvement over classical phase estimation. As this sen
 \end{align}
 with just a string of $N$ single photons, one photon per mode, for up to at least $N=25$ modes. 
 
-\begin{figure}[!htb]
-\centering
-\includegraphics[width=0.4\columnwidth]{MORDOR}
-\caption{Architecture of the quantum Fourier transform interferometer for metrology using single-photon states. QFT: Quantum Fourier transform circuit, and $\varphi_k=(k-1)\varphi$. Single photons are injected into the input modes on the left-hand-side, and a $N$-fold coincidence measurement is conducted at the output on the right-hand-side.} \label{fig:MORDOR}	
-\end{figure}
+%\begin{figure}[!htb]
+%\centering
+%\includegraphics[width=0.4\columnwidth]{MORDOR}
+%\caption{Architecture of the quantum Fourier transform interferometer for 
+%metrology using single-photon states. QFT: Quantum Fourier transform 
+%circuit, and $\varphi_k=(k-1)\varphi$. Single photons are injected into the 
+%input modes on the left-hand-side, and a $N$-fold coincidence measurement 
+%is conducted at the output on the right-hand-side.} \label{fig:MORDOR}	
+%\end{figure}
 
+\begin{figure}
+\centering
+\begin{subfigure}{.5\columnwidth}
+  \centering
+  \includegraphics[width=0.5\columnwidth]{phE}
+  \caption{}
+   \label{fig:MZ}
+\end{subfigure}%
+\begin{subfigure}{0.5\columnwidth}
+  \centering
+  \includegraphics[width=0.8\columnwidth]{MORDOR}
+  \caption{}
+  \label{fig:fusion}
+\end{subfigure}
+\caption{(a) A schematic diagram of the Mach-Zehnder interferometer comprising of two 50/50 beamsplitters with a phase shift $\varphi$ in one of its two paths.	(b) Architecture of the quantum Fourier transform interferometer for metrology using single-photon states. QFT: Quantum Fourier transform circuit, and $\varphi_k=(k-1)\varphi$. Single photons are injected into the input modes on the left-hand-side, and a $N$-fold coincidence measurement is conducted at the output on the right-hand-side.}
+\label{fig:MORDOR}
+\end{figure}
 
 
 
