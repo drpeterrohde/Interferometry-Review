@@ -600,6 +600,59 @@ H.~J. Briegel, R.~Raussendorf, Persistent entanglement in arrays of interacting
 R.~Raussendorf, D.~E. Browne, H.~J. Briegel, Measurement-based quantum
   computation on cluster states, Phys. Rev. A 68 (2003) 022312.
 
+\bibitem{bib:Mantri17}
+A.~Mantri, T.~F. Demarie, J.~F. Fitzsimons,
+  \href{http://dx.doi.org/10.1038/srep42861}{Universality of quantum
+  computation with cluster states and (x, y)-plane measurements}, Scientific
+  Reports 7 (2017) 42861 EP --.
+\newline\urlprefix\url{http://dx.doi.org/10.1038/srep42861}
+
+\bibitem{bib:Walther05a}
+P.~Walther, K.~J. Resch, T.~Rudolph, E.~Schenck, H.~Weinfurter, V.~Vedral,
+  M.~Aspelmeyer, A.~Zeilinger, Experimental one-way quantum computing, Nature
+  (London) 434 (2005) 169.
+
+\bibitem{bib:Lu06}
+C.-Y. Lu, X.-Q. Zhou, O.~Gühne, W.-B. Gao, J.~Zhang, Z.-S. Yuan, A.~Goebel,
+  T.~Yang, , J.-W. Pan, Experimental entanglement of six photons in graph
+  states\href {http://arxiv.org/abs/quant-ph/0609130}
+  {\path{arXiv:quant-ph/0609130}}.
+
+\bibitem{bib:Prevedel07}
+R.~Prevedel, P.~Walther, F.~Tiefenbacher, P.~Bohi, R.~Kaltenbaek, T.~Jennewein,
+  A.~Zeilinger, \href{http://dx.doi.org/10.1038/nature05346}{High-speed linear
+  optics quantum computing using active feed-forward}, Nature 445~(7123) (2007)
+  65--69.
+\newline\urlprefix\url{http://dx.doi.org/10.1038/nature05346}
+
+\bibitem{bib:Tokunaga08}
+Y.~Tokunaga, S.~Kuwashiro, T.~Yamamoto, M.~Koashi, N.~Imoto,
+  \href{https://link.aps.org/doi/10.1103/PhysRevLett.100.210501}{Generation of
+  high-fidelity four-photon cluster state and quantum-domain demonstration of
+  one-way quantum computing}, Phys. Rev. Lett. 100 (2008) 210501.
+\newblock \href {http://dx.doi.org/10.1103/PhysRevLett.100.210501}
+  {\path{doi:10.1103/PhysRevLett.100.210501}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.100.210501}
+
+\bibitem{bib:Schwartz16}
+I.~Schwartz, D.~Cogan, E.~R. Schmidgall, Y.~Don, L.~Gantz, O.~Kenneth, N.~H.
+  Lindner, D.~Gershoni,
+  \href{http://science.sciencemag.org/content/early/2016/09/07/science.aah4758}{Deterministic
+  generation of a cluster state of entangled photons}, Science\href
+  {http://arxiv.org/abs/http://science.sciencemag.org/content/early/2016/09/07/science.aah4758.full.pdf}
+  {\path{arXiv:http://science.sciencemag.org/content/early/2016/09/07/science.aah4758.full.pdf}},
+  \href {http://dx.doi.org/10.1126/science.aah4758}
+  {\path{doi:10.1126/science.aah4758}}.
+\newline\urlprefix\url{http://science.sciencemag.org/content/early/2016/09/07/science.aah4758}
+
+\bibitem{bib:Yokoyama13}
+S.~Yokoyama, R.~Ukai, S.~C. Armstrong, C.~Sornphiphatphong, T.~Kaji, S.~Suzuki,
+  J.-i. Yoshikawa, H.~Yonezawa, N.~C. Menicucci, A.~Furusawa,
+  \href{http://dx.doi.org/10.1038/nphoton.2013.287}{Ultra-large-scale
+  continuous-variable cluster states multiplexed in the time domain}, Nat
+  Photon 7~(12) (2013) 982--986.
+\newline\urlprefix\url{http://dx.doi.org/10.1038/nphoton.2013.287}
+
 \bibitem{Rohde15}
 P.~P. Rohde, \href{https://link.aps.org/doi/10.1103/PhysRevA.91.012306}{Simple
   scheme for universal linear-optics quantum computing with constant
@@ -701,13 +754,6 @@ J.~Carolan, C.~Harrold, C.~Sparrow, E.~Mart{\'\i}n-L{\'o}pez, N.~J. Russell,
   \href {http://dx.doi.org/10.1126/science.aab3642}
   {\path{doi:10.1126/science.aab3642}}.
 \newline\urlprefix\url{http://science.sciencemag.org/content/early/2015/07/08/science.aab3642}
-
-\bibitem{bib:Prevedel07}
-R.~Prevedel, P.~Walther, F.~Tiefenbacher, P.~Bohi, R.~Kaltenbaek, T.~Jennewein,
-  A.~Zeilinger, \href{http://dx.doi.org/10.1038/nature05346}{High-speed linear
-  optics quantum computing using active feed-forward}, Nature 445~(7123) (2007)
-  65--69.
-\newline\urlprefix\url{http://dx.doi.org/10.1038/nature05346}
 
 \bibitem{bib:Xiao-Song12}
 X.-S. Ma, T.~Herbst, T.~Scheidl, D.~Wang, S.~Kropatschek, W.~Naylor,

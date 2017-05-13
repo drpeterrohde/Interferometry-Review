@@ -271,11 +271,11 @@ and correcting systematic errors that arise due to mode mismatch
 parameters that yield the observed visibilities 
 \cite{bib:Spagnolo16,bib:Tillmann16}.
 
-A similar method to that of Laing and O'Brien \cite{bib:Laing12} uses coherent states instead of Fock states \cite{bib:Rahimi-Keshari13,bib:Heilmann15} to probe the interferometer. Such states are produced by a standard laser source, thus reducing experimental resources. The $r_{jk}$ terms are found by the square root of the ratios of output intensities at the $k$th port to the input intensity at the $j$th port. The remaining phases $\theta_{ij}$ are found by the interference pattern given by a two-mode coherent state $\ket{\alpha_1}\ket{\alpha_2}$ created by splitting a single coherent state on a 50-50 beamsplitter, and then imparting a relative phase, $\phi$, between them. The states $\ket{\alpha_1}$ and $\ket{\alpha_2}$ are input into port 1, and $j$ respectively. The output intensity at the $k$th port is then
+An alternative method uses coherent states to probe the interferometer \cite{bib:Rahimi-Keshari13,bib:Heilmann15} instead of Fock states. Such states are produced by a standard laser source, thus reducing experimental resources. The $r_{jk}$ terms are found by the square root of the ratios of output intensities at the $k$th port to the input intensity at the $j$th port. The remaining phases $\theta_{ij}$ are found by the interference pattern given by a two-mode coherent state $\ket{\alpha_1}\ket{\alpha_2}$ created by splitting a single coherent state on a 50-50 beamsplitter, and then imparting a relative phase, $\phi$, between them. The states $\ket{\alpha_1}$ and $\ket{\alpha_2}$ are input into port 1, and $j$ respectively. The output intensity at the $k$th port is then
 \begin{align}
 I_k=I(r_{1k}^2+r_{jk}^2+2 r_{1k}r_{kj}\cos(\phi+\theta_{jk})) \ ,
 \end{align}
-where $\theta_{jk}=0$ for $k=1$, and $I$ is the intensity of the input coherent states. By scanning the phase shift $\phi$ and locating the maximum value of $I_k$ for $j=2,\ldots, m$, all unknown phases can be found via $\theta_{jk}=2\pi-\phi$. An elegant extension of the scheme of Rahimi-Keshari {\it et al.} removes the need for precise control of the phase-shift $\phi$ \cite{bib:Heilmann15} by suggesting instead to plot the output intensity $I_k$ with respect to the input intensity $I$. In time, the natural drift in the laser source will cause this plot to trace out an ellipse, known as a Lissajous figure, whose orientation and direction of evolution will give the phase $\theta_{jk}$ and its sign respectively.
+where $\theta_{jk}=0$ for $k=1$, and $I$ is the intensity of the input coherent states. By scanning the phase shift $\phi$ and locating the maximum value of $I_k$ for $j=2,\ldots, m$, all unknown phases can be found via $\theta_{jk}=2\pi-\phi$. An elegant modification of this scheme removes the need for precise control of the phase-shift $\phi$ \cite{bib:Heilmann15} by suggesting instead to plot the output intensity $I_k$ with respect to the input intensity $I$. In time, the natural drift in the laser source will cause this plot to trace out an ellipse, known as a Lissajous figure, whose orientation and direction of evolution will give the phase $\theta_{jk}$ and its sign respectively.
 
 %\section{Experimental implementation}\label{sec:expt}
 
@@ -289,7 +289,7 @@ The photonic states that are most commonly employed in linear optics protocols c
 
 \subsection{Fock states}\label{sec:singlephotons}
 
-Sources of single photons for applications in quantum information processing can be separated into two main categories: those produced by spontaneous parametric down-conversion (SPDC), and those by solid-state emitters in a cavity. Both categories have seen major development recently in photon-number, with high fidelities. To-date, SPDC has been able to produce up to ten entangled photons \cite{bib:WangChen16,bib:Chen17}, and five-photon quantum interference has been reported using a quantum dot emitter in a microcavity \cite{bib:WangHe16}.
+Sources of single photons for applications in quantum information processing can be separated into two main categories: those produced by spontaneous parametric down-conversion (SPDC), and those by solid-state emitters in a cavity. Both categories have seen major development recently in photon-number, with high fidelities. To-date, SPDC has been able to produce up to ten entangled photons \cite{bib:WangChen16,bib:Chen17} that can be converted into indistinguishable photons, and a quantum dot emitter in a microcavity has produced five photons \cite{bib:WangHe16}.
 
 In SPDC, a nonlinear crystal with a large $\chi^{(2)}$ non-linearity is pumped with a strong coherent state (i.e laser source) and with a small probability, the pump beam is absorbed by the crystal to produce two beams of lower energy known as the signal and idler. Owing to conservation of energy and momentum, the two beams have spatio-temporal correlations that can be engineered to produce twin-beam states with perfect  photon number correlation, of the form
 \begin{align}
@@ -303,8 +303,8 @@ where $\chi$ is the squeezing parameter. If a single photon were to be detected 
 %triborate (BiBO) have improved to the extent of becoming one of the record-
 %holders in single-photon production \cite{bib:WangChen16}.
 
-Solid-state single photon sources come from semiconducting nanostructures and nitrogen valencies (NV) centers in diamond. Both types are versatile and efficient sources of single photons, however, the photons they produce have suffered from the lack of indistinguishability that is necessary for typical quantum information processing applications. Recent developments in the former have been very promising. Notably, much progress has been made using resonant excitation of quantum dots. Here, laser pulses are used to excite their electronic resonance and trigger the emission of single photons \cite{bib:Muller07,bib:Vamivakas09, bib:Flagg09,bib:Ates09, bib:Dirk10,bib:1748,bib:Jayakumar13,bib:Wei14,bib:Muller14,bib:Unsleber15,
-bib:237403,bib:Sweeney14}. An architecture that embeds the quantum dot in a micropillar cavity uses a resonant effect to achieve higher production efficiency€ and better photon purity \cite{bib:Ding16,bib:213601}. Using a time-bin loop-based architecture \cite{bib:Motes14} on a stream of such photons, quantum interference was demonstrated between five indistinguishable photons \cite{bib:WangHe16}.
+Solid-state single photon sources are versatile and efficient sources of single photons, however, the photons they produce have suffered from the lack of indistinguishability that is necessary for typical quantum information processing applications. Recent developments using resonant excitation of quantum dots were able to overcome these limitations. Laser pulses are used to excite the electronic resonance of the quantum dots and trigger the emission of high quality single photons \cite{bib:Muller07,bib:Vamivakas09, bib:Flagg09,bib:Ates09, bib:Dirk10,bib:1748,bib:Jayakumar13,bib:Wei14,bib:Muller14,bib:Unsleber15,
+bib:237403,bib:Sweeney14,bib:Ding16,bib:213601}. Using a time-bin loop-based architecture \cite{bib:Motes14} on a stream of such photons, quantum interference was demonstrated between five photons \cite{bib:WangHe16}.
 
 \subsection{Einstein-Podolsky-Rosen (EPR) pairs}
 
@@ -327,21 +327,21 @@ These states are also non-local, and have been used extensively in experimental 
 
 \subsection{Cluster states}\label{section:cluster}
 
-Cluster states form another class of multiparty entangled states, and were conceived in the context of arrays of qubits with an Ising-type interaction \cite{bib:Briegel01}.
+Cluster states form another class of multiparty entangled states, and were conceived in the context of arrays of qubits with an Ising-type interaction \cite{bib:Briegel01}. These states can be represented as a graph, in which vertices are qubits initialized into the superposition state $\ket{+}=\frac{1}{\sqrt{2}}(\ket{0}+\ket{1})$, with {\sc cphase} operation applied between edges, as shown in Fig.~\ref{fig:cluster}. For this reason, such states are also referred to as graph states. The {\sc cphase} operations generate entanglement between the qubits, and because they commute, are independent of ordering.
 
-These states can be represented as a graph, in which vertices are qubits initialized into the superposition state $\ket{+}=\frac{1}{\sqrt{2}}(\ket{0}+\ket{1})$, with {\sc cphase} operation applied between edges, as shown in Fig.~\ref{fig:cluster}. For this reason, such states are also referred to as graph states. The {\sc cphase} operations generate entanglement between the qubits, and because they commute, are independent of ordering. Cluster states are a resource state for a model of quantum computation known as measurement-based quantum computation (MBQC). Here, having such a state as a resource enables universal quantum computation using only single-qubit measurements \cite{bib:Raussendorf03}. Therefore, the preparation of such states is highly valuable, generating much interest in their efficient preparation.
+Cluster states are a resource state for a model of quantum computation known as measurement-based quantum computation (MBQC). Here, having such a state as a resource enables universal quantum computation using only single-qubit measurements \cite{bib:Raussendorf03}. In fact, only (X,Y)-plane measurements are needed \cite{bib:Mantri17}. Therefore, the preparation of such states is highly valuable, generating much interest in their efficient preparation.
 
 \begin{figure}
 \centering
 \begin{subfigure}{.5\columnwidth}
   \centering
-  \includegraphics[width=.6\columnwidth]{cluster_state}
+  \includegraphics[width=.5\columnwidth]{cluster_state}
   \caption{}
   \label{fig:cluster}
 \end{subfigure}%
 \begin{subfigure}{.5\columnwidth}
   \centering
-  \includegraphics[width=.8\columnwidth]{fusion}
+  \includegraphics[width=.7\columnwidth]{fusion}
   \caption{}
   \label{fig:fusion}
 \end{subfigure}
@@ -360,7 +360,7 @@ These states can be represented as a graph, in which vertices are qubits initial
 
 Unfortunately, implementing {\sc cphase} gates using linear optics is complicated and highly non-deterministic. A major improvement upon this is to use fusion gates - rotated polarising beamsplitters, which implement projections onto the Bell states. These operations fuse smaller cluster states, represented using polarisation encoding, into larger ones, consuming one (type-I fusion) or two (type-II fusion) photons in the process. These operations are shown in Fig.~\ref{fig:fusion}. Although these operations are non-deterministic with a success probability of $1/2$, they require only a single beamsplitter, already a major improvement over directly implementing {\sc cphase} gates. Furthermore, unlike {\sc cphase} gates, fusion operations require only high Hong-Ou-Mandel visibility, rather than the Mach-Zehnder stability required within existing {\sc cphase} gate implementations, a major experimental simplification.
 
-Although these gates are non-deterministic and consume qubits, strategies have been described for efficiently preparing arbitrarily large cluster states of arbitrary topology, and using far fewer optical elements than by directly employing {\sc cphase} gates.
+Although these gates are non-deterministic and consume qubits, strategies have been described for efficiently preparing arbitrarily large cluster states of arbitrary topology, and using far fewer optical elements than by directly employing {\sc cphase} gates \cite{bib:Nielsen04,bib:BrowneRudolph05,bib:Gimeno-Segovia15,bib:Pant17}. Experimentally, small photonic cluster states have been demonstrated using both SPDC \cite{bib:Walther05a,bib:Lu06,bib:Prevedel07,bib:Tokunaga08} and quantum dot sources \cite{bib:Schwartz16}. To this end, continuous variable cluster states have fared better as large cluster states containing more than 10,000 entangled modes are possible  \cite{bib:Yokoyama13}, with the caveat that it is difficult to address modes individually for processing.
 
 %\begin{figure}[!htb]
 %\centering
