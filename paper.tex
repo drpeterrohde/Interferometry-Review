@@ -227,7 +227,7 @@ The task of implementing an arbitrary quantum computation on linear optics comes
 
 \begin{figure}[!htb]
 \centering
-\includegraphics[width=0.5\columnwidth]{reck}
+\includegraphics[width=0.4\columnwidth]{reck}
 \caption{Efficient decomposition of arbitrary linear optics networks into a sequence of beamsplitters and phase-shifters.} \label{fig:Reck}	
 \end{figure}
 
@@ -237,10 +237,11 @@ If the linear optical transformations can be realized on various degrees of free
 
 \section{Reconstructing the linear optical network}\label{sec:reconstruction}
 
-In many practical situations, the structure of a linear optical device in terms of its constituent beamsplitters and phase-shifters is known once it is built. However, owing to manufacturing imperfections, a precise characterization of these devices may still be needed post-production. One approach for achieving this is via quantum process tomography \cite{bib:Mitchell03,bib:Obrien04,bib:Lobino08,bib:Saleh11}. However, quantum process tomography is an expensive approach in terms of the number of measurements required to characterize the network, with exponential overhead, becoming impractical for large optical networks which can contain hundreds of modes using present-day technology \cite{bib:Harris16}. To mitigate this problem, alternative characterization protocols have been developed using quantum interference of various quantum light sources \cite{bib:Laing12,bib:Rahimi-Keshari13} in the linear optical device.
+In many practical situations, the structure of a linear optical device in terms of its constituent beamsplitters and phase-shifters is known once it is built. However, owing to manufacturing imperfections, a precise characterization of these devices may still be needed post-production. One approach for achieving this is via quantum process tomography.
+%\cite{bib:Mitchell03,bib:Obrien04,bib:Lobino08,bib:Saleh11}.
+However, quantum process tomography is an expensive approach in terms of the number of measurements required to characterize the network, with exponential overhead, becoming impractical for large optical networks which can contain hundreds of modes using present-day technology \cite{bib:Harris16}. To mitigate this problem, alternative characterization protocols have been developed.
 
-Generally, the unitary matrices of $d\times d$ linear optical devices are complex $U_{ij}=r_{ij}e^{i\theta_{ij}}$, where $0 \leq r_{ij}\leq 1$, and $0\leq \theta_{ij}\leq 2\pi$. To characterize these numbers, one can do so by injecting one- and two-photon states into the network with correlated photon detection \cite{bib:Laing12}. With some mathematical simplifications, the first row and first column elements can be reduced to real numbers, and then found via one-photon transmissions. The remaining $r_{ij}$ and $\theta_{ij}$ parameters can then be written in terms of these real parameters, and the visibility of two-photon inputs.
-%
+Generally, the unitary matrices of $d\times d$ linear optical devices are complex $U_{ij}=r_{ij}e^{i\theta_{ij}}$, where $0 \leq r_{ij}\leq 1$, and $0\leq \theta_{ij}\leq 2\pi$. To characterize these numbers, one can do so by injecting one- and two-photon states into the network with correlated photon detection \cite{bib:Laing12}. With some mathematical simplifications, the parameters can be solved for using the one-photon transmissions, and the visibility of two-photon inputs.
 %
 %First, they note some equivalencies: two unitaries $U$ and $U'$ are 
 %equivalent if there exist two diagonal unitary matrices $D_1^U$ and 
@@ -271,11 +272,11 @@ and correcting systematic errors that arise due to mode mismatch
 parameters that yield the observed visibilities 
 \cite{bib:Spagnolo16,bib:Tillmann16}.
 
-An alternative method uses coherent states to probe the interferometer \cite{bib:Rahimi-Keshari13,bib:Heilmann15} instead of Fock states. Such states are produced by a standard laser source, thus reducing experimental resources. The $r_{jk}$ terms are found by the square root of the ratios of output intensities at the $k$th port to the input intensity at the $j$th port. The remaining phases $\theta_{ij}$ are found by the interference pattern given by a two-mode coherent state $\ket{\alpha_1}\ket{\alpha_2}$ created by splitting a single coherent state on a 50-50 beamsplitter, and then imparting a relative phase, $\phi$, between them. The states $\ket{\alpha_1}$ and $\ket{\alpha_2}$ are input into port 1, and $j$ respectively. The output intensity at the $k$th port is then
+An alternative method uses coherent states to probe the interferometer \cite{bib:Rahimi-Keshari13,bib:Heilmann15} instead of Fock states. Such states are produced by a standard laser source, thus reducing experimental resources. The $r_{jk}$ terms can be calculated from the ratios of output intensities at the $k$th port to the input intensity at the $j$th port. The remaining phases $\theta_{ij}$ are found by the interference pattern given by a two-mode coherent state $\ket{\alpha}\ket{\alpha e^{\phi}}$. When the states are injected into ports 1, and $j$ respectively, the output intensity at the $k$th port is
 \begin{align}
 I_k=I(r_{1k}^2+r_{jk}^2+2 r_{1k}r_{kj}\cos(\phi+\theta_{jk})) \ ,
 \end{align}
-where $\theta_{jk}=0$ for $k=1$, and $I$ is the intensity of the input coherent states. By scanning the phase shift $\phi$ and locating the maximum value of $I_k$ for $j=2,\ldots, m$, all unknown phases can be found via $\theta_{jk}=2\pi-\phi$. An elegant modification of this scheme removes the need for precise control of the phase-shift $\phi$ \cite{bib:Heilmann15} by suggesting instead to plot the output intensity $I_k$ with respect to the input intensity $I$. In time, the natural drift in the laser source will cause this plot to trace out an ellipse, known as a Lissajous figure, whose orientation and direction of evolution will give the phase $\theta_{jk}$ and its sign respectively.
+where $\theta_{jk}=0$ for $k=1$, and $I$ is the intensity of the input coherent states. By scanning the phase shift $\phi$ and locating the maximum value of $I_k$ for $j=2,\ldots, m$, all unknown phases can be found via $\theta_{jk}=2\pi-\phi$. An elegant modification of this scheme removes the need for precise control of the phase-shift $\phi$ by suggesting instead to plot the output intensity $I_k$ with respect to the input intensity $I$ \cite{bib:Heilmann15}. In time, the natural drift in the laser source will cause this plot to trace out an ellipse, known as a Lissajous figure, whose orientation and direction of evolution will give the phase $\theta_{jk}$ and its sign respectively.
 
 %\section{Experimental implementation}\label{sec:expt}
 
@@ -289,9 +290,9 @@ The photonic states that are most commonly employed in linear optics protocols c
 
 \subsection{Fock states}\label{sec:singlephotons}
 
-Sources of single photons for applications in quantum information processing can be separated into two main categories: those produced by spontaneous parametric down-conversion (SPDC), and those by solid-state emitters in a cavity. Both categories have seen major development recently in photon-number, with high fidelities. To-date, SPDC has been able to produce up to ten entangled photons \cite{bib:WangChen16,bib:Chen17} that can be converted into indistinguishable photons, and a quantum dot emitter in a microcavity has produced five photons \cite{bib:WangHe16}.
+Sources of single photons for applications in quantum information processing can be separated into two main categories: those produced by spontaneous parametric down-conversion (SPDC), and those by solid-state emitters in a cavity. To-date, SPDC has been able to produce up to ten entangled photons \cite{bib:WangChen16,bib:Chen17} that can in turn be converted into indistinguishable photons, and a quantum dot emitter in a microcavity has produced five photons \cite{bib:WangHe16}.
 
-In SPDC, a nonlinear crystal with a large $\chi^{(2)}$ non-linearity is pumped with a strong coherent state (i.e laser source) and with a small probability, the pump beam is absorbed by the crystal to produce two beams of lower energy known as the signal and idler. Owing to conservation of energy and momentum, the two beams have spatio-temporal correlations that can be engineered to produce twin-beam states with perfect  photon number correlation, of the form
+In SPDC, a nonlinear crystal with a large $\chi^{(2)}$ non-linearity is pumped with a laser source and with a small probability, the pump beam is absorbed by the crystal to produce two beams of lower energy known as the signal and idler. Owing to conservation of energy and momentum, the two beams have spatio-temporal correlations that can be engineered to produce twin-beam states with perfect  photon number correlation, of the form
 \begin{align}
 \ket\psi_\mathrm{SPDC} = \sqrt{1-\chi^2} \sum_{n=0}^\infty \chi^n \ket{n,n},	
 \end{align}
@@ -303,15 +304,16 @@ where $\chi$ is the squeezing parameter. If a single photon were to be detected 
 %triborate (BiBO) have improved to the extent of becoming one of the record-
 %holders in single-photon production \cite{bib:WangChen16}.
 
-Solid-state single photon sources are versatile and efficient sources of single photons, however, the photons they produce have suffered from the lack of indistinguishability that is necessary for typical quantum information processing applications. Recent developments using resonant excitation of quantum dots were able to overcome these limitations. Laser pulses are used to excite the electronic resonance of the quantum dots and trigger the emission of high quality single photons \cite{bib:Ding16,bib:213601,bib:Ates09, bib:Dirk10,bib:1748,bib:Jayakumar13,bib:Wei14,bib:Muller14,bib:Unsleber15,
-bib:237403,bib:Sweeney14}. Using a time-bin loop-based architecture \cite{bib:Motes14} on a stream of such photons, quantum interference was demonstrated between five photons \cite{bib:WangHe16}.
+Solid-state single photon sources are versatile and efficient sources of single photons, however, the photons they produce have suffered from the lack of indistinguishability that is necessary for typical quantum information processing applications. Recent developments using resonant excitation of quantum dots were able to overcome these limitations. Laser pulses are used to excite the electronic resonance of the quantum dots and trigger the emission of high quality single photons \cite{bib:WangHe16}
+%\cite{bib:Ding16,bib:213601,bib:Ates09, bib:Dirk10,bib:
+%1748,bib:Jayakumar13,bib:Wei14,bib:Muller14,bib:Unsleber15,
+%bib:237403,bib:Sweeney14,bib:WangHe16}.
 
 \subsection{Einstein-Podolsky-Rosen (EPR) pairs}
 
 An EPR pair, or Bell pair, is one of the four states,
 \begin{align}
-\ket{0}_A\ket{0}_B &\pm \ket{1}_A\ket{1}_B, \nonumber \ {\rm and} \\
-\ket{1}_A\ket{0}_B &\pm \ket{0}_A\ket{1}_B,
+\ket{0}_A\ket{0}_B \pm \ket{1}_A\ket{1}_B, \ {\rm and} \ \ket{1}_A\ket{0}_B \pm \ket{0}_A\ket{1}_B \ ,
 \end{align}
 which are all maximally entangled and locally equivalent to one another. These are the simplest examples of entangled states, and their preparation via SPDC has been the mainstay of entangled state preparation for quantum optical processing \cite{bib:Kim01}.
 %\cite{bib:Kim01,bib:Kim03,bib:Brida07,bib:Dayan07}.
@@ -327,9 +329,9 @@ These states are also non-local, and have been used extensively in experimental 
 
 The GHZ state is also known as the NOON state, because it is written as
 \begin{align}
-\ket{\psi^{\rm (NOON)}_n}=\frac{1}{\sqrt{2}}(\ket{N,0}+\ket{0,N})\ ,
+\ket{\psi^{\rm (NOON)}_n}=\frac{1}{\sqrt{2}}(\ket{n,0}+\ket{0,n})\ ,
 \end{align}
-in the second quantization representation. This is the notation adopted by the community working in quantum metrology (see Section \ref{subsec:metrology}).
+in the second quantization representation. This notation is commonly used in quantum metrological applications.
 
 \subsection{Cluster states}\label{section:cluster}
 
@@ -364,7 +366,7 @@ Cluster states are a resource state for a model of quantum computation known as 
 %irrelevant.} \label{fig:cluster}	
 %\end{figure}
 
-Unfortunately, implementing {\sc cphase} gates using linear optics is complicated and highly non-deterministic. A major improvement upon this is to use fusion gates - rotated polarising beamsplitters, which implement projections onto the Bell states. These operations fuse smaller cluster states, represented using polarisation encoding, into larger ones, consuming one (type-I fusion) or two (type-II fusion) photons in the process. These operations are shown in Fig.~\ref{fig:fusion}. Although these operations are non-deterministic with a success probability of $1/2$, they require only a single beamsplitter, already a major improvement over directly implementing {\sc cphase} gates. Furthermore, unlike {\sc cphase} gates, fusion operations require only high Hong-Ou-Mandel visibility, rather than the Mach-Zehnder stability required within existing {\sc cphase} gate implementations, a major experimental simplification.
+Unfortunately, implementing {\sc cphase} gates using linear optics is complicated and highly non-deterministic. A major improvement upon this is to use fusion gates-rotated polarising beamsplitters, which implement projections onto the Bell states. These operations fuse smaller cluster states, represented using polarisation encoding, into larger ones, consuming one (type-I fusion) or two (type-II fusion) photons in the process. These operations are shown in Fig.~\ref{fig:fusion}. Although these operations are non-deterministic with a success probability of $1/2$, they require only a single beamsplitter, already a major improvement over directly implementing {\sc cphase} gates. Furthermore, unlike {\sc cphase} gates, fusion operations require only high Hong-Ou-Mandel visibility, rather than the Mach-Zehnder stability required within existing {\sc cphase} gate implementations, a major experimental simplification.
 
 Although these gates are non-deterministic and consume qubits, strategies have been described for efficiently preparing arbitrarily large cluster states of arbitrary topology, and using far fewer optical elements than by directly employing {\sc cphase} gates \cite{bib:Nielsen04,bib:BrowneRudolph05,bib:Gimeno-Segovia15,bib:Pant17}. Experimentally, small photonic cluster states have been demonstrated using both SPDC \cite{bib:Walther05a,bib:Lu06,bib:Prevedel07,bib:Tokunaga08} and quantum dot sources \cite{bib:Schwartz16}. To this end, continuous variable cluster states have fared better as large cluster states containing more than 10,000 entangled modes are possible  \cite{bib:Yokoyama13}, with the caveat that it is difficult to address modes individually for processing.
 
@@ -425,13 +427,13 @@ beamsplitter operations.
 \centering
 \begin{subfigure}{.5\columnwidth}
   \centering
-  \includegraphics[width=0.9\columnwidth]{full_architecture}
+  \includegraphics[width=0.7\columnwidth]{full_architecture}
   \caption{}
   \label{fig:FL_arch}
 \end{subfigure}%
 \begin{subfigure}{0.5\columnwidth}
   \centering
-  \includegraphics[width=\columnwidth]{PBS_TB}
+  \includegraphics[width=0.8\columnwidth]{PBS_TB}
   \caption{}
   \label{fig:fusion}
 \end{subfigure}
@@ -491,28 +493,47 @@ Broadly speaking, there are two main classes of photodetectors: non-photon-numbe
 \end{align}
 while those of the non-photon-number-resolving detectors are given by
 \begin{align}
-\hat\Pi_\text{off} &= \hat\Pi_0, \nonumber \\
-\hat\Pi_\text{on} &= \hat{I} - \hat\Pi_\text{on}\ .
+\hat\Pi_\text{off} = \hat\Pi_0, \ {\rm and} \ \hat\Pi_\text{on} = \hat{I} - \hat\Pi_\text{on}\ .
 \end{align}
-Detailed reviews have been written about these detectors \cite{bib:Hadfield09,bib:Eisaman11}, so we shall only outline a few notable examples here. 
+Detailed reviews have been written about these detectors \cite{bib:Hadfield09,bib:Eisaman11}, so we shall only outline a few important examples. 
 
-A common example of a non-PNR detector is the avalanche photodiode (APD). These devices are made up of semiconductor material, usually silicon, which generate an electron that quickly generates a cascade of electrons. This avalanche of electrons generate a current that can be measured. APDs are affordable, offer low dark count rates with reasonable efficiency, and can be made to operate in a broad spectrum of wavelengths; from the visible to near-infrared range
+A common example of a non-PNR detector is the avalanche photodiode (APD). These devices are made up of semiconductor material, usually silicon, which generate an electron that quickly generates a cascade of electrons. This avalanche of electrons generate a current that can be measured. APDs are affordable, offer low dark count rates with reasonable efficiency, and can be made to operate in a broad spectrum of wavelengths.
 % A downside to using APD is their deadtime. This is a period of time 
 %following an avalanche during which the avalanche is stopped by a 
 %quenching circuit to reset the APD. No photons can be detected during the 
-%deadtime and contributes to photon loss in an APD. 
-Superconducting nanowire single-photon detector (SNSPD) is another  type of non-PNR detector that has recently become commercially available. This detector uses a narrow superconducting wire that carries a current just below the critical current density, above which the superconducting wire would undergo a phase change back to its normal resistance. This happens when the SNSPD absorbs an incident photon, and the current in the wire would then by-pass it to go through the neighboring region which is at a lower resistance. The voltage spike that ensues is measured to give a photon number count.
+%deadtime and contributes to photon loss in an APD.
+Superconducting nanowire single-photon detector (SNSPD) is another  type of non-PNR detector. This detector operates in its superconducting phase just below the critical density, and it phase changes back to normal when a photon is absorbed. This causes a spike in current around it, which, when detected, would indicate the absorption of the photon.
 
 PNR detectors are a wonderful addition to the toolbox of linear optics. A notable example is the superconducting transition edge sensor (TES) which has an extremely high quantum efficiency. The principle it operates on is very similar to the SNSPD, but with a much higher sensitivity that allows it to detect the energy of single photons.
 %low dark count rates. However, they are quite slow, have low maximum 
 %counting rates, and are costly to operate due to their very low operating 
 %temperatures. 
 The visible light photon counter (VLPC) is another kind of PNR detector. The way VLPC works is in principle very similar to the APD, but with an additional layer of silicon that is lightly doped with arsenic (As). Owing to the presence of the As, a single photon absorption event always create an electrical signal that is always of the same magnitude. Thus, the output electrical signal is just proportional to the number of detected photons.
-Last, PNR detectors can be created by connecting many non-PNR detectors in parallel to one another, and summing the signals at the output. Such an approach has been successfully demonstrated with SNSPD \cite{bib:Divochiy08}, and APDs \cite{bib:Afek09,bib:Chrapkiewicz14,bib:Chen17}. 
+Last, PNR detectors can be created by connecting many non-PNR detectors in parallel to one another, and summing the signals at the output. For instance, like in the theoretical proposal of \cite{bib:Sperling12}. Such an approach has been successfully demonstrated with SNSPD \cite{bib:Divochiy08}, and APDs \cite{bib:Eraerds07,bib:Afek09,bib:Kalashnikov12,bib:Chrapkiewicz14,bib:Chen17}. 
 
 
 
-The dominant challenge facing the experimental implementation of both types of detectors is inefficiency due to loss, which results in higher photon-number being confused as having lower photon-number. In some protocols, such as type-II fusion, which relies on coincidence detection, inefficiency is not problematic. However, in most applications, including type-I fusion, this is highly problematic as photon-number confusion results in decoherence via projecting onto the wrong photon-number, unknown to the observer. Other common problems that plague these detectors are dark counts which add spurious counts from the background. APDs suffer from dead-time which is a period of time following a detection event during which it is inactive. In applications requiring feedforwarding, this is problematic. Although TESs are great detectors, they are expensive because they require cryogenic equipment to function. The multiplexed SNSPDs suffer from the same constrain and also from low quantum efficiencies. While spatially multiplexed APDs are relatively cheap, they suffer from spurious counts known as crosstalk that arises from avalanches triggered by electrons launched from neighboring APDs \cite{bib:Eraerds07,bib:Afek09,bib:Kalashnikov12}. Given the important role of detectors in linear optical quantum computation (see Section \ref{sec:LOQC}), more could be done to improve them.
+%The dominant challenge facing the experimental implementation of both 
+%types of detectors is inefficiency due to loss, which results in 
+%higher photon-number being confused as having lower photon-number. In 
+%some protocols, such as type-II fusion, which relies on coincidence 
+%detection, inefficiency is not problematic. However, in most 
+%applications, including type-I fusion, this is highly problematic as 
+%photon-number confusion results in decoherence via projecting onto 
+%the wrong photon-number, unknown to the observer. Other common 
+%problems that plague these detectors are dark counts which add 
+%spurious counts from the background. APDs suffer from dead-time which 
+%is a period of time following a detection event during which it is 
+%inactive. In applications requiring feedforwarding, this is 
+%problematic. Although TESs are great detectors, they are expensive 
+%because they require cryogenic equipment to function. The multiplexed 
+%SNSPDs suffer from the same constrain and also from low quantum 
+%efficiencies. While spatially multiplexed APDs are relatively cheap, 
+%they suffer from spurious counts known as crosstalk that arises from 
+%avalanches triggered by electrons launched from neighboring APDs 
+%\cite{bib:Eraerds07,bib:Afek09,bib:Kalashnikov12}. Given the 
+%important role of detectors in linear optical quantum computation 
+%(see Section \ref{sec:LOQC}), more could be done to improve them.
 
 \section{Applications for linear optics interferometry}
 
@@ -535,10 +556,31 @@ Cross-Kerr nonlinearity is a type of nonlinearity implemented through
 
  
 \subsection{Boson-sampling}\label{sec:bosonsampling}
-\sihui{Peter to do this.}
+
+
+The difficulty in producing nonlinear operations required for universal LOQC led researchers to seek out alternative ways for demonstrating its power in the near term. {\sc Bosonsampling} is the result of such an effort. It is a restricted model of non-universal quantum computation \cite{bib:Aaronson11} that constitutes sampling the photocounts from the probability distribution of identical bosons scattered by a passive linear optical interferometer. While not universal, the {\sc bosonsampling} scheme is strongly believed to implement a classically hard task. Consider such a circuit of $m$ input (and output) modes that is injected with $n$ indistinguishable single photons such that $m\sim \mathcal{O}(n^2)$. Then, the boson sampling task consists of generating a sample from the probability distribution of single-photon measurements at the output of the circuit. The probability of detecting a $s_j$ photons at the $j$th output mode is
+\begin{align}
+p(s_1,\ldots,s_m)=\frac{{\rm Per}(U_S)}{s_1!\ldots s_n!} \ ,	
+\end{align}
+where ${\rm Per}$ denotes the permanent of a matrix, and $U_S$ is obtained from the interferometer unitary $U$ by keeping its first n columns and repeating its $j$th row $s_j$ times. The appearance of the permanent, which is of \#P complexity, in this statistics contributes to the hardness of the boson sampling problem. It is also known to be as hard as stimulating the short time evolution of a certain Hamiltonian\cite{bib:Peropadre17}.
+
+\begin{figure}[!htb]
+\centering
+\includegraphics[width=0.3\columnwidth]{BS_model}
+\caption{The Boson-Sampling model. A string of n singlephotons is prepared in m optical modes. They are evolvedvia a passive interferometer $U$. Finally the photon-statisticsare sampled from the distribution $p(s_1,\ldots,s_m)$.
+} \label{fig:FL_arch}	
+\end{figure} 
+
+
+ Owing to the simplicity of {\sc BosonSampling} and its overarching implications for computer science, multiple experiments were reported shortly after its theoretical conception \cite{bib:Tillmann13,bib:Spring13, bib:Broome13,bib:Crespi13}. A recent experiment showed a {\sc bosonsampling} machine beating an early computer \cite{bib:WangHe16}.
+{\sc BosonSampling} has piqued so much interest, that a complete discussion would make up its own review, so we shall only outline some main developments here. One variant, known as scattershot {\sc bosonsampling}, proposes using pumped SPDC heralded photon sources to increase the rate of generating input photons \cite{bib:Lund14,bib:Bentivegna15}. Others varied the source input to cat-states \cite{bib:Rohde15} and thermal states \cite{bib:Tamma14_thermal} . An exciting modification allows the determination of molecular vibronic spectra \cite{bib:Huh15}, a task that goes beyond demonstrating a computationally hard task.
+
+Certifying that a {\sc bosonsampling} task has been correctly performed is non-trivial. Some efforts look into discriminating between a valid {\sc bosonsampling} and a uniform distributions \cite{bib:Gogolin13,bib:Aaronson13}. Another shows how to discriminate data arising from either indistinguishable or distinguishable photons \cite{bib:Spagnolo14,bib:Carolan14}. More general benchmark standards have also been instituted \cite{bib:Walschaeprs16}. Another approach to verify that the interferometer is behaving as expected is to make use of suppression laws \cite{bib:Tichy14} together with fully reconfigurable optical circuits. When the circuits are tuned to implement certain unitary matrices, specific input and output combinations are suppressed \cite{bib:Crespi16}. Last but not least, a bound for the transition amplitudes for {\sc bosonsampling} indicates that an approximation algorithm for the permanent is possible \cite{bib:Yung16}. Such an algorithm can help with verifying the sampling distribution, but their proof does not construct the algorithm needed for this to happen.
+
+As experimental imperfections threaten the scalability of {\sc bosonsampling}, there have been efforts to look into its error tolerance \cite{bib:Rohde12_tol}, fault-tolerance \cite{bib:Leverrier15}, and experimental artefacts \cite{bib:Shchesnobich14,bib:Tamma16}. Some works have resulted in interesting connections to exotic mathematical entities like immanants \cite{bib:Tan2013,bib:deGuise2014} and the multi-dimensional permanent \cite{bib:Tichy15}. A time-bin implementation of {\sc bosonsampling} \cite{bib:Motes14} seems particularly attractive in terms of robustness \cite{bib:Motes15}.
 
 \subsection{Quantum metrology}\label{subsec:metrology}
-An archetypal task for quantum metrology is the following: Given a Mach-Zedner interferometer, with an unknown phase shift of magnitude $\varphi$ inserted in one of the two paths (see Fig. \ref{fig:MZ}), can one deduce $\varphi$ via a judicious use of quantum states and measurements with a higher sensitivity than that of a completely classical interferometer? Indeed, one can, and the standard deviation, $\Delta\varphi$, after $N$ trials using quantum estimation is $\Delta\varphi=1/N$, which gets a $\sqrt{N}$ improvement over classical phase estimation. As this sensitivity is also a fundamental limit arising from Heisenberg's uncertainty principle; we cannot measure definitively the phase, it is known as the Heisenberg limit. Most famously, NOON states achieve this limit using $N$ photons in a single trial. Many reviews have been written for quantum metrology and Heisenberg-limited quantum phase estimation \cite{bib:Giovannetti04,bib:Dowling08,bib:Giovannetti11} so we will not dwell on the history of this application. Instead, we will discuss a new paradigm for quantum metrology that has arisen from our understanding of Boson-sampling.
+An archetypal task for quantum metrology is the following: Given a Mach-Zedner interferometer, with an unknown phase shift of magnitude $\varphi$ inserted in one of the two paths (see Fig. \ref{fig:MZ}), can one deduce $\varphi$ via a judicious use of quantum states and measurements with a higher sensitivity than that of a completely classical interferometer? Indeed, one can, and the standard deviation, $\Delta\varphi$, after $N$ trials using quantum estimation is $\Delta\varphi=1/N$, which gets a factor of $\sqrt{N}$ improvement over classical phase estimation. As this sensitivity is also a fundamental limit arising from Heisenberg's uncertainty principle, {\it i.e.} we cannot measure definitively the phase, it is known as the Heisenberg limit. Most famously, NOON states achieve this limit using $N$ photons in a single trial. Many reviews have been written for quantum metrology and Heisenberg-limited quantum phase estimation \cite{bib:Giovannetti04,bib:Dowling08,bib:Giovannetti11} so we will not dwell on the history of this application. Instead, we will discuss new paradigms for quantum metrology that have been made possible by the aforementioned advancements in linear optics.
  
 % \begin{figure}[!htb]
 % \centering
@@ -547,10 +589,14 @@ An archetypal task for quantum metrology is the following: Given a Mach-Zedner i
 %of two 50/50 beamsplitters with a phase shift $\varphi$ in one of its two 
 %paths.} \label{fig:MZ}	
 %\end{figure}
- 
- As discussed in Section \ref{sec:bosonsampling}, the resources needed for Boson-sampling is readily available, but executes a task that is believed to be hard classically. Surprisingly, an entanglement between a large number of spatial modes is possible with single photons in a passive linear optical device. This so-called number-path entanglement can be harnessed for quantum metrology without the use of entangled states like the NOON state \cite{bib:Motes15}. Here, the phase shift to be estimated, $\varphi$, manifests itself as a linear phase gradient across $N$ modes (See Fig. \ref{fig:MORDOR}). By straddling these modes among a quantum Fourier transform and its conjugate operation, it is possible to achieve $\Delta \varphi=\mathcal{O}(N^{-3/2})$ with just a string of $N$ single photons, one photon per mode, for up to at least $N=25$ modes. 
 
-%\begin{figure}[!htb]
+
+ 
+ As discussed in Section \ref{sec:bosonsampling}, the resources needed for Boson-sampling is readily available, but executes a task that is believed to be hard classically. Surprisingly, an entanglement between a large number of path labels is possible with single photons in a passive linear optical device. Motes {\it et al.~} harnessed this so-called number-path entanglement for quantum metrology without the use of entangled states \cite{bib:Motes15}. Here, the phase shift to be estimated, $\varphi$, manifests itself as a linear phase gradient across $N$ modes (See Fig. \ref{fig:MORDOR}). By straddling these modes among a quantum Fourier transform and its conjugate operation, it is possible to achieve $\Delta \varphi=\mathcal{O}(N^{-3/2})$ using a coincidence measurement with just a string of $N$ single photons, for up to at least $N=25$ modes. 
+ 
+ Quantum multi-parameter estimation is the extension of quantum phase estimation to sense multiple phases in a multi-arm inetrferometer \cite{bib:Szczykulska16}. Theoretical work has shown that it is favorable to probe all phases simultaneously rather than individually \cite{bib:Baumgratz16,bib:Ciampini16}, and it remains to realize existing proposals for implememtation \cite{bib:Spagnolo12}. Nonetheless, for a Heisenberg-limited sensitivity, entangled states and joint measurements across modes are likely to be required. 
+ 
+ %\begin{figure}[!htb]
 %\centering
 %\includegraphics[width=0.4\columnwidth]{MORDOR}
 %\caption{Architecture of the quantum Fourier transform interferometer for 
