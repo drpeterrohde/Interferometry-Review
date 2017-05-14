@@ -323,7 +323,13 @@ GHZ states form a class of entangled quantum states on multiple subsystems with 
 \begin{align}
 \ket{\Psi_{n}^{\rm (GHZ)}}=\frac{\ket{0}^{\otimes n}+\ket{1}^{\otimes n}}{\sqrt{2}} \ .
 \end{align}
-These states are also non-local, and have been used extensively in experimental test for non-locality \cite{bib:JW00,bib:Zhang15}. This has been a subject matter covered in detail by another review \cite{bib:JW12}.
+These states are also non-local, and have been used extensively in experimental test for non-locality \cite{bib:JW00,bib:Zhang15}. This has been a subject matter covered in detail by another review \cite{bib:JW12}. To date, six- \cite{bib:Lu06,bib:Zhang15}, eight- \cite{bib:Huang11,bib:Yao12}, and ten-photons \cite{bib:WangChen16,bib:Chen17} GHZ states have been produced.
+
+The GHZ state is also known as the NOON state, because it is written as
+\begin{align}
+\ket{\psi^{\rm (NOON)}_n}=\frac{1}{\sqrt{2}}(\ket{N,0}+\ket{0,N})\ ,
+\end{align}
+in the second quantization representation. This is the notation adopted by the community working in quantum metrology (see Section \ref{subsec:metrology}).
 
 \subsection{Cluster states}\label{section:cluster}
 
@@ -531,16 +537,8 @@ Cross-Kerr nonlinearity is a type of nonlinearity implemented through
 \subsection{Boson-sampling}\label{sec:bosonsampling}
 \sihui{Peter to do this.}
 
-\subsection{Quantum metrology}
-An archetypal task for quantum metrology is the following: Given a Mach-Zedner interferometer, with an unknown phase shift of magnitude $\varphi$ inserted in one of the two paths (see Fig. \ref{fig:MZ}), can one deduce $\varphi$ via a judicious use of quantum states and measurements with a higher sensitivity than that of a completely classical interferometer? It is well-known that one indeed can, and the standard deviation, $\Delta\varphi$, after $N$ trials using quantum estimation is
-\begin{align}
-\Delta\varphi=\frac{1}{N} \ ,	
-\end{align}
-which gets a $\sqrt{N}$ improvement over classical phase estimation. As this sensitivity is also a fundamental limit arising from Heisenberg's uncertainty principle; we cannot measure definitively the phase, it is known as the Heisenberg limit. Most famously, a family of entangled states known as NOON states achieve this limit using $N$ photons in a single trial. A NOON state is a superposition state in which $N$ photons are either in the first or second path:
-\begin{align}
-\ket{\psi^{\rm (NOON)}_n}=\frac{1}{\sqrt{2}}(\ket{N,0}+\ket{0,N})\ .	
-\end{align}
- Many reviews have been written for quantum metrology and Heisenberg-limited quantum phase estimation \cite{bib:Giovannetti04,bib:Dowling08,bib:Giovannetti11} so we will not dwell on the history of this application. Instead, we will discuss a new paradigm for quantum metrology that has arisen from our understanding of Boson-sampling.
+\subsection{Quantum metrology}\label{subsec:metrology}
+An archetypal task for quantum metrology is the following: Given a Mach-Zedner interferometer, with an unknown phase shift of magnitude $\varphi$ inserted in one of the two paths (see Fig. \ref{fig:MZ}), can one deduce $\varphi$ via a judicious use of quantum states and measurements with a higher sensitivity than that of a completely classical interferometer? Indeed, one can, and the standard deviation, $\Delta\varphi$, after $N$ trials using quantum estimation is $\Delta\varphi=1/N$, which gets a $\sqrt{N}$ improvement over classical phase estimation. As this sensitivity is also a fundamental limit arising from Heisenberg's uncertainty principle; we cannot measure definitively the phase, it is known as the Heisenberg limit. Most famously, NOON states achieve this limit using $N$ photons in a single trial. Many reviews have been written for quantum metrology and Heisenberg-limited quantum phase estimation \cite{bib:Giovannetti04,bib:Dowling08,bib:Giovannetti11} so we will not dwell on the history of this application. Instead, we will discuss a new paradigm for quantum metrology that has arisen from our understanding of Boson-sampling.
  
 % \begin{figure}[!htb]
 % \centering

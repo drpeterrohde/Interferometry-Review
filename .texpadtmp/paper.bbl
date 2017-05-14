@@ -534,6 +534,26 @@ J.-W. Pan, Z.-B. Chen, C.-Y. Lu, H.~Weinfurter, A.~Zeilinger,
   {\path{doi:10.1103/RevModPhys.84.777}}.
 \newline\urlprefix\url{https://link.aps.org/doi/10.1103/RevModPhys.84.777}
 
+\bibitem{bib:Lu06}
+C.-Y. Lu, X.-Q. Zhou, O.~Guhne, W.-B. Gao, J.~Zhang, Z.-S. Yuan, A.~Goebel,
+  T.~Yang, J.-W. Pan, \href{http://dx.doi.org/10.1038/nphys507}{Experimental
+  entanglement of six photons in graph states}, Nat Phys 3~(2) (2007) 91--95.
+\newline\urlprefix\url{http://dx.doi.org/10.1038/nphys507}
+
+\bibitem{bib:Huang11}
+Y.-F. Huang, B.-H. Liu, L.~Peng, Y.-H. Li, L.~Li, C.-F. Li, G.-C. Guo,
+  \href{http://dx.doi.org/10.1038/ncomms1556}{Experimental generation of an
+  eight-photon greenberger--horne--zeilinger state}, Nature Communications 2
+  (2011) 546 EP --.
+\newline\urlprefix\url{http://dx.doi.org/10.1038/ncomms1556}
+
+\bibitem{bib:Yao12}
+X.-C. Yao, T.-X. Wang, P.~Xu, H.~Lu, G.-S. Pan, X.-H. Bao, C.-Z. Peng, C.-Y.
+  Lu, Y.-A. Chen, J.-W. Pan,
+  \href{http://dx.doi.org/10.1038/nphoton.2011.354}{Observation of eight-photon
+  entanglement}, Nat Photon 6~(4) (2012) 225--228.
+\newline\urlprefix\url{http://dx.doi.org/10.1038/nphoton.2011.354}
+
 \bibitem{bib:Briegel01}
 H.~J. Briegel, R.~Raussendorf, Persistent entanglement in arrays of interacting
   particles, Phys. Rev. Lett. 85 (2001) 910.
@@ -553,12 +573,6 @@ A.~Mantri, T.~F. Demarie, J.~F. Fitzsimons,
 P.~Walther, K.~J. Resch, T.~Rudolph, E.~Schenck, H.~Weinfurter, V.~Vedral,
   M.~Aspelmeyer, A.~Zeilinger, Experimental one-way quantum computing, Nature
   (London) 434 (2005) 169.
-
-\bibitem{bib:Lu06}
-C.-Y. Lu, X.-Q. Zhou, O.~Gühne, W.-B. Gao, J.~Zhang, Z.-S. Yuan, A.~Goebel,
-  T.~Yang, , J.-W. Pan, Experimental entanglement of six photons in graph
-  states\href {http://arxiv.org/abs/quant-ph/0609130}
-  {\path{arXiv:quant-ph/0609130}}.
 
 \bibitem{bib:Prevedel07}
 R.~Prevedel, P.~Walther, F.~Tiefenbacher, P.~Bohi, R.~Kaltenbaek, T.~Jennewein,
