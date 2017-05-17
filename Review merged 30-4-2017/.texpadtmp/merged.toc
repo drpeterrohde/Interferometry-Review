@@ -1,0 +1,34 @@
+\tocdepth@munge 
+\contentsline {section}{\numberline {}Contents}{1}{section*.1}
+\tocdepth@restore 
+\contentsline {section}{\numberline {I}Introduction}{1}{section*.2}
+\contentsline {section}{\numberline {II}Mathematical background}{1}{section*.3}
+\contentsline {section}{\numberline {III}Optical encoding of quantum information on single-photons}{2}{section*.4}
+\contentsline {section}{\numberline {IV}Optical encoding of quantum information on single-photons}{2}{section*.5}
+\contentsline {subsubsection}{\numberline {1}Polarisation}{2}{section*.6}
+\contentsline {subsubsection}{\numberline {2}Dual-rail}{2}{section*.7}
+\contentsline {subsubsection}{\numberline {3}Time-bins}{2}{section*.8}
+\contentsline {section}{\numberline {V}Efficient circuit decompositions of linear optics networks}{3}{section*.9}
+\contentsline {section}{\numberline {VI}Reconstructing the linear optical network}{3}{section*.10}
+\contentsline {section}{\numberline {VII}Experimental implementation}{4}{section*.11}
+\contentsline {subsection}{\numberline {A}State preparation}{4}{section*.12}
+\contentsline {subsubsection}{\numberline {1}Single-photons}{4}{section*.13}
+\contentsline {subsubsection}{\numberline {2}Einstein-Podolsky-Rosen (EPR) pairs}{5}{section*.14}
+\contentsline {subsubsection}{\numberline {3}Greenberger-Horne-Zeilinger (GHZ) states}{5}{section*.15}
+\contentsline {subsubsection}{\numberline {4}Cluster states}{5}{section*.16}
+\contentsline {subsection}{\numberline {B}Linear optics networks}{5}{section*.17}
+\contentsline {subsubsection}{\numberline {1}Bulk-optics}{5}{section*.18}
+\contentsline {subsubsection}{\numberline {2}Waveguides}{5}{section*.19}
+\contentsline {subsubsection}{\numberline {3}Time-bins}{5}{section*.20}
+\contentsline {subsection}{\numberline {C}Measurement}{5}{section*.21}
+\contentsline {subsubsection}{\numberline {1}Photodetection}{5}{section*.22}
+\contentsline {subsubsection}{\numberline {2}Homodyning}{6}{section*.23}
+\contentsline {section}{\numberline {VIII}Applications for linear optics interferometry}{6}{section*.24}
+\contentsline {subsection}{\numberline {A}Linear optics quantum computation}{6}{section*.25}
+\contentsline {subsection}{\numberline {B}Boson-sampling}{6}{section*.26}
+\contentsline {subsection}{\numberline {C}Quantum metrology}{6}{section*.27}
+\contentsline {subsection}{\numberline {D}Encrypted quantum computation}{6}{section*.28}
+\contentsline {section}{\numberline {IX}State of the art}{6}{section*.29}
+\contentsline {section}{\numberline {X}Conclusion}{6}{section*.30}
+\contentsline {section}{\numberline {}Acknowledgments}{6}{section*.31}
+\contentsline {section}{\numberline {}References}{6}{section*.32}

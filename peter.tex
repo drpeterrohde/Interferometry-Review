@@ -123,6 +123,14 @@ we now discuss the most prominent such encodings, which have been widely employe
 
 These encodings are all isomorphic to one another, but nonetheless, because they are represented using entirely different physical systems, they each exhibit their own unique advantages and disadvantages, and methods by which to implement operations upon them.
 
+Using quantum states of light, there are a multitude of approaches to encoding quantum information. Beginning with a logical qubit,
+\begin{align}
+\ket\psi_L = \alpha \ket{0}_L + \beta\ket{1}_L,
+\end{align}
+we now discuss the most prominent such encodings, which have been widely employed. We will specifically focus on single-photon encodings, as opposed to, for example, continuous variable encodings.
+
+These encodings are all isomorphic to one another, but nonetheless, because they are represented using entirely different physical systems, they each exhibit their own unique advantages and disadvantages, and methods by which to implement operations upon them.
+
 %\subsection{Single-photons}
 
 \subsection{Polarisation}
@@ -143,12 +151,38 @@ In dual-rail encoding, a single photon encodes a logical qubit as a superpositio
 \begin{align}
 \ket\psi_L = \alpha\ket{1,0} + \beta\ket{0,1},
 \end{align}
+<<<<<<< Updated upstream:paper.tex
 where $\ket{i,j}$ is a two-mode state with $i$ ($j$) photons in the first (second) spatial mode. Using this encoding, phase-shifters and beamsplitters between the two spatial modes implement arbitrary single-qubit operations. Converting between polarisation- and dual-rail-encoding is trivial using polarising beamsplitters, which separate horizontal and vertical components into distinct spatial modes, or vice-versa.
 
 Unfortunately, because the two basis states evolve via independent paths, our dual-rail qubits are susceptible to path-length-mismatch, a problem that does not affect polarisation encoding. Nonetheless, there are certain advantages to using two paths as opposed to one as is the case in single-rail encoding where the presence or absence of a photon denotes the logical bit. The loss of a photon in a dual-rail qubit is easily noted by its absence, whereas in a single-rail encoding, it would have been confused for one of the states. Moreover, a no-go result precludes universal quantum computation using just linear optics without the use of measurements in a single-rail encoding \cite{bib:Wu13}, thus making dual-rail encoding a more attractive alternative.
 
 
+<<<<<<< Updated upstream:paper.tex
 \subsection{Time-bins}
+=======
+\subsubsection{Time-bins}
+=======
+where $\ket{i,j}$ is a two-mode state with $i$ ($j$) photons in the first (second) spatial mode. Using this encoding, phase-shifters and beamsplitters between the two spatial modes implement arbitrary single-qubit operations. Unfortunately, because the two basis states evolve via independent paths, our dual-rail qubits are susceptible to path-length-mismatch, a problem that does not affect polarisation encoding.
+
+Converting between polarisation- and dual-rail-encoding is trivial using polarising beamsplitters, which separate horizontal and vertical components into distinct spatial modes, or vice-versa.
+
+\subsubsection{Time-bins}
+
+Time-bin qubits encode quantum information into the time-of-arrival of single photons, which have fixed polarisation and reside in a single spatial mode. Effectively, we discretise the direction of propagation of photons into discrete bins, which are treated as orthogonal basis states. Specifically, we are employing the encoding,
+\begin{align}
+\ket\psi_L = \alpha\ket{1}_{t}\ket{0}_{t+\tau} + \beta \ket{0}_{t}\ket{1}_{t+\tau},
+\end{align}
+where $\ket{0}_t$ ($\ket{1}_t$) denotes the vacuum (single-photon) state with arrival time $t$. Here $\tau$ is the time-bin separation, which must be sufficiently large that the temporal envelopes of neighbouring photons do not overlap, thereby ensuring orthogonality of the logical basis states.
+
+This encoding is particularly resource-savvy, since a single spatial mode (e.g length of optical fibre) can encapsulate many time-bin qubits as a `time-bin-train'. The amount of quantum information that can be encoded into the train is limited only by its physical length.
+
+Unlike polarisation or dual-rail encoding, time-bin encoding does not lend itself to `native' single-qubit operations. Rather, fast switching can be used to spatially separate neighbouring time-bins, implement a beamsplitter operation between them, before converting back to time-bin encoding.
+
+\textbf{Need to edit the above together with what follows...}
+
+It was first conceived for a single-photon passing through a Mach-Zedner interferometer with its two paths having different lengths \cite{bib:Brendel99}. If the photon passes through the shorter (longer) path, then it will arrive at the output port in an ``early" (``late") time bin labelled $\ket{e}$ ($\ket{\ell}$). Thus, photon will exit the interferometer in a state that is a superposition of these two states. Owing to difficulties in implementing qubit operations in this basis, it was at that time mostly used for demonstrating quantum communication over long distance \cite{bib:Thew02,bib:Marcikic04}. With the advent of faster optical components, and single-photon detectors, it has become feasible to perform any single qubit operations, and a post-selected CPHASE gate on time-bin qubits \cite{bib:Humphreys2013}. These gates form an universal set for quantum computing. At the same time, an ultrafast measurement technique for recovering time-bin qubits was also demonstrated \cite{bib:Donohue2013}.
+>>>>>>> Stashed changes:peter.tex
+>>>>>>> Stashed changes:peter.tex
 
 Time-bin qubits encode quantum information into the time-of-arrival of single photons, which have fixed polarisation and reside in a single spatial mode. Effectively, we discretise the direction of propagation of photons into discrete bins, which are treated as orthogonal basis states. Specifically, we are employing the encoding,
 \begin{align}
@@ -442,6 +476,7 @@ beamsplitter operations.
 \end{figure}
 
 
+<<<<<<< Updated upstream:paper.tex
 %\begin{figure}[!htb]
 %\centering
 %\includegraphics[width=0.4\columnwidth]{full_architecture}
@@ -460,8 +495,37 @@ beamsplitter operations.
 %controlled beamsplitter operations.
 %} \label{fig:FL_arch}	
 %\end{figure}
+=======
+Using time-bin encoding of optical qubits, the obvious question is how to perform operations upon them. In \cite{bib:Motes14}, a dual-loop architecture was presented for implementing arbitrary passive linear-optics on photonic pulse-trains, shown in Fig.~\ref{fig:FL_arch}.
+<<<<<<< Updated upstream:paper.tex
+
+\begin{figure}[!htb]
+\includegraphics[width=\columnwidth]{full_architecture}
+\caption{A fibre-loop architecture for implementing arbitrary linear optics operations upon a time-bin-encoded pulse-train. The source prepares the temporally encoded pulse-train, with time-bin separation $\tau$. The pulse-train then enters a dual-loop configuration. The inner loop has length exactly $\tau$, while the outer one has length $>n\tau$ ($n$ is the number of optical modes). The architecture is controlled via three dynamically controlled beamsplitters. The first and last need only be on/off switches, whose sole purpose is to couple in the prepared pulse-train, keep it within the outer loop for the required duration, and then couple out of the outer loop, yielding the transformed pulse-train. The central beamsplitter must be able to implement arbitrary classically-controlled beamsplitter operations.} \label{fig:FL_arch}	
+\end{figure}
+>>>>>>> Stashed changes:peter.tex
 
 The architecture is frugal in its use of optical components, requiring only three dynamic beamsplitters, and several lengths of fibre. The beauty of this architecture is that the experimental requirements do not increase with the number of optical modes. The only parameter that scales with the number of optical modes is the outer loop, which must be at least long enough to house the entire time-bin-encoded pulse-train. Note, however, that the central beamsplitter must be controllable at sub-$\tau$ time-scales, so as to enable each temporal mode to be addressed individually, which is technically challenging.
+=======
+
+\begin{figure}[!htb]
+\includegraphics[width=\columnwidth]{full_architecture}
+\caption{A fibre-loop architecture for implementing arbitrary linear optics operations upon a time-bin-encoded pulse-train. The source prepares the temporally encoded pulse-train, with time-bin separation $\tau$. The pulse-train then enters a dual-loop configuration. The inner loop has length exactly $\tau$, while the outer one has length $>n\tau$ ($n$ is the number of optical modes). The architecture is controlled via three dynamically controlled beamsplitters. The first and last need only be on/off switches, whose sole purpose is to couple in the prepared pulse-train, keep it within the outer loop for the required duration, and then couple out of the outer loop, yielding the transformed pulse-train. The central beamsplitter must be able to implement arbitrary classically-controlled beamsplitter operations.} \label{fig:FL_arch}	
+\end{figure}
+
+The architecture is frugal in its use of optical components, requiring only three dynamic beamsplitters, and several lengths of fibre. The beauty of this architecture is that the experimental requirements do not increase with the number of optical modes. The only parameter that scales with the number of optical modes is the outer loop, which must be at least long enough to house the entire time-bin-encoded pulse-train. Note, however, that the central beamsplitter must be controllable at sub-$\tau$ time-scales, so as to enable each temporal mode to be addressed individually, which is technically challenging.
+
+The workings of the scheme can be thought of as follows: the inner loop allows arbitrary beamsplitter operations between neighbouring time-bins; the outer loop does nothing interferometric, but rather enables the pulse-train to undergo as many applications of the inner loops as necessary. It then follows that this scheme is universal for linear optics, as a sufficient number of beamsplitter operations between neighbouring modes enables universal decompositions, such as that by \cite{Reck}.
+
+As a simple example of how such time-bin encoding maps to other encodings, in Fig.~\ref{fig:PBS_TB} we show the isomorphism between the polarising beamsplitter operation and a pairwise temporal beamsplitter operation.
+
+\begin{figure}[!htb]
+\includegraphics[width=0.7\columnwidth]{PBS_TB}
+\caption{Mapping between two polarisation-encoded qubits undergoing a polarising beamsplitter (PBS) operation, and its equivalent representation using 4 time-bins in a pulse-train. The PBS completely reflects (transmits) the vertical (horizontal) polarisations. The evolution of the four logical basis states, and their respective outputs, are shown explicitly. Writing out this PBS transformation in matrix form yields a permutation. Taking this permutation and relabelling the modes, we obtain the time-bin transformation shown underneath -- a simple swap of two of the four time-bins.} \label{fig:PBS_TB}	
+\end{figure}
+
+The above description applies to passive linear optics, which is sufficient for protocols such as {\sc BosonSampling}, but insufficient for universal optical quantum computation, which requires the addition of ancillary states, and measurement with fast-feedforward. To address this, it was shown in \cite{Rohde} that by dynamically preparing ancillary pulse-trains (from the already-existing source), classically controlled by time-resolved measurements at the output, and changing the switching sequence, we can effectively couple in and out arbitrary subsets of the optical modes, enabling partial measurements to be implemented. 
+>>>>>>> Stashed changes:peter.tex
 
 The workings of the scheme can be thought of as follows: the inner loop allows arbitrary beamsplitter operations between neighbouring time-bins; the outer loop does nothing interferometric, but rather enables the pulse-train to undergo as many applications of the inner loops as necessary. It then follows that this scheme is universal for linear optics, as a sufficient number of beamsplitter operations between neighbouring modes enables universal decompositions, using for example, the Reck \emph{et al.} decomposition described in Section \ref{sec:decomp}.
 
