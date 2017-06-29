@@ -1,67 +1,19 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  15 MAY 2017 14:21
-=======
-<<<<<<< Updated upstream
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  15 MAY 2017 01:31
-=======
-<<<<<<< Updated upstream
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  5 MAY 2017 02:55
-=======
-<<<<<<< Updated upstream
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  27 APR 2017 10:36
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.14)  29 APR 2017 18:34
->>>>>>> Stashed changes
->>>>>>> Stashed changes
->>>>>>> Stashed changes
->>>>>>> origin/master
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.14)  15 MAY 2017 11:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **paper.tex
 (./paper.tex
-<<<<<<< Updated upstream
-LaTeX2e <2015/01/01>
-Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+LaTeX2e <2014/05/01>
+Babel <3.9k> and hyphenation patterns for 78 languages loaded.
 (./elsarticle.cls
 Document Class: elsarticle 2013/05/15, 2.1: Elsevier Ltd
 \@bls=\dimen102
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
-=======
-LaTeX2e <2014/05/01>
-Babel <3.9k> and hyphenation patterns for 78 languages loaded.
-(/usr/local/texlive/2014/texmf-dist/tex/latex/revtex4/revtex4.cls
-Document Class: revtex4 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for documentation)
- Copyright (c) 2001 The American Physical Society.
- mailto:revtex@aps.org
- Licensed under the LPPL:
-http://www.ctan.org/tex-archive/macros/latex/base/lppl.txt
- Arthur Ogawa <ogawa@teleport.com>
- Based on work by David Carlisle <david@dcarlisle.demon.co.uk>.
-ltxutil: portions licensed from W. E. Baxter (web@superscript.com)
-Class revtex4 Info: Repairing broken LateX \@sect on input line 596.
-\intertabularlinepenalty=\count79
-\@tbpen=\count80
-\@arstrutbox@hline=\box26
-Class revtex4 Info: Repairing broken LaTeX \@xbitor on input line 1610.
-ltxgrid: portions licensed from W. E. Baxter (web@superscript.com)
-\c@linecount=\count81
-\output=\toks14
-\@protection@box=\box27
-\@topmark@saved=\toks15
-\footins@saved=\box28
-\pagesofar=\box29
-\footbox=\box30
-\pagegrid@col=\count82
-Class revtex4 Info: Incorporating package {textcase}  [1998/11/12 v0.06 Text only upper/lower case changing (DPC)]. on input line 3682.
-(/usr/local/texlive/2014/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip10
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
->>>>>>> Stashed changes
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -73,111 +25,15 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \c@table=\count86
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
-<<<<<<< Updated upstream
 \bibindent=\dimen103
-) (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
- (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks14
-) (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
- (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
-=======
-\c@figure=\count90
-\c@table=\count91
- (/usr/local/texlive/2014/texmf-dist/tex/latex/natbib/natbib.sty
-Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip43
-\bibsep=\skip44
-LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count92
-)
-\widetext@top=\box32
-\widetext@bot=\box33
- (/usr/local/texlive/2014/texmf-dist/tex/latex/revtex4/revsymb.sty
-Package: revsymb 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for documentation)
-LaTeX Info: Redefining \REV@mathfrak on input line 118.
-)) (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/amssymb.sty
-Package: amssymb 2013/01/14 v3.01 AMS font symbols
- (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/amsfonts.sty
-Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks16
-\symAMSa=\mathgroup4
-\symAMSb=\mathgroup5
-LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-LaTeX Info: Redefining \frak on input line 111.
-LaTeX Info: Redefining \Bbb on input line 113.
-)) (/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2013/01/14 v2.14 AMS math features
-\@mathmargin=\skip45
-
-For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2000/06/29 v2.01
- (/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks17
-\ex@=\dimen102
-)) (/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen103
-) (/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 1999/12/14 v2.01 operator names
-)
-\inf@bad=\count93
-LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count94
-\leftroot@=\count95
-LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count96
-\DOTSCASE@=\count97
-LaTeX Info: Redefining \ldots on input line 378.
-LaTeX Info: Redefining \dots on input line 381.
-LaTeX Info: Redefining \cdots on input line 466.
-\Mathstrutbox@=\box34
-\strutbox@=\box35
-\big@size=\dimen104
-LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count98
-\c@MaxMatrixCols=\count99
-\dotsspace@=\muskip11
-\c@parentequation=\count100
-\dspbrk@lvl=\count101
-\tag@help=\toks18
-\row@=\count102
-\column@=\count103
-\maxfields@=\count104
-\andhelp@=\toks19
-\eqnshift@=\dimen105
-\alignsep@=\dimen106
-\tagshift@=\dimen107
-\tagwidth@=\dimen108
-\totwidth@=\dimen109
-\lineht@=\dimen110
-\@envbody=\toks20
-\multlinegap=\skip46
-\multlinetaggap=\skip47
-\mathdisplay@stack=\toks21
-LaTeX Info: Redefining \[ on input line 2665.
-LaTeX Info: Redefining \] on input line 2666.
-) (/usr/local/texlive/2014/texmf-dist/tex/latex/revtex4/aps.rtx
-File: aps.rtx 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for documentation)
- (/usr/local/texlive/2014/texmf-dist/tex/latex/revtex4/rmp.rtx
-File: rmp.rtx 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for documentation)
-)) (/usr/local/texlive/2014/texmf-dist/tex/latex/revtex4/10pt.rtx
-File: 10pt.rtx 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for documentation)
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
  (/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
-\KV@toks@=\toks22
+\KV@toks@=\toks14
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
  (/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/trig.sty
->>>>>>> Stashed changes
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
@@ -192,7 +48,6 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count87
 ))
-<<<<<<< Updated upstream
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
 )
@@ -213,7 +68,7 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \@enLab=\toks16
 \@sep=\skip43
 \@@sep=\skip44
- (/Users/sihui_tan/Documents/Interferometry-Review/.texpadtmp/paper.spl) (/usr/local/texlive/2015/texmf-dist/tex/latex/natbib/natbib.sty
+ (/Users/peterrohde/Desktop/linear_optics_review/.texpadtmp/paper.spl) (/usr/local/texlive/2014/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip45
 \bibsep=\skip46
@@ -224,7 +79,7 @@ LaTeX Info: Redefining \cite on input line 694.
 \openout3 = `paper.spl'.
 
 \appnamewidth=\dimen109
-) (/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/txfonts.sty
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/txfonts.sty
 Package: txfonts 2008/01/22 v3.2.1
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 21.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -301,15 +156,15 @@ LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `bold'
 LaTeX Info: Redefining \not on input line 1043.
 ) (./revip.sty
 elsarticle.cls is loaded...
-(/usr/local/texlive/2015/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
- (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+ (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
-) (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+) (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
-) (/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+) (/usr/local/texlive/2014/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count95
@@ -333,39 +188,25 @@ Package geometry Warning: Over-specification in `h'-direction.
 Package geometry Warning: Over-specification in `v'-direction.
     `height' (635.35pt) is ignored.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/fleqn.clo
-File: fleqn.clo 2015/03/31 v1.1i Standard LaTeX option (flush left equations)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/fleqn.clo
+File: fleqn.clo 1998/08/17 v1.1c Standard LaTeX option (flush left equations)
 \mathindent=\dimen118
-Applying: [2015/01/01] Make \[ robust on input line 50.
-LaTeX Info: Redefining \[ on input line 51.
-Already applied: [0000/00/00] Make \[ robust on input line 62.
-Applying: [2015/01/01] Make \] robust on input line 74.
-LaTeX Info: Redefining \] on input line 75.
-Already applied: [0000/00/00] Make \] robust on input line 83.
-) (/usr/local/texlive/2015/texmf-dist/tex/latex/multirow/multirow.sty
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/multirow/multirow.sty
 \bigstrutjot=\dimen119
-) (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
- (/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2014/04/23 v1.1a Standard LaTeX Color (DPC)
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package color Info: Driver file: pdftex.def on input line 142.
-)) (/usr/local/texlive/2015/texmf-dist/tex/latex/framed/framed.sty
+Package color Info: Driver file: pdftex.def on input line 137.
+)) (/usr/local/texlive/2014/texmf-dist/tex/latex/framed/framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \OuterFrameSep=\skip47
 \fb@frw=\dimen120
 \fb@frh=\dimen121
 \FrameRule=\dimen122
 \FrameSep=\dimen123
-) (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
-=======
-\Gin@req@height=\dimen111
-\Gin@req@width=\dimen112
-) (/usr/local/texlive/2014/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
-Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
-\symrsfs=\mathgroup6
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/hyperref.sty
->>>>>>> Stashed changes
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
  (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
@@ -405,36 +246,19 @@ Package atveryend Info: \enddocument detected (standard20110627).
 Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
-<<<<<<< Updated upstream
-) (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty
-=======
-) (/usr/local/texlive/2014/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/auxhook.sty
->>>>>>> Stashed changes
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
-<<<<<<< Updated upstream
 \@linkdim=\dimen124
 \Hy@linkcounter=\count98
 \Hy@pagecounter=\count99
- (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
-)
-\Hy@SavedSpaceFactor=\count100
- (/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg
-=======
-\@linkdim=\dimen113
-\Hy@linkcounter=\count106
-\Hy@pagecounter=\count107
  (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count108
+\Hy@SavedSpaceFactor=\count100
  (/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/hyperref.cfg
->>>>>>> Stashed changes
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Option `final' set `true' on input line 4319.
@@ -447,7 +271,7 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
 LaTeX Info: Redefining \href on input line 4952.
 \c@Hy@tempcnt=\count101
- (/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -474,38 +298,31 @@ Package hyperref Message: Driver (autodetected): hpdftex.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-<<<<<<< Updated upstream
 \Fld@listcount=\count106
 \c@bookmark@seq@number=\count107
- (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
-=======
-\Fld@listcount=\count114
-\c@bookmark@seq@number=\count115
  (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
->>>>>>> Stashed changes
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 282.
 )
 \Hy@SectionHShift=\skip48
-<<<<<<< Updated upstream
-) (/usr/local/texlive/2015/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup10
-) (/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip49
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
- (/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks18
 \ex@=\dimen128
-)) (/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
+)) (/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen129
-) (/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count108
@@ -545,9 +362,9 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \mathdisplay@stack=\toks22
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
-) (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amssymb.sty
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
- (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring symbol font `AMSa' on input line 59.
 LaTeX Font Info:    Overwriting symbol font `AMSa' in version `normal'
@@ -763,14 +580,14 @@ LaTeX Font Info:    Redeclaring math symbol \varkappa on input line 260.
 LaTeX Font Info:    Redeclaring math symbol \Bbbk on input line 261.
 LaTeX Font Info:    Redeclaring math symbol \hslash on input line 262.
 LaTeX Font Info:    Redeclaring math symbol \backepsilon on input line 265.
-) (/usr/local/texlive/2015/texmf-dist/tex/latex/base/latexsym.sty
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/base/latexsym.sty
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup11
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
-(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
-) (/usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption.sty
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
- (/usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption3.sty
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
 \captionmargin=\dimen137
@@ -791,14 +608,11 @@ See the caption package documentation for explanation.
 Package caption Info: \@makecaption = \long macro:#1#2->\vskip \abovecaptionskip \footnotesize \bfseries \sbox \@tempboxa {#1.~#2}\ifdim \wd \@tempboxa >\hsize #1.~#2\par \else \global \@minipagefalse \hb@xt@ \hsize {\hfil \box \@tempboxa \hfil }\fi \vskip \belowcaptionskip .
 \c@ContinuedFloat=\count120
 Package caption Info: hyperref package is loaded.
-) (/usr/local/texlive/2015/texmf-dist/tex/latex/caption/subcaption.sty
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
 \c@subfigure=\count121
 \c@subtable=\count122
-) (/usr/local/texlive/2015/texmf-dist/tex/latex/xcolor/xcolor.sty
-=======
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/xcolor/xcolor.sty
->>>>>>> Stashed changes
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
  (/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
@@ -814,71 +628,61 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
-<<<<<<< Updated upstream
- (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/dvipsnam.def
-File: dvipsnam.def 2014/10/14 v3.0j Driver-dependent file (DPC,SPQR)
-)) (/Users/sihui_tan/Documents/Interferometry-Review/.texpadtmp/paper.aux)
-\openout1 = `paper.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 32.
-LaTeX Font Info:    Try loading font information for OML+txmi on input line 32.
- (/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/omltxmi.fd
-File: omltxmi.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 32.
-LaTeX Font Info:    Try loading font information for OMS+txsy on input line 32.
- (/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/omstxsy.fd
-File: omstxsy.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 32.
-LaTeX Font Info:    Try loading font information for OMX+txex on input line 32.
- (/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/omxtxex.fd
-File: omxtxex.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 32.
-LaTeX Font Info:    Try loading font information for U+txexa on input line 32.
- (/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/utxexa.fd
-File: utxexa.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 32.
- (/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/ot1txr.fd
-File: ot1txr.fd 2000/12/15 v3.1
-) (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
-=======
  (/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/dvipsnam.def
 File: dvipsnam.def 2014/04/23 v3.0j Driver-dependant file (DPC,SPQR)
-)) (/Users/peterrohde/OneDrive/Documents/Publications/GitHub/Interferometry-Review/.texpadtmp/paper.aux)
+)) (/Users/peterrohde/Desktop/linear_optics_review/.texpadtmp/paper.aux
+
+LaTeX Warning: Label `fig:fusion' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:fusion' multiply defined.
+
+
+LaTeX Warning: Label `fig:FL_arch' multiply defined.
+
+
+LaTeX Warning: Label `fig:fusion' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:fusion' multiply defined.
+
+)
 \openout1 = `paper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-Class revtex4 Info: Patching LaTeX tabular. on input line 18.
-Class revtex4 Info: cite was not loaded (OK!) on input line 18.
-Class revtex4 Info: multicol was not loaded (OK!) on input line 18.
- (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
->>>>>>> Stashed changes
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 31.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 31.
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/omltxmi.fd
+File: omltxmi.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 31.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 31.
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/omstxsy.fd
+File: omstxsy.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 31.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 31.
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/omxtxex.fd
+File: omxtxex.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 31.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 31.
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/utxexa.fd
+File: utxexa.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 31.
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/ot1txr.fd
+File: ot1txr.fd 2000/12/15 v3.1
+) (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count123
 \scratchdimen=\dimen144
@@ -902,7 +706,6 @@ Package grfext Info: Graphics extension search list:
  (/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-<<<<<<< Updated upstream
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -938,699 +741,207 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box33
-Package hyperref Info: Link coloring OFF on input line 32.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
-=======
-\AtBeginShipoutBox=\box37
-
-
-Package hyperref Warning: Height of page (\paperheight) is invalid (0.0pt),
-(hyperref)                using 11in.
-
-Package hyperref Info: Link coloring ON on input line 18.
+Package hyperref Info: Link coloring OFF on input line 31.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
->>>>>>> Stashed changes
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
  (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count129
 )
-<<<<<<< HEAD
-LaTeX Info: Redefining \ref on input line 32.
-LaTeX Info: Redefining \pageref on input line 32.
-LaTeX Info: Redefining \nameref on input line 32.
-=======
-<<<<<<< Updated upstream
 LaTeX Info: Redefining \ref on input line 31.
 LaTeX Info: Redefining \pageref on input line 31.
 LaTeX Info: Redefining \nameref on input line 31.
->>>>>>> origin/master
- (/Users/sihui_tan/Documents/Interferometry-Review/.texpadtmp/paper.out) (/Users/sihui_tan/Documents/Interferometry-Review/.texpadtmp/paper.out)
+ (/Users/peterrohde/Desktop/linear_optics_review/.texpadtmp/paper.out) (/Users/peterrohde/Desktop/linear_optics_review/.texpadtmp/paper.out)
 \@outlinefile=\write4
 \openout4 = `paper.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for OMS+txr on input line 74.
- (/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/omstxr.fd
+LaTeX Font Info:    Try loading font information for OMS+txr on input line 73.
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/omstxr.fd
 File: omstxr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <10> not available
-(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 74.
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 73.
 
 
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./elsevier-logo.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+pdfTeX warning: /usr/local/texlive/2014/bin/x86_64-darwin/pdflatex (file ./elsevier-logo.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 <elsevier-logo.pdf, id=84, 59.7432pt x 65.5248pt>
 File: elsevier-logo.pdf Graphic file (type pdf)
  <use elsevier-logo.pdf>
-Package pdftex.def Info: elsevier-logo.pdf used on input line 85.
+Package pdftex.def Info: elsevier-logo.pdf used on input line 84.
 (pdftex.def)             Requested size: 59.74303pt x 65.52463pt.
-LaTeX Font Info:    Try loading font information for OT1+txss on input line 85.
- (/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/ot1txss.fd
+LaTeX Font Info:    Try loading font information for OT1+txss on input line 84.
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/ot1txss.fd
 File: ot1txss.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 85.
+(Font)              scaled to size 9.49997pt on input line 84.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 8.07497pt on input line 85.
+(Font)              scaled to size 8.07497pt on input line 84.
 
 
-Package xcolor Warning: Incompatible color definition on input line 85.
+Package xcolor Warning: Incompatible color definition on input line 84.
 
 <revip-logo.pdf, id=87, 235.88126pt x 298.11375pt>
 File: revip-logo.pdf Graphic file (type pdf)
  <use revip-logo.pdf>
-Package pdftex.def Info: revip-logo.pdf used on input line 85.
+Package pdftex.def Info: revip-logo.pdf used on input line 84.
 (pdftex.def)             Requested size: 57.53046pt x 72.46762pt.
 
-Overfull \hbox (1.02495pt too wide) in paragraph at lines 85--85
+Overfull \hbox (1.02495pt too wide) in paragraph at lines 84--84
 [][] 
  []
 
-LaTeX Font Info:    Try loading font information for U+txmia on input line 85.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/utxmia.fd
+LaTeX Font Info:    Try loading font information for U+txmia on input line 84.
+(/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-<<<<<<< HEAD
-LaTeX Font Info:    Try loading font information for U+msa on input line 85.
-=======
 LaTeX Font Info:    Try loading font information for U+msa on input line 84.
-=======
-LaTeX Info: Redefining \ref on input line 18.
-LaTeX Info: Redefining \pageref on input line 18.
-LaTeX Info: Redefining \nameref on input line 18.
- (/Users/peterrohde/OneDrive/Documents/Publications/GitHub/Interferometry-Review/.texpadtmp/paper.out) (/Users/peterrohde/OneDrive/Documents/Publications/GitHub/Interferometry-Review/.texpadtmp/paper.out)
-\@outlinefile=\write3
-\openout3 = `paper.out'.
-
-<<<<<<< Updated upstream
-LaTeX Font Info:    Try loading font information for U+msa on input line 53.
->>>>>>> Stashed changes
->>>>>>> origin/master
- (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 85.
- (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
+LaTeX Font Info:    Try loading font information for U+msb on input line 84.
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 85.
- (/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/utxsyc.fd
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 84.
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 85.
- (/usr/local/texlive/2015/texmf-dist/tex/latex/jknapltx/ursfs.fd
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 84.
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 85.
- (/usr/local/texlive/2015/texmf-dist/tex/latex/base/ulasy.fd
+LaTeX Font Info:    Try loading font information for U+lasy on input line 84.
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-Underfull \hbox (badness 10000) in alignment at lines 85--85
+Underfull \hbox (badness 10000) in alignment at lines 84--84
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--85
+Underfull \hbox (badness 10000) in paragraph at lines 84--84
 
  []
 
-=======
-LaTeX Font Info:    Try loading font information for U+msa on input line 52.
- (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 52.
- (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 52.
- (/usr/local/texlive/2014/texmf-dist/tex/latex/jknapltx/ursfs.fd
-File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-) (/Users/peterrohde/OneDrive/Documents/Publications/GitHub/Interferometry-Review/.texpadtmp/paper.toc)
-\tf@toc=\write4
-\openout4 = `paper.toc'.
->>>>>>> Stashed changes
 
-Underfull \hbox (badness 2837) in paragraph at lines 85--85
+Underfull \hbox (badness 2837) in paragraph at lines 84--84
 \OT1/txr/m/it/8 Keywords: \OT1/txr/m/n/8 Key-word1, Key-word2,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--85
+Underfull \hbox (badness 10000) in paragraph at lines 84--84
 
  []
 
-<<<<<<< Updated upstream
 
-Underfull \hbox (badness 10000) in alignment at lines 85--85
+Underfull \hbox (badness 10000) in alignment at lines 84--84
 [][]
  []
 
 
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 85--85
-=======
-<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 84--84
->>>>>>> origin/master
  
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-<<<<<<< HEAD
-(hyperref)                removing `\<def>-command' on input line 95.
-=======
 (hyperref)                removing `\<def>-command' on input line 94.
-=======
- [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-=======
-[1{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
->>>>>>> Stashed changes
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 94.
->>>>>>> Stashed changes
->>>>>>> origin/master
-
-<<<<<<< Updated upstream
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\cnotenum' on input line 95.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 95.
+(hyperref)                removing `\cnotenum' on input line 94.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@corref' on input line 95.
+(hyperref)                removing `\<def>-command' on input line 94.
 
-[1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
- <./elsevier-logo.pdf> <./revip-logo.pdf>] [2] [3] <reck.pdf, id=219, 394.58363pt x 204.78508pt>
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@corref' on input line 94.
+
+[1{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+ <./elsevier-logo.pdf> <./revip-logo.pdf>] [2] [3] <reck.pdf, id=214, 394.58363pt x 204.78508pt>
 File: reck.pdf Graphic file (type pdf)
  <use reck.pdf>
-Package pdftex.def Info: reck.pdf used on input line 231.
+Package pdftex.def Info: reck.pdf used on input line 230.
 (pdftex.def)             Requested size: 186.9143pt x 97.00517pt.
- [4 <./reck.pdf>] [5] <cluster_state.pdf, id=396, 286.30765pt x 242.46686pt>
+ [4 <./reck.pdf>] [5] <cluster_state.pdf, id=397, 286.30765pt x 242.46686pt>
 File: cluster_state.pdf Graphic file (type pdf)
  <use cluster_state.pdf>
-Package pdftex.def Info: cluster_state.pdf used on input line 347.
+Package pdftex.def Info: cluster_state.pdf used on input line 346.
 (pdftex.def)             Requested size: 116.82323pt x 98.93477pt.
- <fusion.pdf, id=397, 270.50322pt x 153.41916pt>
+ <fusion.pdf, id=398, 270.50322pt x 153.41916pt>
 File: fusion.pdf Graphic file (type pdf)
  <use fusion.pdf>
-Package pdftex.def Info: fusion.pdf used on input line 353.
+Package pdftex.def Info: fusion.pdf used on input line 352.
 (pdftex.def)             Requested size: 163.5518pt x 92.75917pt.
- [6] <full_architecture.pdf, id=440, 286.46323pt x 132.80385pt>
+ [6 <./cluster_state.pdf> <./fusion.pdf>] <full_architecture.pdf, id=599, 286.46323pt x 132.80385pt>
 File: full_architecture.pdf Graphic file (type pdf)
  <use full_architecture.pdf>
-Package pdftex.def Info: full_architecture.pdf used on input line 381.
+Package pdftex.def Info: full_architecture.pdf used on input line 430.
 (pdftex.def)             Requested size: 163.5518pt x 75.8246pt.
- <PBS_TB.pdf, id=441, 414.88301pt x 242.9075pt>
+ <PBS_TB.pdf, id=600, 414.88301pt x 242.9075pt>
 File: PBS_TB.pdf Graphic file (type pdf)
  <use PBS_TB.pdf>
-Package pdftex.def Info: PBS_TB.pdf used on input line 387.
+Package pdftex.def Info: PBS_TB.pdf used on input line 436.
 (pdftex.def)             Requested size: 186.91786pt x 109.43707pt.
- [7 <./cluster_state.pdf> <./fusion.pdf> <./full_architecture.pdf> <./PBS_TB.pdf>] [8] <BS_model.pdf, id=869, 357.335pt x 315.1775pt>
+ [7 <./full_architecture.pdf> <./PBS_TB.pdf>] [8] <BS_model.pdf, id=877, 357.335pt x 315.1775pt>
 File: BS_model.pdf Graphic file (type pdf)
  <use BS_model.pdf>
-Package pdftex.def Info: BS_model.pdf used on input line 500.
+Package pdftex.def Info: BS_model.pdf used on input line 569.
 (pdftex.def)             Requested size: 140.18929pt x 123.64972pt.
- [9] <phE.pdf, id=942, 168.63pt x 126.4725pt>
+ [9 <./BS_model.pdf>] <phE.pdf, id=984, 168.63pt x 126.4725pt>
 File: phE.pdf Graphic file (type pdf)
  <use phE.pdf>
-Package pdftex.def Info: phE.pdf used on input line 537.
+Package pdftex.def Info: phE.pdf used on input line 616.
 (pdftex.def)             Requested size: 116.82323pt x 87.61926pt.
- <MORDOR.pdf, id=943, 315.88817pt x 158.5925pt>
+ <MORDOR.pdf, id=985, 315.88817pt x 158.5925pt>
 File: MORDOR.pdf Graphic file (type pdf)
  <use MORDOR.pdf>
-Package pdftex.def Info: MORDOR.pdf used on input line 543.
+Package pdftex.def Info: MORDOR.pdf used on input line 622.
 (pdftex.def)             Requested size: 186.91786pt x 93.84462pt.
-<<<<<<< HEAD
- [10 <./BS_model.pdf>] (/Users/sihui_tan/Documents/Interferometry-Review/.texpadtmp/paper.bbl
-=======
  [10 <./phE.pdf> <./MORDOR.pdf
 
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./MORDOR.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] (/Users/sihui_tan/Documents/Interferometry-Review/.texpadtmp/paper.bbl
-<<<<<<< Updated upstream
->>>>>>> origin/master
+pdfTeX warning: /usr/local/texlive/2014/bin/x86_64-darwin/pdflatex (file ./MORDOR.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] (/Users/peterrohde/Desktop/linear_optics_review/.texpadtmp/paper.bbl
 Missing character: There is no Ã in font txr!
 Missing character: There is no ¶ in font txr!
- [11 <./phE.pdf> <./MORDOR.pdf
-
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./MORDOR.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [12]
+ [11] [12]
 Missing character: There is no Ã in font txr!
 Missing character: There is no ¤ in font txr!
  [13] [14] [15])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 576.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 656.
  [16]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 576.
- (/Users/sihui_tan/Documents/Interferometry-Review/.texpadtmp/paper.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 576.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 576.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 656.
+ (/Users/peterrohde/Desktop/linear_optics_review/.texpadtmp/paper.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 656.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 656.
 Package rerunfilecheck Info: File `paper.out' has not changed.
 (rerunfilecheck)             Checksum: E9A4EA2DE2EF65D1EE70FD3C780C9590;1715.
-<<<<<<< HEAD
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 576.
-=======
 
-=======
-=======
-<<<<<<< Updated upstream
-[2]
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no   in font cmr10!
- [3] (/Users/sihui_tan/Documents/Interferometry-Review/.texpadtmp/paper.bbl
-=======
-
-Underfull \hbox (badness 1728) in paragraph at lines 104--105
-[]\OT1/cmr/m/n/10 When phys-i-cally con-struct-ing pro-to-cols based on
- []
-
-
-Underfull \hbox (badness 1558) in paragraph at lines 104--105
-\OT1/cmr/m/n/10 im-por-tant that op-ti-cal com-po-nents be polarisation-
- []
-
-
-Underfull \hbox (badness 7685) in paragraph at lines 114--115
-[]\OT1/cmr/m/n/10 Converting be-tween polarisation- and dual-rail-
- []
-
-[2] [3] <full_architecture.pdf, id=326, 286.46323pt x 132.80385pt>
-File: full_architecture.pdf Graphic file (type pdf)
- <use full_architecture.pdf>
-Package pdftex.def Info: full_architecture.pdf used on input line 220.
-(pdftex.def)             Requested size: 246.0pt x 114.04695pt.
-
-
-Package natbib Warning: Citation `Reck' on page 4 undefined on input line 226.
-
-[4]
-
-LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix] on input line 227.
-
-<PBS_TB.pdf, id=346, 212.34843pt x 285.74916pt>
-File: PBS_TB.pdf Graphic file (type pdf)
- <use PBS_TB.pdf>
-Package pdftex.def Info: PBS_TB.pdf used on input line 231.
-(pdftex.def)             Requested size: 172.19925pt x 231.72588pt.
-
-
-Package natbib Warning: Citation `Rohde' on page 5 undefined on input line 235.
-
-(/Users/peterrohde/OneDrive/Documents/Publications/GitHub/Interferometry-Review/.texpadtmp/paper.bbl [5 <./full_architecture.pdf> <./PBS_TB.pdf>]
->>>>>>> Stashed changes
->>>>>>> Stashed changes
-Underfull \hbox (badness 4531) in paragraph at lines 92--97
- \OT1/cmr/m/n/9 URL [][]$\OT1/cmtt/m/n/9 http : / / link . aps . org / doi / 10 . 1103 / PhysRevA . 92 .
- []
-
-
-Underfull \hbox (badness 6157) in paragraph at lines 121--127
- []\OT1/cmr/m/n/9 H. de Guise, D. Spi-vak, J. Kulp, and I. Dhand,
- []
-
-
-Underfull \hbox (badness 2213) in paragraph at lines 130--141
- \OT1/cmr/m/n/9 A. Buch-leit-ner, and Y.-H. Kim, Pro-ceed-ings of the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 130--141
- \OT1/cmr/m/n/9 http://www.pnas.org/content/110/4/1227.full.pdf, URL
- []
-
-
-Underfull \hbox (badness 4726) in paragraph at lines 244--255
- []\OT1/cmr/m/n/9 M. Lobino, D. Ko-rys-tov, C. Kupchak, E. Figueroa,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 244--255
- \OT1/cmr/m/n/9 B. C. Sanders, and A. I. Lvovsky, Sci-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 244--255
- \OT1/cmr/m/n/9 ence \OT1/cmr/bx/n/9 322\OT1/cmr/m/n/9 , 563 (2008), ISSN 0036-8075, eprint
- []
-
-
-Overfull \hbox (12.34763pt too wide) in paragraph at lines 244--255
- \OT1/cmr/m/n/9 http://science.sciencemag.org/content/322/5901/563.full.pdf,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 244--255
- \OT1/cmr/m/n/9 URL [][]$\OT1/cmtt/m/n/9 http : / / science . sciencemag . org / content / 322 /
- []
-
-
-Underfull \hbox (badness 1297) in paragraph at lines 259--269
- []\OT1/cmr/m/n/9 S. Rahimi-Keshari, A. Scherer, A. Mann, A. T. Reza-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 273--285
- \OT1/cmtt/m/n/9 / / www . degruyter . com / view / j / nanoph . ahead-[]of-[]print /
- []
-
-
-Underfull \hbox (badness 2846) in paragraph at lines 317--327
- []\OT1/cmr/m/n/9 N. Spag-nolo, E. Maior-ino, C. Vitelli, M. Ben-tivegna,
- []
-
-Missing character: There is no Ã in font cmr9!
-Missing character: There is no ¤ in font cmr9!
-
-Underfull \hbox (badness 5954) in paragraph at lines 339--346
- []\OT1/cmr/m/n/9 R. Heil-mann, M. Grfe, S. Nolte, and A. Sza-meit,
- []
-
-
-Underfull \hbox (badness 4686) in paragraph at lines 339--346
- \OT1/cmr/m/n/9 Sci-ence Bul-letin \OT1/cmr/bx/n/9 60\OT1/cmr/m/n/9 , 96  (2015), ISSN 2095-9273,
- []
-
-[11]
-Underfull \hbox (badness 2027) in paragraph at lines 451--462
- \OT1/cmr/m/n/9 P. Petroff, and J. Vu^^Tckovi^^Sc, Phys. Rev. Lett. \OT1/cmr/bx/n/9 104\OT1/cmr/m/n/9 ,
- []
-
-
-Underfull \hbox (badness 6825) in paragraph at lines 451--462
- \OT1/cmr/m/n/9 073904 (2010), URL [][]$\OT1/cmtt/m/n/9 https : / / link . aps . org / doi / 10 .
- []
-
-
-Underfull \hbox (badness 3250) in paragraph at lines 482--491
- []\OT1/cmr/m/n/9 H. Jayaku-mar, A. Pre-do-jevi^^Sc, T. Hu-ber, T. Kauten,
- []
-
-
-Underfull \hbox (badness 4832) in paragraph at lines 482--491
- \OT1/cmr/m/n/9 G. S. Solomon, and G. Weihs, Phys. Rev. Lett.
- []
-
-Missing character: There is no Ã in font cmr9!
-Missing character: There is no ¶ in font cmr9!
-
-Underfull \hbox (badness 1769) in paragraph at lines 494--508
- []\OT1/cmr/m/n/9 Y.-J. Wei, Y.-M. He, M.-C. Chen, Y.-N. Hu, Y. He,
- []
-
-
-Underfull \hbox (badness 1708) in paragraph at lines 608--614
- []\OT1/cmr/m/n/9 Y.-H. Kim, S. P. Ku-lik, and Y. Shih, Phys. Rev. A
- []
-
-
-Underfull \hbox (badness 1546) in paragraph at lines 681--693
- []\OT1/cmr/m/n/9 C. Wa-genknecht, C.-M. Li, A. Re-in-gru-ber, X.-H. Bao,
- []
-
-
-Underfull \hbox (badness 1189) in paragraph at lines 740--750
- \OT1/cmr/m/n/9 and M. []Zukowski, Rev. Mod. Phys. \OT1/cmr/bx/n/9 84\OT1/cmr/m/n/9 , 777 (2012),
- []
-
-
-Underfull \hbox (badness 4531) in paragraph at lines 740--750
- \OT1/cmr/m/n/9 URL [][]$\OT1/cmtt/m/n/9 https : / / link . aps . org / doi / 10 . 1103 / RevModPhys .
- []
-
-
-Underfull \hbox (badness 3954) in paragraph at lines 829--837
- \OT1/cmr/m/n/9 Opt. Ex-press \OT1/cmr/bx/n/9 15\OT1/cmr/m/n/9 , 14539 (2007), URL [][]$\OT1/cmtt/m/n/9 http : / / www .
- []
-
-
-Underfull \hbox (badness 1342) in paragraph at lines 840--848
- []\OT1/cmr/m/n/9 D. A. Kalash-nikov, S.-H. Tan, T. S. Iskhakov, M. V.
- []
-
-
-Underfull \hbox (badness 1067) in paragraph at lines 840--848
- \OT1/cmr/m/n/9 Chekhova, and L. A. Kriv-it-sky, Opt. Lett. \OT1/cmr/bx/n/9 37\OT1/cmr/m/n/9 , 2829
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 840--848
- \OT1/cmr/m/n/9 (2012), URL [][]$\OT1/cmtt/m/n/9 http : / / ol . osa . org / abstract . cfm ? URI =
- []
-
-
-Underfull \hbox (badness 3525) in paragraph at lines 850--855
- []\OT1/cmr/m/n/9 D. J. Brod and J. Combes, Phys. Rev. Lett. \OT1/cmr/bx/n/9 117\OT1/cmr/m/n/9 ,
- []
-
-
-Underfull \hbox (badness 6825) in paragraph at lines 850--855
- \OT1/cmr/m/n/9 080502 (2016), URL [][]$\OT1/cmtt/m/n/9 https : / / link . aps . org / doi / 10 .
- []
-
-[12]
-Underfull \hbox (badness 3407) in paragraph at lines 930--941
- \OT1/cmr/m/n/9 J. Fiur^^Sa^^Tsek, Phys. Rev. Lett. \OT1/cmr/bx/n/9 100\OT1/cmr/m/n/9 , 180501 (2008),
- []
-
-
-Underfull \hbox (badness 4621) in paragraph at lines 944--959
- \OT1/cmr/m/n/9 genknecht, Q. Zhang, B. Zhao, C.-Z. Peng, Z.-B.
- []
-
-
-Underfull \hbox (badness 3078) in paragraph at lines 944--959
- \OT1/cmr/m/n/9 Chen, Y.-A. Chen, et al., Pro-ceed-ings of the Na-
- []
-
-
-Underfull \hbox (badness 2790) in paragraph at lines 1011--1023
- \OT1/cmr/m/n/9 M. Je^^Tzek, and J. Fiur^^Sa^^Tsek, Phys. Rev. Lett. \OT1/cmr/bx/n/9 111\OT1/cmr/m/n/9 ,
- []
-
-
-Underfull \hbox (badness 6825) in paragraph at lines 1011--1023
- \OT1/cmr/m/n/9 160407 (2013), URL [][]$\OT1/cmtt/m/n/9 https : / / link . aps . org / doi / 10 .
- []
-
-
-Underfull \hbox (badness 2293) in paragraph at lines 1026--1035
- []\OT1/cmr/m/n/9 R. B. Pa-tel, J. Ho, F. Fer-rey-rol, T. C. Ralph, and
- []
-
-
-Underfull \hbox (badness 7613) in paragraph at lines 1026--1035
- \OT1/cmr/m/n/9 G. J. Pryde, Sci-ence Ad-vances \OT1/cmr/bx/n/9 2 \OT1/cmr/m/n/9 (2016), eprint
- []
-
-
-Overfull \hbox (19.79897pt too wide) in paragraph at lines 1026--1035
- \OT1/cmr/m/n/9 http://advances.sciencemag.org/content/2/3/e1501531.full.pdf,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1026--1035
- \OT1/cmr/m/n/9 URL [][]$\OT1/cmtt/m/n/9 http : / / advances . sciencemag . org / content / 2 / 3 /
- []
-
-
-Underfull \hbox (badness 2856) in paragraph at lines 1064--1068
- []\OT1/cmr/m/n/9 J. Gea-Banacloche, Phys. Rev. A \OT1/cmr/bx/n/9 81\OT1/cmr/m/n/9 , 043823 (2010),
- []
-
-
-Underfull \hbox (badness 1609) in paragraph at lines 1072--1085
- []\OT1/cmr/m/n/9 I.-C. Hoi, A. F. Kockum, T. Palo-maki, T. M. Stace,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1107--1115
- \OT1/cmr/m/n/9 URL [][]$\OT1/cmtt/m/n/9 http : / / www . pnas . org / content / 113 / 35 / 9740 .
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1150--1164
- []\OT1/cmr/m/n/9 J. Car-olan, C. Har-rold, C. Spar-row, E. Mart^^S^^Pn-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1150--1164
- \OT1/cmr/m/n/9 L^^Sopez, N. J. Rus-sell, J. W. Sil-ver-stone, P. J.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1150--1164
- \OT1/cmr/m/n/9 Shad-bolt, N. Mat-suda, M. Oguma, M. Itoh,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1150--1164
- \OT1/cmr/m/n/9 et al., Sci-ence (2015), ISSN 0036-8075, eprint
- []
-
-
-Overfull \hbox (95.42274pt too wide) in paragraph at lines 1150--1164
- \OT1/cmr/m/n/9 http://science.sciencemag.org/content/early/2015/07/08/science.aab3642.full.pdf,
- []
-
-
-Underfull \hbox (badness 4531) in paragraph at lines 1150--1164
- \OT1/cmr/m/n/9 URL [][]$\OT1/cmtt/m/n/9 http : / / science . sciencemag . org / content / early /
- []
-
-
-Underfull \hbox (badness 2005) in paragraph at lines 1186--1199
- []\OT1/cmr/m/n/9 J. W. Sil-ver-stone, D. Bon-neau, K. Ohira, N. Suzuki,
- []
-
-
-Underfull \hbox (badness 6047) in paragraph at lines 1202--1213
- []\OT1/cmr/m/n/9 R. Prevedel, P. Walther, F. Tiefen-bacher, P. Bohi,
- []
-
-
-Underfull \hbox (badness 1527) in paragraph at lines 1202--1213
- \OT1/cmr/m/n/9 R. Kaltenbaek, T. Jen-newein, and A. Zeilinger, Na-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1265--1272
- []\OT1/cmr/m/n/9 V. Gio-van-netti, S. Lloyd, and L. Mac-cone, Sci-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1265--1272
- \OT1/cmr/m/n/9 ence \OT1/cmr/bx/n/9 306\OT1/cmr/m/n/9 , 1330 (2004), ISSN 0036-8075, eprint
- []
-
-
-Overfull \hbox (16.9726pt too wide) in paragraph at lines 1265--1272
- \OT1/cmr/m/n/9 http://science.sciencemag.org/content/306/5700/1330.full.pdf,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1265--1272
- \OT1/cmr/m/n/9 URL [][]$\OT1/cmtt/m/n/9 http : / / science . sciencemag . org / content / 306 /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1274--1279
- \OT1/cmr/m/n/9 http://dx.doi.org/10.1080/00107510802091298, URL
- []
-
-)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
 
 LaTeX Warning: There were multiply-defined labels.
 
-<<<<<<< Updated upstream
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 656.
->>>>>>> origin/master
  ) 
 Here is how much of TeX's memory you used:
- 9933 strings out of 493089
- 147411 string characters out of 6134842
- 253730 words of memory out of 5000000
- 13026 multiletter control sequences out of 15000+600000
+ 9920 strings out of 493117
+ 147032 string characters out of 6135432
+ 254523 words of memory out of 5000000
+ 12994 multiletter control sequences out of 15000+600000
  46891 words of font info for 116 fonts, out of 8000000 for 9000
-=======
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 383.
-[13]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 383.
- (/Users/sihui_tan/Documents/Interferometry-Review/.texpadtmp/paper.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 383.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 383.
-=======
-<<<<<<< Updated upstream
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 247.
- [5]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 247.
- (/Users/sihui_tan/Documents/Interferometry-Review/.texpadtmp/paper.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 247.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 247.
-=======
-
-Package natbib Warning: There were undefined citations.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 279.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 279.
-[6] (/Users/peterrohde/OneDrive/Documents/Publications/GitHub/Interferometry-Review/.texpadtmp/paper.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 279.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 279.
->>>>>>> Stashed changes
->>>>>>> Stashed changes
-Package rerunfilecheck Info: File `paper.out' has not changed.
-(rerunfilecheck)             Checksum: <no file>.
- ) 
-Here is how much of TeX's memory you used:
-<<<<<<< Updated upstream
- 8574 strings out of 493089
- 122558 string characters out of 6134842
- 260969 words of memory out of 5000000
- 11774 multiletter control sequences out of 15000+600000
- 15739 words of font info for 62 fonts, out of 8000000 for 9000
-=======
-<<<<<<< Updated upstream
- 8244 strings out of 493089
- 116727 string characters out of 6134842
- 244307 words of memory out of 5000000
- 11541 multiletter control sequences out of 15000+600000
- 14785 words of font info for 59 fonts, out of 8000000 for 9000
->>>>>>> Stashed changes
->>>>>>> Stashed changes
  1141 hyphenation exceptions out of 8191
- 36i,14n,38p,1285b,880s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /Users/sihui_tan/Documents/Interferometry-Review/.texpadtmp/paper.pdf (16 pages, 2685579 bytes).
+ 36i,14n,38p,1285b,922s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on /Users/peterrohde/Desktop/linear_optics_review/.texpadtmp/paper.pdf (16 pages, 2681274 bytes).
 PDF statistics:
-<<<<<<< HEAD
- 1634 PDF objects out of 1728 (max. 8388607)
- 1155 compressed objects within 12 object streams
- 188 named destinations out of 1000 (max. 500000)
-=======
-<<<<<<< Updated upstream
  1612 PDF objects out of 1728 (max. 8388607)
  1133 compressed objects within 12 object streams
  185 named destinations out of 1000 (max. 500000)
->>>>>>> origin/master
  211 words of extra memory for PDF output out of 10000 (max. 10000000)
-=======
-<<<<<<< Updated upstream
- 1591 PDF objects out of 1728 (max. 8388607)
- 1216 compressed objects within 13 object streams
- 173 named destinations out of 1000 (max. 500000)
- 276 words of extra memory for PDF output out of 10000 (max. 10000000)
-=======
- 559 PDF objects out of 1000 (max. 8388607)
- 523 compressed objects within 6 object streams
- 87 named destinations out of 1000 (max. 500000)
- 249 words of extra memory for PDF output out of 10000 (max. 10000000)
-=======
- 8218 strings out of 493117
- 116509 string characters out of 6135432
- 277419 words of memory out of 5000000
- 11495 multiletter control sequences out of 15000+600000
- 15394 words of font info for 61 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 32i,16n,35p,1166b,393s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on /Users/peterrohde/OneDrive/Documents/Publications/GitHub/Interferometry-Review/.texpadtmp/paper.pdf (6 pages, 424667 bytes).
-PDF statistics:
- 692 PDF objects out of 1000 (max. 8388607)
- 574 compressed objects within 6 object streams
- 80 named destinations out of 1000 (max. 500000)
- 259 words of extra memory for PDF output out of 10000 (max. 10000000)
->>>>>>> Stashed changes
->>>>>>> Stashed changes
->>>>>>> Stashed changes
 

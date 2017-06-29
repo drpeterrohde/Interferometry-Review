@@ -1,0 +1,59 @@
+This is BibTeX, Version 0.99d (TeX Live 2014)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: /Users/peterrohde/Desktop/Review merged 01-5-2017/.texpadtmp/paper.aux
+The style file: apsrev.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: ../paper.bib
+Repeated entry---line 2649 of file ../paper.bib
+ : @article{bib:Pittman03
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2693 of file ../paper.bib
+ : @article{bib:OBrien04
+ :                      ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Rohde"
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 61 entries,
+            3411 wiz_defined-function locations,
+            1643 strings with 26955 characters,
+and the built_in function-call counts, 60456 in all, are:
+= -- 2946
+> -- 2966
+< -- 370
++ -- 2677
+- -- 728
+* -- 8960
+:= -- 5889
+add.period$ -- 61
+call.type$ -- 61
+change.case$ -- 245
+chr.to.int$ -- 58
+cite$ -- 61
+duplicate$ -- 5223
+empty$ -- 4601
+format.name$ -- 1649
+if$ -- 11159
+int.to.chr$ -- 4
+int.to.str$ -- 62
+missing$ -- 786
+newline$ -- 198
+num.names$ -- 183
+pop$ -- 1240
+preamble$ -- 1
+purify$ -- 244
+quote$ -- 0
+skip$ -- 2331
+stack$ -- 0
+substring$ -- 1568
+swap$ -- 4600
+text.length$ -- 365
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 364
+warning$ -- 0
+while$ -- 180
+width$ -- 0
+write$ -- 676
+(There were 2 error messages)

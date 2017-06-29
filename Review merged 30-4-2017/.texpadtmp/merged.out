@@ -1,0 +1,32 @@
+\BOOKMARK [1][-]{section*.1}{Contents}{}% 1
+\BOOKMARK [1][-]{section*.2}{Introduction}{}% 2
+\BOOKMARK [1][-]{section*.3}{Mathematical background}{}% 3
+\BOOKMARK [1][-]{section*.4}{Optical encoding of quantum information on single-photons}{}% 4
+\BOOKMARK [1][-]{section*.5}{Optical encoding of quantum information on single-photons}{}% 5
+\BOOKMARK [2][-]{section*.6}{Polarisation}{section*.5}% 6
+\BOOKMARK [3][-]{section*.7}{Dual-rail}{section*.6}% 7
+\BOOKMARK [3][-]{section*.8}{Time-bins}{section*.6}% 8
+\BOOKMARK [1][-]{section*.9}{Efficient circuit decompositions of linear optics networks}{}% 9
+\BOOKMARK [1][-]{section*.10}{Reconstructing the linear optical network}{}% 10
+\BOOKMARK [1][-]{section*.11}{Experimental implementation}{}% 11
+\BOOKMARK [2][-]{section*.12}{State preparation}{section*.11}% 12
+\BOOKMARK [3][-]{section*.13}{Single-photons}{section*.12}% 13
+\BOOKMARK [3][-]{section*.14}{Einstein-Podolsky-Rosen \(EPR\) pairs}{section*.12}% 14
+\BOOKMARK [3][-]{section*.15}{Greenberger-Horne-Zeilinger \(GHZ\) states}{section*.12}% 15
+\BOOKMARK [3][-]{section*.16}{Cluster states}{section*.12}% 16
+\BOOKMARK [2][-]{section*.17}{Linear optics networks}{section*.11}% 17
+\BOOKMARK [3][-]{section*.18}{Bulk-optics}{section*.17}% 18
+\BOOKMARK [3][-]{section*.19}{Waveguides}{section*.17}% 19
+\BOOKMARK [3][-]{section*.20}{Time-bins}{section*.17}% 20
+\BOOKMARK [2][-]{section*.21}{Measurement}{section*.11}% 21
+\BOOKMARK [3][-]{section*.22}{Photodetection}{section*.21}% 22
+\BOOKMARK [3][-]{section*.23}{Homodyning}{section*.21}% 23
+\BOOKMARK [1][-]{section*.24}{Applications for linear optics interferometry}{}% 24
+\BOOKMARK [2][-]{section*.25}{Linear optics quantum computation}{section*.24}% 25
+\BOOKMARK [2][-]{section*.26}{Boson-sampling}{section*.24}% 26
+\BOOKMARK [2][-]{section*.27}{Quantum metrology}{section*.24}% 27
+\BOOKMARK [2][-]{section*.28}{Encrypted quantum computation}{section*.24}% 28
+\BOOKMARK [1][-]{section*.29}{State of the art}{}% 29
+\BOOKMARK [1][-]{section*.30}{Conclusion}{}% 30
+\BOOKMARK [1][-]{section*.31}{Acknowledgments}{}% 31
+\BOOKMARK [1][-]{section*.32}{References}{}% 32
