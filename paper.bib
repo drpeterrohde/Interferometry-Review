@@ -30,6 +30,59 @@
 @STRING{JMO          = "J. Mod. Opt."}
 @STRING{RepMathPhys  = "Rep. Math. Phys."}
 
+@article {bib:Barz12,
+	author = {Barz, Stefanie and Kashefi, Elham and Broadbent, Anne and Fitzsimons, Joseph F. and Zeilinger, Anton and Walther, Philip},
+	title = {Demonstration of Blind Quantum Computing},
+	volume = {335},
+	number = {6066},
+	pages = {303--308},
+	year = {2012},
+	doi = {10.1126/science.1214707},
+	publisher = {American Association for the Advancement of Science},
+	abstract = {Quantum computers, besides offering substantial computational speedups, are also expected to preserve the privacy of a computation. We present an experimental demonstration of blind quantum computing in which the input, computation, and output all remain unknown to the computer. We exploit the conceptual framework of measurement-based quantum computation that enables a client to delegate a computation to a quantum server. Various blind delegated computations, including one- and two-qubit gates and the Deutsch and Grover quantum algorithms, are demonstrated. The client only needs to be able to prepare and transmit individual photonic qubits. Our demonstration is crucial for unconditionally secure quantum cloud computing and might become a key ingredient for real-life applications, especially when considering the challenges of making powerful quantum computers widely available.},
+	issn = {0036-8075},
+	URL = {http://science.sciencemag.org/content/335/6066/303},
+	eprint = {http://science.sciencemag.org/content/335/6066/303.full.pdf},
+	journal = {Science}
+}
+
+@article{bib:Rohde_qw12,
+  title = {Quantum Walks with Encrypted Data},
+  author = {Rohde, Peter P. and Fitzsimons, Joseph F. and Gilchrist, Alexei},
+  journal = {Phys. Rev. Lett.},
+  volume = {109},
+  issue = {15},
+  pages = {150501},
+  numpages = {5},
+  year = {2012},
+  month = {Oct},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevLett.109.150501},
+  url = {https://link.aps.org/doi/10.1103/PhysRevLett.109.150501}
+}
+
+
+@article{bib:Fisher14,
+	Author = {Fisher, K. A. G. and Broadbent, A. and Shalm, L. K. and Yan, Z. and Lavoie, J. and Prevedel, R. and Jennewein, T. and Resch, K. J.},
+	Date = {2014/01/21/online},
+	Date-Added = {2017-05-15 05:48:38 +0000},
+	Date-Modified = {2017-05-15 05:48:38 +0000},
+	Day = {21},
+	Journal = {Nature Communications},
+	L3 = {10.1038/ncomms4074; https://www.nature.com/articles/ncomms4074#supplementary-information},
+	M3 = {Article},
+	Month = {01},
+	Pages = {3074 EP  -},
+	Publisher = {Nature Publishing Group, a division of Macmillan Publishers Limited. All Rights Reserved. SN  -},
+	Title = {Quantum computing on encrypted data},
+	Ty = {JOUR},
+	Url = {http://dx.doi.org/10.1038/ncomms4074},
+	Volume = {5},
+	Year = {2014},
+	Bdsk-Url-1 = {http://dx.doi.org/10.1038/ncomms4074}}
+
+
+
 @article{bib:Reck1994,
   title = {Experimental realization of any discrete unitary operator},
   author = {Reck, Michael and Zeilinger, Anton and Bernstein, Herbert J. and Bertani, Philip},
@@ -208,7 +261,7 @@ eprint = {http://dx.doi.org/10.1080/00107510802091298}}
 	Year = {2011},
 	Bdsk-Url-1 = {http://dx.doi.org/10.1038/nphoton.2011.35}}
 
-@article{bib:Motes15,
+@article{bib:Motes15_LOQM,
   title = {Linear Optical Quantum Metrology with Single Photons: Exploiting Spontaneously Generated Entanglement to Beat the Shot-Noise Limit},
   author = {Motes, Keith R. and Olson, Jonathan P. and Rabeaux, Evan J. and Dowling, Jonathan P. and Olson, S. Jay and Rohde, Peter P.},
   journal = {Phys. Rev. Lett.},
@@ -581,14 +634,14 @@ journal = {Proceedings of the National Academy of Sciences}
 @article{bib:Leverrier15,
   title = {Analysis of circuit imperfections in BosonSampling},
   author = {Anthony Leverrier and Ra\'ul Garc\'ia-Patr\'on},
-  journal = {Quantum Information & Computation},
+  journal = {Quantum Information \& Computation},
   volume = {15},
-  pages = {0489-0512}
+  pages = {0489-0512},
   year = {2015}
 }
 
 
-@article{bib:Motes15,
+@article{bib:Motes15_timebin,
   title = {Implementing BosonSampling with time-bin encoding: Analysis of loss, mode mismatch, and time jitter},
   author = {Motes, Keith R. and Dowling, Jonathan P. and Gilchrist, Alexei and Rohde, Peter P.},
   journal = {Phys. Rev. A},
@@ -1427,12 +1480,23 @@ abstract = {We introduce an efficient method for fully characterizing multimode 
     journal = "arXiv: 1208.2868v1"
 }
 
+
 @ARTICLE{bib:Yung16,
     author  = "Man-Hong Yung and Xun Gao and Joonsuk Huh",
     title   = "Universal bound on sampling bosons in linear optics",
     year    = "2016",
     journal = "arXiv:1608.00383"
 }
+
+
+
+@ARTICLE{bib:Heilmanndc15,
+    author  = "R. Heilmann and J. Sperling and A. Perez-Leija and M. Gr{\"a}fe and M. Heinrich and S. Nolte and W. Vogel and A. Szameit",
+    title   = "Divide-and-Conquer: An integrated photon-counting scheme",
+    year    = "2015",
+    journal = "arXiv: 1502.04932"
+}
+
 
 @ARTICLE{bib:Pant17,
     author  = "M. Pant and D. Towsley and D. Englund and S. Guha",
@@ -4370,20 +4434,6 @@ doi = {10.1364/OL.39.005090},
 abstract = {We present a method for spatially resolved multiphoton counting based on an intensified camera with the retrieval of multimode photon statistics fully accounting for nonlinearities in the detection process. The scheme relies on one-time quantum tomographic calibration of the detector. Faithful, high-fidelity reconstruction of single- and two-mode statistics of multiphoton states is demonstrated for coherent states and their statistical mixtures. The results consistently exhibit classical values of the Mandel parameter and the noise reduction factor in contrast to raw statistics of camera photo-events. Detector operation is reliable for illumination levels up to the average of one detected photon per an event area\&\#x2014;substantially higher than in previous approaches to characterize quantum statistical properties of light with spatial resolution.},
 }
 
-@article{bib:Afek09,
-  title = {Quantum state measurements using multipixel photon detectors},
-  author = {Afek, I. and Natan, A. and Ambar, O. and Silberberg, Y.},
-  journal = {Phys. Rev. A},
-  volume = {79},
-  issue = {4},
-  pages = {043830},
-  numpages = {6},
-  year = {2009},
-  month = {Apr},
-  publisher = {American Physical Society},
-  doi = {10.1103/PhysRevA.79.043830},
-  url = {https://link.aps.org/doi/10.1103/PhysRevA.79.043830}
-}
 
 @article{bib:Chen17,
 	Author = {Chen, Xiuliang and Ding, Chengjie and Pan, Haifeng and Huang, Kun and Laurat, Julien and Wu, Guang and Wu, E},
@@ -4429,22 +4479,6 @@ doi = {10.1364/OL.37.002829},
 abstract = {The measurement of the two-mode squeezed vacuum generated in an optical parametric amplifier (OPA) was performed with photon number resolving multipixel photon counters (MPPCs). Implementation of the MPPCs allows for the observation of noise reduction in a broad dynamic range of the OPA gain, which is inaccessible with standard single photon avalanche photodetectors.},
 }
 
-
-@article{bib:Eraerds07,
-author = {P. Eraerds and M. Legr\'{e} and A. Rochas and H. Zbinden and N. Gisin},
-journal = {Opt. Express},
-keywords = {Detectors; Arrays; Photodetectors; Quantum detectors; Avalanche photodiodes (APDs)},
-number = {22},
-pages = {14539--14549},
-publisher = {OSA},
-title = {SiPM for fast Photon-Counting and Multiphoton Detection},
-volume = {15},
-month = {Oct},
-year = {2007},
-url = {http://www.opticsexpress.org/abstract.cfm?URI=oe-15-22-14539},
-doi = {10.1364/OE.15.014539},
-abstract = {We demonstrate fast counting and multiphoton detection abilities of a Silicon Photo Multiplier (SiPM). In fast counting mode we are able to detect two consecutive photons separated by only 2.3 ns corresponding to 430 MHz. The counting efficiency for small optical intensities at $\lambda$ $=$ 532 nm was found to be around 16\% with a dark count rate of 52 kHz at T $=$ -5{\textdegree} C. Using the SiPM in multiphoton detection mode, we find a good signal discrimination for different numbers of simultaneously detected photons.},
-}
 
 
 @ARTICLE{bib:Shor95,

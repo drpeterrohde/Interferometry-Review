@@ -1,0 +1,76 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: /Users/sihui_tan/Documents/Interferometry-Review/submitted/.texpadtmp/paper.aux
+The style file: ../elsarticle-num.bst
+Database file #1: ../paper.bib
+Repeated entry---line 959 of file ../paper.bib
+ : @article{bib:Kim01
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2768 of file ../paper.bib
+ : @article{bib:Huh15
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2899 of file ../paper.bib
+ : @article{bib:Baumgratz16
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3947 of file ../paper.bib
+ : @article{bib:Pittman03
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4438 of file ../paper.bib
+ : @article{bib:Chen17
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4457 of file ../paper.bib
+ : @article{bib:Shapiro07
+ :                       ,
+I'm skipping whatever remains of this entry
+Warning--empty journal in bib:WangHe16
+Warning--empty journal in bib:Spagnolo16
+Warning--empty chapter and pages in bib:GHZ89
+Warning--empty journal in bib:Gogolin13
+Warning--empty journal in bib:Aaronson13
+You've used 126 entries,
+            2935 wiz_defined-function locations,
+            1654 strings with 40832 characters,
+and the built_in function-call counts, 45106 in all, are:
+= -- 4095
+> -- 2388
+< -- 2
++ -- 880
+- -- 754
+* -- 4494
+:= -- 6926
+add.period$ -- 191
+call.type$ -- 126
+change.case$ -- 125
+chr.to.int$ -- 0
+cite$ -- 131
+duplicate$ -- 1096
+empty$ -- 4175
+format.name$ -- 872
+if$ -- 10879
+int.to.chr$ -- 0
+int.to.str$ -- 126
+missing$ -- 127
+newline$ -- 555
+num.names$ -- 126
+pop$ -- 576
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 2022
+stack$ -- 0
+substring$ -- 2373
+swap$ -- 398
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 5
+while$ -- 275
+width$ -- 129
+write$ -- 1257
+(There were 6 error messages)
