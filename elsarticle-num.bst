@@ -1110,7 +1110,7 @@ FUNCTION {output.web.refs}
     'skip$
   if$
   adddoiresolver doi empty$ not and
-    { format.doi output.nonnull }
+    { format.doi output.null }
     'skip$
   if$
 }
