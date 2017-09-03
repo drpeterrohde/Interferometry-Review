@@ -5,16 +5,19 @@
 \BOOKMARK [2][-]{subsection.3.2}{Dual-rail}{section.3}% 5
 \BOOKMARK [2][-]{subsection.3.3}{Time-bins}{section.3}% 6
 \BOOKMARK [1][-]{section.4}{Efficient circuit decompositions of linear optics networks}{}% 7
-\BOOKMARK [1][-]{section.5}{Reconstructing the linear optical network}{}% 8
-\BOOKMARK [1][-]{section.6}{State preparation}{}% 9
-\BOOKMARK [2][-]{subsection.6.1}{Fock states}{section.6}% 10
-\BOOKMARK [2][-]{subsection.6.2}{Einstein-Podolsky-Rosen \(EPR\) pairs}{section.6}% 11
-\BOOKMARK [2][-]{subsection.6.3}{Greenberger-Horne-Zeilinger \(GHZ\) states}{section.6}% 12
-\BOOKMARK [2][-]{subsection.6.4}{Cluster states}{section.6}% 13
-\BOOKMARK [1][-]{section.7}{Time-bin loop-based architecture for linear optical networks}{}% 14
-\BOOKMARK [1][-]{section.8}{Photodetection}{}% 15
-\BOOKMARK [1][-]{section.9}{Applications for linear optics interferometry}{}% 16
-\BOOKMARK [2][-]{subsection.9.1}{Linear optical quantum computation \(LOQC\)}{section.9}% 17
-\BOOKMARK [2][-]{subsection.9.2}{Boson-sampling}{section.9}% 18
-\BOOKMARK [2][-]{subsection.9.3}{Quantum metrology}{section.9}% 19
-\BOOKMARK [1][-]{section.10}{Conclusion}{}% 20
+\BOOKMARK [1][-]{section.5}{Reconstructing linear optics networks}{}% 8
+\BOOKMARK [1][-]{section.6}{Quantum state and process tomography}{}% 9
+\BOOKMARK [1][-]{section.7}{State preparation}{}% 10
+\BOOKMARK [2][-]{subsection.7.1}{Fock states}{section.7}% 11
+\BOOKMARK [2][-]{subsection.7.2}{Einstein-Podolsky-Rosen \(EPR\) pairs}{section.7}% 12
+\BOOKMARK [2][-]{subsection.7.3}{Greenberger-Horne-Zeilinger \(GHZ\) states}{section.7}% 13
+\BOOKMARK [2][-]{subsection.7.4}{Cluster states}{section.7}% 14
+\BOOKMARK [1][-]{section.8}{Time-bin loop-based architecture for linear optical networks}{}% 15
+\BOOKMARK [1][-]{section.9}{Photodetection}{}% 16
+\BOOKMARK [1][-]{section.10}{Applications for linear optics interferometry}{}% 17
+\BOOKMARK [2][-]{subsection.10.1}{Linear optical quantum computation \(LOQC\)}{section.10}% 18
+\BOOKMARK [2][-]{subsection.10.2}{Boson-sampling}{section.10}% 19
+\BOOKMARK [2][-]{subsection.10.3}{Other sampling problems \205 hard \046 easy}{section.10}% 20
+\BOOKMARK [2][-]{subsection.10.4}{Quantum metrology}{section.10}% 21
+\BOOKMARK [1][-]{section.11}{Optical switching}{}% 22
+\BOOKMARK [1][-]{section.12}{Conclusion}{}% 23

@@ -535,21 +535,6 @@ A.~Divochiy, F.~Marsili, D.~Bitauld, A.~Gaggero, R.~Leoni, F.~Mattioli,
   Photon 2~(5) (2008) 302--306.
 \newline\urlprefix\url{http://dx.doi.org/10.1038/nphoton.2008.51}
 
-\bibitem{bib:Eraerds07}
-P.~Eraerds, M.~Legr\'{e}, A.~Rochas, H.~Zbinden, N.~Gisin,
-  \href{http://www.opticsexpress.org/abstract.cfm?URI=oe-15-22-14539}{Sipm for
-  fast photon-counting and multiphoton detection}, Opt. Express\href
-  {http://dx.doi.org/10.1364/OE.15.014539} {\path{doi:10.1364/OE.15.014539}}.
-\newline\urlprefix\url{http://www.opticsexpress.org/abstract.cfm?URI=oe-15-22-14539}
-
-\bibitem{bib:Afek09}
-I.~Afek, A.~Natan, O.~Ambar, Y.~Silberberg,
-  \href{https://link.aps.org/doi/10.1103/PhysRevA.79.043830}{Quantum state
-  measurements using multipixel photon detectors}, Phys. Rev. A\href
-  {http://dx.doi.org/10.1103/PhysRevA.79.043830}
-  {\path{doi:10.1103/PhysRevA.79.043830}}.
-\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevA.79.043830}
-
 \bibitem{bib:Kalashnikov12}
 D.~A. Kalashnikov, S.-H. Tan, T.~S. Iskhakov, M.~V. Chekhova, L.~A. Krivitsky,
   \href{http://ol.osa.org/abstract.cfm?URI=ol-37-14-2829}{Measurement of
@@ -868,15 +853,6 @@ M.~C. Tichy,
   permanent}, Phys. Rev. A\href {http://dx.doi.org/10.1103/PhysRevA.91.022316}
   {\path{doi:10.1103/PhysRevA.91.022316}}.
 \newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevA.91.022316}
-
-\bibitem{bib:Motes15}
-K.~R. Motes, J.~P. Olson, E.~J. Rabeaux, J.~P. Dowling, S.~J. Olson, P.~P.
-  Rohde, \href{https://link.aps.org/doi/10.1103/PhysRevLett.114.170802}{Linear
-  optical quantum metrology with single photons: Exploiting spontaneously
-  generated entanglement to beat the shot-noise limit}, Phys. Rev. Lett.\href
-  {http://dx.doi.org/10.1103/PhysRevLett.114.170802}
-  {\path{doi:10.1103/PhysRevLett.114.170802}}.
-\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.114.170802}
 
 \bibitem{bib:Giovannetti04}
 V.~Giovannetti, S.~Lloyd, L.~Maccone,

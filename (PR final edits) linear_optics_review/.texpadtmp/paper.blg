@@ -1,6 +1,6 @@
-This is BibTeX, Version 0.99d (TeX Live 2014)
+This is BibTeX, Version 0.99d (TeX Live 2016)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: /Users/peterrohde/Desktop/linear_optics_review/.texpadtmp/paper.aux
+The top-level auxiliary file: /Users/124106/Documents/Publications/GitHub/Interferometry-Review/(PR final edits) linear_optics_review/.texpadtmp/paper.aux
 The style file: ../elsarticle-num.bst
 output.null is an unknown function---line 1113 of file ../elsarticle-num.bst
 Database file #1: ../paper.bib
@@ -8,10 +8,6 @@ I was expecting a `,' or a `}'---line 587 of file ../paper.bib
  :   
  :   year = {2015}
 (Error may have been on previous line)
-I'm skipping whatever remains of this entry
-Repeated entry---line 591 of file ../paper.bib
- : @article{bib:Motes15
- :                     ,
 I'm skipping whatever remains of this entry
 Repeated entry---line 906 of file ../paper.bib
  : @article{bib:Kim01
@@ -37,6 +33,12 @@ Repeated entry---line 4407 of file ../paper.bib
  : @article{bib:Shapiro07
  :                       ,
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "bib:Barz12"
+Warning--I didn't find a database entry for "bib:Fisher14"
+Warning--I didn't find a database entry for "bib:Rohde_qw12"
+Warning--I didn't find a database entry for "bib:Heilmanndc15"
+Warning--I didn't find a database entry for "bib:Motes15_timebin"
+Warning--I didn't find a database entry for "bib:Motes15_LOQM"
 ptr=1, stack=
  9~(4) (2015) 363--384
 ---the literal stack isn't empty for entry bib:Meany15
@@ -189,14 +191,6 @@ ptr=1, stack=
 ---the literal stack isn't empty for entry bib:Sperling12
 while executing---line 1507 of file ../elsarticle-num.bst
 ptr=1, stack=
- 15~(22) (2007) 14539--14549
----the literal stack isn't empty for entry bib:Eraerds07
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
- 79 (2009) 043830
----the literal stack isn't empty for entry bib:Afek09
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
  37~(14) (2012) 2829--2831
 ---the literal stack isn't empty for entry bib:Kalashnikov12
 while executing---line 1507 of file ../elsarticle-num.bst
@@ -288,10 +282,6 @@ ptr=1, stack=
 ---the literal stack isn't empty for entry bib:Tichy15
 while executing---line 1507 of file ../elsarticle-num.bst
 ptr=1, stack=
- 114 (2015) 170802
----the literal stack isn't empty for entry bib:Motes15
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
 \href {http://arxiv.org/abs/http://science.sciencemag.org/content/306/5700/1330.full.pdf} {\path{arXiv:http://science.sciencemag.org/content/306/5700/1330.full.pdf}}
 ---the literal stack isn't empty for entry bib:Giovannetti04
 while executing---line 1507 of file ../elsarticle-num.bst
@@ -307,45 +297,45 @@ ptr=1, stack=
  116 (2016) 030801
 ---the literal stack isn't empty for entry bib:Baumgratz16
 while executing---line 1507 of file ../elsarticle-num.bst
-You've used 123 entries,
+You've used 120 entries,
             2934 wiz_defined-function locations,
-            1634 strings with 39960 characters,
-and the built_in function-call counts, 42935 in all, are:
-= -- 3762
-> -- 2325
+            1623 strings with 39418 characters,
+and the built_in function-call counts, 41861 in all, are:
+= -- 3663
+> -- 2277
 < -- 2
-+ -- 857
-- -- 734
-* -- 4387
-:= -- 6585
-add.period$ -- 134
-call.type$ -- 123
-change.case$ -- 122
++ -- 839
+- -- 719
+* -- 4270
+:= -- 6426
+add.period$ -- 131
+call.type$ -- 120
+change.case$ -- 119
 chr.to.int$ -- 0
-cite$ -- 129
-duplicate$ -- 1072
-empty$ -- 4022
-format.name$ -- 849
-if$ -- 10325
+cite$ -- 126
+duplicate$ -- 1045
+empty$ -- 3917
+format.name$ -- 831
+if$ -- 10066
 int.to.chr$ -- 0
-int.to.str$ -- 123
-missing$ -- 124
-newline$ -- 490
-num.names$ -- 123
-pop$ -- 562
+int.to.str$ -- 120
+missing$ -- 121
+newline$ -- 478
+num.names$ -- 120
+pop$ -- 550
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1841
+skip$ -- 1799
 stack$ -- 0
-substring$ -- 2340
-swap$ -- 389
+substring$ -- 2267
+swap$ -- 377
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 6
-while$ -- 270
-width$ -- 126
-write$ -- 1110
-(There were 75 error messages)
+while$ -- 263
+width$ -- 123
+write$ -- 1083
+(There were 71 error messages)

@@ -18,8 +18,8 @@
 \usepackage[dvipsnames]{xcolor}
 
 \newcommand{\sihui}[1]{{\color{Orchid}{#1}}}
-\newcommand{\peter}[1]{{\color{YellowGreen}{#1}}}
-\newcommand{\comment}[1]{{\color{blue}{#1}}}
+\newcommand{\peter}[1]{{\color{blue}{#1}}}
+\newcommand{\comment}[1]{{\color{YellowGreen}{#1}}}
 \newcommand{\ah}{\hat{a}}
 \newcommand{\adagh}{\hat{a}^\dag}
 
@@ -45,10 +45,9 @@
 %
 
 \author[1,2]{Si-Hui \snm{Tan}}
+\cortext[cor1]{\peter{sihui\_tan@sutd.edu.sg}}
 
 \author[3]{Peter P. \snm{Rohde}\corref{cor1}}
-\cortext[cor1]{Corresponding author: dr.rohde@gmail.com ;http://
-www.peterrohde.org}
 
 \address[1]{Singapore University of Technology and Design, Singapore 
 University of Technology and Design, 8 Somapah Rd, Singapore 487372}
@@ -236,13 +235,14 @@ Alternatively, Mach-Zedner interferometers can also be employed as building bloc
 
 If the linear optical transformations \sihui{is to} be realized on various degrees of freedom of light, then it is possible to realize a $n\times n$ arbitrary unitary transformation, where $n=n_s n_p$ for $n_s$ spatial modes, and $n_p$ internal modes, by a sequence of $\mathcal{O}(n_s^2 n_p)$ beamsplitters and $\mathcal{O}(n_s^2)$ internal transformations \cite{bib:Dhand2015}. This approach reduces the required number of beamsplitters but increases the total number of optical elements needed by a factor of 2.
 
-\section{Reconstructing the linear optical network}\label{sec:reconstruction}
+\section{Reconstructing linear optics networks}\label{sec:reconstruction}
 
-In many practical situations, the structure of a linear optical device in terms of its constituent beamsplitters and phase-shifters is known once it is built. However, owing to manufacturing imperfections, a precise characterization of these devices may still be needed post-production. One approach for achieving this is via quantum process tomography.
-%\cite{bib:Mitchell03,bib:Obrien04,bib:Lobino08,bib:Saleh11}.
-However, quantum process tomography is an expensive approach in terms of the number of measurements required to characterize the network, with exponential overhead, becoming impractical for large optical networks which can contain hundreds of modes using present-day technology \cite{bib:Harris16}. To mitigate this problem, alternative characterization protocols have been developed.
+\peter{
+In many practical situations, the structure of a linear optical device in terms of its constituent beamsplitters and phase-shifters is known once it is built. However, owing to manufacturing imperfections, a precise characterization of these devices may still be needed post-production. One approach for achieving this is via quantum process tomography, discussed in the next section.
 
-Generally, the unitary matrices of $d\times d$ linear optical devices are complex $U_{ij}=r_{ij}e^{i\theta_{ij}}$, where $0 \leq r_{ij}\leq 1$, and $0\leq \theta_{ij}\leq 2\pi$. To characterize these numbers, one can do so by injecting one- and two-photon states into the network with correlated photon detection \cite{bib:Laing12}. With some mathematical simplifications, the parameters can be solved for using the one-photon transmissions, and the visibility of two-photon inputs.
+However, quantum process tomography is an expensive approach in terms of the number of measurements required to characterise the network, with exponential overhead, becoming impractical for large optical networks which can contain hundreds of modes using present-day technology \cite{bib:Harris16}. To mitigate this problem, alternative characterisation protocols have been developed.
+
+Generally, the unitary matrices of $d\times d$ linear optical devices are complex $U_{ij}=r_{ij}e^{i\theta_{ij}}$, where $0 \leq r_{ij}\leq 1$, and $0\leq \theta_{ij}\leq 2\pi$. To characterise these numbers, one can do so by injecting one- and two-photon states into the network with correlated photon detection \cite{bib:Laing12}. With some mathematical simplifications, the parameters can be solved for using the one-photon transmissions, and the visibility of two-photon inputs.
 %
 %First, they note some equivalencies: two unitaries $U$ and $U'$ are 
 %equivalent if there exist two diagonal unitary matrices $D_1^U$ and 
@@ -273,11 +273,29 @@ and correcting systematic errors that arise due to mode mismatch
 parameters that yield the observed visibilities 
 \cite{bib:Spagnolo16,bib:Tillmann16}.
 
-An alternative method uses coherent states to probe the interferometer \cite{bib:Rahimi-Keshari13,bib:Heilmann15} instead of Fock states. Such states are produced by a standard laser source, thus reducing experimental resources. The $r_{jk}$ terms can be calculated from the ratios of output intensities at the $k$th port to the input intensity at the $j$th port. The remaining phases $\theta_{ij}$ are found by the interference pattern given by a two-mode coherent state $\ket{\alpha}\ket{\alpha e^{\phi}}$. When the states are injected into ports 1, and $j$ respectively, the output intensity at the $k$th port is
+An alternative method to process tomography is feeding coherent states to probe the interferometer \cite{bib:Rahimi-Keshari13,bib:Heilmann15} instead of Fock states. Such states are produced by a standard laser source, thus reducing experimental resources. The $r_{jk}$ terms can be calculated from the ratios of output intensities at the $k$th port to the input intensity at the $j$th port. The remaining phases $\theta_{ij}$ are found by the interference pattern given by a two-mode coherent state $\ket{\alpha}\ket{\alpha e^{\phi}}$. When the states are injected into ports 1, and $j$ respectively, the output intensity at the $k$th port is
 \begin{align}
 I_k=I(r_{1k}^2+r_{jk}^2+2 r_{1k}r_{kj}\cos(\phi+\theta_{jk})) \ ,
 \end{align}
 where $\theta_{jk}=0$ for $k=1$, and $I$ is the intensity of the input coherent states. By scanning the phase shift $\phi$ and locating the maximum value of $I_k$ for $j=2,\ldots, m$, all unknown phases can be found via $\theta_{jk}=2\pi-\phi$. An elegant modification of this scheme removes the need for precise control of the phase-shift $\phi$ by suggesting instead to plot the output intensity $I_k$ with respect to the input intensity $I$ \cite{bib:Heilmann15}. In time, the natural drift in the laser source will cause this plot to trace out an ellipse, known as a Lissajous figure, whose orientation and direction of evolution will give the phase $\theta_{jk}$ and its sign respectively.
+
+While the input-to-output amplitudes of a linear optics network may be efficiently determined (in terms of number of measurements), it does not characterise the full quantum process it implements, which may contain errors in other degrees of freedom.
+}
+
+\section{Quantum state and process tomography}\label{secQPT}
+
+\peter{When demonstrating quantum protocols experimentally it is generally absolutely critical to characterise the device prior to actual protocol execution. Tomography can be used to reconstruct the full density operator of an output state, and quantum process tomography to reconstruct the full process matrix implemented by a device. While various other measurement schemes can partially reconstruct quantum states or processes, or simply reconstruct certain parameters quantifying them, tomography is complete -- fully and uniquely reconstructing state and process matrices, from which any other measure can be determined. Importantly, state and process tomography require no interference or multi-qubit gates -- just separable single-qubit measurements in different bases. But unfortunately they require a number of measurements growing exponentially with the size of the system.
+
+State tomography is achieved by measuring expectation values in a complete basis for the state Hilbert space. For one qubit, for example, a complete basis is the Pauli basis, which wields the completeness relation,}
+\begin{align}
+\hat\rho = \text{tr}({\hat\rho}) + \text{tr}(\hat{X}\hat{\rho})\hat{X} + \text{tr}({\hat{Y}\hat\rho})\hat{Y} + \text{tr}(\hat{Z}{\hat\rho})\hat{Z}.
+\end{align}
+\peter{These traces correspond exactly to the expectation values in the respective bases, which are easily determined using separable measurements. Process tomography employs state tomography as a primitive, applying an equivalent completeness relation, but across the space of quantum processes, which may be decomposed into a basis input to output states. For a single qubit process this may be represented as,}
+\begin{align} \label{eq:process_matrix}
+\mathcal{E}(\hat\rho) = \sum_{i,j=1}^4 \chi_{i,j} \hat{\sigma}_i\hat\rho\,\hat{\sigma}_j^\dag.
+\end{align}
+\peter{which generalises to an arbitrary number of qubits.Here $\chi$ is the process matrix in the Pauli basis.}
+%\cite{bib:Mitchell03,bib:Obrien04,bib:Lobino08,bib:Saleh11}.
 
 %\section{Experimental implementation}\label{sec:expt}
 
@@ -493,11 +511,11 @@ The difficulty in producing nonlinear operations required for universal LOQC led
 \begin{align}
 p(s_1,\ldots,s_m)=\frac{|{\rm Per}(U_S)|^2}{s_1!\ldots s_n!} \ ,	
 \end{align}
-<<<<<<< HEAD:paper.tex
-where ${\rm Per}()$ denotes the permanent of a matrix, $S=\{s_1,\dots,s_m\}$ denotes an output photon-number configuration, and $U_S$ is obtained from the interferometer unitary $U$ by keeping its first $n$ columns and repeating its $j$th row $s_j$ times. The appearance of the permanent, which is \#P-hard in general (a complexity class even harder than NP-hard), in this statistics contributes to the hardness of the boson-sampling problem. Note that the number of configurations $|S|=\binom{n+m-1}{n}$ in the output superposition scales exponentially with $m$. For this reason, the boson sampler does not let us \emph{calculate} matrix permanents, as this would require knowing individual amplitudes with high precision, which would require an exponential number of samples. Rather, the boson sampler samples across a distribution of permanents without actually revealing any of them to the experimenter. Nonetheless, this is a classically intractable problem. It is also known that boson-sampling is as hard as stimulating the short time evolution of a certain Hamiltonian\cite{bib:Peropadre17}.
-=======
-where ${\rm Per}()$ denotes the permanent of a matrix, $S=\{s_1,\dots,s_m\}$ denotes an output photon-number configuration, and $U_S$ is obtained from the interferometer unitary $U$ by keeping its first n columns and repeating its $j$th row $s_j$ times. The appearance of the permanent, which is \#P-hard in general (a complexity class even harder than NP-hard), in this statistics contributes to the hardness of the boson sampling problem. Note that the number of configurations $|S|=\binom{n+m-1}{n}$ in the output superposition scales exponentially with $m$. For this reason, the boson sampler does not let us \emph{calculate} matrix permanents, as this would require knowing individual amplitudes with high precision, which would require an exponential number of samples. Rather, the boson sampler samples across a distribution of permanents without actually revealing any of them to the experimenter. Nonetheless, this is a classically intractable problem. It is also known that boson sampling is as hard as stimulating the short time evolution of a certain Hamiltonian\cite{bib:Peropadre17}.
->>>>>>> origin/master:(PR final edits) linear_optics_review/paper.tex
+%<<<<<<< HEAD:paper.tex
+where $\text{Per}()$ denotes the permanent of a matrix, $S=\{s_1,\dots,s_m\}$ denotes an output photon-number configuration, and $U_S$ is obtained from the interferometer unitary $U$ by keeping its first $n$ columns and repeating its $j$th row $s_j$ times. The appearance of the permanent, which is \#P-hard in general (a complexity class even harder than NP-hard), in this statistics contributes to the hardness of the boson-sampling problem. Note that the number of configurations $|S|=\binom{n+m-1}{n}$ in the output superposition scales exponentially with $m$. For this reason, the boson sampler does not let us \emph{calculate} matrix permanents, as this would require knowing individual amplitudes with high precision, which would require an exponential number of samples. Rather, the boson sampler samples across a distribution of permanents without actually revealing any of them to the experimenter. Nonetheless, this is a classically intractable problem. It is also known that boson-sampling is as hard as stimulating the short time evolution of a certain Hamiltonian\cite{bib:Peropadre17}.
+
+where ${\textbf Per}()$ denotes the permanent of a matrix, $S=\{s_1,\dots,s_m\}$ denotes an output photon-number configuration, and $U_S$ is obtained from the interferometer unitary $U$ by keeping its first n columns and repeating its $j$th row $s_j$ times. The appearance of the permanent, which is \#P-hard in general (a complexity class even harder than NP-hard), in this statistics contributes to the hardness of the boson sampling problem. Note that the number of configurations $|S|=\binom{n+m-1}{n}$ in the output superposition scales exponentially with $m$. For this reason, the boson sampler does not let us \emph{calculate} matrix permanents, as this would require knowing individual amplitudes with high precision, which would require an exponential number of samples. Rather, the boson sampler samples across a distribution of permanents without actually revealing any of them to the experimenter. Nonetheless, this is a classically intractable problem. It is also known that boson sampling is as hard as stimulating the short time evolution of a certain Hamiltonian\cite{bib:Peropadre17}.
+%>>>>>>> origin/master:(PR final edits) linear_optics_review/paper.tex
 
 \begin{figure}[!htb]
 \centering
@@ -506,13 +524,29 @@ where ${\rm Per}()$ denotes the permanent of a matrix, $S=\{s_1,\dots,s_m\}$ den
 } \label{fig:BosonSampling}	
 \end{figure} 
 
-
- Owing to the simplicity of {\sc BosonSampling} and its overarching implications for computer science, multiple experiments were reported shortly after its theoretical conception \cite{bib:Tillmann13,bib:Spring13, bib:Broome13,bib:Crespi13}. A recent experiment showed a {\sc bosonsampling} machine beating an early computer \cite{bib:WangHe16}.
+Owing to the simplicity of {\sc BosonSampling} and its overarching implications for computer science, multiple experiments were reported shortly after its theoretical conception \cite{bib:Tillmann13,bib:Spring13, bib:Broome13,bib:Crespi13}. A recent experiment showed a {\sc bosonsampling} machine beating an early computer \cite{bib:WangHe16}.
 {\sc BosonSampling} has piqued so much interest, that a complete discussion would make up its own review, so we shall only outline some main developments here. One variant, known as scattershot {\sc bosonsampling}, proposes using pumped SPDC heralded photon sources to increase the rate of generating input photons \cite{bib:Lund14,bib:Bentivegna15}, by inputting an SPDC source into \emph{every} mode rather than just the first $n$, thereby boosting the probability of preparing the desired $n$ photons. Others varied the source input to cat-states \cite{bib:Rohde15} and thermal states \cite{bib:Tamma14_thermal} . An exciting modification allows the determination of molecular vibronic spectra \cite{bib:Huh15}, a task that goes beyond demonstrating a computationally hard task.
 
 Certifying that a {\sc bosonsampling} task has been correctly performed is non-trivial. Some efforts look into discriminating between a valid {\sc bosonsampling} and a uniform distributions \cite{bib:Gogolin13,bib:Aaronson13}. Another shows how to discriminate data arising from either indistinguishable or distinguishable photons \cite{bib:Spagnolo14,bib:Carolan14}. More general benchmark standards have also been instituted \cite{bib:Walschaeprs16}. Another approach to verify that the interferometer is behaving as expected is to make use of suppression laws \cite{bib:Tichy14} together with fully reconfigurable optical circuits. When the circuits are tuned to implement certain unitary matrices, specific input and output combinations are suppressed \cite{bib:Crespi16}. Last but not least, a bound for the transition amplitudes for {\sc bosonsampling} indicates that an approximation algorithm for the permanent is possible \cite{bib:Yung16}. Such an algorithm can help with verifying the sampling distribution, but their proof does not construct the algorithm needed for this to happen.
 
 As experimental imperfections threaten the scalability of {\sc bosonsampling}, there have been efforts to look into its error tolerance \cite{bib:Rohde12_tol}, fault-tolerance \cite{bib:Leverrier15}, and experimental artefacts \cite{bib:Shchesnobich14,bib:Tamma16}. Some works have resulted in interesting connections to exotic mathematical entities like immanants \cite{bib:Tan2013,bib:deGuise2014} and the multi-dimensional permanent \cite{bib:Tichy15}. A time-bin implementation of {\sc bosonsampling} \cite{bib:Motes14} seems particularly attractive in terms of robustness \cite{bib:Motes15_timebin}.
+
+\subsection{Other sampling problems -- hard \& easy}
+
+\peter{
+Numerous other sampling problems have since been described, using, for example,
+\begin{enumerate}
+	\item Cat states (superpositions of coherent states)
+	\item Photon-added coherent states .
+	\item Photon-added or -subtracted squeezed vacuum states.
+	\item Two-mode squeezed vacuum states (SPDC states).
+	\item Gaussian states.
+	\item Positive P-function states.
+\end{enumerate}
+}
+
+\peter{
+Of these, 1-4 have been shown to yield hard sampling problems under photodetection, assuming certain reasonable complexity assumptions. And 5-6 have been shown to implement polynomial-time classical algorithms, under Gaussian measurements.}
 
 \subsection{Quantum metrology}\label{subsec:metrology}
 An archetypal task for quantum metrology is the following: Given a Mach-Zedner interferometer, with an unknown phase shift of magnitude $\varphi$ inserted in one of the two paths (see Fig. \ref{fig:MZ}), can one deduce $\varphi$ via a judicious use of quantum states and measurements with a higher sensitivity than that of a completely classical interferometer? Indeed, one can, and the standard deviation, $\Delta\varphi$, after $N$ trials using quantum estimation is $\Delta\varphi=1/N$, which gets a factor of $\sqrt{N}$ improvement over classical phase estimation. As this sensitivity is also a fundamental limit arising from Heisenberg's uncertainty principle, {\it i.e.} we cannot measure definitively the phase, it is known as the Heisenberg limit. Most famously, NOON states achieve this limit using $N$ photons in a single trial. Many reviews have been written for quantum metrology and Heisenberg-limited quantum phase estimation \cite{bib:Giovannetti04,bib:Dowling08,bib:Giovannetti11} so we will not dwell on the history of this application. Instead, we will discuss new paradigms for quantum metrology that have been made possible by the aforementioned advancements in linear optics.
@@ -527,7 +561,7 @@ An archetypal task for quantum metrology is the following: Given a Mach-Zedner i
 
 
  
- As discussed in Section \ref{sec:bosonsampling}, the resources needed for Boson-sampling is readily available, but executes a task that is believed to be hard classically. Surprisingly, an entanglement between a large number of path labels is possible with single photons in a passive linear optical device. Motes {\it et al.~}harnessed this so-called number-path entanglement for quantum metrology without the use of entangled states \cite{bib:Motes15_LOQM}. Here, the phase shift to be estimated, $\varphi$, manifests itself as a linear phase gradient across $N$ modes (See Fig. \ref{fig:MORDOR}). By straddling these modes among a quantum Fourier transform and its conjugate operation, it is possible to achieve $\Delta \varphi=\mathcal{O}(N^{-3/2})$ using a coincidence measurement with just a string of $N$ single photons, for up to at least $N=25$ modes. 
+ As discussed in Section \ref{sec:bosonsampling}, the resources needed for Boson-sampling \peter{are} readily available, but executes a task that is believed to be hard classically. Surprisingly, an entanglement between a large number of path labels is possible with single photons in a passive linear optical device. Motes {\it et al.~}harnessed this so-called number-path entanglement for quantum metrology without the use of entangled states \cite{bib:Motes15_LOQM}. Here, the phase shift to be estimated, $\varphi$, manifests itself as a linear phase gradient across $N$ modes (See Fig. \ref{fig:MORDOR}). By straddling these modes among a quantum Fourier transform and its conjugate operation, it is possible to achieve $\Delta \varphi=\mathcal{O}(N^{-3/2})$ using a coincidence measurement with just a string of $N$ single photons, for up to at least $N=25$ modes. 
  
  Quantum multi-parameter estimation is the extension of quantum phase estimation to sense multiple phases in a multi-arm interferometer \cite{bib:Szczykulska16}. Theoretical work has shown that it is favorable to probe all phases simultaneously rather than individually \cite{bib:Baumgratz16,bib:Ciampini16}, and it remains to realize existing proposals for implementation \cite{bib:Spagnolo12}. Nonetheless, for a Heisenberg-limited sensitivity, entangled states and joint measurements across modes are likely to be required. 
  
@@ -548,7 +582,21 @@ An archetypal task for quantum metrology is the following: Given a Mach-Zedner i
 \caption{(a) A schematic diagram of the Mach-Zehnder interferometer comprising of two 50/50 beamsplitters with a phase shift $\varphi$ in one of its two paths.	(b) Architecture of the quantum Fourier transform interferometer for metrology using single-photon states. QFT: Quantum Fourier transform circuit, and $\varphi_k=(k-1)\varphi$. Single photons are injected into the input modes on the left-hand-side, and a $N$-fold coincidence measurement is conducted at the output on the right-hand-side.}
 \end{figure}
 
+\section{Optical switching}
 
+\peter{
+Some of the protocols thus far require switching between different optical modes. This is achieved experimentally via a Mach-Zehnder interferometer with a dynamic, classically-controlled phase-shift in one path. The variable phase may be implemented in a number of ways using various types of phase modulators, such as electro-optic or acousto-optic modulators. With this construction setting the phase to $\phi=0$ performs the identity operation, whereas for $\phi=\pi$ it performs a swap gate. This is shown in Fig. \ref{figMZ}.
+}
+
+\begin{figure}[!htb]
+\centering
+\includegraphics[width=0.55\columnwidth]{MZ}	
+\caption{} \label{figMZ}
+\end{figure}
+ 
+\peter{
+This concept for switching is widely used in current labs, however it is very slow using present-day technology. For the purposes of fast-feedforward -- required for universal optical quantum computing for example -- we would require switching times on the order of nanoseconds, which requires the switching time to be faster than the time to the destination of the light it needs to switch. Presently this remains a daunting challenge, requiring much further research, with quantum memories being a candidate for loosening the switching time limitations.
+}
 
 \section{Conclusion}
 
@@ -563,7 +611,7 @@ Although there are countless physical architectures for the implementation of qu
 %
 
 \section*{Acknowledgments}
-P.P.R. is funded by an ARC Future Fellowship (project FT160100397). This research was supported in part by the Singapore National Research Foundation under NRF Award No. NRF-NRFF2013-01. ST acknowldeges support from the Air Force Office of Scientific Research under AOARD grant FA2386-15-1-4082.
+PPR is funded by an ARC Future Fellowship (project FT160100397). This research was supported in part by the Singapore National Research Foundation under NRF Award No. NRF-NRFF2013-01. ST acknowldeges support from the Air Force Office of Scientific Research under AOARD grant FA2386-15-1-4082.
 
 %
 % Bibliography
