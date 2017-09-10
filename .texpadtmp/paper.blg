@@ -1,58 +1,44 @@
-This is BibTeX, Version 0.99d (TeX Live 2014)
+This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-<<<<<<< Updated upstream
 The top-level auxiliary file: /Users/sihui_tan/Documents/Interferometry-Review/.texpadtmp/paper.aux
 The style file: ../elsarticle-num.bst
-<<<<<<< HEAD
-=======
 output.null is an unknown function---line 1113 of file ../elsarticle-num.bst
-=======
-The top-level auxiliary file: /Users/peterrohde/OneDrive/Documents/Publications/GitHub/Interferometry-Review/.texpadtmp/paper.aux
-The style file: apsrev.bst
-Reallocated singl_function (elt_size=4) to 100 items from 50.
->>>>>>> Stashed changes
->>>>>>> origin/master
 Database file #1: ../paper.bib
-Repeated entry---line 959 of file ../paper.bib
+I was expecting a `,' or a `}'---line 662 of file ../paper.bib
+ :   
+ :   year = {2015}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 981 of file ../paper.bib
  : @article{bib:Kim01
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2768 of file ../paper.bib
+Repeated entry---line 2779 of file ../paper.bib
  : @article{bib:Huh15
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2899 of file ../paper.bib
+Repeated entry---line 2910 of file ../paper.bib
  : @article{bib:Baumgratz16
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3947 of file ../paper.bib
+Repeated entry---line 3958 of file ../paper.bib
  : @article{bib:Pittman03
  :                       ,
 I'm skipping whatever remains of this entry
-<<<<<<< HEAD
-Repeated entry---line 4438 of file ../paper.bib
-=======
-<<<<<<< Updated upstream
-Repeated entry---line 4388 of file ../paper.bib
-=======
-Repeated entry---line 3188 of file ../paper.bib
- : @article{bib:OBrien04
- :                      ,
-I'm skipping whatever remains of this entry
-<<<<<<< Updated upstream
-Repeated entry---line 3569 of file ../paper.bib
->>>>>>> Stashed changes
->>>>>>> origin/master
+Repeated entry---line 4463 of file ../paper.bib
  : @article{bib:Chen17
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4457 of file ../paper.bib
+Repeated entry---line 4482 of file ../paper.bib
  : @article{bib:Shapiro07
  :                       ,
 I'm skipping whatever remains of this entry
-<<<<<<< HEAD
-=======
-<<<<<<< Updated upstream
+Warning--I didn't find a database entry for "bib:Barz12"
+Warning--I didn't find a database entry for "bib:Fisher14"
+Warning--I didn't find a database entry for "bib:Rohde_qw12"
+Warning--I didn't find a database entry for "bib:Heilmanndc15"
+Warning--I didn't find a database entry for "bib:Motes15_timebin"
+Warning--I didn't find a database entry for "bib:Motes15_LOQM"
 ptr=1, stack=
  9~(4) (2015) 363--384
 ---the literal stack isn't empty for entry bib:Meany15
@@ -85,147 +71,279 @@ ptr=1, stack=
  116 (2016) 020401
 ---the literal stack isn't empty for entry bib:Ding16
 while executing---line 1507 of file ../elsarticle-num.bst
->>>>>>> origin/master
 Warning--empty journal in bib:WangHe16
+ptr=1, stack=
+ 116 (2016) 213601
+---the literal stack isn't empty for entry bib:213601
+while executing---line 1507 of file ../elsarticle-num.bst
+ptr=1, stack=
+ 5 (2015) 041015
+---the literal stack isn't empty for entry bib:Tillmann2015
+while executing---line 1507 of file ../elsarticle-num.bst
+ptr=1, stack=
+ 111 (2013) 150501
+---the literal stack isn't empty for entry bib:Humphreys2013
+while executing---line 1507 of file ../elsarticle-num.bst
+ptr=1, stack=
+ 111 (2013) 153602
+---the literal stack isn't empty for entry bib:Donohue2013
+while executing---line 1507 of file ../elsarticle-num.bst
+ptr=1, stack=
+ 115 (2015) 020502
+---the literal stack isn't empty for entry bib:Gimeno-Segovia15
+while executing---line 1507 of file ../elsarticle-num.bst
+ptr=1, stack=
+pp. 333--342
+---the literal stack isn't empty for entry bib:Aaronson11
+while executing---line 1507 of file ../elsarticle-num.bst
+ptr=1, stack=
+ 73 (1994) 58--61
+---the literal stack isn't empty for entry bib:Reck1994
+while executing---line 1507 of file ../elsarticle-num.bst
+ptr=1, stack=
+ 110 (2013) 113603
+---the literal stack isn't empty for entry bib:Tan2013
+while executing---line 1507 of file ../elsarticle-num.bst
+ptr=1, stack=
+ 89 (2014) 063819
+---the literal stack isn't empty for entry bib:deGuise2014
+while executing---line 1507 of file ../elsarticle-num.bst
+ptr=1, stack=
+\href {http://arxiv.org/abs/http://www.pnas.org/content/110/4/1227.full.pdf} {\path{arXiv:http://www.pnas.org/content/110/4/1227.full.pdf}}
+---the literal stack isn't empty for entry bib:Ra2013
+while executing---line 1507 of file ../elsarticle-num.bst
+ptr=1, stack=
+ 118 (2017) 153602
+---the literal stack isn't empty for entry bib:Agne17
+while executing---line 1507 of file ../elsarticle-num.bst
+ptr=1, stack=
+ 118 (2017) 153603
+---the literal stack isn't empty for entry bib:Menssen17
+while executing---line 1507 of file ../elsarticle-num.bst
+ptr=1, stack=
+ 113 (2014) 120501
+---the literal stack isn't empty for entry bib:Motes14
+while executing---line 1507 of file ../elsarticle-num.bst
+ptr=1, stack=
+ 63 (2001) 032303
+---the literal stack isn't empty for entry bib:Englert2001
+while executing---line 1507 of file ../elsarticle-num.bst
+ptr=1, stack=
+ 89 (2014) 062316
+---the literal stack isn't empty for entry bib:Bouland2014
+while executing---line 1507 of file ../elsarticle-num.bst
+ptr=1, stack=
+ 92 (2015) 043813
+---the literal stack isn't empty for entry bib:Dhand2015
+while executing---line 1507 of file ../elsarticle-num.bst
 Warning--empty journal in bib:Spagnolo16
+ptr=1, stack=
+ 21~(11) (2013) 13450--13458
+---the literal stack isn't empty for entry bib:Rahimi-Keshari13
+while executing---line 1507 of file ../elsarticle-num.bst
+ptr=1, stack=
+ 60~(1) (2015) 96 -- 100
+---the literal stack isn't empty for entry bib:Heilmann15
+while executing---line 1507 of file ../elsarticle-num.bst
+ptr=1, stack=
+ 63 (2001) 060301
+---the literal stack isn't empty for entry bib:Kim01
+while executing---line 1507 of file ../elsarticle-num.bst
+ptr=1, stack=
+ 9~(6) (2003) 1478--1482
+---the literal stack isn't empty for entry bib:Pittman03
+while executing---line 1507 of file ../elsarticle-num.bst
+ptr=1, stack=
+ 67 (2003) 030101
+---the literal stack isn't empty for entry bib:Sliwa03
+while executing---line 1507 of file ../elsarticle-num.bst
+ptr=1, stack=
+ 75 (2007) 012313
+---the literal stack isn't empty for entry bib:Walther07
+while executing---line 1507 of file ../elsarticle-num.bst
 Warning--empty chapter and pages in bib:GHZ89
+ptr=1, stack=
+ 115 (2015) 260402
+---the literal stack isn't empty for entry bib:Zhang15
+while executing---line 1507 of file ../elsarticle-num.bst
+ptr=1, stack=
+ 84 (2012) 777--838
+---the literal stack isn't empty for entry bib:JW12
+while executing---line 1507 of file ../elsarticle-num.bst
+ptr=1, stack=
+ 100 (2008) 210501
+---the literal stack isn't empty for entry bib:Tokunaga08
+while executing---line 1507 of file ../elsarticle-num.bst
+ptr=1, stack=
+\href {http://arxiv.org/abs/http://science.sciencemag.org/content/early/2016/09/07/science.aah4758.full.pdf} {\path{arXiv:http://science.sciencemag.org/content/early/2016/09/07/science.aah4758.full.pdf}}
+---the literal stack isn't empty for entry bib:Schwartz16
+while executing---line 1507 of file ../elsarticle-num.bst
+ptr=1, stack=
+ 91 (2015) 012306
+---the literal stack isn't empty for entry Rohde15
+while executing---line 1507 of file ../elsarticle-num.bst
+ptr=1, stack=
+ 82
+---the literal stack isn't empty for entry bib:Eisaman11
+while executing---line 1507 of file ../elsarticle-num.bst
+ptr=1, stack=
+ 85 (2012) 023820
+---the literal stack isn't empty for entry bib:Sperling12
+while executing---line 1507 of file ../elsarticle-num.bst
+ptr=1, stack=
+ 37~(14) (2012) 2829--2831
+---the literal stack isn't empty for entry bib:Kalashnikov12
+while executing---line 1507 of file ../elsarticle-num.bst
+ptr=1, stack=
+ 39~(17) (2014) 5090--5093
+---the literal stack isn't empty for entry bib:Chrapkiewicz14
+while executing---line 1507 of file ../elsarticle-num.bst
+ptr=1, stack=
+ 117 (2016) 080502
+---the literal stack isn't empty for entry bib:Brod16
+while executing---line 1507 of file ../elsarticle-num.bst
+ptr=1, stack=
+\href {http://arxiv.org/abs/http://science.sciencemag.org/content/early/2015/07/08/science.aab3642.full.pdf} {\path{arXiv:http://science.sciencemag.org/content/early/2015/07/08/science.aab3642.full.pdf}}
+---the literal stack isn't empty for entry bib:Carolan15
+while executing---line 1507 of file ../elsarticle-num.bst
+ptr=1, stack=
+ 85 (2012) 012305
+---the literal stack isn't empty for entry bib:Mikova12
+while executing---line 1507 of file ../elsarticle-num.bst
+ptr=1, stack=
+ 112 (2014) 103602
+---the literal stack isn't empty for entry bib:Zhao14
+while executing---line 1507 of file ../elsarticle-num.bst
+ptr=1, stack=
+ 111 (2013) 160407
+---the literal stack isn't empty for entry bib:Micuda13
+while executing---line 1507 of file ../elsarticle-num.bst
+ptr=1, stack=
+\href {http://arxiv.org/abs/http://advances.sciencemag.org/content/2/3/e1501531.full.pdf} {\path{arXiv:http://advances.sciencemag.org/content/2/3/e1501531.full.pdf}}
+---the literal stack isn't empty for entry bib:Patel16
+while executing---line 1507 of file ../elsarticle-num.bst
+ptr=1, stack=
+ 73 (2006) 062305
+---the literal stack isn't empty for entry bib:Shapiro06
+while executing---line 1507 of file ../elsarticle-num.bst
+ptr=1, stack=
+ 81 (2010) 043823
+---the literal stack isn't empty for entry bib:Gea-Banacloche10
+while executing---line 1507 of file ../elsarticle-num.bst
+ptr=1, stack=
+ 111 (2013) 053601
+---the literal stack isn't empty for entry bib:Hoi13
+while executing---line 1507 of file ../elsarticle-num.bst
+ptr=1, stack=
+\href {http://arxiv.org/abs/http://www.pnas.org/content/113/35/9740.full.pdf} {\path{arXiv:http://www.pnas.org/content/113/35/9740.full.pdf}}
+---the literal stack isn't empty for entry bib:Beck16
+while executing---line 1507 of file ../elsarticle-num.bst
+ptr=1, stack=
+ 95 (2017) 032327
+---the literal stack isn't empty for entry bib:Peropadre17
+while executing---line 1507 of file ../elsarticle-num.bst
+ptr=1, stack=
+ 113 (2014) 100502
+---the literal stack isn't empty for entry bib:Lund14
+while executing---line 1507 of file ../elsarticle-num.bst
+ptr=1, stack=
+\href {http://arxiv.org/abs/http://advances.sciencemag.org/content/1/3/e1400255.full.pdf} {\path{arXiv:http://advances.sciencemag.org/content/1/3/e1400255.full.pdf}}
+---the literal stack isn't empty for entry bib:Bentivegna15
+while executing---line 1507 of file ../elsarticle-num.bst
+ptr=1, stack=
+ 91 (2015) 012342
+---the literal stack isn't empty for entry bib:Rohde15
+while executing---line 1507 of file ../elsarticle-num.bst
+ptr=1, stack=
+ 90 (2014) 063836
+---the literal stack isn't empty for entry bib:Tamma14_thermal
+while executing---line 1507 of file ../elsarticle-num.bst
 Warning--empty journal in bib:Gogolin13
 Warning--empty journal in bib:Aaronson13
-You've used 126 entries,
-            2935 wiz_defined-function locations,
-            1654 strings with 40812 characters,
-and the built_in function-call counts, 45106 in all, are:
-= -- 4095
-> -- 2388
+ptr=1, stack=
+ 113 (2014) 020502
+---the literal stack isn't empty for entry bib:Tichy14
+while executing---line 1507 of file ../elsarticle-num.bst
+ptr=1, stack=
+ 85 (2012) 022332
+---the literal stack isn't empty for entry bib:Rohde12_tol
+while executing---line 1507 of file ../elsarticle-num.bst
+Warning--empty year in bib:Leverrier15
+ptr=1, stack=
+ 89 (2014) 022333
+---the literal stack isn't empty for entry bib:Shchesnobich14
+while executing---line 1507 of file ../elsarticle-num.bst
+ptr=1, stack=
+\href {http://arxiv.org/abs/http://dx.doi.org/10.1080/09500340.2015.1088096} {\path{arXiv:http://dx.doi.org/10.1080/09500340.2015.1088096}}
+---the literal stack isn't empty for entry bib:Tamma16
+while executing---line 1507 of file ../elsarticle-num.bst
+ptr=1, stack=
+ 91 (2015) 022316
+---the literal stack isn't empty for entry bib:Tichy15
+while executing---line 1507 of file ../elsarticle-num.bst
+ptr=1, stack=
+ 86 (2014) 153--185
+---the literal stack isn't empty for entry bib:Georgescu14
+while executing---line 1507 of file ../elsarticle-num.bst
+ptr=1, stack=
+ 94 (2016) 022319
+---the literal stack isn't empty for entry bib:Olivares16
+while executing---line 1507 of file ../elsarticle-num.bst
+ptr=1, stack=
+\href {http://arxiv.org/abs/http://science.sciencemag.org/content/306/5700/1330.full.pdf} {\path{arXiv:http://science.sciencemag.org/content/306/5700/1330.full.pdf}}
+---the literal stack isn't empty for entry bib:Giovannetti04
+while executing---line 1507 of file ../elsarticle-num.bst
+ptr=1, stack=
+\href {http://arxiv.org/abs/http://dx.doi.org/10.1080/00107510802091298} {\path{arXiv:http://dx.doi.org/10.1080/00107510802091298}}
+---the literal stack isn't empty for entry bib:Dowling08
+while executing---line 1507 of file ../elsarticle-num.bst
+ptr=1, stack=
+\href {http://arxiv.org/abs/http://dx.doi.org/10.1080/23746149.2016.1230476} {\path{arXiv:http://dx.doi.org/10.1080/23746149.2016.1230476}}
+---the literal stack isn't empty for entry bib:Szczykulska16
+while executing---line 1507 of file ../elsarticle-num.bst
+ptr=1, stack=
+ 116 (2016) 030801
+---the literal stack isn't empty for entry bib:Baumgratz16
+while executing---line 1507 of file ../elsarticle-num.bst
+You've used 124 entries,
+            2934 wiz_defined-function locations,
+            1652 strings with 40309 characters,
+and the built_in function-call counts, 43315 in all, are:
+= -- 3796
+> -- 2353
 < -- 2
-+ -- 880
-- -- 754
-* -- 4494
-:= -- 6926
-add.period$ -- 191
-call.type$ -- 126
-change.case$ -- 125
++ -- 867
+- -- 743
+* -- 4422
+:= -- 6648
+add.period$ -- 135
+call.type$ -- 124
+change.case$ -- 123
 chr.to.int$ -- 0
-cite$ -- 131
-duplicate$ -- 1096
-empty$ -- 4175
-format.name$ -- 872
-if$ -- 10879
+cite$ -- 130
+duplicate$ -- 1081
+empty$ -- 4052
+format.name$ -- 859
+if$ -- 10412
 int.to.chr$ -- 0
-<<<<<<< HEAD
-int.to.str$ -- 126
-missing$ -- 127
-newline$ -- 555
-num.names$ -- 126
-pop$ -- 576
-=======
-int.to.str$ -- 123
-missing$ -- 124
-newline$ -- 490
-num.names$ -- 123
-pop$ -- 562
-=======
-=======
-Warning--I didn't find a database entry for "Reck"
->>>>>>> Stashed changes
-Warning--I didn't find a database entry for "Rohde"
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 105 entries,
-            3411 wiz_defined-function locations,
-<<<<<<< Updated upstream
-            1941 strings with 39748 characters,
-and the built_in function-call counts, 103877 in all, are:
-= -- 5060
-> -- 5099
-< -- 639
-+ -- 4607
-- -- 1254
-* -- 15399
-:= -- 10148
-add.period$ -- 105
-call.type$ -- 105
-change.case$ -- 421
-chr.to.int$ -- 102
-cite$ -- 105
-duplicate$ -- 8977
-empty$ -- 7908
-format.name$ -- 2829
-if$ -- 19169
-int.to.chr$ -- 4
-int.to.str$ -- 106
-missing$ -- 1352
-newline$ -- 330
-num.names$ -- 315
-pop$ -- 2075
-=======
-<<<<<<< Updated upstream
-            1537 strings with 23439 characters,
-and the built_in function-call counts, 47506 in all, are:
-= -- 2265
-> -- 2415
-< -- 300
-+ -- 2201
-- -- 594
-* -- 7083
-:= -- 4584
-add.period$ -- 46
-call.type$ -- 46
-change.case$ -- 185
-chr.to.int$ -- 43
-cite$ -- 46
-duplicate$ -- 4087
-empty$ -- 3573
-format.name$ -- 1332
-if$ -- 8731
-int.to.chr$ -- 4
-int.to.str$ -- 47
-missing$ -- 612
-newline$ -- 153
-num.names$ -- 138
-pop$ -- 943
-=======
-            1440 strings with 18793 characters,
-and the built_in function-call counts, 30363 in all, are:
-= -- 1507
-> -- 1445
-< -- 180
-+ -- 1295
-- -- 354
-* -- 4465
-:= -- 2997
-add.period$ -- 32
-call.type$ -- 32
-change.case$ -- 128
-chr.to.int$ -- 31
-cite$ -- 32
-duplicate$ -- 2628
-empty$ -- 2331
-format.name$ -- 810
-if$ -- 5610
-int.to.chr$ -- 2
-int.to.str$ -- 33
-missing$ -- 393
-newline$ -- 111
-num.names$ -- 96
-pop$ -- 638
->>>>>>> Stashed changes
->>>>>>> Stashed changes
->>>>>>> Stashed changes
->>>>>>> origin/master
+int.to.str$ -- 124
+missing$ -- 125
+newline$ -- 494
+num.names$ -- 124
+pop$ -- 568
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 2022
+skip$ -- 1855
 stack$ -- 0
-substring$ -- 2373
-swap$ -- 398
+substring$ -- 2360
+swap$ -- 389
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 5
-while$ -- 275
-width$ -- 129
-write$ -- 1257
-(There were 6 error messages)
+warning$ -- 6
+while$ -- 274
+width$ -- 127
+write$ -- 1119
+(There were 73 error messages)

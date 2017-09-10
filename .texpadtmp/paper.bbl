@@ -25,8 +25,8 @@ E.~Knill, R.~Laflamme, G.~Milburn, A scheme for efficient quantum computation
 T.~Meany, M.~Gr\"a~fe, R.~Heilmann, A.~Perez-Leija, S.~Gross, M.~J. Steel,
   M.~J. Withford, A.~Szameit,
   \href{http://dx.doi.org/10.1002/lpor.201500061}{Laser written circuits for
-  quantum photonics}, Laser \& Photonics Reviews 9~(4) (2015) 363--384.
-\newblock \href {http://dx.doi.org/10.1002/lpor.201500061}
+  quantum photonics}, Laser \& Photonics Reviews\href
+  {http://dx.doi.org/10.1002/lpor.201500061}
   {\path{doi:10.1002/lpor.201500061}}.
 \newline\urlprefix\url{http://dx.doi.org/10.1002/lpor.201500061}
 
@@ -36,9 +36,8 @@ J.~P. Sprengers, A.~Gaggero, D.~Sahin, S.~Jahanmirinejad, G.~Frucci,
   R.~Sanjines, A.~Fiore, \href{http://dx.doi.org/10.1063/1.3657518}{Waveguide
   superconducting single-photon detectors for integrated quantum photonic
   circuits}, Applied Physics Letters 99~(18) (2011) 181110.
-\newblock \href {http://arxiv.org/abs/http://dx.doi.org/10.1063/1.3657518}
-  {\path{arXiv:http://dx.doi.org/10.1063/1.3657518}}, \href
-  {http://dx.doi.org/10.1063/1.3657518} {\path{doi:10.1063/1.3657518}}.
+\newblock \href {http://dx.doi.org/10.1063/1.3657518}
+  {\path{doi:10.1063/1.3657518}}.
 \newline\urlprefix\url{http://dx.doi.org/10.1063/1.3657518}
 
 \bibitem{bib:Silverstone14}
@@ -53,9 +52,8 @@ J.~W. Silverstone, D.~Bonneau, K.~Ohira, N.~Suzuki, H.~Yoshida, N.~Iizuka,
 \bibitem{bib:Li15}
 Y.~Li, P.~C. Humphreys, G.~J. Mendoza, S.~C. Benjamin,
   \href{https://link.aps.org/doi/10.1103/PhysRevX.5.041007}{Resource costs for
-  fault-tolerant linear optical quantum computing}, Phys. Rev. X 5 (2015)
-  041007.
-\newblock \href {http://dx.doi.org/10.1103/PhysRevX.5.041007}
+  fault-tolerant linear optical quantum computing}, Phys. Rev. X\href
+  {http://dx.doi.org/10.1103/PhysRevX.5.041007}
   {\path{doi:10.1103/PhysRevX.5.041007}}.
 \newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevX.5.041007}
 
@@ -78,10 +76,7 @@ J.~B. Spring, B.~J. Metcalf, P.~C. Humphreys, W.~S. Kolthammer, X.-M. Jin,
   Gates, B.~J. Smith, P.~G.~R. Smith, I.~A. Walmsley,
   \href{http://science.sciencemag.org/content/339/6121/798}{Boson sampling on a
   photonic chip}, Science 339~(6121) (2013) 798--801.
-\newblock \href
-  {http://arxiv.org/abs/http://science.sciencemag.org/content/339/6121/798.full.pdf}
-  {\path{arXiv:http://science.sciencemag.org/content/339/6121/798.full.pdf}},
-  \href {http://dx.doi.org/10.1126/science.1231692}
+\newblock \href {http://dx.doi.org/10.1126/science.1231692}
   {\path{doi:10.1126/science.1231692}}.
 \newline\urlprefix\url{http://science.sciencemag.org/content/339/6121/798}
 
@@ -90,10 +85,7 @@ M.~A. Broome, A.~Fedrizzi, S.~Rahimi-Keshari, J.~Dove, S.~Aaronson, T.~C.
   Ralph, A.~G. White,
   \href{http://science.sciencemag.org/content/339/6121/794}{Photonic boson
   sampling in a tunable circuit}, Science 339~(6121) (2013) 794--798.
-\newblock \href
-  {http://arxiv.org/abs/http://science.sciencemag.org/content/339/6121/794.full.pdf}
-  {\path{arXiv:http://science.sciencemag.org/content/339/6121/794.full.pdf}},
-  \href {http://dx.doi.org/10.1126/science.1231440}
+\newblock \href {http://dx.doi.org/10.1126/science.1231440}
   {\path{doi:10.1126/science.1231440}}.
 \newline\urlprefix\url{http://science.sciencemag.org/content/339/6121/794}
 
@@ -102,8 +94,8 @@ X.-L. Wang, L.-K. Chen, W.~Li, H.-L. Huang, C.~Liu, C.~Chen, Y.-H. Luo, Z.-E.
   Su, D.~Wu, Z.-D. Li, H.~Lu, Y.~Hu, X.~Jiang, C.-Z. Peng, L.~Li, N.-L. Liu,
   Y.-A. Chen, C.-Y. Lu, J.-W. Pan,
   \href{https://link.aps.org/doi/10.1103/PhysRevLett.117.210502}{Experimental
-  ten-photon entanglement}, Phys. Rev. Lett. 117 (2016) 210502.
-\newblock \href {http://dx.doi.org/10.1103/PhysRevLett.117.210502}
+  ten-photon entanglement}, Phys. Rev. Lett.\href
+  {http://dx.doi.org/10.1103/PhysRevLett.117.210502}
   {\path{doi:10.1103/PhysRevLett.117.210502}}.
 \newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.117.210502}
 
@@ -112,9 +104,8 @@ L.-K. Chen, Z.-D. Li, X.-C. Yao, M.~Huang, W.~Li, H.~Lu, X.~Yuan, Y.-B. Zhang,
   X.~Jiang, C.-Z. Peng, L.~Li, N.-L. Liu, X.~Ma, C.-Y. Lu, Y.-A. Chen, J.-W.
   Pan,
   \href{http://www.osapublishing.org/optica/abstract.cfm?URI=optica-4-1-77}{Observation
-  of ten-photon entanglement using thin bib3o6 crystals}, Optica 4~(1) (2017)
-  77--83.
-\newblock \href {http://dx.doi.org/10.1364/OPTICA.4.000077}
+  of ten-photon entanglement using thin bib3o6 crystals}, Optica\href
+  {http://dx.doi.org/10.1364/OPTICA.4.000077}
   {\path{doi:10.1364/OPTICA.4.000077}}.
 \newline\urlprefix\url{http://www.osapublishing.org/optica/abstract.cfm?URI=optica-4-1-77}
 
@@ -124,8 +115,7 @@ X.~Ding, Y.~He, Z.-C. Duan, N.~Gregersen, M.-C. Chen, S.~Unsleber, S.~Maier,
   \href{https://link.aps.org/doi/10.1103/PhysRevLett.116.020401}{On-demand
   single photons with high extraction efficiency and near-unity
   indistinguishability from a resonantly driven quantum dot in a micropillar},
-  Phys. Rev. Lett. 116 (2016) 020401.
-\newblock \href {http://dx.doi.org/10.1103/PhysRevLett.116.020401}
+  Phys. Rev. Lett.\href {http://dx.doi.org/10.1103/PhysRevLett.116.020401}
   {\path{doi:10.1103/PhysRevLett.116.020401}}.
 \newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.116.020401}
 
@@ -143,8 +133,7 @@ H.~Wang, Z.-C. Duan, Y.-H. Li, S.~Chen, J.-P. Li, Y.-M. He, M.-C. Chen, Y.~He,
   Pan,
   \href{https://link.aps.org/doi/10.1103/PhysRevLett.116.213601}{Near-transform-limited
   single photons from an efficient solid-state quantum emitter}, Phys. Rev.
-  Lett. 116 (2016) 213601.
-\newblock \href {http://dx.doi.org/10.1103/PhysRevLett.116.213601}
+  Lett.\href {http://dx.doi.org/10.1103/PhysRevLett.116.213601}
   {\path{doi:10.1103/PhysRevLett.116.213601}}.
 \newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.116.213601}
 
@@ -152,8 +141,8 @@ H.~Wang, Z.-C. Duan, Y.-H. Li, S.~Chen, J.-P. Li, Y.-M. He, M.-C. Chen, Y.~He,
 M.~Tillmann, S.-H. Tan, S.~E. Stoeckl, B.~C. Sanders, H.~de~Guise, R.~Heilmann,
   S.~Nolte, A.~Szameit, P.~Walther,
   \href{http://link.aps.org/doi/10.1103/PhysRevX.5.041015}{Generalized
-  multiphoton quantum interference}, Phys. Rev. X 5 (2015) 041015.
-\newblock \href {http://dx.doi.org/10.1103/PhysRevX.5.041015}
+  multiphoton quantum interference}, Phys. Rev. X\href
+  {http://dx.doi.org/10.1103/PhysRevX.5.041015}
   {\path{doi:10.1103/PhysRevX.5.041015}}.
 \newline\urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevX.5.041015}
 
@@ -171,18 +160,16 @@ A.~Nicolas, L.~Veissier, L.~Giner, E.~Giacobino, D.~Maxein, J.~Laurat, A
 P.~C. Humphreys, B.~J. Metcalf, J.~B. Spring, M.~Moore, X.-M. Jin, M.~Barbieri,
   W.~S. Kolthammer, I.~A. Walmsley,
   \href{http://link.aps.org/doi/10.1103/PhysRevLett.111.150501}{Linear optical
-  quantum computing in a single spatial mode}, Phys. Rev. Lett. 111 (2013)
-  150501.
-\newblock \href {http://dx.doi.org/10.1103/PhysRevLett.111.150501}
+  quantum computing in a single spatial mode}, Phys. Rev. Lett.\href
+  {http://dx.doi.org/10.1103/PhysRevLett.111.150501}
   {\path{doi:10.1103/PhysRevLett.111.150501}}.
 \newline\urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevLett.111.150501}
 
 \bibitem{bib:Donohue2013}
 J.~M. Donohue, M.~Agnew, J.~Lavoie, K.~J. Resch,
   \href{http://link.aps.org/doi/10.1103/PhysRevLett.111.153602}{Coherent
-  ultrafast measurement of time-bin encoded photons}, Phys. Rev. Lett. 111
-  (2013) 153602.
-\newblock \href {http://dx.doi.org/10.1103/PhysRevLett.111.153602}
+  ultrafast measurement of time-bin encoded photons}, Phys. Rev. Lett.\href
+  {http://dx.doi.org/10.1103/PhysRevLett.111.153602}
   {\path{doi:10.1103/PhysRevLett.111.153602}}.
 \newline\urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevLett.111.153602}
 
@@ -198,8 +185,8 @@ D.~E. Browne, T.~Rudolph, Resource-efficient linear optics quantum computation,
 M.~Gimeno-Segovia, P.~Shadbolt, D.~E. Browne, T.~Rudolph,
   \href{https://link.aps.org/doi/10.1103/PhysRevLett.115.020502}{From
   three-photon greenberger-horne-zeilinger states to ballistic universal
-  quantum computation}, Phys. Rev. Lett. 115 (2015) 020502.
-\newblock \href {http://dx.doi.org/10.1103/PhysRevLett.115.020502}
+  quantum computation}, Phys. Rev. Lett.\href
+  {http://dx.doi.org/10.1103/PhysRevLett.115.020502}
   {\path{doi:10.1103/PhysRevLett.115.020502}}.
 \newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.115.020502}
 
@@ -207,40 +194,13 @@ M.~Gimeno-Segovia, P.~Shadbolt, D.~E. Browne, T.~Rudolph,
 M.~Pant, D.~Towsley, D.~Englund, S.~Guha, Percolation thresholds for photonic
   quantum computing, arXiv:1701.03775.
 
-\bibitem{bib:Barz12}
-S.~Barz, E.~Kashefi, A.~Broadbent, J.~F. Fitzsimons, A.~Zeilinger, P.~Walther,
-  \href{http://science.sciencemag.org/content/335/6066/303}{Demonstration of
-  blind quantum computing}, Science 335~(6066) (2012) 303--308.
-\newblock \href
-  {http://arxiv.org/abs/http://science.sciencemag.org/content/335/6066/303.full.pdf}
-  {\path{arXiv:http://science.sciencemag.org/content/335/6066/303.full.pdf}},
-  \href {http://dx.doi.org/10.1126/science.1214707}
-  {\path{doi:10.1126/science.1214707}}.
-\newline\urlprefix\url{http://science.sciencemag.org/content/335/6066/303}
-
-\bibitem{bib:Fisher14}
-K.~A.~G. Fisher, A.~Broadbent, L.~K. Shalm, Z.~Yan, J.~Lavoie, R.~Prevedel,
-  T.~Jennewein, K.~J. Resch,
-  \href{http://dx.doi.org/10.1038/ncomms4074}{Quantum computing on encrypted
-  data}, Nature Communications 5 (2014) 3074 EP --.
-\newline\urlprefix\url{http://dx.doi.org/10.1038/ncomms4074}
-
 \bibitem{bib:Aaronson11}
 S.~Aaronson, A.~Arkhipov, \href{http://doi.acm.org/10.1145/1993636.1993682}{The
   computational complexity of linear optics}, in: Proceedings of the
   Forty-third Annual ACM Symposium on Theory of Computing, STOC '11, ACM, New
-  York, NY, USA, 2011, pp. 333--342.
-\newblock \href {http://dx.doi.org/10.1145/1993636.1993682}
+  York, NY, USA, 2011, \href {http://dx.doi.org/10.1145/1993636.1993682}
   {\path{doi:10.1145/1993636.1993682}}.
 \newline\urlprefix\url{http://doi.acm.org/10.1145/1993636.1993682}
-
-\bibitem{bib:Rohde_qw12}
-P.~P. Rohde, J.~F. Fitzsimons, A.~Gilchrist,
-  \href{https://link.aps.org/doi/10.1103/PhysRevLett.109.150501}{Quantum walks
-  with encrypted data}, Phys. Rev. Lett. 109 (2012) 150501.
-\newblock \href {http://dx.doi.org/10.1103/PhysRevLett.109.150501}
-  {\path{doi:10.1103/PhysRevLett.109.150501}}.
-\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.109.150501}
 
 \bibitem{bib:Tan16}
 S.-H. Tan, J.~A. Kettlewell, Y.~Ouyang, L.~Chen, J.~F. Fitzsimons,
@@ -251,27 +211,24 @@ S.-H. Tan, J.~A. Kettlewell, Y.~Ouyang, L.~Chen, J.~F. Fitzsimons,
 \bibitem{bib:Reck1994}
 M.~Reck, A.~Zeilinger, H.~J. Bernstein, P.~Bertani,
   \href{http://link.aps.org/doi/10.1103/PhysRevLett.73.58}{Experimental
-  realization of any discrete unitary operator}, Phys. Rev. Lett. 73 (1994)
-  58--61.
-\newblock \href {http://dx.doi.org/10.1103/PhysRevLett.73.58}
+  realization of any discrete unitary operator}, Phys. Rev. Lett.\href
+  {http://dx.doi.org/10.1103/PhysRevLett.73.58}
   {\path{doi:10.1103/PhysRevLett.73.58}}.
 \newline\urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevLett.73.58}
 
 \bibitem{bib:Tan2013}
 S.-H. Tan, Y.~Y. Gao, H.~de~Guise, B.~C. Sanders,
   \href{http://link.aps.org/doi/10.1103/PhysRevLett.110.113603}{Su(3) quantum
-  interferometry with single-photon input pulses}, Phys. Rev. Lett. 110 (2013)
-  113603.
-\newblock \href {http://dx.doi.org/10.1103/PhysRevLett.110.113603}
+  interferometry with single-photon input pulses}, Phys. Rev. Lett.\href
+  {http://dx.doi.org/10.1103/PhysRevLett.110.113603}
   {\path{doi:10.1103/PhysRevLett.110.113603}}.
 \newline\urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevLett.110.113603}
 
 \bibitem{bib:deGuise2014}
 H.~de~Guise, S.-H. Tan, I.~P. Poulin, B.~C. Sanders,
   \href{http://link.aps.org/doi/10.1103/PhysRevA.89.063819}{Coincidence
-  landscapes for three-channel linear optical networks}, Phys. Rev. A 89 (2014)
-  063819.
-\newblock \href {http://dx.doi.org/10.1103/PhysRevA.89.063819}
+  landscapes for three-channel linear optical networks}, Phys. Rev. A\href
+  {http://dx.doi.org/10.1103/PhysRevA.89.063819}
   {\path{doi:10.1103/PhysRevA.89.063819}}.
 \newline\urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevA.89.063819}
 
@@ -284,10 +241,7 @@ Y.-S. Ra, M.~C. Tichy, H.-T. Lim, O.~Kwon, F.~Mintert, A.~Buchleitner, Y.-H.
   Kim, \href{http://www.pnas.org/content/110/4/1227.abstract}{Nonmonotonic
   quantum-to-classical transition in multiparticle interference}, Proceedings
   of the National Academy of Sciences 110~(4) (2013) 1227--1231.
-\newblock \href
-  {http://arxiv.org/abs/http://www.pnas.org/content/110/4/1227.full.pdf}
-  {\path{arXiv:http://www.pnas.org/content/110/4/1227.full.pdf}}, \href
-  {http://dx.doi.org/10.1073/pnas.1206910110}
+\newblock \href {http://dx.doi.org/10.1073/pnas.1206910110}
   {\path{doi:10.1073/pnas.1206910110}}.
 \newline\urlprefix\url{http://www.pnas.org/content/110/4/1227.abstract}
 
@@ -295,8 +249,8 @@ Y.-S. Ra, M.~C. Tichy, H.-T. Lim, O.~Kwon, F.~Mintert, A.~Buchleitner, Y.-H.
 S.~Agne, T.~Kauten, J.~Jin, E.~Meyer-Scott, J.~Z. Salvail, D.~R. Hamel, K.~J.
   Resch, G.~Weihs, T.~Jennewein,
   \href{https://link.aps.org/doi/10.1103/PhysRevLett.118.153602}{Observation of
-  genuine three-photon interference}, Phys. Rev. Lett. 118 (2017) 153602.
-\newblock \href {http://dx.doi.org/10.1103/PhysRevLett.118.153602}
+  genuine three-photon interference}, Phys. Rev. Lett.\href
+  {http://dx.doi.org/10.1103/PhysRevLett.118.153602}
   {\path{doi:10.1103/PhysRevLett.118.153602}}.
 \newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.118.153602}
 
@@ -304,8 +258,8 @@ S.~Agne, T.~Kauten, J.~Jin, E.~Meyer-Scott, J.~Z. Salvail, D.~R. Hamel, K.~J.
 A.~J. Menssen, A.~E. Jones, B.~J. Metcalf, M.~C. Tichy, S.~Barz, W.~S.
   Kolthammer, I.~A. Walmsley,
   \href{https://link.aps.org/doi/10.1103/PhysRevLett.118.153603}{Distinguishability
-  and many-particle interference}, Phys. Rev. Lett. 118 (2017) 153603.
-\newblock \href {http://dx.doi.org/10.1103/PhysRevLett.118.153603}
+  and many-particle interference}, Phys. Rev. Lett.\href
+  {http://dx.doi.org/10.1103/PhysRevLett.118.153603}
   {\path{doi:10.1103/PhysRevLett.118.153603}}.
 \newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.118.153603}
 
@@ -320,24 +274,23 @@ L.-A. Wu, P.~Walther, D.~A. Lidar,
 K.~R. Motes, A.~Gilchrist, J.~P. Dowling, P.~P. Rohde,
   \href{https://link.aps.org/doi/10.1103/PhysRevLett.113.120501}{Scalable boson
   sampling with time-bin encoding using a loop-based architecture}, Phys. Rev.
-  Lett. 113 (2014) 120501.
-\newblock \href {http://dx.doi.org/10.1103/PhysRevLett.113.120501}
+  Lett.\href {http://dx.doi.org/10.1103/PhysRevLett.113.120501}
   {\path{doi:10.1103/PhysRevLett.113.120501}}.
 \newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.113.120501}
 
 \bibitem{bib:Englert2001}
 B.-G. Englert, C.~Kurtsiefer, H.~Weinfurter,
   \href{https://link.aps.org/doi/10.1103/PhysRevA.63.032303}{Universal unitary
-  gate for single-photon two-qubit states}, Phys. Rev. A 63 (2001) 032303.
-\newblock \href {http://dx.doi.org/10.1103/PhysRevA.63.032303}
+  gate for single-photon two-qubit states}, Phys. Rev. A\href
+  {http://dx.doi.org/10.1103/PhysRevA.63.032303}
   {\path{doi:10.1103/PhysRevA.63.032303}}.
 \newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevA.63.032303}
 
 \bibitem{bib:Bouland2014}
 A.~Bouland, S.~Aaronson,
   \href{https://link.aps.org/doi/10.1103/PhysRevA.89.062316}{Generation of
-  universal linear optics by any beam splitter}, Phys. Rev. A 89 (2014) 062316.
-\newblock \href {http://dx.doi.org/10.1103/PhysRevA.89.062316}
+  universal linear optics by any beam splitter}, Phys. Rev. A\href
+  {http://dx.doi.org/10.1103/PhysRevA.89.062316}
   {\path{doi:10.1103/PhysRevA.89.062316}}.
 \newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevA.89.062316}
 
@@ -345,8 +298,7 @@ A.~Bouland, S.~Aaronson,
 I.~Dhand, S.~K. Goyal,
   \href{http://link.aps.org/doi/10.1103/PhysRevA.92.043813}{Realization of
   arbitrary discrete unitary transformations using spatial and internal modes
-  of light}, Phys. Rev. A 92 (2015) 043813.
-\newblock \href {http://dx.doi.org/10.1103/PhysRevA.92.043813}
+  of light}, Phys. Rev. A\href {http://dx.doi.org/10.1103/PhysRevA.92.043813}
   {\path{doi:10.1103/PhysRevA.92.043813}}.
 \newline\urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevA.92.043813}
 
@@ -385,27 +337,24 @@ M.~Tillmann, C.~Schmidt, P.~Walther,
 S.~Rahimi-Keshari, M.~A. Broome, R.~Fickler, A.~Fedrizzi, T.~C. Ralph, A.~G.
   White,
   \href{http://www.opticsexpress.org/abstract.cfm?URI=oe-21-11-13450}{Direct
-  characterization of linear-optical networks}, Opt. Express 21~(11) (2013)
-  13450--13458.
-\newblock \href {http://dx.doi.org/10.1364/OE.21.013450}
-  {\path{doi:10.1364/OE.21.013450}}.
+  characterization of linear-optical networks}, Opt. Express\href
+  {http://dx.doi.org/10.1364/OE.21.013450} {\path{doi:10.1364/OE.21.013450}}.
 \newline\urlprefix\url{http://www.opticsexpress.org/abstract.cfm?URI=oe-21-11-13450}
 
 \bibitem{bib:Heilmann15}
 R.~Heilmann, M.~Gräfe, S.~Nolte, A.~Szameit,
   \href{http://www.sciencedirect.com/science/article/pii/S2095927316305400}{A
   novel integrated quantum circuit for high-order w-state generation and its
-  highly precise characterization}, Science Bulletin 60~(1) (2015) 96 -- 100.
-\newblock \href {http://dx.doi.org/http://doi.org/10.1007/s11434-014-0688-5}
+  highly precise characterization}, Science Bulletin\href
+  {http://dx.doi.org/http://doi.org/10.1007/s11434-014-0688-5}
   {\path{doi:http://doi.org/10.1007/s11434-014-0688-5}}.
 \newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S2095927316305400}
 
 \bibitem{bib:Kim01}
 Y.-H. Kim, S.~P. Kulik, Y.~Shih,
   \href{https://link.aps.org/doi/10.1103/PhysRevA.63.060301}{Bell-state
-  preparation using pulsed nondegenerate two-photon entanglement}, Phys. Rev. A
-  63 (2001) 060301.
-\newblock \href {http://dx.doi.org/10.1103/PhysRevA.63.060301}
+  preparation using pulsed nondegenerate two-photon entanglement}, Phys. Rev.
+  A\href {http://dx.doi.org/10.1103/PhysRevA.63.060301}
   {\path{doi:10.1103/PhysRevA.63.060301}}.
 \newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevA.63.060301}
 
@@ -413,24 +362,23 @@ Y.-H. Kim, S.~P. Kulik, Y.~Shih,
 T.~B. Pittman, M.~M. Donegan, M.~J. Fitch, B.~C. Jacobs, J.~D. Franson, P.~Kok,
   H.~Lee, J.~P. Dowling, Heralded two-photon entanglement from probabilistic
   quantum logic operations on multiple parametric down-conversion sources, IEEE
-  Journal of Selected Topics in Quantum Electronics 9~(6) (2003) 1478--1482.
-\newblock \href {http://dx.doi.org/10.1109/JSTQE.2003.820916}
+  Journal of Selected Topics in Quantum Electronics\href
+  {http://dx.doi.org/10.1109/JSTQE.2003.820916}
   {\path{doi:10.1109/JSTQE.2003.820916}}.
 
 \bibitem{bib:Sliwa03}
 C.~\ifmmode~\acute{S}\else \'{S}\fi{}liwa, K.~Banaszek,
   \href{https://link.aps.org/doi/10.1103/PhysRevA.67.030101}{Conditional
-  preparation of maximal polarization entanglement}, Phys. Rev. A 67 (2003)
-  030101.
-\newblock \href {http://dx.doi.org/10.1103/PhysRevA.67.030101}
+  preparation of maximal polarization entanglement}, Phys. Rev. A\href
+  {http://dx.doi.org/10.1103/PhysRevA.67.030101}
   {\path{doi:10.1103/PhysRevA.67.030101}}.
 \newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevA.67.030101}
 
 \bibitem{bib:Walther07}
 P.~Walther, M.~Aspelmeyer, A.~Zeilinger,
   \href{https://link.aps.org/doi/10.1103/PhysRevA.75.012313}{Heralded
-  generation of multiphoton entanglement}, Phys. Rev. A 75 (2007) 012313.
-\newblock \href {http://dx.doi.org/10.1103/PhysRevA.75.012313}
+  generation of multiphoton entanglement}, Phys. Rev. A\href
+  {http://dx.doi.org/10.1103/PhysRevA.75.012313}
   {\path{doi:10.1103/PhysRevA.75.012313}}.
 \newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevA.75.012313}
 
@@ -462,8 +410,7 @@ J.-W. Pan, D.~Bouwmeester, M.~Daniell, H.~Weinfurter, A.~Zeilinger,
 C.~Zhang, Y.-F. Huang, Z.~Wang, B.-H. Liu, C.-F. Li, G.-C. Guo,
   \href{https://link.aps.org/doi/10.1103/PhysRevLett.115.260402}{Experimental
   greenberger-horne-zeilinger-type six-photon quantum nonlocality}, Phys. Rev.
-  Lett. 115 (2015) 260402.
-\newblock \href {http://dx.doi.org/10.1103/PhysRevLett.115.260402}
+  Lett.\href {http://dx.doi.org/10.1103/PhysRevLett.115.260402}
   {\path{doi:10.1103/PhysRevLett.115.260402}}.
 \newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.115.260402}
 
@@ -471,8 +418,8 @@ C.~Zhang, Y.-F. Huang, Z.~Wang, B.-H. Liu, C.-F. Li, G.-C. Guo,
 J.-W. Pan, Z.-B. Chen, C.-Y. Lu, H.~Weinfurter, A.~Zeilinger,
   M.~\ifmmode~\dot{Z}\else \.{Z}\fi{}ukowski,
   \href{https://link.aps.org/doi/10.1103/RevModPhys.84.777}{Multiphoton
-  entanglement and interferometry}, Rev. Mod. Phys. 84 (2012) 777--838.
-\newblock \href {http://dx.doi.org/10.1103/RevModPhys.84.777}
+  entanglement and interferometry}, Rev. Mod. Phys.\href
+  {http://dx.doi.org/10.1103/RevModPhys.84.777}
   {\path{doi:10.1103/RevModPhys.84.777}}.
 \newline\urlprefix\url{https://link.aps.org/doi/10.1103/RevModPhys.84.777}
 
@@ -527,8 +474,8 @@ R.~Prevedel, P.~Walther, F.~Tiefenbacher, P.~Bohi, R.~Kaltenbaek, T.~Jennewein,
 Y.~Tokunaga, S.~Kuwashiro, T.~Yamamoto, M.~Koashi, N.~Imoto,
   \href{https://link.aps.org/doi/10.1103/PhysRevLett.100.210501}{Generation of
   high-fidelity four-photon cluster state and quantum-domain demonstration of
-  one-way quantum computing}, Phys. Rev. Lett. 100 (2008) 210501.
-\newblock \href {http://dx.doi.org/10.1103/PhysRevLett.100.210501}
+  one-way quantum computing}, Phys. Rev. Lett.\href
+  {http://dx.doi.org/10.1103/PhysRevLett.100.210501}
   {\path{doi:10.1103/PhysRevLett.100.210501}}.
 \newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.100.210501}
 
@@ -537,9 +484,7 @@ I.~Schwartz, D.~Cogan, E.~R. Schmidgall, Y.~Don, L.~Gantz, O.~Kenneth, N.~H.
   Lindner, D.~Gershoni,
   \href{http://science.sciencemag.org/content/early/2016/09/07/science.aah4758}{Deterministic
   generation of a cluster state of entangled photons}, Science\href
-  {http://arxiv.org/abs/http://science.sciencemag.org/content/early/2016/09/07/science.aah4758.full.pdf}
-  {\path{arXiv:http://science.sciencemag.org/content/early/2016/09/07/science.aah4758.full.pdf}},
-  \href {http://dx.doi.org/10.1126/science.aah4758}
+  {http://dx.doi.org/10.1126/science.aah4758}
   {\path{doi:10.1126/science.aah4758}}.
 \newline\urlprefix\url{http://science.sciencemag.org/content/early/2016/09/07/science.aah4758}
 
@@ -554,8 +499,8 @@ S.~Yokoyama, R.~Ukai, S.~C. Armstrong, C.~Sornphiphatphong, T.~Kaji, S.~Suzuki,
 \bibitem{Rohde15}
 P.~P. Rohde, \href{https://link.aps.org/doi/10.1103/PhysRevA.91.012306}{Simple
   scheme for universal linear-optics quantum computing with constant
-  experimental complexity using fiber loops}, Phys. Rev. A 91 (2015) 012306.
-\newblock \href {http://dx.doi.org/10.1103/PhysRevA.91.012306}
+  experimental complexity using fiber loops}, Phys. Rev. A\href
+  {http://dx.doi.org/10.1103/PhysRevA.91.012306}
   {\path{doi:10.1103/PhysRevA.91.012306}}.
 \newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevA.91.012306}
 
@@ -569,16 +514,15 @@ R.~H. Hadfield, \href{http://dx.doi.org/10.1038/nphoton.2009.230}{Single-photon
 M.~Eisaman, J.~Fan, A.~Migdall, S.~Polyakov,
   \href{http://aip.scitation.org/doi/full/10.1063/1.3610677}{Invited review
   article: Single-photon sources and detectors}, Review of Scientific
-  Instruments 82.
-\newblock \href {http://dx.doi.org/http://dx.doi.org/10.1063/1.3610677}
+  Instruments\href {http://dx.doi.org/http://dx.doi.org/10.1063/1.3610677}
   {\path{doi:http://dx.doi.org/10.1063/1.3610677}}.
 \newline\urlprefix\url{http://aip.scitation.org/doi/full/10.1063/1.3610677}
 
 \bibitem{bib:Sperling12}
 J.~Sperling, W.~Vogel, G.~S. Agarwal,
   \href{https://link.aps.org/doi/10.1103/PhysRevA.85.023820}{True photocounting
-  statistics of multiple on-off detectors}, Phys. Rev. A 85 (2012) 023820.
-\newblock \href {http://dx.doi.org/10.1103/PhysRevA.85.023820}
+  statistics of multiple on-off detectors}, Phys. Rev. A\href
+  {http://dx.doi.org/10.1103/PhysRevA.85.023820}
   {\path{doi:10.1103/PhysRevA.85.023820}}.
 \newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevA.85.023820}
 
@@ -595,8 +539,7 @@ A.~Divochiy, F.~Marsili, D.~Bitauld, A.~Gaggero, R.~Leoni, F.~Mattioli,
 D.~A. Kalashnikov, S.-H. Tan, T.~S. Iskhakov, M.~V. Chekhova, L.~A. Krivitsky,
   \href{http://ol.osa.org/abstract.cfm?URI=ol-37-14-2829}{Measurement of
   two-mode squeezing with photon number resolving multipixel detectors}, Opt.
-  Lett. 37~(14) (2012) 2829--2831.
-\newblock \href {http://dx.doi.org/10.1364/OL.37.002829}
+  Lett.\href {http://dx.doi.org/10.1364/OL.37.002829}
   {\path{doi:10.1364/OL.37.002829}}.
 \newline\urlprefix\url{http://ol.osa.org/abstract.cfm?URI=ol-37-14-2829}
 
@@ -604,21 +547,15 @@ D.~A. Kalashnikov, S.-H. Tan, T.~S. Iskhakov, M.~V. Chekhova, L.~A. Krivitsky,
 R.~Chrapkiewicz, W.~Wasilewski, K.~Banaszek,
   \href{http://ol.osa.org/abstract.cfm?URI=ol-39-17-5090}{High-fidelity
   spatially resolved multiphoton counting for quantum imaging applications},
-  Opt. Lett. 39~(17) (2014) 5090--5093.
-\newblock \href {http://dx.doi.org/10.1364/OL.39.005090}
+  Opt. Lett.\href {http://dx.doi.org/10.1364/OL.39.005090}
   {\path{doi:10.1364/OL.39.005090}}.
 \newline\urlprefix\url{http://ol.osa.org/abstract.cfm?URI=ol-39-17-5090}
-
-\bibitem{bib:Heilmanndc15}
-R.~Heilmann, J.~Sperling, A.~Perez-Leija, M.~Gr{\"a}fe, M.~Heinrich, S.~Nolte,
-  W.~Vogel, A.~Szameit, Divide-and-conquer: An integrated photon-counting
-  scheme, arXiv: 1502.04932.
 
 \bibitem{bib:Brod16}
 D.~J. Brod, J.~Combes,
   \href{https://link.aps.org/doi/10.1103/PhysRevLett.117.080502}{Passive cphase
-  gate via cross-kerr nonlinearities}, Phys. Rev. Lett. 117 (2016) 080502.
-\newblock \href {http://dx.doi.org/10.1103/PhysRevLett.117.080502}
+  gate via cross-kerr nonlinearities}, Phys. Rev. Lett.\href
+  {http://dx.doi.org/10.1103/PhysRevLett.117.080502}
   {\path{doi:10.1103/PhysRevLett.117.080502}}.
 \newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.117.080502}
 
@@ -641,10 +578,7 @@ J.~Carolan, C.~Harrold, C.~Sparrow, E.~Mart{\'\i}n-L{\'o}pez, N.~J. Russell,
   Marshall, M.~G. Thompson, J.~C.~F. Matthews, T.~Hashimoto, J.~L.
   O{\textquoteright}Brien, A.~Laing,
   \href{http://science.sciencemag.org/content/early/2015/07/08/science.aab3642}{Universal
-  linear optics}, Science\href
-  {http://arxiv.org/abs/http://science.sciencemag.org/content/early/2015/07/08/science.aab3642.full.pdf}
-  {\path{arXiv:http://science.sciencemag.org/content/early/2015/07/08/science.aab3642.full.pdf}},
-  \href {http://dx.doi.org/10.1126/science.aab3642}
+  linear optics}, Science\href {http://dx.doi.org/10.1126/science.aab3642}
   {\path{doi:10.1126/science.aab3642}}.
 \newline\urlprefix\url{http://science.sciencemag.org/content/early/2015/07/08/science.aab3642}
 
@@ -663,8 +597,7 @@ M.~Mikov\'a, H.~Fikerov\'a, I.~Straka, M.~Mi\ifmmode~\check{c}\else
   \v{s}\fi{}ek,
   \href{https://link.aps.org/doi/10.1103/PhysRevA.85.012305}{Increasing
   efficiency of a linear-optical quantum gate using electronic feed-forward},
-  Phys. Rev. A 85 (2012) 012305.
-\newblock \href {http://dx.doi.org/10.1103/PhysRevA.85.012305}
+  Phys. Rev. A\href {http://dx.doi.org/10.1103/PhysRevA.85.012305}
   {\path{doi:10.1103/PhysRevA.85.012305}}.
 \newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevA.85.012305}
 
@@ -672,8 +605,8 @@ M.~Mikov\'a, H.~Fikerov\'a, I.~Straka, M.~Mi\ifmmode~\check{c}\else
 T.-M. Zhao, H.~Zhang, J.~Yang, Z.-R. Sang, X.~Jiang, X.-H. Bao, J.-W. Pan,
   \href{https://link.aps.org/doi/10.1103/PhysRevLett.112.103602}{Entangling
   different-color photons via time-resolved measurement and active feed
-  forward}, Phys. Rev. Lett. 112 (2014) 103602.
-\newblock \href {http://dx.doi.org/10.1103/PhysRevLett.112.103602}
+  forward}, Phys. Rev. Lett.\href
+  {http://dx.doi.org/10.1103/PhysRevLett.112.103602}
   {\path{doi:10.1103/PhysRevLett.112.103602}}.
 \newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.112.103602}
 
@@ -705,8 +638,7 @@ M.~Mi\ifmmode~\check{c}\else \v{c}\fi{}uda, M.~Sedl\'ak, I.~Straka,
   \v{s}\fi{}ek,
   \href{https://link.aps.org/doi/10.1103/PhysRevLett.111.160407}{Efficient
   experimental estimation of fidelity of linear optical quantum toffoli gate},
-  Phys. Rev. Lett. 111 (2013) 160407.
-\newblock \href {http://dx.doi.org/10.1103/PhysRevLett.111.160407}
+  Phys. Rev. Lett.\href {http://dx.doi.org/10.1103/PhysRevLett.111.160407}
   {\path{doi:10.1103/PhysRevLett.111.160407}}.
 \newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.111.160407}
 
@@ -714,10 +646,7 @@ M.~Mi\ifmmode~\check{c}\else \v{c}\fi{}uda, M.~Sedl\'ak, I.~Straka,
 R.~B. Patel, J.~Ho, F.~Ferreyrol, T.~C. Ralph, G.~J. Pryde,
   \href{http://advances.sciencemag.org/content/2/3/e1501531}{A quantum fredkin
   gate}, Science Advances 2~(3).
-\newblock \href
-  {http://arxiv.org/abs/http://advances.sciencemag.org/content/2/3/e1501531.full.pdf}
-  {\path{arXiv:http://advances.sciencemag.org/content/2/3/e1501531.full.pdf}},
-  \href {http://dx.doi.org/10.1126/sciadv.1501531}
+\newblock \href {http://dx.doi.org/10.1126/sciadv.1501531}
   {\path{doi:10.1126/sciadv.1501531}}.
 \newline\urlprefix\url{http://advances.sciencemag.org/content/2/3/e1501531}
 
@@ -732,9 +661,8 @@ R.~St{\'a}rek, M.~Mi{\v c}uda, M.~Mikov{\'a}, I.~Straka, M.~Du{\v s}ek,
 \bibitem{bib:Shapiro06}
 J.~H. Shapiro,
   \href{https://link.aps.org/doi/10.1103/PhysRevA.73.062305}{Single-photon kerr
-  nonlinearities do not help quantum computation}, Phys. Rev. A 73 (2006)
-  062305.
-\newblock \href {http://dx.doi.org/10.1103/PhysRevA.73.062305}
+  nonlinearities do not help quantum computation}, Phys. Rev. A\href
+  {http://dx.doi.org/10.1103/PhysRevA.73.062305}
   {\path{doi:10.1103/PhysRevA.73.062305}}.
 \newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevA.73.062305}
 
@@ -746,8 +674,7 @@ J.~H. Shapiro, M.~Razavi, Continuous-time cross-phase modulation and quantum
 J.~Gea-Banacloche,
   \href{https://link.aps.org/doi/10.1103/PhysRevA.81.043823}{Impossibility of
   large phase shifts via the giant kerr effect with single-photon wave
-  packets}, Phys. Rev. A 81 (2010) 043823.
-\newblock \href {http://dx.doi.org/10.1103/PhysRevA.81.043823}
+  packets}, Phys. Rev. A\href {http://dx.doi.org/10.1103/PhysRevA.81.043823}
   {\path{doi:10.1103/PhysRevA.81.043823}}.
 \newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevA.81.043823}
 
@@ -756,8 +683,8 @@ I.-C. Hoi, A.~F. Kockum, T.~Palomaki, T.~M. Stace, B.~Fan, L.~Tornberg, S.~R.
   Sathyamoorthy, G.~Johansson, P.~Delsing, C.~M. Wilson,
   \href{https://link.aps.org/doi/10.1103/PhysRevLett.111.053601}{Giant
   cross\char21{}kerr effect for propagating microwaves induced by an artificial
-  atom}, Phys. Rev. Lett. 111 (2013) 053601.
-\newblock \href {http://dx.doi.org/10.1103/PhysRevLett.111.053601}
+  atom}, Phys. Rev. Lett.\href
+  {http://dx.doi.org/10.1103/PhysRevLett.111.053601}
   {\path{doi:10.1103/PhysRevLett.111.053601}}.
 \newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.111.053601}
 
@@ -779,18 +706,15 @@ K.~M. Beck, M.~Hosseini, Y.~Duan, V.~Vuleti?,
   \href{http://www.pnas.org/content/113/35/9740.abstract}{Large conditional
   single-photon cross-phase modulation}, Proceedings of the National Academy of
   Sciences 113~(35) (2016) 9740--9744.
-\newblock \href
-  {http://arxiv.org/abs/http://www.pnas.org/content/113/35/9740.full.pdf}
-  {\path{arXiv:http://www.pnas.org/content/113/35/9740.full.pdf}}, \href
-  {http://dx.doi.org/10.1073/pnas.1524117113}
+\newblock \href {http://dx.doi.org/10.1073/pnas.1524117113}
   {\path{doi:10.1073/pnas.1524117113}}.
 \newline\urlprefix\url{http://www.pnas.org/content/113/35/9740.abstract}
 
 \bibitem{bib:Peropadre17}
 B.~Peropadre, A.~Aspuru-Guzik, J.~J. Garc\'{\i}a-Ripoll,
   \href{https://link.aps.org/doi/10.1103/PhysRevA.95.032327}{Equivalence
-  between spin hamiltonians and boson sampling}, Phys. Rev. A 95 (2017) 032327.
-\newblock \href {http://dx.doi.org/10.1103/PhysRevA.95.032327}
+  between spin hamiltonians and boson sampling}, Phys. Rev. A\href
+  {http://dx.doi.org/10.1103/PhysRevA.95.032327}
   {\path{doi:10.1103/PhysRevA.95.032327}}.
 \newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevA.95.032327}
 
@@ -805,8 +729,8 @@ A.~Crespi, R.~Osellame, R.~Ramponi, D.~J. Brod, E.~F. Galvao, N.~Spagnolo,
 \bibitem{bib:Lund14}
 A.~P. Lund, A.~Laing, S.~Rahimi-Keshari, T.~Rudolph, J.~L. O'Brien, T.~C.
   Ralph, \href{https://link.aps.org/doi/10.1103/PhysRevLett.113.100502}{Boson
-  sampling from a gaussian state}, Phys. Rev. Lett. 113 (2014) 100502.
-\newblock \href {http://dx.doi.org/10.1103/PhysRevLett.113.100502}
+  sampling from a gaussian state}, Phys. Rev. Lett.\href
+  {http://dx.doi.org/10.1103/PhysRevLett.113.100502}
   {\path{doi:10.1103/PhysRevLett.113.100502}}.
 \newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.113.100502}
 
@@ -816,10 +740,7 @@ M.~Bentivegna, N.~Spagnolo, C.~Vitelli, F.~Flamini, N.~Viggianiello,
   R.~Ramponi, R.~Osellame, F.~Sciarrino,
   \href{http://advances.sciencemag.org/content/1/3/e1400255}{Experimental
   scattershot boson sampling}, Science Advances 1~(3).
-\newblock \href
-  {http://arxiv.org/abs/http://advances.sciencemag.org/content/1/3/e1400255.full.pdf}
-  {\path{arXiv:http://advances.sciencemag.org/content/1/3/e1400255.full.pdf}},
-  \href {http://dx.doi.org/10.1126/sciadv.1400255}
+\newblock \href {http://dx.doi.org/10.1126/sciadv.1400255}
   {\path{doi:10.1126/sciadv.1400255}}.
 \newline\urlprefix\url{http://advances.sciencemag.org/content/1/3/e1400255}
 
@@ -827,17 +748,15 @@ M.~Bentivegna, N.~Spagnolo, C.~Vitelli, F.~Flamini, N.~Viggianiello,
 P.~P. Rohde, K.~R. Motes, P.~A. Knott, J.~Fitzsimons, W.~J. Munro, J.~P.
   Dowling, \href{https://link.aps.org/doi/10.1103/PhysRevA.91.012342}{Evidence
   for the conjecture that sampling generalized cat states with linear optics is
-  hard}, Phys. Rev. A 91 (2015) 012342.
-\newblock \href {http://dx.doi.org/10.1103/PhysRevA.91.012342}
+  hard}, Phys. Rev. A\href {http://dx.doi.org/10.1103/PhysRevA.91.012342}
   {\path{doi:10.1103/PhysRevA.91.012342}}.
 \newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevA.91.012342}
 
 \bibitem{bib:Tamma14_thermal}
 V.~Tamma, S.~Laibacher,
   \href{https://link.aps.org/doi/10.1103/PhysRevA.90.063836}{Multiboson
-  correlation interferometry with multimode thermal sources}, Phys. Rev. A 90
-  (2014) 063836.
-\newblock \href {http://dx.doi.org/10.1103/PhysRevA.90.063836}
+  correlation interferometry with multimode thermal sources}, Phys. Rev. A\href
+  {http://dx.doi.org/10.1103/PhysRevA.90.063836}
   {\path{doi:10.1103/PhysRevA.90.063836}}.
 \newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevA.90.063836}
 
@@ -881,9 +800,8 @@ M.~Walschaers, J.~Kuipers, J.-D. Urbina, K.~Mayer, M.~C. Tichy, K.~Richter,
 \bibitem{bib:Tichy14}
 M.~C. Tichy, K.~Mayer, A.~Buchleitner, K.~M\o{}lmer,
   \href{https://link.aps.org/doi/10.1103/PhysRevLett.113.020502}{Stringent and
-  efficient assessment of boson-sampling devices}, Phys. Rev. Lett. 113 (2014)
-  020502.
-\newblock \href {http://dx.doi.org/10.1103/PhysRevLett.113.020502}
+  efficient assessment of boson-sampling devices}, Phys. Rev. Lett.\href
+  {http://dx.doi.org/10.1103/PhysRevLett.113.020502}
   {\path{doi:10.1103/PhysRevLett.113.020502}}.
 \newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.113.020502}
 
@@ -902,22 +820,21 @@ M.-H. Yung, X.~Gao, J.~Huh, Universal bound on sampling bosons in linear
 \bibitem{bib:Rohde12_tol}
 P.~P. Rohde, T.~C. Ralph,
   \href{https://link.aps.org/doi/10.1103/PhysRevA.85.022332}{Error tolerance of
-  the boson-sampling model for linear optics quantum computing}, Phys. Rev. A
-  85 (2012) 022332.
-\newblock \href {http://dx.doi.org/10.1103/PhysRevA.85.022332}
+  the boson-sampling model for linear optics quantum computing}, Phys. Rev.
+  A\href {http://dx.doi.org/10.1103/PhysRevA.85.022332}
   {\path{doi:10.1103/PhysRevA.85.022332}}.
 \newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevA.85.022332}
 
 \bibitem{bib:Leverrier15}
 A.~Leverrier, R.~Garc\'ia-Patr\'on, Analysis of circuit imperfections in
-  bosonsampling, Quantum Information \& Computation 15 (2015) 0489--0512.
+  bosonsampling, Quantum Information \& Computation 15  0489--0512.
 
 \bibitem{bib:Shchesnobich14}
 V.~S. Shchesnovich,
   \href{https://link.aps.org/doi/10.1103/PhysRevA.89.022333}{Sufficient
   condition for the mode mismatch of single photons for scalability of the
-  boson-sampling computer}, Phys. Rev. A 89 (2014) 022333.
-\newblock \href {http://dx.doi.org/10.1103/PhysRevA.89.022333}
+  boson-sampling computer}, Phys. Rev. A\href
+  {http://dx.doi.org/10.1103/PhysRevA.89.022333}
   {\path{doi:10.1103/PhysRevA.89.022333}}.
 \newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevA.89.022333}
 
@@ -925,10 +842,7 @@ V.~S. Shchesnovich,
 V.~Tamma, S.~Laibacher,
   \href{http://dx.doi.org/10.1080/09500340.2015.1088096}{Boson sampling with
   non-identical single photons}, Journal of Modern Optics 63~(1) (2016) 41--45.
-\newblock \href
-  {http://arxiv.org/abs/http://dx.doi.org/10.1080/09500340.2015.1088096}
-  {\path{arXiv:http://dx.doi.org/10.1080/09500340.2015.1088096}}, \href
-  {http://dx.doi.org/10.1080/09500340.2015.1088096}
+\newblock \href {http://dx.doi.org/10.1080/09500340.2015.1088096}
   {\path{doi:10.1080/09500340.2015.1088096}}.
 \newline\urlprefix\url{http://dx.doi.org/10.1080/09500340.2015.1088096}
 
@@ -936,29 +850,47 @@ V.~Tamma, S.~Laibacher,
 M.~C. Tichy,
   \href{https://link.aps.org/doi/10.1103/PhysRevA.91.022316}{Sampling of
   partially distinguishable bosons and the relation to the multidimensional
-  permanent}, Phys. Rev. A 91 (2015) 022316.
-\newblock \href {http://dx.doi.org/10.1103/PhysRevA.91.022316}
+  permanent}, Phys. Rev. A\href {http://dx.doi.org/10.1103/PhysRevA.91.022316}
   {\path{doi:10.1103/PhysRevA.91.022316}}.
 \newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevA.91.022316}
 
-\bibitem{bib:Motes15_timebin}
-K.~R. Motes, J.~P. Dowling, A.~Gilchrist, P.~P. Rohde,
-  \href{https://link.aps.org/doi/10.1103/PhysRevA.92.052319}{Implementing
-  bosonsampling with time-bin encoding: Analysis of loss, mode mismatch, and
-  time jitter}, Phys. Rev. A 92 (2015) 052319.
-\newblock \href {http://dx.doi.org/10.1103/PhysRevA.92.052319}
-  {\path{doi:10.1103/PhysRevA.92.052319}}.
-\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevA.92.052319}
+\bibitem{bib:Georgescu14}
+I.~M. Georgescu, S.~Ashhab, F.~Nori,
+  \href{https://link.aps.org/doi/10.1103/RevModPhys.86.153}{Quantum
+  simulation}, Rev. Mod. Phys.\href
+  {http://dx.doi.org/10.1103/RevModPhys.86.153}
+  {\path{doi:10.1103/RevModPhys.86.153}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/RevModPhys.86.153}
+
+\bibitem{bib:Lanyon10}
+L.~P., W.~D., G.~G., G.~E., A.~P., KassalI., B.~D., MohseniM., P.~J.,
+  BarbieriM., Aspuru-GuzikA., W.~G.,
+  \href{http://dx.doi.org/10.1038/nchem.483}{Towards quantum chemistry on a
+  quantum computer}, Nat Chem 2~(2) (2010) 106--111.
+\newline\urlprefix\url{http://dx.doi.org/10.1038/nchem.483}
+
+\bibitem{bib:Ma2011}
+X.-s. Ma, B.~Dakic, W.~Naylor, A.~Zeilinger, P.~Walther,
+  \href{http://dx.doi.org/10.1038/nphys1919}{Quantum simulation of the
+  wavefunction to probe frustrated heisenberg spin systems}, Nat Phys 7~(5)
+  (2011) 399--405.
+\newline\urlprefix\url{http://dx.doi.org/10.1038/nphys1919}
+
+\bibitem{bib:Olivares16}
+D.~Gonz\'alez~Olivares, B.~Peropadre, A.~Aspuru-Guzik, J.~J.
+  Garc\'{\i}a-Ripoll,
+  \href{https://link.aps.org/doi/10.1103/PhysRevA.94.022319}{Quantum simulation
+  with a boson sampling circuit}, Phys. Rev. A\href
+  {http://dx.doi.org/10.1103/PhysRevA.94.022319}
+  {\path{doi:10.1103/PhysRevA.94.022319}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevA.94.022319}
 
 \bibitem{bib:Giovannetti04}
 V.~Giovannetti, S.~Lloyd, L.~Maccone,
   \href{http://science.sciencemag.org/content/306/5700/1330}{Quantum-enhanced
   measurements: Beating the standard quantum limit}, Science 306~(5700) (2004)
   1330--1336.
-\newblock \href
-  {http://arxiv.org/abs/http://science.sciencemag.org/content/306/5700/1330.full.pdf}
-  {\path{arXiv:http://science.sciencemag.org/content/306/5700/1330.full.pdf}},
-  \href {http://dx.doi.org/10.1126/science.1104149}
+\newblock \href {http://dx.doi.org/10.1126/science.1104149}
   {\path{doi:10.1126/science.1104149}}.
 \newline\urlprefix\url{http://science.sciencemag.org/content/306/5700/1330}
 
@@ -966,10 +898,7 @@ V.~Giovannetti, S.~Lloyd, L.~Maccone,
 J.~P. Dowling, \href{http://dx.doi.org/10.1080/00107510802091298}{Quantum
   optical metrology--the lowdown on high-n00n states}, Contemporary Physics
   49~(2) (2008) 125--143.
-\newblock \href
-  {http://arxiv.org/abs/http://dx.doi.org/10.1080/00107510802091298}
-  {\path{arXiv:http://dx.doi.org/10.1080/00107510802091298}}, \href
-  {http://dx.doi.org/10.1080/00107510802091298}
+\newblock \href {http://dx.doi.org/10.1080/00107510802091298}
   {\path{doi:10.1080/00107510802091298}}.
 \newline\urlprefix\url{http://dx.doi.org/10.1080/00107510802091298}
 
@@ -979,33 +908,19 @@ V.~Giovannetti, S.~Lloyd, L.~Maccone,
   metrology}, Nat Photon 5~(4) (2011) 222--229.
 \newline\urlprefix\url{http://dx.doi.org/10.1038/nphoton.2011.35}
 
-\bibitem{bib:Motes15_LOQM}
-K.~R. Motes, J.~P. Olson, E.~J. Rabeaux, J.~P. Dowling, S.~J. Olson, P.~P.
-  Rohde, \href{https://link.aps.org/doi/10.1103/PhysRevLett.114.170802}{Linear
-  optical quantum metrology with single photons: Exploiting spontaneously
-  generated entanglement to beat the shot-noise limit}, Phys. Rev. Lett. 114
-  (2015) 170802.
-\newblock \href {http://dx.doi.org/10.1103/PhysRevLett.114.170802}
-  {\path{doi:10.1103/PhysRevLett.114.170802}}.
-\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.114.170802}
-
 \bibitem{bib:Szczykulska16}
 M.~Szczykulska, T.~Baumgratz, A.~Datta,
   \href{http://dx.doi.org/10.1080/23746149.2016.1230476}{Multi-parameter
   quantum metrology}, Advances in Physics: X 1~(4) (2016) 621--639.
-\newblock \href
-  {http://arxiv.org/abs/http://dx.doi.org/10.1080/23746149.2016.1230476}
-  {\path{arXiv:http://dx.doi.org/10.1080/23746149.2016.1230476}}, \href
-  {http://dx.doi.org/10.1080/23746149.2016.1230476}
+\newblock \href {http://dx.doi.org/10.1080/23746149.2016.1230476}
   {\path{doi:10.1080/23746149.2016.1230476}}.
 \newline\urlprefix\url{http://dx.doi.org/10.1080/23746149.2016.1230476}
 
 \bibitem{bib:Baumgratz16}
 T.~Baumgratz, A.~Datta,
   \href{https://link.aps.org/doi/10.1103/PhysRevLett.116.030801}{Quantum
-  enhanced estimation of a multidimensional field}, Phys. Rev. Lett. 116 (2016)
-  030801.
-\newblock \href {http://dx.doi.org/10.1103/PhysRevLett.116.030801}
+  enhanced estimation of a multidimensional field}, Phys. Rev. Lett.\href
+  {http://dx.doi.org/10.1103/PhysRevLett.116.030801}
   {\path{doi:10.1103/PhysRevLett.116.030801}}.
 \newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.116.030801}
 
