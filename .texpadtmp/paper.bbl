@@ -194,6 +194,21 @@ M.~Gimeno-Segovia, P.~Shadbolt, D.~E. Browne, T.~Rudolph,
 M.~Pant, D.~Towsley, D.~Englund, S.~Guha, Percolation thresholds for photonic
   quantum computing, arXiv:1701.03775.
 
+\bibitem{bib:Barz12}
+S.~Barz, E.~Kashefi, A.~Broadbent, J.~F. Fitzsimons, A.~Zeilinger, P.~Walther,
+  \href{http://science.sciencemag.org/content/335/6066/303}{Demonstration of
+  blind quantum computing}, Science 335~(6066) (2012) 303--308.
+\newblock \href {http://dx.doi.org/10.1126/science.1214707}
+  {\path{doi:10.1126/science.1214707}}.
+\newline\urlprefix\url{http://science.sciencemag.org/content/335/6066/303}
+
+\bibitem{bib:Fisher14}
+K.~A.~G. Fisher, A.~Broadbent, L.~K. Shalm, Z.~Yan, J.~Lavoie, R.~Prevedel,
+  T.~Jennewein, K.~J. Resch,
+  \href{http://dx.doi.org/10.1038/ncomms4074}{Quantum computing on encrypted
+  data}, Nature Communications 5 (2014) 3074 EP --.
+\newline\urlprefix\url{http://dx.doi.org/10.1038/ncomms4074}
+
 \bibitem{bib:Aaronson11}
 S.~Aaronson, A.~Arkhipov, \href{http://doi.acm.org/10.1145/1993636.1993682}{The
   computational complexity of linear optics}, in: Proceedings of the
@@ -201,6 +216,14 @@ S.~Aaronson, A.~Arkhipov, \href{http://doi.acm.org/10.1145/1993636.1993682}{The
   York, NY, USA, 2011, \href {http://dx.doi.org/10.1145/1993636.1993682}
   {\path{doi:10.1145/1993636.1993682}}.
 \newline\urlprefix\url{http://doi.acm.org/10.1145/1993636.1993682}
+
+\bibitem{bib:Rohde_qw12}
+P.~P. Rohde, J.~F. Fitzsimons, A.~Gilchrist,
+  \href{https://link.aps.org/doi/10.1103/PhysRevLett.109.150501}{Quantum walks
+  with encrypted data}, Phys. Rev. Lett.\href
+  {http://dx.doi.org/10.1103/PhysRevLett.109.150501}
+  {\path{doi:10.1103/PhysRevLett.109.150501}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.109.150501}
 
 \bibitem{bib:Tan16}
 S.-H. Tan, J.~A. Kettlewell, Y.~Ouyang, L.~Chen, J.~F. Fitzsimons,
@@ -854,6 +877,15 @@ M.~C. Tichy,
   {\path{doi:10.1103/PhysRevA.91.022316}}.
 \newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevA.91.022316}
 
+\bibitem{bib:Motes15_timebin}
+K.~R. Motes, J.~P. Dowling, A.~Gilchrist, P.~P. Rohde,
+  \href{https://link.aps.org/doi/10.1103/PhysRevA.92.052319}{Implementing
+  bosonsampling with time-bin encoding: Analysis of loss, mode mismatch, and
+  time jitter}, Phys. Rev. A\href
+  {http://dx.doi.org/10.1103/PhysRevA.92.052319}
+  {\path{doi:10.1103/PhysRevA.92.052319}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevA.92.052319}
+
 \bibitem{bib:Georgescu14}
 I.~M. Georgescu, S.~Ashhab, F.~Nori,
   \href{https://link.aps.org/doi/10.1103/RevModPhys.86.153}{Quantum
@@ -884,6 +916,38 @@ D.~Gonz\'alez~Olivares, B.~Peropadre, A.~Aspuru-Guzik, J.~J.
   {http://dx.doi.org/10.1103/PhysRevA.94.022319}
   {\path{doi:10.1103/PhysRevA.94.022319}}.
 \newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevA.94.022319}
+
+\bibitem{bib:Kitagawa12}
+T.~Kitagawa, M.~A. Broome, A.~Fedrizzi, M.~S. Rudner, E.~Berg, I.~Kassal,
+  A.~Aspuru-Guzik, E.~Demler, A.~G. White,
+  \href{http://dx.doi.org/10.1038/ncomms1872}{Observation of topologically
+  protected bound states in photonic quantum walks} 3 (2012) 882 EP --.
+\newline\urlprefix\url{http://dx.doi.org/10.1038/ncomms1872}
+
+\bibitem{bib:Schreiber11}
+A.~Schreiber, K.~N. Cassemiro, V.~Poto\ifmmode~\check{c}\else \v{c}\fi{}ek,
+  A.~G\'abris, I.~Jex, C.~Silberhorn,
+  \href{https://link.aps.org/doi/10.1103/PhysRevLett.106.180403}{Decoherence
+  and disorder in quantum walks: From ballistic spread to localization}, Phys.
+  Rev. Lett.\href {http://dx.doi.org/10.1103/PhysRevLett.106.180403}
+  {\path{doi:10.1103/PhysRevLett.106.180403}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.106.180403}
+
+\bibitem{bib:Sansoni12}
+L.~Sansoni, F.~Sciarrino, G.~Vallone, P.~Mataloni, A.~Crespi, R.~Ramponi,
+  R.~Osellame,
+  \href{https://link.aps.org/doi/10.1103/PhysRevLett.108.010502}{Two-particle
+  bosonic-fermionic quantum walk via integrated photonics}, Phys. Rev.
+  Lett.\href {http://dx.doi.org/10.1103/PhysRevLett.108.010502}
+  {\path{doi:10.1103/PhysRevLett.108.010502}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.108.010502}
+
+\bibitem{bib:Matthews13}
+J.~C.~F. Matthews, K.~Poulios, J.~D.~A. Meinecke, A.~Politi, A.~Peruzzo,
+  N.~Ismail, K.~W{\"o}rhoff, M.~G. Thompson, J.~L. O'Brien,
+  \href{http://dx.doi.org/10.1038/srep01539}{Observing fermionic statistics
+  with photons in arbitrary processes} 3 (2013) 1539 EP --.
+\newline\urlprefix\url{http://dx.doi.org/10.1038/srep01539}
 
 \bibitem{bib:Giovannetti04}
 V.~Giovannetti, S.~Lloyd, L.~Maccone,

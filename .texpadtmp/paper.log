@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  10 SEP 2017 22:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  11 SEP 2017 22:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -838,54 +838,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--84
  []
 
 
-Package natbib Warning: Citation `bib:Northup14' on page 1 undefined on input line 89.
-
-
-Package natbib Warning: Citation `bib:Lo14' on page 1 undefined on input line 89.
-
-
-Package natbib Warning: Citation `bib:KLM01' on page 1 undefined on input line 89.
-
-
-Package natbib Warning: Citation `bib:Meany15' on page 1 undefined on input line 91.
-
-
-Package natbib Warning: Citation `bib:Sprengers11' on page 1 undefined on input line 91.
-
-
-Package natbib Warning: Citation `bib:Silverstone14' on page 1 undefined on input line 91.
-
-
-Package natbib Warning: Citation `bib:Li15' on page 1 undefined on input line 91.
-
-
-Package natbib Warning: Citation `bib:Spagnolo12' on page 1 undefined on input line 93.
-
-
-Package natbib Warning: Citation `bib:Tillmann13' on page 1 undefined on input line 93.
-
-
-Package natbib Warning: Citation `bib:Spring13' on page 1 undefined on input line 93.
-
-
-Package natbib Warning: Citation `bib:Broome13' on page 1 undefined on input line 93.
-
-
-Package natbib Warning: Citation `bib:WangChen16' on page 1 undefined on input line 93.
-
-
-Package natbib Warning: Citation `bib:Chen17' on page 1 undefined on input line 93.
-
-
-Package natbib Warning: Citation `bib:Ding16' on page 1 undefined on input line 93.
-
-
-Package natbib Warning: Citation `bib:WangHe16' on page 1 undefined on input line 93.
-
-
-Package natbib Warning: Citation `bib:213601' on page 1 undefined on input line 93.
-
-
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\<def>-command' on input line 94.
 
@@ -903,507 +855,58 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
- <./elsevier-logo.pdf> <./revip-logo.pdf>]
-
-Package natbib Warning: Citation `bib:Tillmann2015' on page 2 undefined on input line 96.
-
-
-Package natbib Warning: Citation `bib:Bozinovic2013' on page 2 undefined on input line 96.
-
-
-Package natbib Warning: Citation `bib:Nicolas2014' on page 2 undefined on input line 96.
-
-
-Package natbib Warning: Citation `bib:Humphreys2013' on page 2 undefined on input line 96.
-
-
-Package natbib Warning: Citation `bib:Donohue2013' on page 2 undefined on input line 96.
-
-
-Package natbib Warning: Citation `bib:Nielsen04' on page 2 undefined on input line 96.
-
-
-Package natbib Warning: Citation `bib:BrowneRudolph05' on page 2 undefined on input line 96.
-
-
-Package natbib Warning: Citation `bib:Gimeno-Segovia15' on page 2 undefined on input line 96.
-
-
-Package natbib Warning: Citation `bib:Pant17' on page 2 undefined on input line 96.
-
-
-Package natbib Warning: Citation `bib:Barz12' on page 2 undefined on input line 96.
-
-
-Package natbib Warning: Citation `bib:Fisher14' on page 2 undefined on input line 96.
-
-
-Package natbib Warning: Citation `bib:Aaronson11' on page 2 undefined on input line 96.
-
-
-Package natbib Warning: Citation `bib:Rohde_qw12' on page 2 undefined on input line 96.
-
-
-Package natbib Warning: Citation `bib:Tan16' on page 2 undefined on input line 96.
-
-
-Package natbib Warning: Citation `bib:Reck1994' on page 2 undefined on input line 106.
-
-
-Package natbib Warning: Citation `bib:Tan2013' on page 2 undefined on input line 114.
-
-
-Package natbib Warning: Citation `bib:deGuise2014' on page 2 undefined on input line 114.
-
-
-Package natbib Warning: Citation `bib:deGuise2015' on page 2 undefined on input line 114.
-
-
-Package natbib Warning: Citation `bib:Ra2013' on page 2 undefined on input line 114.
-
-
-Package natbib Warning: Citation `bib:Agne17' on page 2 undefined on input line 114.
-
-
-Package natbib Warning: Citation `bib:Menssen17' on page 2 undefined on input line 114.
-
-[2]
-
-Package natbib Warning: Citation `bib:Wu13' on page 3 undefined on input line 148.
-
-[3]
-
-Package natbib Warning: Citation `bib:Humphreys2013' on page 4 undefined on input line 161.
-
-
-Package natbib Warning: Citation `bib:Donohue2013' on page 4 undefined on input line 161.
-
-
-Package natbib Warning: Citation `bib:Motes14' on page 4 undefined on input line 161.
-
-
-Package natbib Warning: Citation `bib:Reck1994' on page 4 undefined on input line 226.
-
-<reck.pdf, id=154, 394.58363pt x 204.78508pt>
+ <./elsevier-logo.pdf> <./revip-logo.pdf>] [2] [3] <reck.pdf, id=235, 394.58363pt x 204.78508pt>
 File: reck.pdf Graphic file (type pdf)
  <use reck.pdf>
-Package pdftex.def Info: reck.pdf used on input line 230.
+Package pdftex.def Info: reck.pdf used on input line 245.
 (pdftex.def)             Requested size: 186.9143pt x 97.00517pt.
-
-
-Package natbib Warning: Citation `bib:Englert2001' on page 4 undefined on input line 234.
-
-
-Package natbib Warning: Citation `bib:Bouland2014' on page 4 undefined on input line 234.
-
-
-Package natbib Warning: Citation `bib:Dhand2015' on page 4 undefined on input line 236.
-
-[4 <./reck.pdf>]
-
-Package natbib Warning: Citation `bib:Harris16' on page 5 undefined on input line 283.
-
-
-Package natbib Warning: Citation `bib:Laing12' on page 5 undefined on input line 283.
-
-
-Package natbib Warning: Citation `Dhand16' on page 5 undefined on input line 283.
-
-
-Package natbib Warning: Citation `bib:Spagnolo16' on page 5 undefined on input line 283.
-
-
-Package natbib Warning: Citation `bib:Tillmann16' on page 5 undefined on input line 283.
-
-
-Package natbib Warning: Citation `bib:Rahimi-Keshari13' on page 5 undefined on input line 283.
-
-
-Package natbib Warning: Citation `bib:Heilmann15' on page 5 undefined on input line 283.
-
-
-Package natbib Warning: Citation `bib:Heilmann15' on page 5 undefined on input line 283.
-
-[5]
-
-Package natbib Warning: Citation `bib:WangChen16' on page 6 undefined on input line 312.
-
-
-Package natbib Warning: Citation `bib:Chen17' on page 6 undefined on input line 312.
-
-
-Package natbib Warning: Citation `bib:WangHe16' on page 6 undefined on input line 312.
-
-
-Package natbib Warning: Citation `bib:WangHe16' on page 6 undefined on input line 326.
-
-
-Package natbib Warning: Citation `bib:Kim01' on page 6 undefined on input line 337.
-
-
-Package natbib Warning: Citation `bib:Pittman03' on page 6 undefined on input line 339.
-
-
-Package natbib Warning: Citation `bib:Sliwa03' on page 6 undefined on input line 339.
-
-
-Package natbib Warning: Citation `bib:Walther07' on page 6 undefined on input line 339.
-
-
-Package natbib Warning: Citation `bib:Wagenknecht10' on page 6 undefined on input line 339.
-
-
-Package natbib Warning: Citation `bib:Barz10' on page 6 undefined on input line 339.
-
-
-Package natbib Warning: Citation `bib:GHZ89' on page 6 undefined on input line 343.
-
-
-Package natbib Warning: Citation `bib:JW00' on page 6 undefined on input line 347.
-
-
-Package natbib Warning: Citation `bib:Zhang15' on page 6 undefined on input line 347.
-
-
-Package natbib Warning: Citation `bib:JW12' on page 6 undefined on input line 347.
-
-
-Package natbib Warning: Citation `bib:Lu06' on page 6 undefined on input line 347.
-
-
-Package natbib Warning: Citation `bib:Zhang15' on page 6 undefined on input line 347.
-
-
-Package natbib Warning: Citation `bib:Huang11' on page 6 undefined on input line 347.
-
-
-Package natbib Warning: Citation `bib:Yao12' on page 6 undefined on input line 347.
-
-
-Package natbib Warning: Citation `bib:WangChen16' on page 6 undefined on input line 347.
-
-
-Package natbib Warning: Citation `bib:Chen17' on page 6 undefined on input line 347.
-
-
-Package natbib Warning: Citation `bib:Briegel01' on page 6 undefined on input line 357.
-
-[6]
-
-Package natbib Warning: Citation `bib:Raussendorf03' on page 7 undefined on input line 359.
-
-
-Package natbib Warning: Citation `bib:Mantri17' on page 7 undefined on input line 359.
-
-<cluster_state.pdf, id=295, 286.30765pt x 242.46686pt>
+ [4 <./reck.pdf>] [5] [6] <cluster_state.pdf, id=434, 286.30765pt x 242.46686pt>
 File: cluster_state.pdf Graphic file (type pdf)
  <use cluster_state.pdf>
-Package pdftex.def Info: cluster_state.pdf used on input line 365.
+Package pdftex.def Info: cluster_state.pdf used on input line 380.
 (pdftex.def)             Requested size: 116.82323pt x 98.93477pt.
- <fusion.pdf, id=296, 270.50322pt x 153.41916pt>
+ <fusion.pdf, id=435, 270.50322pt x 153.41916pt>
 File: fusion.pdf Graphic file (type pdf)
  <use fusion.pdf>
-Package pdftex.def Info: fusion.pdf used on input line 371.
+Package pdftex.def Info: fusion.pdf used on input line 386.
 (pdftex.def)             Requested size: 163.5518pt x 92.75917pt.
-
-
-Package natbib Warning: Citation `bib:Nielsen04' on page 7 undefined on input line 381.
-
-
-Package natbib Warning: Citation `bib:BrowneRudolph05' on page 7 undefined on input line 381.
-
-
-Package natbib Warning: Citation `bib:Gimeno-Segovia15' on page 7 undefined on input line 381.
-
-
-Package natbib Warning: Citation `bib:Pant17' on page 7 undefined on input line 381.
-
-
-Package natbib Warning: Citation `bib:Walther05a' on page 7 undefined on input line 381.
-
-
-Package natbib Warning: Citation `bib:Lu06' on page 7 undefined on input line 381.
-
-
-Package natbib Warning: Citation `bib:Prevedel07' on page 7 undefined on input line 381.
-
-
-Package natbib Warning: Citation `bib:Tokunaga08' on page 7 undefined on input line 381.
-
-
-Package natbib Warning: Citation `bib:Schwartz16' on page 7 undefined on input line 381.
-
-
-Package natbib Warning: Citation `bib:Yokoyama13' on page 7 undefined on input line 381.
-
-
-Package natbib Warning: Citation `bib:Motes14' on page 7 undefined on input line 387.
-
-<full_architecture.pdf, id=299, 286.46323pt x 132.80385pt>
+ <full_architecture.pdf, id=449, 286.46323pt x 132.80385pt>
 File: full_architecture.pdf Graphic file (type pdf)
  <use full_architecture.pdf>
-Package pdftex.def Info: full_architecture.pdf used on input line 399.
+Package pdftex.def Info: full_architecture.pdf used on input line 414.
 (pdftex.def)             Requested size: 163.5518pt x 75.8246pt.
- <PBS_TB.pdf, id=300, 414.88301pt x 242.9075pt>
+ <PBS_TB.pdf, id=450, 414.88301pt x 242.9075pt>
 File: PBS_TB.pdf Graphic file (type pdf)
  <use PBS_TB.pdf>
-Package pdftex.def Info: PBS_TB.pdf used on input line 405.
+Package pdftex.def Info: PBS_TB.pdf used on input line 420.
 (pdftex.def)             Requested size: 186.91786pt x 109.43707pt.
- [7 <./cluster_state.pdf> <./fusion.pdf>]
+ [7 <./cluster_state.pdf> <./fusion.pdf>] [8 <./full_architecture.pdf> <./PBS_TB.pdf>]
 
-Package natbib Warning: Citation `Rohde15' on page 8 undefined on input line 435.
+Package natbib Warning: Citation `bib:Heilmanndc15' on page 9 undefined on input line 476.
 
-
-Package natbib Warning: Citation `bib:Hadfield09' on page 8 undefined on input line 447.
-
-
-Package natbib Warning: Citation `bib:Eisaman11' on page 8 undefined on input line 447.
-
-[8 <./full_architecture.pdf> <./PBS_TB.pdf>]
-
-Package natbib Warning: Citation `bib:Sperling12' on page 9 undefined on input line 461.
-
-
-Package natbib Warning: Citation `bib:Divochiy08' on page 9 undefined on input line 461.
-
-
-Package natbib Warning: Citation `bib:Kalashnikov12' on page 9 undefined on input line 461.
-
-
-Package natbib Warning: Citation `bib:Chrapkiewicz14' on page 9 undefined on input line 461.
-
-
-Package natbib Warning: Citation `bib:Heilmanndc15' on page 9 undefined on input line 461.
-
-
-Package natbib Warning: Citation `bib:KLM01' on page 9 undefined on input line 490.
-
-
-Package natbib Warning: Citation `bib:Brod16' on page 9 undefined on input line 490.
-
-
-Package natbib Warning: Citation `bib:JW12' on page 9 undefined on input line 490.
-
-
-Package natbib Warning: Citation `bib:Kok05' on page 9 undefined on input line 490.
-
-
-Package natbib Warning: Citation `bib:Metcalf14' on page 9 undefined on input line 493.
-
-
-Package natbib Warning: Citation `bib:Carolan15' on page 9 undefined on input line 493.
-
-
-Package natbib Warning: Citation `bib:Sprengers11' on page 9 undefined on input line 493.
-
-
-Package natbib Warning: Citation `bib:Silverstone14' on page 9 undefined on input line 493.
-
-
-Package natbib Warning: Citation `bib:Prevedel07' on page 9 undefined on input line 493.
-
-
-Package natbib Warning: Citation `bib:Xiao-Song12' on page 9 undefined on input line 493.
-
-
-Package natbib Warning: Citation `bib:Mikova12' on page 9 undefined on input line 493.
-
-
-Package natbib Warning: Citation `bib:Zhao14' on page 9 undefined on input line 493.
-
-
-Package natbib Warning: Citation `bib:Zhou11' on page 9 undefined on input line 495.
-
-
-Package natbib Warning: Citation `bib:Lanyon09' on page 9 undefined on input line 495.
-
-
-Package natbib Warning: Citation `bib:Wang15' on page 9 undefined on input line 495.
-
-
-Package natbib Warning: Citation `bib:Lanyon09' on page 9 undefined on input line 495.
-
-
-Package natbib Warning: Citation `bib:Micuda13' on page 9 undefined on input line 495.
-
-
-Package natbib Warning: Citation `bib:Patel16' on page 9 undefined on input line 495.
-
-
-Package natbib Warning: Citation `bib:Starek16' on page 9 undefined on input line 495.
-
-
-Package natbib Warning: Citation `bib:Shapiro06' on page 9 undefined on input line 498.
-
-
-Package natbib Warning: Citation `bib:Shapiro07' on page 9 undefined on input line 498.
-
-
-Package natbib Warning: Citation `bib:Gea-Banacloche10' on page 9 undefined on input line 498.
-
-
-Package natbib Warning: Citation `bib:Brod16' on page 9 undefined on input line 498.
-
-
-Package natbib Warning: Citation `bib:Hoi13' on page 9 undefined on input line 499.
-
-
-Package natbib Warning: Citation `bib:Venkataraman13' on page 9 undefined on input line 499.
-
-
-Package natbib Warning: Citation `bib:Feizpour15' on page 9 undefined on input line 499.
-
-
-Package natbib Warning: Citation `bib:Beck16' on page 9 undefined on input line 499.
-
-
-Package natbib Warning: Citation `bib:Aaronson11' on page 9 undefined on input line 510.
-
-[9]
-
-Package natbib Warning: Citation `bib:Peropadre17' on page 10 undefined on input line 515.
-
-
-Package natbib Warning: Citation `bib:Peropadre17' on page 10 undefined on input line 517.
-
-<BS_model.pdf, id=684, 357.335pt x 315.1775pt>
+[9] <BS_model.pdf, id=906, 357.335pt x 315.1775pt>
 File: BS_model.pdf Graphic file (type pdf)
  <use BS_model.pdf>
-Package pdftex.def Info: BS_model.pdf used on input line 522.
+Package pdftex.def Info: BS_model.pdf used on input line 537.
 (pdftex.def)             Requested size: 140.18929pt x 123.64972pt.
+ [10 <./BS_model.pdf>]
 
+Package natbib Warning: Citation `bib:Motes15_LOQM' on page 11 undefined on input line 589.
 
-Package natbib Warning: Citation `bib:Tillmann13' on page 10 undefined on input line 530.
-
-
-Package natbib Warning: Citation `bib:Spring13' on page 10 undefined on input line 530.
-
-
-Package natbib Warning: Citation `bib:Broome13' on page 10 undefined on input line 530.
-
-
-Package natbib Warning: Citation `bib:Crespi13' on page 10 undefined on input line 530.
-
-
-Package natbib Warning: Citation `bib:WangHe16' on page 10 undefined on input line 530.
-
-
-Package natbib Warning: Citation `bib:Lund14' on page 10 undefined on input line 531.
-
-
-Package natbib Warning: Citation `bib:Bentivegna15' on page 10 undefined on input line 531.
-
-
-Package natbib Warning: Citation `bib:Rohde15' on page 10 undefined on input line 531.
-
-
-Package natbib Warning: Citation `bib:Tamma14_thermal' on page 10 undefined on input line 531.
-
-
-Package natbib Warning: Citation `bib:Huh15' on page 10 undefined on input line 531.
-
-
-Package natbib Warning: Citation `bib:Gogolin13' on page 10 undefined on input line 533.
-
-
-Package natbib Warning: Citation `bib:Aaronson13' on page 10 undefined on input line 533.
-
-
-Package natbib Warning: Citation `bib:Spagnolo14' on page 10 undefined on input line 533.
-
-
-Package natbib Warning: Citation `bib:Carolan14' on page 10 undefined on input line 533.
-
-
-Package natbib Warning: Citation `bib:Walschaeprs16' on page 10 undefined on input line 533.
-
-
-Package natbib Warning: Citation `bib:Tichy14' on page 10 undefined on input line 533.
-
-
-Package natbib Warning: Citation `bib:Crespi16' on page 10 undefined on input line 533.
-
-
-Package natbib Warning: Citation `bib:Yung16' on page 10 undefined on input line 533.
-
-[10 <./BS_model.pdf>]
-
-Package natbib Warning: Citation `bib:Rohde12_tol' on page 11 undefined on input line 535.
-
-
-Package natbib Warning: Citation `bib:Leverrier15' on page 11 undefined on input line 535.
-
-
-Package natbib Warning: Citation `bib:Shchesnobich14' on page 11 undefined on input line 535.
-
-
-Package natbib Warning: Citation `bib:Tamma16' on page 11 undefined on input line 535.
-
-
-Package natbib Warning: Citation `bib:Tan2013' on page 11 undefined on input line 535.
-
-
-Package natbib Warning: Citation `bib:deGuise2014' on page 11 undefined on input line 535.
-
-
-Package natbib Warning: Citation `bib:Tichy15' on page 11 undefined on input line 535.
-
-
-Package natbib Warning: Citation `bib:Motes14' on page 11 undefined on input line 535.
-
-
-Package natbib Warning: Citation `bib:Motes15_timebin' on page 11 undefined on input line 535.
-
-
-Package natbib Warning: Citation `bib:Georgescu14' on page 11 undefined on input line 559.
-
-
-Package natbib Warning: Citation `bib:Lanyon10' on page 11 undefined on input line 559.
-
-
-Package natbib Warning: Citation `bib:Ma2011' on page 11 undefined on input line 559.
-
-
-Package natbib Warning: Citation `bib:Olivares16' on page 11 undefined on input line 559.
-
-
-Package natbib Warning: Citation `bib:Giovannetti04' on page 11 undefined on input line 562.
-
-
-Package natbib Warning: Citation `bib:Dowling08' on page 11 undefined on input line 562.
-
-
-Package natbib Warning: Citation `bib:Giovannetti11' on page 11 undefined on input line 562.
-
-
-Package natbib Warning: Citation `bib:Motes15_LOQM' on page 11 undefined on input line 574.
-
-
-Package natbib Warning: Citation `bib:Szczykulska16' on page 11 undefined on input line 576.
-
-
-Package natbib Warning: Citation `bib:Baumgratz16' on page 11 undefined on input line 576.
-
-
-Package natbib Warning: Citation `bib:Ciampini16' on page 11 undefined on input line 576.
-
-
-Package natbib Warning: Citation `bib:Spagnolo12' on page 11 undefined on input line 576.
-
-[11] <phE.pdf, id=757, 168.63pt x 126.4725pt>
+[11] <phE.pdf, id=1054, 168.63pt x 126.4725pt>
 File: phE.pdf Graphic file (type pdf)
  <use phE.pdf>
-Package pdftex.def Info: phE.pdf used on input line 582.
+Package pdftex.def Info: phE.pdf used on input line 597.
 (pdftex.def)             Requested size: 116.82323pt x 87.61926pt.
- <MORDOR.pdf, id=758, 315.88817pt x 158.5925pt>
+ <MORDOR.pdf, id=1055, 315.88817pt x 158.5925pt>
 File: MORDOR.pdf Graphic file (type pdf)
  <use MORDOR.pdf>
-Package pdftex.def Info: MORDOR.pdf used on input line 588.
+Package pdftex.def Info: MORDOR.pdf used on input line 603.
 (pdftex.def)             Requested size: 186.91786pt x 93.84462pt.
- <MZ.pdf, id=760, 414.1143pt x 255.48991pt>
+ <MZ.pdf, id=1057, 414.1143pt x 255.48991pt>
 File: MZ.pdf Graphic file (type pdf)
  <use MZ.pdf>
-Package pdftex.def Info: MZ.pdf used on input line 603.
+Package pdftex.def Info: MZ.pdf used on input line 618.
 (pdftex.def)             Requested size: 257.01251pt x 158.56973pt.
  [12 <./phE.pdf> <./MORDOR.pdf
 
@@ -1418,34 +921,29 @@ Missing character: There is no ¤ in font txr!
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 635.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 650.
 [18]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 635.
- (/Users/sihui_tan/Documents/Interferometry-Review/.texpadtmp/paper.aux
-
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 635.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 635.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 650.
+ (/Users/sihui_tan/Documents/Interferometry-Review/.texpadtmp/paper.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 650.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 650.
 Package rerunfilecheck Info: File `paper.out' has not changed.
 (rerunfilecheck)             Checksum: E9A4EA2DE2EF65D1EE70FD3C780C9590;1715.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 635.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 650.
  ) 
 Here is how much of TeX's memory you used:
- 9961 strings out of 493089
- 147644 string characters out of 6134842
- 251851 words of memory out of 5000000
- 13040 multiletter control sequences out of 15000+600000
+ 9989 strings out of 493089
+ 148257 string characters out of 6134842
+ 253987 words of memory out of 5000000
+ 13060 multiletter control sequences out of 15000+600000
  48069 words of font info for 118 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,14n,38p,1285b,806s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,14n,38p,1285b,921s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /Users/sihui_tan/Documents/Interferometry-Review/.texpadtmp/paper.pdf (18 pages, 2781307 bytes).
+Output written on /Users/sihui_tan/Documents/Interferometry-Review/.texpadtmp/paper.pdf (18 pages, 2790068 bytes).
 PDF statistics:
- 1536 PDF objects out of 1728 (max. 8388607)
- 1039 compressed objects within 11 object streams
- 201 named destinations out of 1000 (max. 500000)
+ 1739 PDF objects out of 2073 (max. 8388607)
+ 1240 compressed objects within 13 object streams
+ 209 named destinations out of 1000 (max. 500000)
  248 words of extra memory for PDF output out of 10000 (max. 10000000)
 
