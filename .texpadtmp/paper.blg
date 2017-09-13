@@ -4,32 +4,36 @@ The top-level auxiliary file: /Users/sihui_tan/Documents/Interferometry-Review/.
 The style file: ../elsarticle-num.bst
 output.null is an unknown function---line 1113 of file ../elsarticle-num.bst
 Database file #1: ../paper.bib
-I was expecting a `,' or a `}'---line 732 of file ../paper.bib
+Repeated entry---line 268 of file ../paper.bib
+ : @article{bib:Georgescu14
+ :                         ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 881 of file ../paper.bib
  :   
  :   year = {2015}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 1051 of file ../paper.bib
+Repeated entry---line 1200 of file ../paper.bib
  : @article{bib:Kim01
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2849 of file ../paper.bib
+Repeated entry---line 2998 of file ../paper.bib
  : @article{bib:Huh15
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2980 of file ../paper.bib
+Repeated entry---line 3129 of file ../paper.bib
  : @article{bib:Baumgratz16
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4079 of file ../paper.bib
+Repeated entry---line 4228 of file ../paper.bib
  : @article{bib:Pittman03
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4584 of file ../paper.bib
+Repeated entry---line 4733 of file ../paper.bib
  : @article{bib:Chen17
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4603 of file ../paper.bib
+Repeated entry---line 4752 of file ../paper.bib
  : @article{bib:Shapiro07
  :                       ,
 I'm skipping whatever remains of this entry
@@ -294,6 +298,10 @@ ptr=1, stack=
 ---the literal stack isn't empty for entry bib:Georgescu14
 while executing---line 1507 of file ../elsarticle-num.bst
 ptr=1, stack=
+\href {http://arxiv.org/abs/http://science.sciencemag.org/content/326/5949/108.full.pdf} {\path{arXiv:http://science.sciencemag.org/content/326/5949/108.full.pdf}}
+---the literal stack isn't empty for entry bib:Buluta108
+while executing---line 1507 of file ../elsarticle-num.bst
+ptr=1, stack=
  94 (2016) 022319
 ---the literal stack isn't empty for entry bib:Olivares16
 while executing---line 1507 of file ../elsarticle-num.bst
@@ -307,6 +315,23 @@ ptr=1, stack=
 ---the literal stack isn't empty for entry bib:Sansoni12
 while executing---line 1507 of file ../elsarticle-num.bst
 Warning--empty journal in bib:Matthews13
+ptr=1, stack=
+ 116 (2016) 213901
+---the literal stack isn't empty for entry bib:Keil16
+while executing---line 1507 of file ../elsarticle-num.bst
+ptr=1, stack=
+ 98 (2007) 150404
+---the literal stack isn't empty for entry bib:Han07
+while executing---line 1507 of file ../elsarticle-num.bst
+ptr=1, stack=
+ 102 (2009) 030502
+---the literal stack isn't empty for entry bib:Chao-Yang09
+while executing---line 1507 of file ../elsarticle-num.bst
+ptr=1, stack=
+ 83 (2011) 013811
+---the literal stack isn't empty for entry bib:Caruso11
+while executing---line 1507 of file ../elsarticle-num.bst
+Warning--empty journal in bib:Viciani16
 ptr=1, stack=
 \href {http://arxiv.org/abs/http://science.sciencemag.org/content/306/5700/1330.full.pdf} {\path{arXiv:http://science.sciencemag.org/content/306/5700/1330.full.pdf}}
 ---the literal stack isn't empty for entry bib:Giovannetti04
@@ -323,45 +348,45 @@ ptr=1, stack=
  116 (2016) 030801
 ---the literal stack isn't empty for entry bib:Baumgratz16
 while executing---line 1507 of file ../elsarticle-num.bst
-You've used 132 entries,
+You've used 140 entries,
             2934 wiz_defined-function locations,
-            1703 strings with 42613 characters,
-and the built_in function-call counts, 46256 in all, are:
-= -- 4048
-> -- 2517
+            1762 strings with 44594 characters,
+and the built_in function-call counts, 48987 in all, are:
+= -- 4302
+> -- 2633
 < -- 2
-+ -- 927
-- -- 795
-* -- 4739
-:= -- 7101
-add.period$ -- 144
-call.type$ -- 132
-change.case$ -- 131
++ -- 971
+- -- 831
+* -- 5026
+:= -- 7506
+add.period$ -- 153
+call.type$ -- 140
+change.case$ -- 139
 chr.to.int$ -- 0
-cite$ -- 140
-duplicate$ -- 1153
-empty$ -- 4323
-format.name$ -- 919
-if$ -- 11112
+cite$ -- 149
+duplicate$ -- 1225
+empty$ -- 4594
+format.name$ -- 963
+if$ -- 11778
 int.to.chr$ -- 0
-int.to.str$ -- 132
-missing$ -- 133
-newline$ -- 527
-num.names$ -- 132
-pop$ -- 604
+int.to.str$ -- 140
+missing$ -- 141
+newline$ -- 560
+num.names$ -- 140
+pop$ -- 639
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1965
+skip$ -- 2077
 stack$ -- 0
-substring$ -- 2535
-swap$ -- 417
+substring$ -- 2705
+swap$ -- 445
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 8
-while$ -- 291
-width$ -- 135
-write$ -- 1191
-(There were 78 error messages)
+warning$ -- 9
+while$ -- 309
+width$ -- 143
+write$ -- 1264
+(There were 84 error messages)

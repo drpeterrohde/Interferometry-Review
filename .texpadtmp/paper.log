@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  11 SEP 2017 22:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  13 SEP 2017 21:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -893,17 +893,17 @@ Package pdftex.def Info: BS_model.pdf used on input line 537.
 
 Package natbib Warning: Citation `bib:Motes15_LOQM' on page 11 undefined on input line 589.
 
-[11] <phE.pdf, id=1054, 168.63pt x 126.4725pt>
+[11] <phE.pdf, id=1071, 168.63pt x 126.4725pt>
 File: phE.pdf Graphic file (type pdf)
  <use phE.pdf>
 Package pdftex.def Info: phE.pdf used on input line 597.
 (pdftex.def)             Requested size: 116.82323pt x 87.61926pt.
- <MORDOR.pdf, id=1055, 315.88817pt x 158.5925pt>
+ <MORDOR.pdf, id=1072, 315.88817pt x 158.5925pt>
 File: MORDOR.pdf Graphic file (type pdf)
  <use MORDOR.pdf>
 Package pdftex.def Info: MORDOR.pdf used on input line 603.
 (pdftex.def)             Requested size: 186.91786pt x 93.84462pt.
- <MZ.pdf, id=1057, 414.1143pt x 255.48991pt>
+ <MZ.pdf, id=1074, 414.1143pt x 255.48991pt>
 File: MZ.pdf Graphic file (type pdf)
  <use MZ.pdf>
 Package pdftex.def Info: MZ.pdf used on input line 618.
@@ -917,12 +917,12 @@ Missing character: There is no ¶ in font txr!
  [13] [14]
 Missing character: There is no Ã in font txr!
 Missing character: There is no ¤ in font txr!
- [15] [16] [17])
+ [15] [16] [17] [18])
 
 Package natbib Warning: There were undefined citations.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 650.
-[18]
+[19]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 650.
  (/Users/sihui_tan/Documents/Interferometry-Review/.texpadtmp/paper.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 650.
@@ -932,18 +932,18 @@ Package rerunfilecheck Info: File `paper.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 650.
  ) 
 Here is how much of TeX's memory you used:
- 9989 strings out of 493089
- 148257 string characters out of 6134842
- 253987 words of memory out of 5000000
- 13060 multiletter control sequences out of 15000+600000
+ 10023 strings out of 493089
+ 148912 string characters out of 6134842
+ 254123 words of memory out of 5000000
+ 13085 multiletter control sequences out of 15000+600000
  48069 words of font info for 118 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,14n,38p,1285b,921s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,14n,38p,1285b,1016s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /Users/sihui_tan/Documents/Interferometry-Review/.texpadtmp/paper.pdf (18 pages, 2790068 bytes).
+Output written on /Users/sihui_tan/Documents/Interferometry-Review/.texpadtmp/paper.pdf (19 pages, 2793590 bytes).
 PDF statistics:
- 1739 PDF objects out of 2073 (max. 8388607)
- 1240 compressed objects within 13 object streams
- 209 named destinations out of 1000 (max. 500000)
+ 1789 PDF objects out of 2073 (max. 8388607)
+ 1289 compressed objects within 13 object streams
+ 218 named destinations out of 1000 (max. 500000)
  248 words of extra memory for PDF output out of 10000 (max. 10000000)
 

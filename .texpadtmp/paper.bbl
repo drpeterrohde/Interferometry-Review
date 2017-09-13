@@ -894,6 +894,20 @@ I.~M. Georgescu, S.~Ashhab, F.~Nori,
   {\path{doi:10.1103/RevModPhys.86.153}}.
 \newline\urlprefix\url{https://link.aps.org/doi/10.1103/RevModPhys.86.153}
 
+\bibitem{bib:Buluta108}
+I.~Buluta, F.~Nori,
+  \href{http://science.sciencemag.org/content/326/5949/108}{Quantum
+  simulators}, Science 326~(5949) (2009) 108--111.
+\newblock \href {http://dx.doi.org/10.1126/science.1177838}
+  {\path{doi:10.1126/science.1177838}}.
+\newline\urlprefix\url{http://science.sciencemag.org/content/326/5949/108}
+
+\bibitem{bib:Aspuru-Guzik12}
+A.~Aspuru-Guzik, P.~Walther,
+  \href{http://dx.doi.org/10.1038/nphys2253}{Photonic quantum simulators}, Nat
+  Phys 8~(4) (2012) 285--291.
+\newline\urlprefix\url{http://dx.doi.org/10.1038/nphys2253}
+
 \bibitem{bib:Lanyon10}
 L.~P., W.~D., G.~G., G.~E., A.~P., KassalI., B.~D., MohseniM., P.~J.,
   BarbieriM., Aspuru-GuzikA., W.~G.,
@@ -948,6 +962,54 @@ J.~C.~F. Matthews, K.~Poulios, J.~D.~A. Meinecke, A.~Politi, A.~Peruzzo,
   \href{http://dx.doi.org/10.1038/srep01539}{Observing fermionic statistics
   with photons in arbitrary processes} 3 (2013) 1539 EP --.
 \newline\urlprefix\url{http://dx.doi.org/10.1038/srep01539}
+
+\bibitem{bib:Keil16}
+R.~Keil, C.~Poli, M.~Heinrich, J.~Arkinstall, G.~Weihs, H.~Schomerus,
+  A.~Szameit,
+  \href{https://link.aps.org/doi/10.1103/PhysRevLett.116.213901}{Universal sign
+  control of coupling in tight-binding lattices}, Phys. Rev. Lett.\href
+  {http://dx.doi.org/10.1103/PhysRevLett.116.213901}
+  {\path{doi:10.1103/PhysRevLett.116.213901}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.116.213901}
+
+\bibitem{bib:Han07}
+Y.-J. Han, R.~Raussendorf, L.-M. Duan,
+  \href{https://link.aps.org/doi/10.1103/PhysRevLett.98.150404}{Scheme for
+  demonstration of fractional statistics of anyons in an exactly solvable
+  model}, Phys. Rev. Lett.\href
+  {http://dx.doi.org/10.1103/PhysRevLett.98.150404}
+  {\path{doi:10.1103/PhysRevLett.98.150404}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.98.150404}
+
+\bibitem{bib:Pachos09}
+J.~K. Pachos, W.~Wieczorek, C.~Schmid, N.~Kiesel, R.~Pohlner, H.~Weinfurter,
+  \href{http://stacks.iop.org/1367-2630/11/i=8/a=083010}{Revealing anyonic
+  features in a toric code quantum simulation}, New Journal of Physics 11~(8)
+  (2009) 083010.
+\newline\urlprefix\url{http://stacks.iop.org/1367-2630/11/i=8/a=083010}
+
+\bibitem{bib:Chao-Yang09}
+C.-Y. Lu, W.-B. Gao, O.~G\"uhne, X.-Q. Zhou, Z.-B. Chen, J.-W. Pan,
+  \href{https://link.aps.org/doi/10.1103/PhysRevLett.102.030502}{Demonstrating
+  anyonic fractional statistics with a six-qubit quantum simulator}, Phys. Rev.
+  Lett.\href {http://dx.doi.org/10.1103/PhysRevLett.102.030502}
+  {\path{doi:10.1103/PhysRevLett.102.030502}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.102.030502}
+
+\bibitem{bib:Caruso11}
+F.~Caruso, N.~Spagnolo, C.~Vitelli, F.~Sciarrino, M.~B. Plenio,
+  \href{https://link.aps.org/doi/10.1103/PhysRevA.83.013811}{Simulation of
+  noise-assisted transport via optical cavity networks}, Phys. Rev. A\href
+  {http://dx.doi.org/10.1103/PhysRevA.83.013811}
+  {\path{doi:10.1103/PhysRevA.83.013811}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevA.83.013811}
+
+\bibitem{bib:Viciani16}
+S.~Viciani, S.~Gherardini, M.~Lima, M.~Bellini, F.~Caruso,
+  \href{http://dx.doi.org/10.1038/srep37791}{Disorder and dephasing as control
+  knobs for light transport in optical fiber cavity networks} 6 (2016) 37791 EP
+  --.
+\newline\urlprefix\url{http://dx.doi.org/10.1038/srep37791}
 
 \bibitem{bib:Giovannetti04}
 V.~Giovannetti, S.~Lloyd, L.~Maccone,
