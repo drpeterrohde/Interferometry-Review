@@ -93,10 +93,10 @@ The promises offered by linear optics have spearheaded many technical advancemen
 In the last decade, single photons have been produced mainly through a nonlinear optical process know as spontaneous parametric down-conversion (SPDC), a nonlinear optical process. SPDC produces single photons in correlated pairs that has been a staple source of entanglement. Through developments in production, the number of high quality indistinguishable photons that can be simultaneously produced have increased steadily over the years. Single-photon pairs, once a novelty, are now run-of-the-mill business for quantum optical labs, and three or four photons have become commonplace \cite{bib:Spagnolo12, bib:Tillmann13, bib:Spring13,bib:Broome13}. Experiments using up to ten photons have been demonstrated \cite{bib:WangChen16, bib:Chen17}. We have also seen the meteoric rise of quantum dots in the role for producing single photons \cite{bib:Ding16,bib:WangHe16, bib:213601}. They are a scalable source of single photons which are highly indistinguishable, and are produced on demand--a significant advantage over SPDC which is an inherently probabilistic process.
 
 
-Another approach to linear optics is to pack more features known as degrees of 
-freedom onto a single photon, and to increase the degree of control over them. 
-It is possible to manipulate degrees of freedom like polarization, time-of-
-arrival, and orbital angular momentum \cite{bib:Tillmann2015,bib:Bozinovic2013, 
+Another approach to linear optics is to pack more features known as 
+degrees of freedom onto a single photon, and to increase the degree 
+of control over them. It is possible to manipulate degrees of
+freedom like polarization, time-of-arrival, and orbital angular momentum \cite{bib:Tillmann2015,bib:Bozinovic2013, 
 bib:Nicolas2014, bib:Humphreys2013, bib:Donohue2013}. Since KLM, new proposals 
 for linear optical quantum computations (LOQC) have surfaced 
 \cite{bib:Nielsen04,bib:BrowneRudolph05,bib:Gimeno-Segovia15,bib:Pant17}. 
@@ -108,7 +108,7 @@ and secure quantum computations \cite{bib:Tan16} that might be hard or
 impossible with a classical system.  Such methods open up new ways to engineer 
 quantum states and quantum operations, and expand the toolbox of baseline 
 resources we have for implementing quantum computations, which could prove 
-crucial in the race to achieve quantum supremacy.
+crucial in the race to achieve quantum supremacy. \sihui{Quantum key distribution (QKD) fundamentally does not require interferometry, but sound QKD protocols using Mach-Zehnder interferometer have been proposed \cite{bib:Sasaki14}, and in some cases realized \cite{bib:Takesue15}.}
 
 We begin in Section \ref{sec:math} with an overview of the mathematical treatment of linear optical transformation on single photons, and in Section \ref{sec:encoding} with a description of some commonly used qubit encodings. Any unitary transformation acting on the spatial label of single photons can be efficiently decomposed into a network of beamsplitters and phase-shifters. We discuss this, and an extension to handle additional internal states, in Section \ref{sec:decomp}. For applying any linear optical circuit, one needs an accurate description of its unitary representation. A full quantum tomography is costly and time-consuming. Some practical methods have been devised to do this reconstruction without resorting to tomography, and these are described in Section \ref{sec:reconstruction}. In Section \ref{sec:state}, we recap the experimental breakthroughs in state preparation of single photons, and some entangled quantum states. This is followed by advances in time-bin based architecture for linear optical networks, and photodectors in Sections \ref{sec:timebins} and \ref{sec:detector} respectively. Last, but not least, we review applications for linear optical interferometry in LOQC, {\sc bosonsampling}, and quantum metrology.
 
@@ -603,6 +603,11 @@ An archetypal task for quantum metrology is the following: Given a Mach-Zedner i
 \end{subfigure}
 \caption{(a) A schematic diagram of the Mach-Zehnder interferometer comprising of two 50/50 beamsplitters with a phase shift $\varphi$ in one of its two paths.	(b) Architecture of the quantum Fourier transform interferometer for metrology using single-photon states. QFT: Quantum Fourier transform circuit, and $\varphi_k=(k-1)\varphi$. Single photons are injected into the input modes on the left-hand-side, and a $N$-fold coincidence measurement is conducted at the output on the right-hand-side.}
 \end{figure}
+
+
+\sihui{
+\subsection{Repeater networks}
+}
 
 \section{Optical switching}
 

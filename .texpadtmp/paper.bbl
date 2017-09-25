@@ -231,6 +231,20 @@ S.-H. Tan, J.~A. Kettlewell, Y.~Ouyang, L.~Chen, J.~F. Fitzsimons,
   encryption}, Scientific Reports 6 (2016) 33467 EP --.
 \newline\urlprefix\url{http://dx.doi.org/10.1038/srep33467}
 
+\bibitem{bib:Sasaki14}
+T.~Sasaki, Y.~Yamamoto, M.~Koashi,
+  \href{http://dx.doi.org/10.1038/nature13303}{Practical quantum key
+  distribution protocol without monitoring signal disturbance}, Nature
+  509~(7501) (2014) 475--478.
+\newline\urlprefix\url{http://dx.doi.org/10.1038/nature13303}
+
+\bibitem{bib:Takesue15}
+H.~Takesue, T.~Sasaki, K.~Tamaki, M.~Koashi,
+  \href{http://dx.doi.org/10.1038/nphoton.2015.173}{Experimental quantum key
+  distribution without monitoring signal disturbance}, Nat Photon 9~(12) (2015)
+  827--831.
+\newline\urlprefix\url{http://dx.doi.org/10.1038/nphoton.2015.173}
+
 \bibitem{bib:Reck1994}
 M.~Reck, A.~Zeilinger, H.~J. Bernstein, P.~Bertani,
   \href{http://link.aps.org/doi/10.1103/PhysRevLett.73.58}{Experimental
