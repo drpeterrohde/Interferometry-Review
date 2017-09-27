@@ -231,20 +231,6 @@ S.-H. Tan, J.~A. Kettlewell, Y.~Ouyang, L.~Chen, J.~F. Fitzsimons,
   encryption}, Scientific Reports 6 (2016) 33467 EP --.
 \newline\urlprefix\url{http://dx.doi.org/10.1038/srep33467}
 
-\bibitem{bib:Sasaki14}
-T.~Sasaki, Y.~Yamamoto, M.~Koashi,
-  \href{http://dx.doi.org/10.1038/nature13303}{Practical quantum key
-  distribution protocol without monitoring signal disturbance}, Nature
-  509~(7501) (2014) 475--478.
-\newline\urlprefix\url{http://dx.doi.org/10.1038/nature13303}
-
-\bibitem{bib:Takesue15}
-H.~Takesue, T.~Sasaki, K.~Tamaki, M.~Koashi,
-  \href{http://dx.doi.org/10.1038/nphoton.2015.173}{Experimental quantum key
-  distribution without monitoring signal disturbance}, Nat Photon 9~(12) (2015)
-  827--831.
-\newline\urlprefix\url{http://dx.doi.org/10.1038/nphoton.2015.173}
-
 \bibitem{bib:Reck1994}
 M.~Reck, A.~Zeilinger, H.~J. Bernstein, P.~Bertani,
   \href{http://link.aps.org/doi/10.1103/PhysRevLett.73.58}{Experimental
@@ -588,6 +574,11 @@ R.~Chrapkiewicz, W.~Wasilewski, K.~Banaszek,
   {\path{doi:10.1364/OL.39.005090}}.
 \newline\urlprefix\url{http://ol.osa.org/abstract.cfm?URI=ol-39-17-5090}
 
+\bibitem{bib:Heilmanndc15}
+R.~Heilmann, J.~Sperling, A.~Perez-Leija, M.~Gr{\"a}fe, M.~Heinrich, S.~Nolte,
+  W.~Vogel, A.~Szameit, Divide-and-conquer: An integrated photon-counting
+  scheme, arXiv: 1502.04932.
+
 \bibitem{bib:Brod16}
 D.~J. Brod, J.~Combes,
   \href{https://link.aps.org/doi/10.1103/PhysRevLett.117.080502}{Passive cphase
@@ -694,6 +685,77 @@ R.~St{\'a}rek, M.~Mi{\v c}uda, M.~Mikov{\'a}, I.~Straka, M.~Du{\v s}ek,
   four-qubit linear-optical quantum logic circuit}, Scientific Reports 6 (2016)
   33475 EP --.
 \newline\urlprefix\url{http://dx.doi.org/10.1038/srep33475}
+
+\bibitem{bib:BennetBrassard84}
+C.~H. Bennett, G.~Brassard, Quantum cryptography: public key distribution and
+  coin tossing, Proceedings of IEEE International Conference on Computers,
+  Systems and Signal Processing (1984) 175.
+
+\bibitem{bib:Ekert91}
+A.~K. Ekert, Quantum cryptography based on bell's theorem, Phys. Rev. Lett. 67
+  (1991) 661.
+
+\bibitem{Bennett92}
+C.~H. Bennett,
+  \href{https://link.aps.org/doi/10.1103/PhysRevLett.68.3121}{Quantum
+  cryptography using any two nonorthogonal states}, Phys. Rev. Lett.\href
+  {http://dx.doi.org/10.1103/PhysRevLett.68.3121}
+  {\path{doi:10.1103/PhysRevLett.68.3121}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.68.3121}
+
+\bibitem{bib:Hughes2000}
+R.~J. Hughes, G.~L. Morgan, C.~G. Peterson,
+  \href{http://dx.doi.org/10.1080/09500340008244058}{Quantum key distribution
+  over a 48 km optical fibre network}, Journal of Modern Optics 47~(2-3) (2000)
+  533--547.
+\newblock \href {http://dx.doi.org/10.1080/09500340008244058}
+  {\path{doi:10.1080/09500340008244058}}.
+\newline\urlprefix\url{http://dx.doi.org/10.1080/09500340008244058}
+
+\bibitem{bib:Sasaki14}
+T.~Sasaki, Y.~Yamamoto, M.~Koashi,
+  \href{http://dx.doi.org/10.1038/nature13303}{Practical quantum key
+  distribution protocol without monitoring signal disturbance}, Nature
+  509~(7501) (2014) 475--478.
+\newline\urlprefix\url{http://dx.doi.org/10.1038/nature13303}
+
+\bibitem{bib:Takesue15}
+H.~Takesue, T.~Sasaki, K.~Tamaki, M.~Koashi,
+  \href{http://dx.doi.org/10.1038/nphoton.2015.173}{Experimental quantum key
+  distribution without monitoring signal disturbance}, Nat Photon 9~(12) (2015)
+  827--831.
+\newline\urlprefix\url{http://dx.doi.org/10.1038/nphoton.2015.173}
+
+\bibitem{bib:Ali-Khan07}
+I.~Ali-Khan, C.~J. Broadbent, J.~C. Howell,
+  \href{https://link.aps.org/doi/10.1103/PhysRevLett.98.060503}{Large-alphabet
+  quantum key distribution using energy-time entangled bipartite states}, Phys.
+  Rev. Lett.\href {http://dx.doi.org/10.1103/PhysRevLett.98.060503}
+  {\path{doi:10.1103/PhysRevLett.98.060503}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.98.060503}
+
+\bibitem{bib:Brougham13}
+T.~Brougham, S.~M. Barnett, K.~T. McCusker, P.~G. Kwiat, D.~J. Gauthier,
+  \href{http://stacks.iop.org/0953-4075/46/i=10/a=104010}{Security of
+  high-dimensional quantum key distribution protocols using franson
+  interferometers}, Journal of Physics B: Atomic, Molecular and Optical Physics
+  46~(10) (2013) 104010.
+\newline\urlprefix\url{http://stacks.iop.org/0953-4075/46/i=10/a=104010}
+
+\bibitem{bib:Scarani09}
+V.~Scarani, H.~Bechmann-Pasquinucci, N.~J. Cerf, M.~Du\ifmmode~\check{s}\else
+  \v{s}\fi{}ek, N.~L\"utkenhaus, M.~Peev,
+  \href{https://link.aps.org/doi/10.1103/RevModPhys.81.1301}{The security of
+  practical quantum key distribution}, Rev. Mod. Phys.\href
+  {http://dx.doi.org/10.1103/RevModPhys.81.1301}
+  {\path{doi:10.1103/RevModPhys.81.1301}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/RevModPhys.81.1301}
+
+\bibitem{bib:Hoi-Kwong14}
+H.-K. Lo, M.~Curty, K.~Tamaki,
+  \href{http://dx.doi.org/10.1038/nphoton.2014.149}{Secure quantum key
+  distribution}, Nat Photon 8~(8) (2014) 595--604.
+\newline\urlprefix\url{http://dx.doi.org/10.1038/nphoton.2014.149}
 
 \bibitem{bib:Shapiro06}
 J.~H. Shapiro,
@@ -1047,6 +1109,15 @@ V.~Giovannetti, S.~Lloyd, L.~Maccone,
   \href{http://dx.doi.org/10.1038/nphoton.2011.35}{Advances in quantum
   metrology}, Nat Photon 5~(4) (2011) 222--229.
 \newline\urlprefix\url{http://dx.doi.org/10.1038/nphoton.2011.35}
+
+\bibitem{bib:Motes15_LOQM}
+K.~R. Motes, J.~P. Olson, E.~J. Rabeaux, J.~P. Dowling, S.~J. Olson, P.~P.
+  Rohde, \href{https://link.aps.org/doi/10.1103/PhysRevLett.114.170802}{Linear
+  optical quantum metrology with single photons: Exploiting spontaneously
+  generated entanglement to beat the shot-noise limit}, Phys. Rev. Lett.\href
+  {http://dx.doi.org/10.1103/PhysRevLett.114.170802}
+  {\path{doi:10.1103/PhysRevLett.114.170802}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.114.170802}
 
 \bibitem{bib:Szczykulska16}
 M.~Szczykulska, T.~Baumgratz, A.~Datta,
