@@ -293,6 +293,15 @@ L.-A. Wu, P.~Walther, D.~A. Lidar,
   1394 EP --.
 \newline\urlprefix\url{http://dx.doi.org/10.1038/srep01394}
 
+\bibitem{bib:Dietrich16}
+C.~P. Dietrich, A.~Fiore, M.~G. Thompson, M.~Kamp, S.~H\"{o}fling,
+  \href{http://dx.doi.org/10.1002/lpor.201500321}{Gaas integrated quantum
+  photonics: Towards compact and multi-functional quantum photonic integrated
+  circuits}, Laser \& Photonics Reviews\href
+  {http://dx.doi.org/10.1002/lpor.201500321}
+  {\path{doi:10.1002/lpor.201500321}}.
+\newline\urlprefix\url{http://dx.doi.org/10.1002/lpor.201500321}
+
 \bibitem{bib:Motes14}
 K.~R. Motes, A.~Gilchrist, J.~P. Dowling, P.~P. Rohde,
   \href{https://link.aps.org/doi/10.1103/PhysRevLett.113.120501}{Scalable boson

@@ -174,7 +174,7 @@ where $\ket{0}_t$ ($\ket{1}_t$) denotes the vacuum (single-photon) state with ar
 
 This encoding is particularly resource-savvy, since a single spatial mode (e.g length of optical fibre) can encapsulate many time-bin qubits as a `time-bin-train'. The amount of quantum information that can be encoded into the train is limited only by its physical length.
 
-Unlike polarisation or dual-rail encoding, time-bin encoding does not lend itself to `native' single-qubit operations. Rather, fast switching can be used to spatially separate neighbouring time-bins, implement a beamsplitter operation between them, before converting back to time-bin encoding. An experiment has built on this idea to implement a two-qubit gate by fast switching to a polarization basis \cite{bib:Humphreys2013}. Another promising advance is an ultrafast measurement technique for time bins based on converting into frequency bins \cite{bib:Donohue2013}. Scalable networks using time-bin encoding are also possible using a loop-based architecture \cite{bib:Motes14}. This is discussed in more detail in Section \ref{sec:timebins}.
+Unlike polarisation or dual-rail encoding, time-bin encoding does not lend itself to `native' single-qubit operations. Rather, fast switching can be used to spatially separate neighbouring time-bins, implement a beamsplitter operation between them, before converting back to time-bin encoding. \sihui{Typical switch times that can be achieved are in the picoseconds range \cite{bib:Dietrich16}.} An experiment has built on this idea to implement a two-qubit gate by fast switching to a polarization basis \cite{bib:Humphreys2013}. Another promising advance is an ultrafast measurement technique for time bins based on converting into frequency bins \cite{bib:Donohue2013}. Scalable networks using time-bin encoding are also possible using a loop-based architecture \cite{bib:Motes14}. This is discussed in more detail in Section \ref{sec:timebins}.
 
 
 %Time-bin encoding was first conceived via a single-photon passing 
@@ -396,6 +396,9 @@ Unfortunately, implementing {\sc cphase} gates using linear optics is complicate
 
 Although these gates are non-deterministic and consume qubits, strategies have been described for efficiently preparing arbitrarily large cluster states of arbitrary topology, and using far fewer optical elements than by directly employing {\sc cphase} gates \cite{bib:Nielsen04,bib:BrowneRudolph05,bib:Gimeno-Segovia15,bib:Pant17}. Experimentally, small photonic cluster states have been demonstrated using both SPDC \cite{bib:Walther05a,bib:Lu06,bib:Prevedel07,bib:Tokunaga08} and quantum dot sources \cite{bib:Schwartz16}. To this end, continuous variable cluster states have fared better as large cluster states containing more than 10,000 entangled modes are possible  \cite{bib:Yokoyama13}, with the caveat that it is difficult to address modes individually for processing.
 
+\sihui{
+\section{Quantum state engineering based on the multi-port Mach-Zehnder interferometer}
+}
 
 
 \section{Time-bin loop-based architecture for linear optical networks}\label{sec:timebins}
