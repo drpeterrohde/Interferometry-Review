@@ -528,6 +528,42 @@ S.~Yokoyama, R.~Ukai, S.~C. Armstrong, C.~Sornphiphatphong, T.~Kaji, S.~Suzuki,
   Photon 7~(12) (2013) 982--986.
 \newline\urlprefix\url{http://dx.doi.org/10.1038/nphoton.2013.287}
 
+\bibitem{bib:Pegg98}
+D.~T. Pegg, L.~S. Phillips, S.~M. Barnett,
+  \href{https://link.aps.org/doi/10.1103/PhysRevLett.81.1604}{Optical state
+  truncation by projection synthesis}, Phys. Rev. Lett.\href
+  {http://dx.doi.org/10.1103/PhysRevLett.81.1604}
+  {\path{doi:10.1103/PhysRevLett.81.1604}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.81.1604}
+
+\bibitem{bib:Barnett99}
+S.~M. Barnett, D.~T. Pegg,
+  \href{https://link.aps.org/doi/10.1103/PhysRevA.60.4965}{Optical state
+  truncation}, Phys. Rev. A\href {http://dx.doi.org/10.1103/PhysRevA.60.4965}
+  {\path{doi:10.1103/PhysRevA.60.4965}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevA.60.4965}
+
+\bibitem{bib:Koniorczyk2000}
+M.~Koniorczyk, Z.~Kurucz, A.~G\'abris, J.~Janszky,
+  \href{https://link.aps.org/doi/10.1103/PhysRevA.62.013802}{General optical
+  state truncation and its teleportation}, Phys. Rev. A\href
+  {http://dx.doi.org/10.1103/PhysRevA.62.013802}
+  {\path{doi:10.1103/PhysRevA.62.013802}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevA.62.013802}
+
+\bibitem{bib:Miranowicz07}
+A.~Miranowicz, S.~K. \"{O}zdemir, J.~Bajer, M.~Koashi, N.~Imoto,
+  \href{http://josab.osa.org/abstract.cfm?URI=josab-24-2-379}{Selective
+  truncations of an optical state using projection synthesis}, J. Opt. Soc. Am.
+  B\href {http://dx.doi.org/10.1364/JOSAB.24.000379}
+  {\path{doi:10.1364/JOSAB.24.000379}}.
+\newline\urlprefix\url{http://josab.osa.org/abstract.cfm?URI=josab-24-2-379}
+
+\bibitem{bib:Goyal13}
+S.~K. Goyal, T.~Konrad, \href{http://dx.doi.org/10.1038/srep03548}{Teleporting
+  photonic qudits using multimode quantum scissors} 3 (2013) 3548 EP --.
+\newline\urlprefix\url{http://dx.doi.org/10.1038/srep03548}
+
 \bibitem{Rohde15}
 P.~P. Rohde, \href{https://link.aps.org/doi/10.1103/PhysRevA.91.012306}{Simple
   scheme for universal linear-optics quantum computing with constant

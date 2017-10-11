@@ -321,7 +321,7 @@ State tomography is achieved by measuring expectation values in a complete basis
 
 \section{State preparation}\label{sec:state}
 
-The photonic states that are most commonly employed in linear optics protocols can be divided into Fock states (e.g single-photon), and entangled states, such as EPR, GHZ and cluster states. We will consider advances in each of these.
+The photonic states that are most commonly employed in linear optics protocols can be divided into Fock states (e.g single-photon), and entangled states, such as EPR, GHZ and cluster states. We will consider advances in each of these. \sihui{Quantum state engineering using quantum interferometers has also attracted some interest, and is discussed at the end of this section.}
 
 \subsection{Fock states}\label{sec:singlephotons}
 
@@ -397,13 +397,14 @@ Unfortunately, implementing {\sc cphase} gates using linear optics is complicate
 Although these gates are non-deterministic and consume qubits, strategies have been described for efficiently preparing arbitrarily large cluster states of arbitrary topology, and using far fewer optical elements than by directly employing {\sc cphase} gates \cite{bib:Nielsen04,bib:BrowneRudolph05,bib:Gimeno-Segovia15,bib:Pant17}. Experimentally, small photonic cluster states have been demonstrated using both SPDC \cite{bib:Walther05a,bib:Lu06,bib:Prevedel07,bib:Tokunaga08} and quantum dot sources \cite{bib:Schwartz16}. To this end, continuous variable cluster states have fared better as large cluster states containing more than 10,000 entangled modes are possible  \cite{bib:Yokoyama13}, with the caveat that it is difficult to address modes individually for processing.
 
 \sihui{
-\section{Quantum state engineering based on the multi-port Mach-Zehnder interferometer}
+\subsection{Quantum state engineering based on the multi-port Mach-Zehnder interferometer}
+Linear optical inteferometers have been used for quantum state engineering. One well-known example is that of optical state truncation, sometimes also referred to as quantum scissors, and it happens by way of a process known as projection synthesis [figure for this?].  Projection synthesis works by projecting an input state onto an output state by putting the former through a multiport interferometer, and then postselecting on a certain photon number output. Optical state truncation is a use of projection synthesis to use a continuous variable state represented in the Fock-state basis, $\ket{\phi}=\sum_{n=0}^\infty c_n\ket{n}$, to produce the normalized form of $\sum_{n=0}^d c_n\ket{n}$. The idea of projection synthesis was first conceived for the special case of $d=2$ \cite{bib:Pegg98, bib:Barnett99}, and later extended to $d=3$ \cite{bib:Koniorczyk2000}, and arbitrarily large $d$ \cite{bib:Miranowicz07, bib:Goyal13}. Notably, the scheme proposed in \cite{bib:Goyal13} uses multimode single photons and repeated uses of $d=2$ quantum scissors to extend the depth of truncation. 
 }
 
 
 \section{Time-bin loop-based architecture for linear optical networks}\label{sec:timebins}
 
-Using time-bin encoding of optical qubits, the obvious question is how to perform operations upon them. In \cite{bib:Motes14}, a dual-loop architecture was presented for implementing arbitrary passive linear-optics on photonic pulse-trains with time-bin separation $\tau$, shown in Fig.~\ref{fig:FL_arch}. The inner loop has length exactly $\tau$, while the outer one has length $>n\tau$ ($n$ is the 
+Using time-bin encoding of optical qubits, the obvious question is how to perform operations upon them. In \cite{bib:Motes14}, a dual-loop architecture was presented for implementing arbitrary passive linear-optics on photonic pulse-trains with time-bin separation $\tau$, shown in Fig.~\ref{fig:FL_arch}. The inner loop has lengtxh exactly $\tau$, while the outer one has length $>n\tau$ ($n$ is the 
 number of optical modes). The architecture is controlled via three 
 dynamically controlled beamsplitters. The first and last need only be on/off switches, whose sole purpose is to couple in the prepared pulse-train, 
 keep it within the outer loop for the required duration, and then couple 
