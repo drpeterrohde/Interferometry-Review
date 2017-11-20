@@ -4,36 +4,36 @@ The top-level auxiliary file: /Users/sihui_tan/Documents/Interferometry-Review/p
 The style file: elsarticle-num.bst
 output.null is an unknown function---line 1113 of file elsarticle-num.bst
 Database file #1: paper.bib
-Repeated entry---line 565 of file paper.bib
+Repeated entry---line 710 of file paper.bib
  : @article{bib:Georgescu14
  :                         ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 1178 of file paper.bib
+I was expecting a `,' or a `}'---line 1323 of file paper.bib
  :   
  :   year = {2015}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 1520 of file paper.bib
+Repeated entry---line 1665 of file paper.bib
  : @article{bib:Kim01
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3318 of file paper.bib
+Repeated entry---line 3463 of file paper.bib
  : @article{bib:Huh15
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3449 of file paper.bib
+Repeated entry---line 3594 of file paper.bib
  : @article{bib:Baumgratz16
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4548 of file paper.bib
+Repeated entry---line 4693 of file paper.bib
  : @article{bib:Pittman03
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5053 of file paper.bib
+Repeated entry---line 5198 of file paper.bib
  : @article{bib:Chen17
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5072 of file paper.bib
+Repeated entry---line 5217 of file paper.bib
  : @article{bib:Shapiro07
  :                       ,
 I'm skipping whatever remains of this entry
@@ -387,50 +387,70 @@ ptr=1, stack=
  116 (2016) 030801
 ---the literal stack isn't empty for entry bib:Baumgratz16
 while executing---line 1507 of file elsarticle-num.bst
+ptr=1, stack=
+ 81 (1998) 5932--5935
+---the literal stack isn't empty for entry Briegel98
+while executing---line 1507 of file elsarticle-num.bst
 Warning--empty journal in bib:Azuma15
+ptr=1, stack=
+ 98 (2007) 240502
+---the literal stack isn't empty for entry Zhao07
+while executing---line 1507 of file elsarticle-num.bst
+ptr=1, stack=
+ 76 (2007) 022329
+---the literal stack isn't empty for entry CZCS07
+while executing---line 1507 of file elsarticle-num.bst
+ptr=1, stack=
+ 112 (2014) 250501
+---the literal stack isn't empty for entry bib:Muralidhara14
+while executing---line 1507 of file elsarticle-num.bst
+ptr=1, stack=
+ 117 (2016) 210501
+---the literal stack isn't empty for entry bib:Ewert16
+while executing---line 1507 of file elsarticle-num.bst
 ptr=1, stack=
  95 (2017) 012327
 ---the literal stack isn't empty for entry bib:Ewert17
 while executing---line 1507 of file elsarticle-num.bst
-You've used 160 entries,
+You've used 168 entries,
             2934 wiz_defined-function locations,
-            1898 strings with 49009 characters,
-and the built_in function-call counts, 55402 in all, are:
-= -- 4920
-> -- 2866
+            1954 strings with 51056 characters,
+and the built_in function-call counts, 58169 in all, are:
+= -- 5176
+> -- 2988
 < -- 2
-+ -- 1062
-- -- 902
-* -- 5658
-:= -- 8435
-add.period$ -- 174
-call.type$ -- 160
-change.case$ -- 159
++ -- 1108
+- -- 940
+* -- 5937
+:= -- 8850
+add.period$ -- 182
+call.type$ -- 168
+change.case$ -- 167
 chr.to.int$ -- 0
-cite$ -- 171
-duplicate$ -- 1398
-empty$ -- 5253
-format.name$ -- 1052
-if$ -- 13362
+cite$ -- 179
+duplicate$ -- 1470
+empty$ -- 5526
+format.name$ -- 1098
+if$ -- 14040
 int.to.chr$ -- 0
-int.to.str$ -- 160
-missing$ -- 161
-newline$ -- 638
-num.names$ -- 160
-pop$ -- 731
+int.to.str$ -- 168
+missing$ -- 169
+newline$ -- 670
+num.names$ -- 168
+pop$ -- 766
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 2363
+skip$ -- 2475
 stack$ -- 0
-substring$ -- 3137
-swap$ -- 505
+substring$ -- 3321
+swap$ -- 531
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 11
-while$ -- 357
-width$ -- 163
-write$ -- 1439
-(There were 95 error messages)
+while$ -- 374
+width$ -- 171
+write$ -- 1511
+(There were 100 error messages)

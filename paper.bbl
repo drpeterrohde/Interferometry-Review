@@ -1187,11 +1187,63 @@ M.~A. Ciampini, N.~Spagnolo, C.~Vitelli, L.~Pezz{\`e}, A.~Smerzi, F.~Sciarrino,
   --.
 \newline\urlprefix\url{http://dx.doi.org/10.1038/srep28881}
 
+\bibitem{Briegel98}
+H.-J. Briegel, W.~D\"ur, J.~I. Cirac, P.~Zoller,
+  \href{https://link.aps.org/doi/10.1103/PhysRevLett.81.5932}{Quantum
+  repeaters: The role of imperfect local operations in quantum communication},
+  Phys. Rev. Lett.\href {http://dx.doi.org/10.1103/PhysRevLett.81.5932}
+  {\path{doi:10.1103/PhysRevLett.81.5932}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.81.5932}
+
+\bibitem{Duan01}
+L.~M. Duan, M.~D. Lukin, J.~I. Cirac, P.~Zoller,
+  \href{http://dx.doi.org/10.1038/35106500}{Long-distance quantum communication
+  with atomic ensembles and linear optics}, Nature 414 (2001) 413 EP --.
+\newline\urlprefix\url{http://dx.doi.org/10.1038/35106500}
+
 \bibitem{bib:Azuma15}
 K.~Azuma, K.~Tamaki, H.-K. Lo,
   \href{http://dx.doi.org/10.1038/ncomms7787}{All-photonic quantum repeaters} 6
   (2015) 6787 EP --.
 \newline\urlprefix\url{http://dx.doi.org/10.1038/ncomms7787}
+
+\bibitem{Zhao07}
+B.~Zhao, Z.-B. Chen, Y.-A. Chen, J.~Schmiedmayer, J.-W. Pan,
+  \href{https://link.aps.org/doi/10.1103/PhysRevLett.98.240502}{Robust creation
+  of entanglement between remote memory qubits}, Phys. Rev. Lett.\href
+  {http://dx.doi.org/10.1103/PhysRevLett.98.240502}
+  {\path{doi:10.1103/PhysRevLett.98.240502}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.98.240502}
+
+\bibitem{YCZCS08}
+Z.-S. Yuan, Y.-A. Chen, B.~Zhao, S.~Chen, J.~Schmiedmayer, J.-W. Pan,
+  \href{http://dx.doi.org/10.1038/nature07241}{Experimental demonstration of a
+  bdcz quantum repeater node}, Nature 454 (2008) 1098 EP --.
+\newline\urlprefix\url{http://dx.doi.org/10.1038/nature07241}
+
+\bibitem{CZCS07}
+Z.-B. Chen, B.~Zhao, Y.-A. Chen, J.~Schmiedmayer, J.-W. Pan,
+  \href{https://link.aps.org/doi/10.1103/PhysRevA.76.022329}{Fault-tolerant
+  quantum repeater with atomic ensembles and linear optics}, Phys. Rev. A\href
+  {http://dx.doi.org/10.1103/PhysRevA.76.022329}
+  {\path{doi:10.1103/PhysRevA.76.022329}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevA.76.022329}
+
+\bibitem{bib:Muralidhara14}
+S.~Muralidharan, J.~Kim, N.~L\"utkenhaus, M.~D. Lukin, L.~Jiang,
+  \href{https://link.aps.org/doi/10.1103/PhysRevLett.112.250501}{Ultrafast and
+  fault-tolerant quantum communication across long distances}, Phys. Rev.
+  Lett.\href {http://dx.doi.org/10.1103/PhysRevLett.112.250501}
+  {\path{doi:10.1103/PhysRevLett.112.250501}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.112.250501}
+
+\bibitem{bib:Ewert16}
+F.~Ewert, M.~Bergmann, P.~van Loock,
+  \href{https://link.aps.org/doi/10.1103/PhysRevLett.117.210501}{Ultrafast
+  long-distance quantum communication with static linear optics}, Phys. Rev.
+  Lett.\href {http://dx.doi.org/10.1103/PhysRevLett.117.210501}
+  {\path{doi:10.1103/PhysRevLett.117.210501}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.117.210501}
 
 \bibitem{bib:Ewert17}
 F.~Ewert, P.~van Loock,
@@ -1200,5 +1252,11 @@ F.~Ewert, P.~van Loock,
   optics}, Phys. Rev. A\href {http://dx.doi.org/10.1103/PhysRevA.95.012327}
   {\path{doi:10.1103/PhysRevA.95.012327}}.
 \newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevA.95.012327}
+
+\bibitem{bib:Muralidharan17}
+S.~Muralidharan, L.~Li, J.~Kim, N.~L{\"u}tkenhaus, M.~D. Lukin, L.~Jiang,
+  \href{http://dx.doi.org/10.1038/srep20463}{Optimal architectures for long
+  distance quantum communication}, Scientific Reports 6 (2016) 20463 EP --.
+\newline\urlprefix\url{http://dx.doi.org/10.1038/srep20463}
 
 \end{thebibliography}
