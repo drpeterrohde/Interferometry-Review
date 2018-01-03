@@ -4,39 +4,43 @@ The top-level auxiliary file: /Users/sihui_tan/Documents/Interferometry-Review/p
 The style file: elsarticle-num.bst
 output.null is an unknown function---line 1113 of file elsarticle-num.bst
 Database file #1: paper.bib
-Repeated entry---line 872 of file paper.bib
+Repeated entry---line 957 of file paper.bib
  : @article{bib:Georgescu14
  :                         ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 1485 of file paper.bib
+I was expecting a `,' or a `}'---line 1570 of file paper.bib
  :   
  :   year = {2015}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 1827 of file paper.bib
+Repeated entry---line 1912 of file paper.bib
  : @article{bib:Kim01
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3625 of file paper.bib
+Repeated entry---line 3710 of file paper.bib
  : @article{bib:Huh15
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3756 of file paper.bib
+Repeated entry---line 3841 of file paper.bib
  : @article{bib:Baumgratz16
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4855 of file paper.bib
+Repeated entry---line 4940 of file paper.bib
  : @article{bib:Pittman03
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5360 of file paper.bib
+Repeated entry---line 5445 of file paper.bib
  : @article{bib:Chen17
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5379 of file paper.bib
+Repeated entry---line 5464 of file paper.bib
  : @article{bib:Shapiro07
  :                       ,
 I'm skipping whatever remains of this entry
+ptr=1, stack=
+ 63 (2001) 030301
+---the literal stack isn't empty for entry Koashi01
+while executing---line 1507 of file elsarticle-num.bst
 ptr=1, stack=
  9~(4) (2015) 363--384
 ---the literal stack isn't empty for entry bib:Meany15
@@ -250,6 +254,22 @@ ptr=1, stack=
 ---the literal stack isn't empty for entry bib:Patel16
 while executing---line 1507 of file elsarticle-num.bst
 ptr=1, stack=
+ 73 (2006) 062305
+---the literal stack isn't empty for entry bib:Shapiro06
+while executing---line 1507 of file elsarticle-num.bst
+ptr=1, stack=
+ 81 (2010) 043823
+---the literal stack isn't empty for entry bib:Gea-Banacloche10
+while executing---line 1507 of file elsarticle-num.bst
+ptr=1, stack=
+ 111 (2013) 053601
+---the literal stack isn't empty for entry bib:Hoi13
+while executing---line 1507 of file elsarticle-num.bst
+ptr=1, stack=
+\href {http://arxiv.org/abs/http://www.pnas.org/content/113/35/9740.full.pdf} {\path{arXiv:http://www.pnas.org/content/113/35/9740.full.pdf}}
+---the literal stack isn't empty for entry bib:Beck16
+while executing---line 1507 of file elsarticle-num.bst
+ptr=1, stack=
  68 (1992) 3121--3124
 ---the literal stack isn't empty for entry Bennett92
 while executing---line 1507 of file elsarticle-num.bst
@@ -266,20 +286,16 @@ ptr=1, stack=
 ---the literal stack isn't empty for entry bib:Scarani09
 while executing---line 1507 of file elsarticle-num.bst
 ptr=1, stack=
- 73 (2006) 062305
----the literal stack isn't empty for entry bib:Shapiro06
+quantum cloning machines and the applications
+---the literal stack isn't empty for entry bib:Fan2014
 while executing---line 1507 of file elsarticle-num.bst
 ptr=1, stack=
- 81 (2010) 043823
----the literal stack isn't empty for entry bib:Gea-Banacloche10
+ 110 (2013) 173601
+---the literal stack isn't empty for entry bib:Bartkiewicz2013
 while executing---line 1507 of file elsarticle-num.bst
 ptr=1, stack=
- 111 (2013) 053601
----the literal stack isn't empty for entry bib:Hoi13
-while executing---line 1507 of file elsarticle-num.bst
-ptr=1, stack=
-\href {http://arxiv.org/abs/http://www.pnas.org/content/113/35/9740.full.pdf} {\path{arXiv:http://www.pnas.org/content/113/35/9740.full.pdf}}
----the literal stack isn't empty for entry bib:Beck16
+ 3~(1) (2017) 7
+---the literal stack isn't empty for entry bib:Bartkiewicz2017
 while executing---line 1507 of file elsarticle-num.bst
 ptr=1, stack=
  95 (2017) 032327
@@ -428,45 +444,45 @@ ptr=1, stack=
  21~(3) (2015) 78--90
 ---the literal stack isn't empty for entry bib:MATN15
 while executing---line 1507 of file elsarticle-num.bst
-You've used 176 entries,
+You've used 181 entries,
             2934 wiz_defined-function locations,
-            2010 strings with 53347 characters,
-and the built_in function-call counts, 61186 in all, are:
-= -- 5423
-> -- 3185
+            2046 strings with 55152 characters,
+and the built_in function-call counts, 63279 in all, are:
+= -- 5578
+> -- 3355
 < -- 2
-+ -- 1179
-- -- 1003
-* -- 6251
-:= -- 9330
-add.period$ -- 190
-call.type$ -- 176
-change.case$ -- 175
++ -- 1239
+- -- 1058
+* -- 6492
+:= -- 9676
+add.period$ -- 195
+call.type$ -- 181
+change.case$ -- 181
 chr.to.int$ -- 0
-cite$ -- 187
-duplicate$ -- 1540
-empty$ -- 5792
-format.name$ -- 1168
-if$ -- 14754
+cite$ -- 192
+duplicate$ -- 1586
+empty$ -- 5958
+format.name$ -- 1228
+if$ -- 15232
 int.to.chr$ -- 0
-int.to.str$ -- 176
-missing$ -- 177
-newline$ -- 701
-num.names$ -- 176
-pop$ -- 801
+int.to.str$ -- 181
+missing$ -- 182
+newline$ -- 721
+num.names$ -- 181
+pop$ -- 821
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 2590
+skip$ -- 2662
 stack$ -- 0
-substring$ -- 3490
-swap$ -- 554
+substring$ -- 3579
+swap$ -- 572
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 11
-while$ -- 391
-width$ -- 179
-write$ -- 1582
-(There were 104 error messages)
+while$ -- 401
+width$ -- 184
+write$ -- 1628
+(There were 108 error messages)

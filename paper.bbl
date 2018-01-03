@@ -21,6 +21,14 @@ H.-K. Lo, M.~Curty, K.~Tamaki,
 E.~Knill, R.~Laflamme, G.~Milburn, A scheme for efficient quantum computation
   with linear optics, Nature (London) 409 (2001) 46.
 
+\bibitem{Koashi01}
+M.~Koashi, T.~Yamamoto, N.~Imoto,
+  \href{https://link.aps.org/doi/10.1103/PhysRevA.63.030301}{Probabilistic
+  manipulation of entangled photons}, Phys. Rev. A\href
+  {http://dx.doi.org/10.1103/PhysRevA.63.030301}
+  {\path{doi:10.1103/PhysRevA.63.030301}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevA.63.030301}
+
 \bibitem{bib:Meany15}
 T.~Meany, M.~Gr\"a~fe, R.~Heilmann, A.~Perez-Leija, S.~Gross, M.~J. Steel,
   M.~J. Withford, A.~Szameit,
@@ -731,6 +739,58 @@ R.~St{\'a}rek, M.~Mi{\v c}uda, M.~Mikov{\'a}, I.~Straka, M.~Du{\v s}ek,
   33475 EP --.
 \newline\urlprefix\url{http://dx.doi.org/10.1038/srep33475}
 
+\bibitem{bib:Shapiro06}
+J.~H. Shapiro,
+  \href{https://link.aps.org/doi/10.1103/PhysRevA.73.062305}{Single-photon kerr
+  nonlinearities do not help quantum computation}, Phys. Rev. A\href
+  {http://dx.doi.org/10.1103/PhysRevA.73.062305}
+  {\path{doi:10.1103/PhysRevA.73.062305}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevA.73.062305}
+
+\bibitem{bib:Shapiro07}
+J.~H. Shapiro, M.~Razavi, Continuous-time cross-phase modulation and quantum
+  computation, New J. Phys. 9 (2007) 16.
+
+\bibitem{bib:Gea-Banacloche10}
+J.~Gea-Banacloche,
+  \href{https://link.aps.org/doi/10.1103/PhysRevA.81.043823}{Impossibility of
+  large phase shifts via the giant kerr effect with single-photon wave
+  packets}, Phys. Rev. A\href {http://dx.doi.org/10.1103/PhysRevA.81.043823}
+  {\path{doi:10.1103/PhysRevA.81.043823}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevA.81.043823}
+
+\bibitem{bib:Hoi13}
+I.-C. Hoi, A.~F. Kockum, T.~Palomaki, T.~M. Stace, B.~Fan, L.~Tornberg, S.~R.
+  Sathyamoorthy, G.~Johansson, P.~Delsing, C.~M. Wilson,
+  \href{https://link.aps.org/doi/10.1103/PhysRevLett.111.053601}{Giant
+  cross\char21{}kerr effect for propagating microwaves induced by an artificial
+  atom}, Phys. Rev. Lett.\href
+  {http://dx.doi.org/10.1103/PhysRevLett.111.053601}
+  {\path{doi:10.1103/PhysRevLett.111.053601}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.111.053601}
+
+\bibitem{bib:Venkataraman13}
+V.~Venkataraman, K.~Saha, A.~L. Gaeta,
+  \href{http://dx.doi.org/10.1038/nphoton.2012.283}{Phase modulation at the
+  few-photon level for weak-nonlinearity-based quantum computing}, Nat Photon
+  7~(2) (2013) 138---141.
+\newline\urlprefix\url{http://dx.doi.org/10.1038/nphoton.2012.283}
+
+\bibitem{bib:Feizpour15}
+A.~Feizpour, M.~Hallaji, G.~Dmochowski, A.~M. Steinberg,
+  \href{http://dx.doi.org/10.1038/nphys3433}{Observation of the nonlinear phase
+  shift due to single post-selected photons}, Nat Phys 11~(11) (2015) 905--909.
+\newline\urlprefix\url{http://dx.doi.org/10.1038/nphys3433}
+
+\bibitem{bib:Beck16}
+K.~M. Beck, M.~Hosseini, Y.~Duan, V.~Vuleti?,
+  \href{http://www.pnas.org/content/113/35/9740.abstract}{Large conditional
+  single-photon cross-phase modulation}, Proceedings of the National Academy of
+  Sciences 113~(35) (2016) 9740--9744.
+\newblock \href {http://dx.doi.org/10.1073/pnas.1524117113}
+  {\path{doi:10.1073/pnas.1524117113}}.
+\newline\urlprefix\url{http://www.pnas.org/content/113/35/9740.abstract}
+
 \bibitem{bib:BennetBrassard84}
 C.~H. Bennett, G.~Brassard, Quantum cryptography: public key distribution and
   coin tossing, Proceedings of IEEE International Conference on Computers,
@@ -802,57 +862,40 @@ H.-K. Lo, M.~Curty, K.~Tamaki,
   distribution}, Nat Photon 8~(8) (2014) 595--604.
 \newline\urlprefix\url{http://dx.doi.org/10.1038/nphoton.2014.149}
 
-\bibitem{bib:Shapiro06}
-J.~H. Shapiro,
-  \href{https://link.aps.org/doi/10.1103/PhysRevA.73.062305}{Single-photon kerr
-  nonlinearities do not help quantum computation}, Phys. Rev. A\href
-  {http://dx.doi.org/10.1103/PhysRevA.73.062305}
-  {\path{doi:10.1103/PhysRevA.73.062305}}.
-\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevA.73.062305}
+\bibitem{bib:Liao17}
+S.-K. Liao, W.-Q. Cai, W.-Y. Liu, L.~Zhang, Y.~Li, J.-G. Ren, J.~Yin, Q.~Shen,
+  Y.~Cao, Z.-P. Li, F.-Z. Li, X.-W. Chen, L.-H. Sun, J.-J. Jia, J.-C. Wu, X.-J.
+  Jiang, J.-F. Wang, Y.-M. Huang, Q.~Wang, Y.-L. Zhou, L.~Deng, T.~Xi, L.~Ma,
+  T.~Hu, Q.~Zhang, Y.-A. Chen, N.-L. Liu, X.-B. Wang, Z.-C. Zhu, C.-Y. Lu,
+  R.~Shu, C.-Z. Peng, J.-Y. Wang, J.-W. Pan,
+  \href{http://dx.doi.org/10.1038/nature23655}{Satellite-to-ground quantum key
+  distribution}, Nature 549 (2017) 43 EP --.
+\newline\urlprefix\url{http://dx.doi.org/10.1038/nature23655}
 
-\bibitem{bib:Shapiro07}
-J.~H. Shapiro, M.~Razavi, Continuous-time cross-phase modulation and quantum
-  computation, New J. Phys. 9 (2007) 16.
+\bibitem{bib:Fan2014}
+H.~Fan, Y.-N. Wang, L.~Jing, J.-D. Yue, H.-D. Shi, Y.-L. Zhang, L.-Z. Mu,
+  \href{http://www.sciencedirect.com/science/article/pii/S0370157314002099}{Quantum
+  cloning machines and the applications}, Physics Reports 544~(3) (2014) 241 --
+  322, \href {http://dx.doi.org/https://doi.org/10.1016/j.physrep.2014.06.004}
+  {\path{doi:https://doi.org/10.1016/j.physrep.2014.06.004}}.
+\newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0370157314002099}
 
-\bibitem{bib:Gea-Banacloche10}
-J.~Gea-Banacloche,
-  \href{https://link.aps.org/doi/10.1103/PhysRevA.81.043823}{Impossibility of
-  large phase shifts via the giant kerr effect with single-photon wave
-  packets}, Phys. Rev. A\href {http://dx.doi.org/10.1103/PhysRevA.81.043823}
-  {\path{doi:10.1103/PhysRevA.81.043823}}.
-\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevA.81.043823}
+\bibitem{bib:Bartkiewicz2013}
+K.~Bartkiewicz, K.~Lemr, A.~\ifmmode~\check{C}\else \v{C}\fi{}ernoch,
+  J.~Soubusta, A.~Miranowicz,
+  \href{https://link.aps.org/doi/10.1103/PhysRevLett.110.173601}{Experimental
+  eavesdropping based on optimal quantum cloning}, Phys. Rev. Lett.\href
+  {http://dx.doi.org/10.1103/PhysRevLett.110.173601}
+  {\path{doi:10.1103/PhysRevLett.110.173601}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.110.173601}
 
-\bibitem{bib:Hoi13}
-I.-C. Hoi, A.~F. Kockum, T.~Palomaki, T.~M. Stace, B.~Fan, L.~Tornberg, S.~R.
-  Sathyamoorthy, G.~Johansson, P.~Delsing, C.~M. Wilson,
-  \href{https://link.aps.org/doi/10.1103/PhysRevLett.111.053601}{Giant
-  cross\char21{}kerr effect for propagating microwaves induced by an artificial
-  atom}, Phys. Rev. Lett.\href
-  {http://dx.doi.org/10.1103/PhysRevLett.111.053601}
-  {\path{doi:10.1103/PhysRevLett.111.053601}}.
-\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.111.053601}
-
-\bibitem{bib:Venkataraman13}
-V.~Venkataraman, K.~Saha, A.~L. Gaeta,
-  \href{http://dx.doi.org/10.1038/nphoton.2012.283}{Phase modulation at the
-  few-photon level for weak-nonlinearity-based quantum computing}, Nat Photon
-  7~(2) (2013) 138---141.
-\newline\urlprefix\url{http://dx.doi.org/10.1038/nphoton.2012.283}
-
-\bibitem{bib:Feizpour15}
-A.~Feizpour, M.~Hallaji, G.~Dmochowski, A.~M. Steinberg,
-  \href{http://dx.doi.org/10.1038/nphys3433}{Observation of the nonlinear phase
-  shift due to single post-selected photons}, Nat Phys 11~(11) (2015) 905--909.
-\newline\urlprefix\url{http://dx.doi.org/10.1038/nphys3433}
-
-\bibitem{bib:Beck16}
-K.~M. Beck, M.~Hosseini, Y.~Duan, V.~Vuleti?,
-  \href{http://www.pnas.org/content/113/35/9740.abstract}{Large conditional
-  single-photon cross-phase modulation}, Proceedings of the National Academy of
-  Sciences 113~(35) (2016) 9740--9744.
-\newblock \href {http://dx.doi.org/10.1073/pnas.1524117113}
-  {\path{doi:10.1073/pnas.1524117113}}.
-\newline\urlprefix\url{http://www.pnas.org/content/113/35/9740.abstract}
+\bibitem{bib:Bartkiewicz2017}
+K.~Bartkiewicz, A.~{\v C}ernoch, G.~Chimczak, K.~Lemr, A.~Miranowicz, F.~Nori,
+  \href{https://doi.org/10.1038/s41534-017-0010-x}{Experimental quantum forgery
+  of quantum optical money}, npj Quantum Information\href
+  {http://dx.doi.org/10.1038/s41534-017-0010-x}
+  {\path{doi:10.1038/s41534-017-0010-x}}.
+\newline\urlprefix\url{https://doi.org/10.1038/s41534-017-0010-x}
 
 \bibitem{bib:Peropadre17}
 B.~Peropadre, A.~Aspuru-Guzik, J.~J. Garc\'{\i}a-Ripoll,
