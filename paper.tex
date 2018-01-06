@@ -38,7 +38,7 @@
 % Title
 %
 
-\title{The resurgence of the linear optics interferometer --- recent advances \& applications}
+\title{The resurgence of the linear optics \sihui{quantum} interferometer --- recent advances \& applications}
 
 %
 % Authors
@@ -88,7 +88,7 @@ Linear optics has seen a resurgence for applications in quantum information proc
 
 Linear optics play a prominent role in quantum information processing. Photons make fantastic `flying' qubits, and are readily used for quantum communication \cite{bib:Northup14} and quantum key distribution \cite{bib:Lo14}. In 2001, Knill, Laflamme and Milburn (KLM) showed that efficient quantum computing is possible using only linear optical components, that is single photons, beamsplitters, phase shifters and photon counting  \sihui{for spatially encoded qubits \cite{bib:KLM01}. At about the same time, Koashi, Yamamoto, and Imoto essentially came to the same result for polarization-encoded qubits \cite{Koashi01}.} Furthermore, an optical implementation of quantum protocols can potentially piggyback on existing communication infrastructure. Combined with the relative ease of transporting quantum states of light, as compared to say trapped ions or superconducting qubits, linear optics forms a powerful platform for quantum information processing.
 
-The promises offered by linear optics have spearheaded many technical advancements. One of the major successes for linear optics is the paradigm shift from bulk optics to integrated photonics \cite{bib:Meany15}. The advantage of using such integrated photonics over bulk optics is that it is more stable against phase fluctuations, and miniaturized. This has increased the scalability of optical implementations of quantum information protocols. Furthermore, it is now possible to have single-photon sources and detectors together with linear-optical networks on a silica chip \cite{bib:Sprengers11, bib:Silverstone14}. Having all components on chip reduces coupling losses which would be crucial for fault-tolerance \cite{bib:Li15}.
+The promises offered by linear optics have spearheaded many \sihui{scientific and} technical advancements. One of the major successes for linear optics is \sihui{the detection of gravitational waves by the LIGO experiments based on the Michelson interferometer \cite{bib:LIGO2015}. Another is} the paradigm shift from bulk optics to integrated photonics \cite{bib:Meany15}. The advantage of using such integrated photonics over bulk optics is that it is more stable against phase fluctuations, and miniaturized. This has increased the scalability of optical implementations of quantum information protocols. Furthermore, it is now possible to have single-photon sources and detectors together with linear-optical networks on a silica chip \cite{bib:Sprengers11, bib:Silverstone14}. Having all components on chip reduces coupling losses which would be crucial for fault-tolerance \cite{bib:Li15}.
 
 In the last decade, single photons have been produced mainly through a nonlinear optical process know as spontaneous parametric down-conversion (SPDC), a nonlinear optical process. SPDC produces single photons in correlated pairs that has been a staple source of entanglement. Through developments in production, the number of high quality indistinguishable photons that can be simultaneously produced have increased steadily over the years. Single-photon pairs, once a novelty, are now run-of-the-mill business for quantum optical labs, and three or four photons have become commonplace \cite{bib:Spagnolo12, bib:Tillmann13, bib:Spring13,bib:Broome13}. Experiments using up to ten photons have been demonstrated \cite{bib:WangChen16, bib:Chen17}. We have also seen the meteoric rise of quantum dots in the role for producing single photons \cite{bib:Ding16,bib:WangHe16, bib:213601}. They are a scalable source of single photons which are highly indistinguishable, and are produced on demand--a significant advantage over SPDC which is an inherently probabilistic process.
 
@@ -244,7 +244,7 @@ The task of implementing an arbitrary quantum computation on linear optics comes
 \begin{figure}[!htb]
 \centering
 \includegraphics[width=0.4\columnwidth]{reck}
-\caption{Efficient decomposition of arbitrary linear optics networks into a sequence of beamsplitters and phase-shifters.} \label{fig:Reck}	
+\caption{Efficient decomposition of arbitrary linear optics networks into a sequence of beamsplitters and phase-shifters. \sihui{This setup describes a generalized multi-port Mach-Zehnder interferometer}} \label{fig:Reck}	
 \end{figure}
 
 Alternatively, Mach-Zedner interferometers can also be employed as building blocks instead of beamsplitters and phase-shifters \cite{bib:Englert2001}. Later, it was shown that any nontrivial beamsplitter, that does more than permuting modes or adding phases to them, is universal for linear optics \cite{bib:Bouland2014}. However, they do not provide an explicit construction for arbitrary unitaries.
@@ -464,9 +464,9 @@ while those of the non-photon-number-resolving detectors are given by
 \begin{align}
 \hat\Pi_\text{off} = \hat\Pi_0, \ {\rm and} \ \hat\Pi_\text{on} = \hat{I} - \hat\Pi_\text{on}\ .
 \end{align}
-Detailed reviews have been written about these detectors \cite{bib:Hadfield09,bib:Eisaman11}, so we shall only outline a few important examples. 
+\sihui{Theoretical modeling of these photodetectors can be made to include realistic effects such as detector finite efficiency, finite-number resolution, dark counts, and crosstalk. These effects are typically described as projections onto mixed states \cite{bib:BARNETT1998}, and their outcomes are represented by positive-operator valued measures. Such modeling allows us to analyze these realistic effects on various quantum information protocols, see for {\it e.g.~}\cite{bib:Ozdemir2001,bib:Sperling2014,bib:Tan2016}.} 
 
-A common example of a non-PNR detector is the avalanche photodiode (APD). These devices are made up of semiconductor material, usually silicon, which generate an electron that quickly generates a cascade of electrons. This avalanche of electrons generate a current that can be measured. APDs are affordable, offer low dark count rates with reasonable efficiency, and can be made to operate in a broad spectrum of wavelengths.
+\sihui{There are many different types of photodetectors. Detailed reviews have been written about \sihui{them} \cite{bib:Hadfield09,bib:Eisaman11}, so we shall only outline a few important examples. }A common example of a non-PNR detector is the avalanche photodiode (APD). These devices are made up of semiconductor material, usually silicon, which generate an electron that quickly generates a cascade of electrons. This avalanche of electrons generate a current that can be measured. APDs are affordable, offer low dark count rates with reasonable efficiency, and can be made to operate in a broad spectrum of wavelengths.
 % A downside to using APD is their deadtime. This is a period of time 
 %following an avalanche during which the avalanche is stopped by a 
 %quenching circuit to reset the APD. No photons can be detected during the 
@@ -480,6 +480,22 @@ PNR detectors are a wonderful addition to the \sihui{linear optical} toolbox. A 
 The visible light photon counter (VLPC) is another kind of PNR detector. The way VLPC works is in principle very similar to the APD, but with an additional layer of silicon that is lightly doped with arsenic (As). Owing to the presence of the As, a single photon absorption event always create an electrical signal that is always of the same magnitude. Thus, the output electrical signal is just proportional to the number of detected photons.
 Last, PNR detectors can be created by connecting many non-PNR detectors in parallel to one another, and summing the signals at the output. For instance, like in the theoretical proposal of \cite{bib:Sperling12}. Such an approach has been successfully demonstrated with SNSPD \cite{bib:Divochiy08}, and APDs \cite{bib:Kalashnikov12,bib:Chrapkiewicz14,bib:Heilmanndc15}. 
 
+
+\section{Optical switching}
+
+\peter{
+Some of the protocols thus far require switching between different optical modes. \sihui{One way to achieve this experimentally for time-bin qubits is} via a Mach-Zehnder interferometer with a dynamic, classically-controlled phase-shift in one path. The variable phase may be implemented in a number of ways using various types of phase modulators, such as electro-optic or acousto-optic modulators. With this construction setting the phase to $\phi=0$ performs the identity operation, whereas for $\phi=\pi$ it performs a swap gate. This is shown in Fig. \ref{figMZ}.
+}
+
+\begin{figure}[!htb]
+\centering
+\includegraphics[width=0.55\columnwidth]{MZ}	
+\caption{} \label{figMZ}
+\end{figure}
+ 
+\peter{
+This concept for switching is widely used in current labs, however it is very slow using present-day technology. For the purposes of fast-feedforward -- required for universal optical quantum computing for example -- we would require switching times on the order of nanoseconds, which requires the switching time to be faster than the time to the destination of the light it needs to switch. Presently this remains a daunting challenge, requiring much further research, with quantum memories being a candidate for loosening the switching time limitations.
+}
 
 
 %The dominant challenge facing the experimental implementation of both 
@@ -507,7 +523,7 @@ Last, PNR detectors can be created by connecting many non-PNR detectors in paral
 \section{Applications for linear optics interferometry}
 
 \subsection{Linear optical quantum computation (LOQC)}\label{sec:LOQC}
-The advancements in linear optics have opened up avenues for implementation. One of the key requirements is nonlinear couplings between the different optical modes. Photons do not naturally interact with one another so some careful engineering is needed to achieve this coupling. Methods used include measurements and feedforwarding \cite{bib:KLM01}, and photon-atom interactions \cite{bib:Brod16}. The former requires non-deterministic operations, which succeed only part of the time and have to be repeated. This can be challenging given the limited resources to begin with. Comprehensive reviews have been written previously to cover this topic \cite{bib:JW12,bib:Kok05}, hence we will focus on recent advances.
+The advancements in linear optics have opened up avenues for implementation. One of the key requirements is nonlinear couplings between the different optical modes. Photons do not naturally interact with one another so some careful engineering is needed to achieve this coupling. Methods used include measurements and feedforwarding \cite{bib:KLM01}, and photon-atom interactions \cite{bib:Brod16}. The former requires non-deterministic operations, which succeed only part of the time and have to be repeated. This can be challenging given the limited resources to begin with. \sihui{Various linear-optical implementations of two-qubit gates important for approximately universal quantum computation are listed in Ref.~\cite{bib:Bartkowiak2010}, and comprehensive reviews have been written previously to cover this topic \cite{bib:JW12,bib:Kok05}, hence we will focus on recent advances.}
 
 
  Integrated photonic circuits has greatly improved the feasibility of LOQC. Their small size and interferometric stability enable the requisite quantum interference to happen in certain LOQC settings. Programmable circuits that are reusable have also emerged \cite{bib:Metcalf14,bib:Carolan15}. This saves resources and lead time for producing new circuits. Combining these chips with existing higher-efficiency sources and detectors will expand their capabilities. Loss can be mitigated by moving all components, {\it i.e.~}sources and detectors, onto the same chip as the linear optical circuit \cite{bib:Sprengers11, bib:Silverstone14}.  What remains is to have fast feedforward also on chip. This might pose the greatest challenge yet for universal LOQC. The bottleneck is in the speed of modulation in the feedforward circuitry; only a handful of experiments have been able to implement adaptive feedforward for the purposes of LOQC \cite{bib:Prevedel07,bib:Xiao-Song12,bib:Mikova12,bib:Zhao14}.
@@ -620,21 +636,6 @@ Quantum repeaters are devices that distribute entanglement across a network, or 
 Without the use of repeaters, it has been shown that the rate transmission of a channel with loss without entanglement assistance has a linear fallout \cite{bib:TGW14}, and its bound is known as the Takeoka-Guha-Wilde (TGW) bound. The minimal resources required to exceed the TGW bound is a subject of active research, and so far it has been shown that the performance of the repeater schemes of Ewert-Bergmann-van Loock \cite{bib:Ewert16}, and Sinclair et al. \cite{bib:Sinclair14} are able to exceed the TGW bound. Other benchmarking tools have also been used to analyze many of these repeater schemes in detail \cite{bib:Muralidhara16}. In terms of implementation, the greatest distance that a quantum state has been teleported to-date is 1400 km \cite{bib:Ren17}, and is demonstrated between an earth-based source with a detection unit on a satellite in space. This is a culmination of many decades of research from many groups in extending this distance. If it could be made to work with other basic units of quantum repeater networks that have been implemented \cite{bib:Kimble08,bib:Sangouard11, bib:MATN15}, a large-scale, long-distance repeater network could soon be possible.
 
 }
-\section{Optical switching}
-
-\peter{
-Some of the protocols thus far require switching between different optical modes. \sihui{One way to achieve this experimentally for time-bin qubits is} via a Mach-Zehnder interferometer with a dynamic, classically-controlled phase-shift in one path. The variable phase may be implemented in a number of ways using various types of phase modulators, such as electro-optic or acousto-optic modulators. With this construction setting the phase to $\phi=0$ performs the identity operation, whereas for $\phi=\pi$ it performs a swap gate. This is shown in Fig. \ref{figMZ}.
-}
-
-\begin{figure}[!htb]
-\centering
-\includegraphics[width=0.55\columnwidth]{MZ}	
-\caption{} \label{figMZ}
-\end{figure}
- 
-\peter{
-This concept for switching is widely used in current labs, however it is very slow using present-day technology. For the purposes of fast-feedforward -- required for universal optical quantum computing for example -- we would require switching times on the order of nanoseconds, which requires the switching time to be faster than the time to the destination of the light it needs to switch. Presently this remains a daunting challenge, requiring much further research, with quantum memories being a candidate for loosening the switching time limitations.
-}
 
 \section{Conclusion}
 
@@ -657,6 +658,8 @@ PPR is funded by an ARC Future Fellowship (project FT160100397). This research w
 
 %% `Elsevier LaTeX' style
 \bibliographystyle{elsarticle-num}
+
+
 %%%%%%%%%%%%%%%%%%%%%%%
 \bibliography{paper}
 

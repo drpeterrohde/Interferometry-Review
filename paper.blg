@@ -3,43 +3,48 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: /Users/sihui_tan/Documents/Interferometry-Review/paper.aux
 The style file: elsarticle-num.bst
 output.null is an unknown function---line 1113 of file elsarticle-num.bst
+Reallocated field_info (elt_size=4) to 10049 items from 5000.
 Database file #1: paper.bib
-Repeated entry---line 957 of file paper.bib
+Repeated entry---line 1003 of file paper.bib
  : @article{bib:Georgescu14
  :                         ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 1570 of file paper.bib
+I was expecting a `,' or a `}'---line 1616 of file paper.bib
  :   
  :   year = {2015}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 1912 of file paper.bib
+Repeated entry---line 1958 of file paper.bib
  : @article{bib:Kim01
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3710 of file paper.bib
+Repeated entry---line 3756 of file paper.bib
  : @article{bib:Huh15
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3841 of file paper.bib
+Repeated entry---line 3887 of file paper.bib
  : @article{bib:Baumgratz16
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4940 of file paper.bib
+Repeated entry---line 4986 of file paper.bib
  : @article{bib:Pittman03
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5445 of file paper.bib
+Repeated entry---line 5491 of file paper.bib
  : @article{bib:Chen17
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5464 of file paper.bib
+Repeated entry---line 5510 of file paper.bib
  : @article{bib:Shapiro07
  :                       ,
 I'm skipping whatever remains of this entry
 ptr=1, stack=
  63 (2001) 030301
 ---the literal stack isn't empty for entry Koashi01
+while executing---line 1507 of file elsarticle-num.bst
+ptr=1, stack=
+ 116 (2016) 061102
+---the literal stack isn't empty for entry bib:LIGO2015
 while executing---line 1507 of file elsarticle-num.bst
 ptr=1, stack=
  9~(4) (2015) 363--384
@@ -214,6 +219,22 @@ ptr=1, stack=
 ---the literal stack isn't empty for entry Rohde15
 while executing---line 1507 of file elsarticle-num.bst
 ptr=1, stack=
+ 158~(1) (1998) 45 -- 49
+---the literal stack isn't empty for entry bib:BARNETT1998
+while executing---line 1507 of file elsarticle-num.bst
+ptr=1, stack=
+ 64 (2001) 063818
+---the literal stack isn't empty for entry bib:Ozdemir2001
+while executing---line 1507 of file elsarticle-num.bst
+ptr=1, stack=
+ 89 (2014) 043829
+---the literal stack isn't empty for entry bib:Sperling2014
+while executing---line 1507 of file elsarticle-num.bst
+ptr=1, stack=
+\href {http://arxiv.org/abs/https://doi.org/10.1080/09500340.2015.1076080} {\path{arXiv:https://doi.org/10.1080/09500340.2015.1076080}}
+---the literal stack isn't empty for entry bib:Tan2016
+while executing---line 1507 of file elsarticle-num.bst
+ptr=1, stack=
  82
 ---the literal stack isn't empty for entry bib:Eisaman11
 while executing---line 1507 of file elsarticle-num.bst
@@ -232,6 +253,10 @@ while executing---line 1507 of file elsarticle-num.bst
 ptr=1, stack=
  117 (2016) 080502
 ---the literal stack isn't empty for entry bib:Brod16
+while executing---line 1507 of file elsarticle-num.bst
+ptr=1, stack=
+ 27~(11) (2010) 2369--2377
+---the literal stack isn't empty for entry bib:Bartkowiak2010
 while executing---line 1507 of file elsarticle-num.bst
 ptr=1, stack=
 \href {http://arxiv.org/abs/http://science.sciencemag.org/content/early/2015/07/08/science.aab3642.full.pdf} {\path{arXiv:http://science.sciencemag.org/content/early/2015/07/08/science.aab3642.full.pdf}}
@@ -444,45 +469,45 @@ ptr=1, stack=
  21~(3) (2015) 78--90
 ---the literal stack isn't empty for entry bib:MATN15
 while executing---line 1507 of file elsarticle-num.bst
-You've used 181 entries,
+You've used 187 entries,
             2934 wiz_defined-function locations,
-            2046 strings with 55152 characters,
-and the built_in function-call counts, 63279 in all, are:
-= -- 5578
-> -- 3355
+            2091 strings with 56674 characters,
+and the built_in function-call counts, 65254 in all, are:
+= -- 5774
+> -- 3415
 < -- 2
-+ -- 1239
-- -- 1058
-* -- 6492
-:= -- 9676
-add.period$ -- 195
-call.type$ -- 181
-change.case$ -- 181
++ -- 1263
+- -- 1076
+* -- 6705
+:= -- 9955
+add.period$ -- 202
+call.type$ -- 187
+change.case$ -- 187
 chr.to.int$ -- 0
-cite$ -- 192
-duplicate$ -- 1586
-empty$ -- 5958
-format.name$ -- 1228
-if$ -- 15232
+cite$ -- 198
+duplicate$ -- 1640
+empty$ -- 6166
+format.name$ -- 1252
+if$ -- 15726
 int.to.chr$ -- 0
-int.to.str$ -- 181
-missing$ -- 182
-newline$ -- 721
-num.names$ -- 181
-pop$ -- 821
+int.to.str$ -- 187
+missing$ -- 188
+newline$ -- 746
+num.names$ -- 187
+pop$ -- 844
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 2662
+skip$ -- 2748
 stack$ -- 0
-substring$ -- 3579
-swap$ -- 572
+substring$ -- 3706
+swap$ -- 598
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 11
-while$ -- 401
-width$ -- 184
-write$ -- 1628
-(There were 108 error messages)
+while$ -- 414
+width$ -- 190
+write$ -- 1684
+(There were 114 error messages)

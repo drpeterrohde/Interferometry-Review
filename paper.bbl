@@ -29,6 +29,14 @@ M.~Koashi, T.~Yamamoto, N.~Imoto,
   {\path{doi:10.1103/PhysRevA.63.030301}}.
 \newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevA.63.030301}
 
+\bibitem{bib:LIGO2015}
+B.~P. Abbott, R.~Abbott, T.~D.~{\it et.~al}. Abbott,
+  \href{https://link.aps.org/doi/10.1103/PhysRevLett.116.061102}{Observation of
+  gravitational waves from a binary black hole merger}, Phys. Rev. Lett.\href
+  {http://dx.doi.org/10.1103/PhysRevLett.116.061102}
+  {\path{doi:10.1103/PhysRevLett.116.061102}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.116.061102}
+
 \bibitem{bib:Meany15}
 T.~Meany, M.~Gr\"a~fe, R.~Heilmann, A.~Perez-Leija, S.~Gross, M.~J. Steel,
   M.~J. Withford, A.~Szameit,
@@ -580,6 +588,39 @@ P.~P. Rohde, \href{https://link.aps.org/doi/10.1103/PhysRevA.91.012306}{Simple
   {\path{doi:10.1103/PhysRevA.91.012306}}.
 \newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevA.91.012306}
 
+\bibitem{bib:BARNETT1998}
+S.~M. Barnett, L.~S. Phillips, D.~T. Pegg,
+  \href{http://www.sciencedirect.com/science/article/pii/S0030401898005112}{Imperfect
+  photodetection as projection onto mixed states}, Optics Communications\href
+  {http://dx.doi.org/https://doi.org/10.1016/S0030-4018(98)00511-2}
+  {\path{doi:https://doi.org/10.1016/S0030-4018(98)00511-2}}.
+\newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0030401898005112}
+
+\bibitem{bib:Ozdemir2001}
+i.~m. c.~K. \"Ozdemir, A.~Miranowicz, M.~Koashi, N.~Imoto,
+  \href{https://link.aps.org/doi/10.1103/PhysRevA.64.063818}{Quantum-scissors
+  device for optical state truncation: A proposal for practical realization},
+  Phys. Rev. A\href {http://dx.doi.org/10.1103/PhysRevA.64.063818}
+  {\path{doi:10.1103/PhysRevA.64.063818}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevA.64.063818}
+
+\bibitem{bib:Sperling2014}
+J.~Sperling, W.~Vogel, G.~S. Agarwal,
+  \href{https://link.aps.org/doi/10.1103/PhysRevA.89.043829}{Quantum state
+  engineering by click counting}, Phys. Rev. A\href
+  {http://dx.doi.org/10.1103/PhysRevA.89.043829}
+  {\path{doi:10.1103/PhysRevA.89.043829}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevA.89.043829}
+
+\bibitem{bib:Tan2016}
+S.-H. Tan, L.~A. Krivitsky, B.-G. Englert,
+  \href{https://doi.org/10.1080/09500340.2015.1076080}{Measuring quantum
+  correlations using lossy photon-number-resolving detectors with saturation},
+  Journal of Modern Optics 63~(3) (2016) 276--283.
+\newblock \href {http://dx.doi.org/10.1080/09500340.2015.1076080}
+  {\path{doi:10.1080/09500340.2015.1076080}}.
+\newline\urlprefix\url{https://doi.org/10.1080/09500340.2015.1076080}
+
 \bibitem{bib:Hadfield09}
 R.~H. Hadfield, \href{http://dx.doi.org/10.1038/nphoton.2009.230}{Single-photon
   detectors for optical quantum information applications}, Nat Photon 3~(12)
@@ -639,6 +680,15 @@ D.~J. Brod, J.~Combes,
   {http://dx.doi.org/10.1103/PhysRevLett.117.080502}
   {\path{doi:10.1103/PhysRevLett.117.080502}}.
 \newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.117.080502}
+
+\bibitem{bib:Bartkowiak2010}
+M.~Bartkowiak, A.~Miranowicz,
+  \href{http://josab.osa.org/abstract.cfm?URI=josab-27-11-2369}{Linear-optical
+  implementations of the iswap and controlled not gates based on conventional
+  detectors}, J. Opt. Soc. Am. B\href
+  {http://dx.doi.org/10.1364/JOSAB.27.002369}
+  {\path{doi:10.1364/JOSAB.27.002369}}.
+\newline\urlprefix\url{http://josab.osa.org/abstract.cfm?URI=josab-27-11-2369}
 
 \bibitem{bib:Kok05}
 P.~Kok, W.~J. Munro, K.~Nemoto, T.~C. Ralph, J.~P. Dowling, G.~J. Milburn,
