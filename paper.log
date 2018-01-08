@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  6 JAN 2018 17:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  8 JAN 2018 16:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -859,84 +859,89 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
- <./elsevier-logo.pdf> <./revip-logo.pdf>] [2] [3] <reck.pdf, id=248, 394.58363pt x 204.78508pt>
+ <./elsevier-logo.pdf> <./revip-logo.pdf>] [2] [3] <reck.pdf, id=250, 394.58363pt x 204.78508pt>
 File: reck.pdf Graphic file (type pdf)
  <use reck.pdf>
 Package pdftex.def Info: reck.pdf used on input line 246.
 (pdftex.def)             Requested size: 186.9143pt x 97.00517pt.
- [4 <./reck.pdf>] [5] [6] <cluster_state.pdf, id=448, 286.30765pt x 242.46686pt>
+ <configMZI.pdf, id=251, 3970.09224pt x 944.38724pt>
+File: configMZI.pdf Graphic file (type pdf)
+ <use configMZI.pdf>
+Package pdftex.def Info: configMZI.pdf used on input line 255.
+(pdftex.def)             Requested size: 467.29291pt x 111.14563pt.
+ [4 <./reck.pdf>] [5 <./configMZI.pdf>] [6] <cluster_state.pdf, id=568, 286.30765pt x 242.46686pt>
 File: cluster_state.pdf Graphic file (type pdf)
  <use cluster_state.pdf>
-Package pdftex.def Info: cluster_state.pdf used on input line 381.
+Package pdftex.def Info: cluster_state.pdf used on input line 391.
 (pdftex.def)             Requested size: 116.82323pt x 98.93477pt.
- <fusion.pdf, id=449, 270.50322pt x 153.41916pt>
+ <fusion.pdf, id=569, 270.50322pt x 153.41916pt>
 File: fusion.pdf Graphic file (type pdf)
  <use fusion.pdf>
-Package pdftex.def Info: fusion.pdf used on input line 387.
+Package pdftex.def Info: fusion.pdf used on input line 397.
 (pdftex.def)             Requested size: 163.5518pt x 92.75917pt.
- [7 <./cluster_state.pdf> <./fusion.pdf>] <full_architecture.pdf, id=657, 286.46323pt x 132.80385pt>
+ [7 <./cluster_state.pdf> <./fusion.pdf>] <full_architecture.pdf, id=782, 286.46323pt x 132.80385pt>
 File: full_architecture.pdf Graphic file (type pdf)
  <use full_architecture.pdf>
-Package pdftex.def Info: full_architecture.pdf used on input line 419.
+Package pdftex.def Info: full_architecture.pdf used on input line 429.
 (pdftex.def)             Requested size: 163.5518pt x 75.8246pt.
- <PBS_TB.pdf, id=658, 414.88301pt x 242.9075pt>
+ <PBS_TB.pdf, id=783, 414.88301pt x 242.9075pt>
 File: PBS_TB.pdf Graphic file (type pdf)
  <use PBS_TB.pdf>
-Package pdftex.def Info: PBS_TB.pdf used on input line 425.
+Package pdftex.def Info: PBS_TB.pdf used on input line 435.
 (pdftex.def)             Requested size: 186.91786pt x 109.43707pt.
- [8 <./full_architecture.pdf> <./PBS_TB.pdf>] <MZ.pdf, id=874, 414.1143pt x 255.48991pt>
+ [8 <./full_architecture.pdf> <./PBS_TB.pdf>] [9] <MZ.pdf, id=1026, 414.1143pt x 255.48991pt>
 File: MZ.pdf Graphic file (type pdf)
  <use MZ.pdf>
-Package pdftex.def Info: MZ.pdf used on input line 492.
+Package pdftex.def Info: MZ.pdf used on input line 502.
 (pdftex.def)             Requested size: 257.01251pt x 158.56973pt.
- [9] [10 <./MZ.pdf>] <BS_model.pdf, id=1021, 357.335pt x 315.1775pt>
+ [10 <./MZ.pdf>] <BS_model.pdf, id=1134, 357.335pt x 315.1775pt>
 File: BS_model.pdf Graphic file (type pdf)
  <use BS_model.pdf>
-Package pdftex.def Info: BS_model.pdf used on input line 559.
+Package pdftex.def Info: BS_model.pdf used on input line 569.
 (pdftex.def)             Requested size: 140.18929pt x 123.64972pt.
- [11 <./BS_model.pdf>] <phE.pdf, id=1156, 168.63pt x 126.4725pt>
+ [11 <./BS_model.pdf>] [12] <phE.pdf, id=1317, 168.63pt x 126.4725pt>
 File: phE.pdf Graphic file (type pdf)
  <use phE.pdf>
-Package pdftex.def Info: phE.pdf used on input line 619.
+Package pdftex.def Info: phE.pdf used on input line 629.
 (pdftex.def)             Requested size: 116.82323pt x 87.61926pt.
- <MORDOR.pdf, id=1157, 315.88817pt x 158.5925pt>
+ <MORDOR.pdf, id=1318, 315.88817pt x 158.5925pt>
 File: MORDOR.pdf Graphic file (type pdf)
  <use MORDOR.pdf>
-Package pdftex.def Info: MORDOR.pdf used on input line 625.
+Package pdftex.def Info: MORDOR.pdf used on input line 635.
 (pdftex.def)             Requested size: 186.91786pt x 93.84462pt.
- [12] (./paper.bbl [13 <./phE.pdf> <./MORDOR.pdf
+ [13 <./phE.pdf> <./MORDOR.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./MORDOR.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->]
+>] (./paper.bbl
 Missing character: There is no Ã in font txr!
 Missing character: There is no ¶ in font txr!
  [14] [15]
 Missing character: There is no Ã in font txr!
 Missing character: There is no ¤ in font txr!
- [16] [17] [18] [19] [20])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 669.
- [21]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 669.
+ [16] [17] [18] [19] [20] [21])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 679.
+ [22]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 679.
  (./paper.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 669.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 669.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 679.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 679.
 Package rerunfilecheck Info: File `paper.out' has not changed.
 (rerunfilecheck)             Checksum: 6597F888694B97AA833900D53AE961EB;1888.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 669.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 679.
  ) 
 Here is how much of TeX's memory you used:
- 10214 strings out of 493089
- 151794 string characters out of 6134842
- 256000 words of memory out of 5000000
- 13226 multiletter control sequences out of 15000+600000
+ 10226 strings out of 493089
+ 151995 string characters out of 6134842
+ 256815 words of memory out of 5000000
+ 13234 multiletter control sequences out of 15000+600000
  46891 words of font info for 116 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,14n,38p,1321b,1147s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,14n,44p,1321b,1195s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on paper.pdf (21 pages, 2814148 bytes).
+Output written on paper.pdf (22 pages, 6038245 bytes).
 PDF statistics:
- 2045 PDF objects out of 2073 (max. 8388607)
- 1540 compressed objects within 16 object streams
- 269 named destinations out of 1000 (max. 500000)
- 264 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2182 PDF objects out of 2487 (max. 8388607)
+ 1558 compressed objects within 16 object streams
+ 272 named destinations out of 1000 (max. 500000)
+ 269 words of extra memory for PDF output out of 10000 (max. 10000000)
 

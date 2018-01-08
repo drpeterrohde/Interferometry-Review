@@ -5,6 +5,10 @@
 \expandafter\ifx\csname href\endcsname\relax
   \def\href#1#2{#2} \def\path#1{#1}\fi
 
+\bibitem{bib:LovettKok}
+P.~Kok, B.~Lovett, Introduction to Optical Quantum Information Processing,
+  Cambridge University Press, Cambridge, 2010.
+
 \bibitem{bib:Northup14}
 T.~E. Northup, R.~Blatt,
   \href{http://dx.doi.org/10.1038/nphoton.2014.53}{Quantum information transfer
@@ -325,6 +329,16 @@ K.~R. Motes, A.~Gilchrist, J.~P. Dowling, P.~P. Rohde,
   Lett.\href {http://dx.doi.org/10.1103/PhysRevLett.113.120501}
   {\path{doi:10.1103/PhysRevLett.113.120501}}.
 \newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.113.120501}
+
+\bibitem{bib:Carolan15}
+J.~Carolan, C.~Harrold, C.~Sparrow, E.~Mart{\'\i}n-L{\'o}pez, N.~J. Russell,
+  J.~W. Silverstone, P.~J. Shadbolt, N.~Matsuda, M.~Oguma, M.~Itoh, G.~D.
+  Marshall, M.~G. Thompson, J.~C.~F. Matthews, T.~Hashimoto, J.~L.
+  O{\textquoteright}Brien, A.~Laing,
+  \href{http://science.sciencemag.org/content/early/2015/07/08/science.aab3642}{Universal
+  linear optics}, Science\href {http://dx.doi.org/10.1126/science.aab3642}
+  {\path{doi:10.1126/science.aab3642}}.
+\newline\urlprefix\url{http://science.sciencemag.org/content/early/2015/07/08/science.aab3642}
 
 \bibitem{bib:Englert2001}
 B.-G. Englert, C.~Kurtsiefer, H.~Weinfurter,
@@ -702,16 +716,6 @@ B.~J. Metcalf, J.~B. Spring, P.~C. Humphreys, N.~Thomas-Peter, M.~Barbieri,
   \href{http://dx.doi.org/10.1038/nphoton.2014.217}{Quantum teleportation on a
   photonic chip}, Nat Photon 8~(10) (2014) 770--774.
 \newline\urlprefix\url{http://dx.doi.org/10.1038/nphoton.2014.217}
-
-\bibitem{bib:Carolan15}
-J.~Carolan, C.~Harrold, C.~Sparrow, E.~Mart{\'\i}n-L{\'o}pez, N.~J. Russell,
-  J.~W. Silverstone, P.~J. Shadbolt, N.~Matsuda, M.~Oguma, M.~Itoh, G.~D.
-  Marshall, M.~G. Thompson, J.~C.~F. Matthews, T.~Hashimoto, J.~L.
-  O{\textquoteright}Brien, A.~Laing,
-  \href{http://science.sciencemag.org/content/early/2015/07/08/science.aab3642}{Universal
-  linear optics}, Science\href {http://dx.doi.org/10.1126/science.aab3642}
-  {\path{doi:10.1126/science.aab3642}}.
-\newline\urlprefix\url{http://science.sciencemag.org/content/early/2015/07/08/science.aab3642}
 
 \bibitem{bib:Xiao-Song12}
 X.-S. Ma, T.~Herbst, T.~Scheidl, D.~Wang, S.~Kropatschek, W.~Naylor,
