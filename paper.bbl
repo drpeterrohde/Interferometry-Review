@@ -77,6 +77,26 @@ Y.~Li, P.~C. Humphreys, G.~J. Mendoza, S.~C. Benjamin,
   {\path{doi:10.1103/PhysRevX.5.041007}}.
 \newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevX.5.041007}
 
+\bibitem{bib:Eisaman11}
+M.~Eisaman, J.~Fan, A.~Migdall, S.~Polyakov,
+  \href{http://aip.scitation.org/doi/full/10.1063/1.3610677}{Invited review
+  article: Single-photon sources and detectors}, Review of Scientific
+  Instruments\href {http://dx.doi.org/http://dx.doi.org/10.1063/1.3610677}
+  {\path{doi:http://dx.doi.org/10.1063/1.3610677}}.
+\newline\urlprefix\url{http://aip.scitation.org/doi/full/10.1063/1.3610677}
+
+\bibitem{bib:Xiong16}
+C.~Xiong, B.~Bell, B.~J. Eggleton, {CMOS}-compatible photonic devices for
+  single-photon generation, Nanophotonics 5 (2016) 427 -- 439.
+
+\bibitem{bib:Solntsev17}
+A.~S. Solntsev, A.~A. Sukhorukov,
+  \href{http://www.sciencedirect.com/science/article/pii/S2405428316300168}{Path-entangled
+  photon sources on nonlinear chips}, Reviews in Physics\href
+  {http://dx.doi.org/https://doi.org/10.1016/j.revip.2016.11.003}
+  {\path{doi:https://doi.org/10.1016/j.revip.2016.11.003}}.
+\newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S2405428316300168}
+
 \bibitem{bib:Spagnolo12}
 N.~Spagnolo, L.~Aparo, C.~Vitelli, A.~Crespi, R.~Ramponi, R.~Osellame,
   P.~Mataloni, F.~Sciarrino, \href{http://dx.doi.org/10.1038/srep00862}{Quantum
@@ -412,6 +432,29 @@ R.~Heilmann, M.~Gräfe, S.~Nolte, A.~Szameit,
   {\path{doi:http://doi.org/10.1007/s11434-014-0688-5}}.
 \newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S2095927316305400}
 
+\bibitem{bib:GLFBE2010}
+D.~Gross, Y.-K. Liu, S.~T. Flammia, S.~Becker, J.~Eisert,
+  \href{https://link.aps.org/doi/10.1103/PhysRevLett.105.150401}{Quantum state
+  tomography via compressed sensing}, Phys. Rev. Lett.\href
+  {http://dx.doi.org/10.1103/PhysRevLett.105.150401}
+  {\path{doi:10.1103/PhysRevLett.105.150401}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.105.150401}
+
+\bibitem{bib:Titchener16}
+J.~G. Titchener, A.~S. Solntsev, A.~A. Sukhorukov,
+  \href{http://ol.osa.org/abstract.cfm?URI=ol-41-17-4079}{Two-photon tomography
+  using on-chip quantum walks}, Opt. Lett.\href
+  {http://dx.doi.org/10.1364/OL.41.004079} {\path{doi:10.1364/OL.41.004079}}.
+\newline\urlprefix\url{http://ol.osa.org/abstract.cfm?URI=ol-41-17-4079}
+
+\bibitem{bib:Oren16}
+D.~Oren, Y.~Shechtman, M.~Mutzafi, Y.~C. Eldar, M.~Segev,
+  \href{http://www.osapublishing.org/optica/abstract.cfm?URI=optica-3-3-226}{Sparsity-based
+  recovery of three-photon quantum states from two-fold correlations},
+  Optica\href {http://dx.doi.org/10.1364/OPTICA.3.000226}
+  {\path{doi:10.1364/OPTICA.3.000226}}.
+\newline\urlprefix\url{http://www.osapublishing.org/optica/abstract.cfm?URI=optica-3-3-226}
+
 \bibitem{bib:Kim01}
 Y.-H. Kim, S.~P. Kulik, Y.~Shih,
   \href{https://link.aps.org/doi/10.1103/PhysRevA.63.060301}{Bell-state
@@ -640,14 +683,6 @@ R.~H. Hadfield, \href{http://dx.doi.org/10.1038/nphoton.2009.230}{Single-photon
   detectors for optical quantum information applications}, Nat Photon 3~(12)
   (2009) 696--705.
 \newline\urlprefix\url{http://dx.doi.org/10.1038/nphoton.2009.230}
-
-\bibitem{bib:Eisaman11}
-M.~Eisaman, J.~Fan, A.~Migdall, S.~Polyakov,
-  \href{http://aip.scitation.org/doi/full/10.1063/1.3610677}{Invited review
-  article: Single-photon sources and detectors}, Review of Scientific
-  Instruments\href {http://dx.doi.org/http://dx.doi.org/10.1063/1.3610677}
-  {\path{doi:http://dx.doi.org/10.1063/1.3610677}}.
-\newline\urlprefix\url{http://aip.scitation.org/doi/full/10.1063/1.3610677}
 
 \bibitem{bib:Sperling12}
 J.~Sperling, W.~Vogel, G.~S. Agarwal,
