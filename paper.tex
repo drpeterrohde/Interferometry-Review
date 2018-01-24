@@ -5,7 +5,7 @@
 \documentclass[times,final]{elsarticle}
 \usepackage{revip}
 \usepackage{framed,multirow}
-\usepackage{hyperref,mathrsfs,amsmath,amssymb,latexsym}
+\usepackage{hyperref,mathrsfs,amsmath,amssymb,latexsym,array,hhline}
 \newcommand{\bra}[1]{\langle#1|}
 \newcommand{\ket}[1]{|#1\rangle}
 \newcommand{\op}[2]{\hat{\textbf{#1}}_{#2}}
@@ -476,25 +476,38 @@ while those of the non-photon-number-resolving detectors are given by
 \end{align}
 \sihui{Theoretical modeling of these photodetectors can be made to include realistic effects such as detector finite efficiency, finite-number resolution, dark counts, and crosstalk. These effects are typically described as projections onto mixed states \cite{bib:BARNETT1998}, and their outcomes are represented by positive-operator valued measures. Such modeling allows us to analyze these realistic effects on various quantum information protocols, see for {\it e.g.~}\cite{bib:Ozdemir2001,bib:Sperling2014,bib:Tan2016}.} 
 
-\sihui{There are many different types of photodetectors. Detailed reviews have been written about \sihui{them} \cite{bib:Hadfield09,bib:Eisaman11}, so we shall only outline a few important examples. }A common example of a non-PNR detector is the avalanche photodiode (APD). These devices are made up of semiconductor material, usually silicon, which generate an electron that quickly generates a cascade of electrons. This avalanche of electrons generate a current that can be measured. APDs are affordable, offer low dark count rates with reasonable efficiency, and can be made to operate in a broad spectrum of wavelengths.
-% A downside to using APD is their deadtime. This is a period of time 
-%following an avalanche during which the avalanche is stopped by a 
-%quenching circuit to reset the APD. No photons can be detected during the 
-%deadtime and contributes to photon loss in an APD.
-Superconducting nanowire single-photon detector (SNSPD) is another  type of non-PNR detector. This detector operates in its superconducting phase just below the critical density, and it phase changes back to normal when a photon is absorbed. This causes a spike in current around it, which, when detected, would indicate the absorption of the photon.
+\sihui{There are many different types of photodetectors. Detailed reviews have been written about \sihui{them} \cite{bib:Hadfield09,bib:Eisaman11}, so we shall only outline a few important examples. }A common example of a non-PNR detector is the avalanche photodiode (APD). These devices are made up of semiconductor material, usually silicon, which generate an electron that quickly generates a cascade of electrons. This avalanche of electrons generate a current that can be measured. APDs are affordable, offer low dark count rates with reasonable efficiency, and can be made to operate in a broad spectrum of wavelengths. \sihui{It is the preferred detection method in quantum information protocols as they are widely available, and do not require special environments to run like some of the other detectors, as we discuss later in this section. Nonetheless, they have their limitations. A downside to using APD is their deadtime, which is a period of time following an avalanche during which the avalanche is stopped by a quenching circuit to reset the APD. No photons can be detected during the 
+deadtime and contributes to photon loss in an APD. Deadtime delays for APDs range from tens of nanoseconds to $\mu$s.} Superconducting nanowire single-photon detector (SNSPD) is another  type of non-PNR detector. This detector operates in its superconducting phase just below the critical density, and it\sihui{s} phase changes back to normal when a photon is absorbed. This causes a spike in current around it, which, when detected, would indicate the absorption of the photon. \sihui{This SNSPD detector tends to be faster than the APD detector with lower dark count rates. However, they require low operating temperatures of 4K maintained by special cryogenic equipment that are expensive and bulky.}
 
-PNR detectors are a wonderful addition to the \sihui{linear optical} toolbox. A notable example is the superconducting transition edge sensor (TES) which has an extremely high quantum efficiency. The principle it operates on is very similar to the SNSPD, but with a much higher sensitivity that allows it to detect the energy of single photons.
-%low dark count rates. However, they are quite slow, have low maximum 
-%counting rates, and are costly to operate due to their very low operating 
-%temperatures. 
-The visible light photon counter (VLPC) is another kind of PNR detector. The way VLPC works is in principle very similar to the APD, but with an additional layer of silicon that is lightly doped with arsenic (As). Owing to the presence of the As, a single photon absorption event always create an electrical signal that is always of the same magnitude. Thus, the output electrical signal is just proportional to the number of detected photons.
-Last, PNR detectors can be created by connecting many non-PNR detectors in parallel to one another, and summing the signals at the output. For instance, like in the theoretical proposal of \cite{bib:Sperling12}. Such an approach has been successfully demonstrated with SNSPD \cite{bib:Divochiy08}, and APDs \cite{bib:Kalashnikov12,bib:Chrapkiewicz14,bib:Heilmanndc15}. 
+PNR detectors are a wonderful addition to the \sihui{linear optical} toolbox. A notable example is the superconducting transition edge sensor (TES) which has an extremely high quantum efficiency. The principle it operates on is very similar to the SNSPD, but with a much higher sensitivity that allows it to detect the energy of single photons. \sihui{They have low dark count rates, however, they are also quite slow, have low maximum counting rates, and, like the SNSPD detectors, are costly to operate due to their very low operating temperatures.} The visible light photon counter (VLPC) is another kind of PNR detector. The way VLPC works is in principle very similar to the APD, but with an additional layer of silicon that is lightly doped with arsenic (As). Owing to the presence of the As, a single photon absorption event always create an electrical signal that is always of the same magnitude. Thus, the output electrical signal is just proportional to the number of detected photons. \sihui{The VLPC can achieve a high quantum efficiency, in fact almost as high as that of the TES, and has a distinct advantage over the TES of not requiring superconducting temperatures. However, they do suffer from high dark count rate, and low speeds.}
+Last, PNR detectors can be created by connecting many non-PNR detectors in parallel to one another, and summing the signals at the output. For instance, like in the theoretical proposal of \cite{bib:Sperling12}. Such an approach has been successfully demonstrated with SNSPD \cite{bib:Divochiy08}, and APDs \cite{bib:Kalashnikov12,bib:Chrapkiewicz14,bib:Heilmanndc15}. \sihui{Some characteristic experimental values for the detector efficiency, timing jitter, dark count rates, and maximum photon number of different PNR detectors are given in Table \ref{table:PNR}.}
 
+\begin{table}[t]
+\centering
+\begin{tabular}{| >{\centering\arraybackslash}m{2cm} | >{\centering\arraybackslash}m{3cm} | >{\centering\arraybackslash}m{2cm} |>{\centering\arraybackslash}m{2cm} |>{\centering\arraybackslash}m{2cm} |} 
+ \hline 
+\vspace{0.8mm} PNR & detector efficiency (\%) & timing jitter ($ns$) & dark counts ($1/s$) & maximum photon number \\ \hhline{|=|=|=|=|=|}
+&&&& \\
+  VLPC \cite{bib:Waks03}   & 85@543$nm$  & 2 & 20000 & 5 \\
+  & & & & \\
+  TES \cite{bib:Lita08} & 95@1556 & 100 & - & 7\\
+ TES \cite{bib:MillerNam03} & 20@1310$nm$  & 100 & $<10^{-3}$ & 15 \\
+  & 20@1550$nm$ & & & \\
+  TES \cite{bib:Gerrits12} & 89@1550$nm$ & - & - & 1000 \\
+  &&&& \\
+ Parallel SNSPD \cite{bib:Divochiy08} & 2@1300 & 0.05 & 0.15 & 4 \\
+ &&&&\\
+ Series SNSPD \cite{bib:Mattioli16} & 0.5@1310 & 0.116 & - & 24\\
+&&&& \\
+ \hline
+\end{tabular}
+\caption{Comparison of performance between some PNR detectors.}\label{table:PNR}
+\end{table}
 
 \section{Optical switching}
 
 \peter{
-Some of the protocols thus far require switching between different optical modes. \sihui{One way to achieve this experimentally for time-bin qubits is} via a Mach-Zehnder interferometer with a dynamic, classically-controlled phase-shift in one path. The variable phase may be implemented in a number of ways using various types of phase modulators, such as electro-optic or acousto-optic modulators. With this construction setting the phase to $\phi=0$ performs the identity operation, whereas for $\phi=\pi$ it performs a swap gate. This is shown in Fig. \ref{figMZ}.
+Some of the protocols thus far require switching between different optical modes. \sihui{One way to achieve this experimentally for time-bin qubits is} via a Mach-Zehnder interferometer with a dynamic, classically-controlled phase-shift in one path \cite{bib:Takesue14}. The variable phase may be implemented in a number of ways using various types of phase modulators, such as electro-optic or acousto-optic modulators. With this construction setting the phase to $\phi=0$ performs the identity operation, whereas for $\phi=\pi$ it performs a swap gate. This is shown in Fig. \ref{figMZ}. \sihui{Ref.~\cite{bib:Takesue14} reports a switching time of 100 picoseconds for this type of switch.}
 }
 
 \begin{figure}[!htb]
@@ -503,9 +516,26 @@ Some of the protocols thus far require switching between different optical modes
 \caption{} \label{figMZ}
 \end{figure}
  
-\peter{
-This concept for switching is widely used in current labs, however it is very slow using present-day technology. For the purposes of fast-feedforward -- required for universal optical quantum computing for example -- we would require switching times on the order of nanoseconds, which requires the switching time to be faster than the time to the destination of the light it needs to switch. Presently this remains a daunting challenge, requiring much further research, with quantum memories being a candidate for loosening the switching time limitations.
+ \sihui{It is also possible to perform switching of photons by first converting temporal and spatial labels of the photon to a polarization one, and then perform a fast polarization switch before converting it back \cite{bib:HAK11,bib:Humphreys13}. Such switches are able to achieve a polarization switch within a 10 picoseconds time window. Other ways rely on conditional scattering of signal photons on ultrafast timescales, usually involving coupling between field modes and strongly correlated systems \cite{bib:Volz2012, bib:Bose2012, bib:Dietrich16}. The typical speed for this type of switching is of order of picoseconds \cite{bib:Dietrich16}.
+ }
+ 
+\sihui{This concept for switching is widely used in current labs, however it is very slow using present-day technology. Although switching on its own can be completed in a timespan of the order of picoseconds, the process is slowed by the time needed for its control electronic. This is especially crucial in switching for the purposes of fast-feedforward that is required, for example, for universal optical quantum computing. In this application, we would require total switching times, including time for control electronics to respond, on the order of nanoseconds, {\it i.e.~}faster than the time to the destination of the light it needs to switch, and this is still not possible. Presently this remains a daunting challenge, requiring much further research, with quantum memories being a candidate for loosening the switching time limitations.
 }
+
+%\peter{
+%This concept for switching is widely used in current 
+%labs, however it is very slow using present-day 
+%technology. For the purposes of fast-feedforward -- 
+%required for universal optical quantum computing for 
+%example -- we would require switching times on the order 
+%of nanoseconds, which requires the switching time to be 
+%faster than the time to the destination of the light it 
+%needs to switch. Presently this remains a daunting 
+%challenge, requiring much further research, with quantum 
+%memories being a candidate for loosening the switching 
+%time limitations.
+%}
+
 
 
 %The dominant challenge facing the experimental implementation of both 
@@ -603,7 +633,7 @@ Quantum simulations is about simulating a quantum system by quantum mechanical m
   }
   
 \subsection{Quantum metrology}\label{subsec:metrology}
-An archetypal task for quantum metrology is the following: Given a Mach-Zedner interferometer, with an unknown phase shift of magnitude $\varphi$ inserted in one of the two paths (see Fig. \ref{fig:MZ}), can one deduce $\varphi$ via a judicious use of quantum states and measurements with a higher sensitivity than that of a completely classical interferometer? Indeed, one can, and the standard deviation, $\Delta\varphi$, after $N$ trials using quantum estimation is $\Delta\varphi=1/N$, which gets a factor of $\sqrt{N}$ improvement over classical phase estimation. As this sensitivity is also a fundamental limit arising from Heisenberg's uncertainty principle, {\it i.e.} we cannot measure definitively the phase, it is known as the Heisenberg limit. Most famously, NOON states achieve this limit using $N$ photons in a single trial. Many reviews have been written for quantum metrology and Heisenberg-limited quantum phase estimation \cite{bib:Giovannetti04,bib:Dowling08,bib:Giovannetti11} so we will not dwell on the history of this application. Instead, we will discuss new paradigms for quantum metrology that have been made possible by the aforementioned advancements in linear optics.
+An archetypal task for quantum metrology is the following: Given a Mach-\sihui{Zehnder} interferometer, with an unknown phase shift of magnitude $\varphi$ inserted in one of the two paths (see Fig. \ref{fig:MZ}), can one deduce $\varphi$ via a judicious use of quantum states and measurements with a higher sensitivity than that of a completely classical interferometer? Indeed, one can, and the standard deviation, $\Delta\varphi$, after $N$ trials using quantum estimation is $\Delta\varphi=1/N$, which gets a factor of $\sqrt{N}$ improvement over classical phase estimation. As this sensitivity is also a fundamental limit arising from Heisenberg's uncertainty principle, {\it i.e.} we cannot measure definitively the phase, it is known as the Heisenberg limit. Most famously, NOON states achieve this limit using $N$ photons in a single trial. Many reviews have been written for quantum metrology and Heisenberg-limited quantum phase estimation \cite{bib:Giovannetti04,bib:Dowling08,bib:Giovannetti11} so we will not dwell on the history of this application. Instead, we will discuss new paradigms for quantum metrology that have been made possible by the aforementioned advancements in linear optics.
  
 % \begin{figure}[!htb]
 % \centering

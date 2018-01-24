@@ -722,6 +722,84 @@ R.~Heilmann, J.~Sperling, A.~Perez-Leija, M.~Gr{\"a}fe, M.~Heinrich, S.~Nolte,
   W.~Vogel, A.~Szameit, Divide-and-conquer: An integrated photon-counting
   scheme, arXiv: 1502.04932.
 
+\bibitem{bib:Waks03}
+E.~Waks, K.~Inoue, W.~D. Oliver, E.~Diamanti, Y.~Yamamoto, High-efficiency
+  photon-number detection for quantum information processing, IEEE J. Sel. Top.
+  Quantum Electron 9 (2003) 1502.
+
+\bibitem{bib:Lita08}
+A.~E. Lita, A.~J. Miller, S.~W. Nam,
+  \href{http://www.opticsexpress.org/abstract.cfm?URI=oe-16-5-3032}{Counting
+  near-infrared single-photons with 95\% efficiency}, Opt. Express\href
+  {http://dx.doi.org/10.1364/OE.16.003032} {\path{doi:10.1364/OE.16.003032}}.
+\newline\urlprefix\url{http://www.opticsexpress.org/abstract.cfm?URI=oe-16-5-3032}
+
+\bibitem{bib:MillerNam03}
+A.~J. Miller, S.~W. Nam, J.~M. Martinis, A.~V. Sergienko,
+  \href{https://doi.org/10.1063/1.1596723}{Demonstration of a low-noise
+  near-infrared photon counter with multiphoton discrimination}, Applied
+  Physics Letters 83~(4) (2003) 791--793.
+\newblock \href {http://dx.doi.org/10.1063/1.1596723}
+  {\path{doi:10.1063/1.1596723}}.
+\newline\urlprefix\url{https://doi.org/10.1063/1.1596723}
+
+\bibitem{bib:Gerrits12}
+T.~Gerrits, B.~Calkins, N.~Tomlin, A.~E. Lita, A.~Migdall, R.~Mirin, S.~W. Nam,
+  \href{http://www.opticsexpress.org/abstract.cfm?URI=oe-20-21-23798}{Extending
+  single-photon optimized superconducting transition edge sensors beyond the
+  single-photon counting regime}, Opt. Express\href
+  {http://dx.doi.org/10.1364/OE.20.023798} {\path{doi:10.1364/OE.20.023798}}.
+\newline\urlprefix\url{http://www.opticsexpress.org/abstract.cfm?URI=oe-20-21-23798}
+
+\bibitem{bib:Mattioli16}
+F.~Mattioli, Z.~Zhou, A.~Gaggero, R.~Gaudio, R.~Leoni, A.~Fiore,
+  \href{http://www.opticsexpress.org/abstract.cfm?URI=oe-24-8-9067}{Photon-counting
+  and analog operation of a 24-pixel photon number resolving detector based on
+  superconducting nanowires}, Opt. Express\href
+  {http://dx.doi.org/10.1364/OE.24.009067} {\path{doi:10.1364/OE.24.009067}}.
+\newline\urlprefix\url{http://www.opticsexpress.org/abstract.cfm?URI=oe-24-8-9067}
+
+\bibitem{bib:Takesue14}
+H.~Takesue,
+  \href{https://link.aps.org/doi/10.1103/PhysRevA.89.062328}{Entangling
+  time-bin qubits with a switch}, Phys. Rev. A\href
+  {http://dx.doi.org/10.1103/PhysRevA.89.062328}
+  {\path{doi:10.1103/PhysRevA.89.062328}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevA.89.062328}
+
+\bibitem{bib:HAK11}
+M.~A. Hall, J.~B. Altepeter, P.~Kumar,
+  \href{https://link.aps.org/doi/10.1103/PhysRevLett.106.053901}{Ultrafast
+  switching of photonic entanglement}, Phys. Rev. Lett.\href
+  {http://dx.doi.org/10.1103/PhysRevLett.106.053901}
+  {\path{doi:10.1103/PhysRevLett.106.053901}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.106.053901}
+
+\bibitem{bib:Humphreys13}
+P.~C. Humphreys, B.~J. Metcalf, J.~B. Spring, M.~Moore, X.-M. Jin, M.~Barbieri,
+  W.~S. Kolthammer, I.~A. Walmsley,
+  \href{https://link.aps.org/doi/10.1103/PhysRevLett.111.150501}{Linear optical
+  quantum computing in a single spatial mode}, Phys. Rev. Lett.\href
+  {http://dx.doi.org/10.1103/PhysRevLett.111.150501}
+  {\path{doi:10.1103/PhysRevLett.111.150501}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.111.150501}
+
+\bibitem{bib:Volz2012}
+T.~Volz, A.~Reinhard, M.~Winger, A.~Badolato, K.~J. Hennessy, E.~L. Hu,
+  A.~Imamo{\u g}lu, \href{http://dx.doi.org/10.1038/nphoton.2012.181}{Ultrafast
+  all-optical switching by single photons}, Nature Photonics 6 (2012) 605 EP
+  --.
+\newline\urlprefix\url{http://dx.doi.org/10.1038/nphoton.2012.181}
+
+\bibitem{bib:Bose2012}
+R.~Bose, D.~Sridharan, H.~Kim, G.~S. Solomon, E.~Waks,
+  \href{https://link.aps.org/doi/10.1103/PhysRevLett.108.227402}{Low-photon-number
+  optical switching with a single quantum dot coupled to a photonic crystal
+  cavity}, Phys. Rev. Lett.\href
+  {http://dx.doi.org/10.1103/PhysRevLett.108.227402}
+  {\path{doi:10.1103/PhysRevLett.108.227402}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.108.227402}
+
 \bibitem{bib:Brod16}
 D.~J. Brod, J.~Combes,
   \href{https://link.aps.org/doi/10.1103/PhysRevLett.117.080502}{Passive cphase
