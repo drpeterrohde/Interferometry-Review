@@ -4,7 +4,7 @@
 
 \documentclass[times,final]{elsarticle}
 \usepackage{revip}
-\usepackage{framed,multirow}
+\usepackage{framed,multirow,threeparttable}
 \usepackage{hyperref,mathrsfs,amsmath,amssymb,latexsym,array,hhline}
 \newcommand{\bra}[1]{\langle#1|}
 \newcommand{\ket}[1]{|#1\rangle}
@@ -13,6 +13,7 @@
 \usepackage{graphicx}
 \usepackage{caption}
 \usepackage{subcaption}
+
 
 %\usepackage[colorlinks]{hyperref}
 \usepackage[dvipsnames]{xcolor}
@@ -480,14 +481,21 @@ while those of the non-photon-number-resolving detectors are given by
 deadtime and contributes to photon loss in an APD. Deadtime delays for APDs range from tens of nanoseconds to $\mu$s.} Superconducting nanowire single-photon detector (SNSPD) is another  type of non-PNR detector. This detector operates in its superconducting phase just below the critical density, and it\sihui{s} phase changes back to normal when a photon is absorbed. This causes a spike in current around it, which, when detected, would indicate the absorption of the photon. \sihui{This SNSPD detector tends to be faster than the APD detector with lower dark count rates. However, they require low operating temperatures of 4K maintained by special cryogenic equipment that are expensive and bulky.}
 
 PNR detectors are a wonderful addition to the \sihui{linear optical} toolbox. A notable example is the superconducting transition edge sensor (TES) which has an extremely high quantum efficiency. The principle it operates on is very similar to the SNSPD, but with a much higher sensitivity that allows it to detect the energy of single photons. \sihui{They have low dark count rates, however, they are also quite slow, have low maximum counting rates, and, like the SNSPD detectors, are costly to operate due to their very low operating temperatures.} The visible light photon counter (VLPC) is another kind of PNR detector. The way VLPC works is in principle very similar to the APD, but with an additional layer of silicon that is lightly doped with arsenic (As). Owing to the presence of the As, a single photon absorption event always create an electrical signal that is always of the same magnitude. Thus, the output electrical signal is just proportional to the number of detected photons. \sihui{The VLPC can achieve a high quantum efficiency, in fact almost as high as that of the TES, and has a distinct advantage over the TES of not requiring superconducting temperatures. However, they do suffer from high dark count rate, and low speeds.}
-Last, PNR detectors can be created by connecting many non-PNR detectors in parallel to one another, and summing the signals at the output. For instance, like in the theoretical proposal of \cite{bib:Sperling12}. Such an approach has been successfully demonstrated with SNSPD \cite{bib:Divochiy08}, and APDs \cite{bib:Kalashnikov12,bib:Chrapkiewicz14,bib:Heilmanndc15}. \sihui{Some characteristic experimental values for the detector efficiency, timing jitter, dark count rates, and maximum photon number of different PNR detectors are given in Table \ref{table:PNR}.}
+Last, PNR detectors can be created by connecting many non-PNR detectors in parallel to one another, and summing the signals at the output. For instance, like in the theoretical proposal of \cite{bib:Sperling12}. Such an approach has been successfully demonstrated with SNSPD \cite{bib:Divochiy08}, and APDs \cite{bib:Kalashnikov12,bib:Chrapkiewicz14,bib:Heilmanndc15}. \sihui{Some characteristic experimental values for the detector efficiency, timing jitter, dark count rates, and maximum photon number of different photodetectors are given in Table \ref{table:PNR}.}
 
-\begin{table}[t]
+
+\begin{table}[t]\label{table:PNR}
 \centering
+\begin{threeparttable}
+\caption{Comparison of performance between some photodetectors. In part adapted from \cite{bib:Eisaman11}.}\label{table:PNR}
 \begin{tabular}{| >{\centering\arraybackslash}m{2cm} | >{\centering\arraybackslash}m{3cm} | >{\centering\arraybackslash}m{2cm} |>{\centering\arraybackslash}m{2cm} |>{\centering\arraybackslash}m{2cm} |} 
  \hline 
-\vspace{0.8mm} PNR & detector efficiency (\%) & timing jitter ($ns$) & dark counts ($1/s$) & maximum photon number \\ \hhline{|=|=|=|=|=|}
+\vspace{0.8mm} Detector type & detector efficiency (\%) & timing jitter ($ns$) & dark counts ($1/s$) & maximum photon number \\ \hhline{|=|=|=|=|=|}
 &&&& \\
+APD \cite{bib:Webster2012} & 72@560$nm$ & 0.09 & 18 & 1\tnote{a} \\
+&&&& \\
+SNSPD \cite{bib:Takesue07} & 0.7@1550$nm$ & 0.06 & 10 & 1\tnote{a} \\
+&&&&\\
   VLPC \cite{bib:Waks03}   & 85@543$nm$  & 2 & 20000 & 5 \\
   & & & & \\
   TES \cite{bib:Lita08} & 95@1556 & 100 & - & 7\\
@@ -501,9 +509,12 @@ Last, PNR detectors can be created by connecting many non-PNR detectors in paral
 &&&& \\
  \hline
 \end{tabular}
-\caption{Comparison of performance between some PNR detectors.}\label{table:PNR}
+\begin{tablenotes}
+\item[a] Has no photon-number-resolving capabilities.
+\end{tablenotes}
+\end{threeparttable}
 \end{table}
-
+%\footnote{Has no photon-number-resolving capabilities.}
 \section{Optical switching}
 
 \peter{
