@@ -87,32 +87,29 @@ Linear optics has seen a resurgence for applications in quantum information proc
 
 \section{Introduction}
 
-Linear optics play a prominent role in quantum information processing \cite{bib:LovettKok}. Photons make fantastic `flying' qubits, and are readily used for quantum communication \cite{bib:Northup14} and quantum key distribution \cite{bib:Lo14}. In 2001, Knill, Laflamme and Milburn (KLM) showed that efficient quantum computing is possible using only linear optical components, that is single photons, beamsplitters, phase shifters and photon counting  \sihui{for spatially encoded qubits \cite{bib:KLM01}. At about the same time, Koashi, Yamamoto, and Imoto essentially came to the same result for polarization-encoded qubits \cite{Koashi01}.} Furthermore, an optical implementation of quantum protocols can potentially piggyback on existing communication infrastructure. Combined with the relative ease of transporting quantum states of light, as compared to say trapped ions or superconducting qubits, linear optics forms a powerful platform for quantum information processing.
+Linear optics play a prominent role in quantum information processing \cite{bib:LovettKok}. Photons make fantastic `flying' qubits, and are readily used for quantum communication \cite{bib:Northup14} and quantum key distribution \cite{bib:Lo14}. In 2001, Knill, Laflamme and Milburn (KLM) showed that efficient quantum computing is possible using only linear optical components, that is single photons, beamsplitters, phase shifters and photon counting  \sihui{for spatially encoded qubits \cite{bib:KLM01}. At about the same time, Koashi, Yamamoto, and Imoto (KYI) essentially came to the same result for polarization-encoded qubits \cite{Koashi01}.} Furthermore, an optical implementation of quantum protocols can potentially piggyback on existing communication infrastructure. Combined with the relative ease of transporting quantum states of light, as compared to say trapped ions or superconducting qubits, linear optics forms a powerful platform for quantum information processing.
 
 The promises offered by linear optics have spearheaded many \sihui{scientific and} technical advancements. One of the major successes for linear optics is \sihui{the detection of gravitational waves by the LIGO experiments based on the Michelson interferometer \cite{bib:LIGO2015}. Another is} the paradigm shift from bulk optics to integrated photonics \cite{bib:Meany15}. The advantage of using such integrated photonics over bulk optics is that it is more stable against phase fluctuations, and miniaturized. This has increased the scalability of optical implementations of quantum information protocols. Furthermore, it is now possible to have single-photon sources and detectors together with linear-optical networks on a silica chip \cite{bib:Sprengers11, bib:Silverstone14}. Having all components on chip reduces coupling losses which would be crucial for fault-tolerance \cite{bib:Li15}.
 
-In the last decade, single photons have been produced mainly through \sihui{nonlinear optical processes know as spontaneous parametric down-conversion (SPDC) and spontaneous four-wave mixing (SFWM) \cite{bib:Eisaman11,bib:Xiong16,bib:Solntsev17}.} \sihui{Both SPDC and SFWM produce} single photons in correlated pairs that has been a staple source of entanglement. \sihui{However, SPDC uses up one pump photons per pair, while SFWM requires two.} Through developments in production, the number of high quality indistinguishable photons that can be simultaneously produced have increased steadily over the years. Single-photon pairs, once a novelty, are now run-of-the-mill business for quantum optical labs, and three or four photons have become commonplace \cite{bib:Spagnolo12, bib:Tillmann13, bib:Spring13,bib:Broome13}. Experiments using up to ten photons have been demonstrated \cite{bib:WangChen16, bib:Chen17}. We have also seen the meteoric rise of quantum dots in the role for producing single photons \cite{bib:Ding16,bib:WangHe16, bib:213601}. They are a scalable source of single photons which are highly indistinguishable, and are produced on demand--a significant advantage over SPDC which is an inherently probabilistic process.
+In the last decade, single photons have been produced mainly through \sihui{nonlinear optical processes know as spontaneous parametric down-conversion (SPDC) and spontaneous four-wave mixing (SFWM) \cite{bib:Eisaman11,bib:Xiong16,bib:Solntsev17}.} \sihui{Both SPDC and SFWM produce} single photons in correlated pairs that has been a staple source of entanglement. \sihui{However, SPDC uses up one pump photons per pair, while SFWM requires two.} Through developments in production, the number of high quality indistinguishable photons that can be simultaneously produced have increased steadily over the years. Single-photon pairs, once a novelty, are now run-of-the-mill business for quantum optical \sihui{laboratories}, and three or four photons have become commonplace \cite{bib:Spagnolo12, bib:Tillmann13, bib:Spring13,bib:Broome13, bib:Crespi13}. Experiments using up to ten photons have been demonstrated \cite{bib:WangChen16, bib:Chen17}. We have also seen the meteoric rise of quantum dots in the role for producing single photons \cite{bib:Ding16,bib:WangHe16, bib:213601}. They are a scalable source of single photons which are highly indistinguishable, and are produced on demand--a significant advantage over \sihui{nonlinear optical processes which are inherently probabilistic.}
 
 
 Another approach to linear optics is to pack more features known as 
 degrees of freedom onto a single photon, and to increase the degree 
 of control over them. It is possible to manipulate degrees of
 freedom like polarization, time-of-arrival, and orbital angular momentum \cite{bib:Tillmann2015,bib:Bozinovic2013, 
-bib:Nicolas2014, bib:Humphreys2013, bib:Donohue2013}. Since KLM, new proposals 
+bib:Nicolas2014, bib:Humphreys2013, bib:Donohue2013}. Since KLM \sihui{and KYI}, new proposals 
 for linear optical quantum computations (LOQC) have surfaced 
 \cite{bib:Nielsen04,bib:BrowneRudolph05,bib:Gimeno-Segovia15,bib:Pant17}. 
 \sihui {Some of them support new functionalities like secure delegated quantum 
-computations \cite{bib:Barz12,bib:Fisher14}}. Others do not promise 
-universality in their processing, but still performs tasks such as sampling 
-\cite{bib:Aaronson11}, \sihui{encrypted quantum walks \cite{bib:Rohde_qw12}}, 
-and secure quantum computations \cite{bib:Tan16} that might be hard or 
+computations \cite{bib:Barz12,bib:Fisher14, bib:Tan16}}. Others do not promise universality in their processing, but still performs tasks such as sampling \cite{bib:Aaronson11}, and \sihui{encrypted quantum walks \cite{bib:Rohde_qw12}} that might be hard or 
 impossible with a classical system.  Such methods open up new ways to engineer 
 quantum states and quantum operations, and expand the toolbox of baseline 
 resources we have for implementing quantum computations, which could prove 
 crucial in the race to achieve quantum supremacy. 
 
 
-We begin in Section \ref{sec:math} with an overview of the mathematical treatment of linear optical transformation on single photons, and in Section \ref{sec:encoding} with a description of some commonly used qubit encodings. Any unitary transformation acting on the spatial label of single photons can be efficiently decomposed into a network of beamsplitters and phase-shifters. We discuss this, and an extension to handle additional internal states, in Section \ref{sec:decomp}. For applying any linear optical circuit, one needs an accurate description of its unitary representation. A full quantum tomography is costly and time-consuming. Some practical methods have been devised to do this reconstruction without resorting to tomography, and these are described in Section \ref{sec:reconstruction}. In Section \ref{sec:state}, we recap the experimental breakthroughs in state preparation of single photons, and some entangled quantum states. This is followed by advances in time-bin based architecture for linear optical networks, and photodectors in Sections \ref{sec:timebins} and \ref{sec:detector} respectively. Last, but not least, we review applications for linear optical interferometry in LOQC, {\sc bosonsampling}, \sihui{ quantum metrology, and quantum repeater networks}.
+We begin in Section \ref{sec:math} with an overview of the mathematical treatment of linear optical transformation on single photons, and in Section \ref{sec:encoding} with a description of some commonly used qubit encodings. Any unitary transformation acting on the spatial label of single photons can be efficiently decomposed into a network of beamsplitters and phase-shifters. We discuss this, and an extension to handle additional internal states, in Section \ref{sec:decomp}. For applying any linear optical circuit, one needs an accurate description of its unitary representation. A full quantum tomography is costly and time-consuming. Some practical methods have been devised to do this reconstruction without resorting to tomography, and these are described in Section \ref{sec:reconstruction} \sihui{while quantum tomography is briefly discussed in Section \ref{secQPT}}. In Section \ref{sec:state}, we recap the experimental breakthroughs in state preparation of single photons, and some entangled quantum states. This is followed by advances in time-bin based architecture for linear optical networks, \sihui{photodectors, and optical switches in Sections \ref{sec:timebins}, \ref{sec:detector}, and \ref{sec:switch} respectively}. Last, but not least, we review applications for linear optical interferometry in \sihui{Section \ref{sec:applications}}.
 
 \section{Mathematical background}\label{sec:math}
 
@@ -120,7 +117,7 @@ A single photon in a quantum interferometer is described by its creation and ann
 \begin{align}
 b_i^{\dag}=\sum_{j=1}^d U_{ij}a_j^\dag \ ,
 \end{align}
-where $a_j^\dag$ and $b_i^\dag$ are the creation operators of a single input and output photon in the $j$-th and $i$-th modes respectively, and $U\in SU(d)$. All such transformations can be expressed as sequences of beamsplitters and phase-shifters \cite{bib:Reck1994} (see Section \ref{sec:decomp}). By convention, the interferometer is assumed to act only on the spatial mode of the input state.
+where $a_j^\dag$ and $b_i^\dag$ are the creation operators of a single input and output photon in the $j$-th and $i$-th modes respectively, and $U\in {\rm SU}(d)$. All such transformations can be expressed as sequences of beamsplitters and phase-shifters \cite{bib:Reck1994} (see Section \ref{sec:decomp}). By convention, the interferometer is assumed to act only on the spatial mode of the input state.
 
 Additional quantum labels are added to the creation and annihilation operators when other degrees of freedom, such as polarization, orbital angular momentum, and time-bins, are present. In this case, their commutator relation is
 \begin{align}
@@ -128,7 +125,7 @@ Additional quantum labels are added to the creation and annihilation operators w
 \end{align}
 where $\alpha$ and $\beta$ represent these other degrees of freedom. As a consequence, quantum interference between multiple photons only occur when all quantum labels are the same. It is also possible to derive an analogous decomposition to that of Reck {\it et al.~}that realizes the unitary transformation on such photons as a sequence of beamsplitters and internal transformations.
 
-Control of indistinguishability of these photons may enable future applications. Mathematical methods have been developed to deal with partial distinguishabilities among interfering photons, including those using group theory \cite{bib:Tan2013,bib:deGuise2014,bib:deGuise2015}, and quantum-to-classical transitions \cite{bib:Ra2013}. Recently, by controlling multiple degrees of freedom of single photons, genuine three-photon interference that has no independent entanglement between any two subpairs of photons was demonstrated  \cite{bib:Agne17,bib:Menssen17}.
+Control of indistinguishability of these photons may enable future applications. Mathematical methods have been developed to deal with partial distinguishabilities among interfering photons, including those using group theory \cite{bib:Tan2013,bib:deGuise2014,bib:Shchesnovich15,bib:deGuise2015}, and quantum-to-classical transitions \cite{bib:Ra2013}. Recently, by controlling multiple degrees of freedom of single photons, genuine three-photon interference that has no independent entanglement between any two subpairs of photons was demonstrated  \cite{bib:Agne17,bib:Menssen17}.
 
 \section{Optical encoding of quantum information on single-photons}\label{sec:encoding}
 
@@ -157,7 +154,7 @@ When physically constructing protocols based on polarisation-encoding, for obvio
 \subsection{Dual-rail}
 
 In dual-rail encoding, a single photon encodes a logical qubit as a superposition across two spatial modes,
-\begin{align}
+\begin{align}\label{eq:dualrail}
 \ket\psi_L = \alpha\ket{1,0} + \beta\ket{0,1},
 \end{align}
 where $\ket{i,j}$ is a two-mode state with $i$ ($j$) photons in the first (second) spatial mode. Using this encoding, phase-shifters and beamsplitters between the two spatial modes implement arbitrary single-qubit operations. Converting between polarisation- and dual-rail-encoding is trivial using polarising beamsplitters, which separate horizontal and vertical components into distinct spatial modes, or vice-versa.
@@ -244,11 +241,10 @@ The task of implementing an arbitrary quantum computation on linear optics comes
 
 \begin{figure}[!htb]
 \centering
-\includegraphics[width=0.4\columnwidth]{reck}
+\includegraphics[width=0.55\columnwidth]{reck}
 \caption{Efficient decomposition of arbitrary linear optics 
 networks into a sequence of beamsplitters and phase-shifters. 
-\sihui{This setup describes a generalized multi-port Mach-
-Zehnder interferometer}} \label{fig:Reck}	
+\sihui{This setup describes a generalized $n\times n$ multi-port Mach-Zehnder interferometer. Adapted from \cite{bib:Reck1994}.}} \label{fig:Reck}	
 \end{figure}
 
 \begin{figure}[!htb]
@@ -317,7 +313,9 @@ State tomography is achieved by measuring expectation values in a complete basis
 \begin{align}
 \hat\rho = \text{tr}({\hat\rho}) + \text{tr}(\hat{X}\hat{\rho})\hat{X} + \text{tr}({\hat{Y}\hat\rho})\hat{Y} + \text{tr}(\hat{Z}{\hat\rho})\hat{Z}.
 \end{align}
-\peter{These traces correspond exactly to the expectation values in the respective bases, which are easily determined using separable measurements. \sihui{Sometimes, it is possible to be able to do a tomography from an incomplete number of measurements, {\it i.e.} a number that is less than the number of expectation values, and it is possible using compressed sensing provided some sparsity conditions are met \cite{bib:GLFBE2010,bib:Titchener16,bib:Oren16}.} Process tomography employs state tomography as a primitive, applying an equivalent completeness relation, but across the space of quantum processes, which may be decomposed into a basis input to output states. For a single qubit process this may be represented as,}
+\peter{These traces correspond exactly to the expectation values in the respective bases, which are easily determined using separable measurements. \sihui{Sometimes, it is possible to be able to do a tomography from an incomplete number of measurements, {\it i.e.} a number that is less than the number of expectation values, and it is possible using compressed sensing provided some sparsity conditions are met \cite{bib:GLFBE2010,bib:Titchener16,bib:Oren16}. In cases where one only wishes to know if a given state is close to a presumed state, one can perform a certification test instead of state tomography \cite{bib:Aolita15}.}
+
+Process tomography employs state tomography as a primitive, applying an equivalent completeness relation, but across the space of quantum processes, which may be decomposed into a basis input to output states. For a single qubit process this may be represented as,}
 \begin{align} \label{eq:process_matrix}
 \mathcal{E}(\hat\rho) = \sum_{i,j=1}^4 \chi_{i,j} \hat{\sigma}_i\hat\rho\,\hat{\sigma}_j^\dag.
 \end{align}
@@ -377,7 +375,7 @@ The GHZ state is also known as the NOON state, because it is written as
 \begin{align}
 \ket{\psi^{\rm (NOON)}_n}=\frac{1}{\sqrt{2}}(\ket{n,0}+\ket{0,n})\ ,
 \end{align}
-in the second quantization representation. This notation is commonly used in quantum metrological applications.
+in the second quantization representation, \sihui{and the basis is the same as that for eq.~(\ref{eq:dualrail})}. This notation is commonly used in quantum metrological applications.
 
 \subsection{Cluster states}\label{section:cluster}
 
@@ -409,13 +407,18 @@ Although these gates are non-deterministic and consume qubits, strategies have b
 
 \sihui{
 \subsection{Quantum state engineering based on the multi-port Mach-Zehnder interferometer}
-Linear optical inteferometers have been used for quantum state engineering. One well-known example is that of optical state truncation, sometimes also referred to as quantum scissors, and it happens by way of a process known as projection synthesis [figure for this?].  Projection synthesis works by projecting an input state onto an output state by putting the former through a multiport interferometer, and then postselecting on a certain photon number output. Optical state truncation is a use of projection synthesis to use a continuous variable state represented in the Fock-state basis, $\ket{\phi}=\sum_{n=0}^\infty c_n\ket{n}$, to produce the normalized form of $\sum_{n=0}^d c_n\ket{n}$. The idea of projection synthesis was first conceived for the special case of $d=2$ \cite{bib:Pegg98, bib:Barnett99}, and later extended to $d=3$ \cite{bib:Koniorczyk2000}, and arbitrarily large $d$ \cite{bib:Miranowicz07, bib:Goyal13}. Notably, the scheme proposed in \cite{bib:Goyal13} uses multimode single photons and repeated uses of $d=2$ quantum scissors to extend the depth of truncation. 
+Linear optical inteferometers have been used for quantum state engineering. One well-known example is that of optical state truncation, sometimes also referred to as quantum scissors, and it happens by way of a process known as projection synthesis.  Projection synthesis works by projecting an input state onto an output state by putting the former through a multiport interferometer, and then postselecting on a certain photon number output. Optical state truncation is a use of projection synthesis to use a continuous variable state represented in the Fock-state basis, $\ket{\phi}=\sum_{n=0}^\infty c_n\ket{n}$, to produce the normalized form of $\sum_{n=0}^d c_n\ket{n}$. An example of the interferometer used for optical state truncation for the case $d=1$ is shown in Fig.~\ref{fig:qscissors}. The idea of projection synthesis was first conceived for the special case of $d=2$ \cite{bib:Pegg98, bib:Barnett99}, and later extended to $d=3$ \cite{bib:Koniorczyk2000}, and arbitrarily large $d$ \cite{bib:Miranowicz07, bib:Goyal13}. Notably, the scheme proposed in \cite{bib:Goyal13} uses multimode single photons and repeated uses of $d=2$ quantum scissors to extend the depth of truncation. 
 }
 
+\begin{figure}[!htb]
+\centering
+\includegraphics[width=0.3\columnwidth]{qscissors}
+\caption{Figure showing optical state truncation for $d=1$. The input state is $\ket{\phi}$, and when the photodetectors $D_1$ and $D_2$ register one and zero photons respectively, the output state is $\ket{\phi}_{\rm out}=c_0\ket{0}+c_1\ket{1}$ with an appropriate normalization factor. Adapted from \cite{bib:Pegg98}.} \label{fig:qscissors}	
+\end{figure}
 
 \section{Time-bin loop-based architecture for linear optical networks}\label{sec:timebins}
 
-Using time-bin encoding of optical qubits, the obvious question is how to perform operations upon them. In \cite{bib:Motes14}, a dual-loop architecture was presented for implementing arbitrary passive linear-optics on photonic pulse-trains with time-bin separation $\tau$, shown in Fig.~\ref{fig:FL_arch}. The inner loop has lengtxh exactly $\tau$, while the outer one has length $>n\tau$ ($n$ is the 
+\sihui{When} using time-bin encoding of optical qubits, the obvious question is\sihui{: how do we perform single-qubit and two-qubit} operations upon them. In \cite{bib:Motes14}, a dual-loop architecture was presented for implementing arbitrary passive linear-optics on photonic pulse-trains with time-bin separation $\tau$, shown in Fig.~\ref{fig:FL_arch}. The inner loop has length exactly $\tau$, while the outer one has length $>n\tau$ ($n$ is the 
 number of optical modes). The architecture is controlled via three 
 dynamically controlled beamsplitters. The first and last need only be on/off switches, whose sole purpose is to couple in the prepared pulse-train, 
 keep it within the outer loop for the required duration, and then couple 
@@ -463,26 +466,9 @@ As a simple example of how such time-bin encoding maps to other encodings, in Fi
 %\label{fig:PBS_TB}	
 %\end{figure}
 
-The above description applies to passive linear optics, which is sufficient for protocols such as {\sc BosonSampling}, but insufficient for universal optical quantum computation, which requires the addition of ancillary states, and measurement with fast-feedforward. To address this, it was shown in \cite{Rohde15} that by dynamically preparing ancillary pulse-trains (from the already-existing source), classically controlled by time-resolved measurements at the output, and changing the switching sequence, we can effectively couple in and out arbitrary subsets of the optical modes, enabling partial measurements to be implemented.
+The above description applies to passive linear optics, which is sufficient for protocols such as {\sc BosonSampling}, but insufficient for universal optical quantum computation, which requires the addition of ancillary states, and measurement with fast-feedforward. To address this, it was shown in \cite{Rohde15} that \sihui{partial measurements can be implemented by coupling in and out arbitrary subsets of the optical modes. The coupling is in turn achieved via dynamically preparing ancillary pulse-trains (using the already existing source) that are classically controlled by time-resolved measurements at the output, and changing the switching sequence conditional on these measurement outcomes.}
 
 \section{Photodetection}\label{sec:detector}
-
-Broadly speaking, there are two main classes of photodetectors: non-photon-number-resolving (also referred to as bucket, or on/off) detectors, and photon-number-resolving (PNR) detectors. As the names suggest, non-PNR detectors only detect the presence or absence of photons in an incident beam, while PNR detectors are able to measure its number of photons. The outcomes of a PNR detector are described by the measurement projectors,
-\begin{align}
-\hat\Pi_n &= \ket{n}\bra{n}, \ n=0,1,\ldots \ ,
-\end{align}
-while those of the non-photon-number-resolving detectors are given by
-\begin{align}
-\hat\Pi_\text{off} = \hat\Pi_0, \ {\rm and} \ \hat\Pi_\text{on} = \hat{I} - \hat\Pi_\text{on}\ .
-\end{align}
-\sihui{Theoretical modeling of these photodetectors can be made to include realistic effects such as detector finite efficiency, finite-number resolution, dark counts, and crosstalk. These effects are typically described as projections onto mixed states \cite{bib:BARNETT1998}, and their outcomes are represented by positive-operator valued measures. Such modeling allows us to analyze these realistic effects on various quantum information protocols, see for {\it e.g.~}\cite{bib:Ozdemir2001,bib:Sperling2014,bib:Tan2016}.} 
-
-\sihui{There are many different types of photodetectors. Detailed reviews have been written about \sihui{them} \cite{bib:Hadfield09,bib:Eisaman11}, so we shall only outline a few important examples. }A common example of a non-PNR detector is the avalanche photodiode (APD). These devices are made up of semiconductor material, usually silicon, which generate an electron that quickly generates a cascade of electrons. This avalanche of electrons generate a current that can be measured. APDs are affordable, offer low dark count rates with reasonable efficiency, and can be made to operate in a broad spectrum of wavelengths. \sihui{It is the preferred detection method in quantum information protocols as they are widely available, and do not require special environments to run like some of the other detectors, as we discuss later in this section. Nonetheless, they have their limitations. A downside to using APD is their deadtime, which is a period of time following an avalanche during which the avalanche is stopped by a quenching circuit to reset the APD. No photons can be detected during the 
-deadtime and contributes to photon loss in an APD. Deadtime delays for APDs range from tens of nanoseconds to $\mu$s.} Superconducting nanowire single-photon detector (SNSPD) is another  type of non-PNR detector. This detector operates in its superconducting phase just below the critical density, and it\sihui{s} phase changes back to normal when a photon is absorbed. This causes a spike in current around it, which, when detected, would indicate the absorption of the photon. \sihui{This SNSPD detector tends to be faster than the APD detector with lower dark count rates. However, they require low operating temperatures of 4K maintained by special cryogenic equipment that are expensive and bulky.}
-
-PNR detectors are a wonderful addition to the \sihui{linear optical} toolbox. A notable example is the superconducting transition edge sensor (TES) which has an extremely high quantum efficiency. The principle it operates on is very similar to the SNSPD, but with a much higher sensitivity that allows it to detect the energy of single photons. \sihui{They have low dark count rates, however, they are also quite slow, have low maximum counting rates, and, like the SNSPD detectors, are costly to operate due to their very low operating temperatures.} The visible light photon counter (VLPC) is another kind of PNR detector. The way VLPC works is in principle very similar to the APD, but with an additional layer of silicon that is lightly doped with arsenic (As). Owing to the presence of the As, a single photon absorption event always create an electrical signal that is always of the same magnitude. Thus, the output electrical signal is just proportional to the number of detected photons. \sihui{The VLPC can achieve a high quantum efficiency, in fact almost as high as that of the TES, and has a distinct advantage over the TES of not requiring superconducting temperatures. However, they do suffer from high dark count rate, and low speeds.}
-Last, PNR detectors can be created by connecting many non-PNR detectors in parallel to one another, and summing the signals at the output. For instance, like in the theoretical proposal of \cite{bib:Sperling12}. Such an approach has been successfully demonstrated with SNSPD \cite{bib:Divochiy08}, and APDs \cite{bib:Kalashnikov12,bib:Chrapkiewicz14,bib:Heilmanndc15}. \sihui{Some characteristic experimental values for the detector efficiency, timing jitter, dark count rates, and maximum photon number of different photodetectors are given in Table \ref{table:PNR}.}
-
 
 \begin{table}[t]\label{table:PNR}
 \centering
@@ -496,16 +482,19 @@ APD \cite{bib:Webster2012} & 72@560$nm$ & 0.09 & 18 & 1\tnote{a} \\
 &&&& \\
 SNSPD \cite{bib:Takesue07} & 0.7@1550$nm$ & 0.06 & 10 & 1\tnote{a} \\
 &&&&\\
-  VLPC \cite{bib:Waks03}   & 85@543$nm$  & 2 & 20000 & 5 \\
+  VLPC \cite{bib:Waks03}   & 85@543$nm$  & 2 & 20 000 & 5 \\
   & & & & \\
-  TES \cite{bib:Lita08} & 95@1556 & 100 & - & 7\\
+  TES \cite{bib:Lita08} & 95@1556$nm$ & 100 & - & 7\\
  TES \cite{bib:MillerNam03} & 20@1310$nm$  & 100 & $<10^{-3}$ & 15 \\
   & 20@1550$nm$ & & & \\
   TES \cite{bib:Gerrits12} & 89@1550$nm$ & - & - & 1000 \\
   &&&& \\
- Parallel SNSPD \cite{bib:Divochiy08} & 2@1300 & 0.05 & 0.15 & 4 \\
+ Parallel SNSPD \cite{bib:Divochiy08} & 2@1300$nm$ & 0.05 & 0.15 & 4 \\
  &&&&\\
- Series SNSPD \cite{bib:Mattioli16} & 0.5@1310 & 0.116 & - & 24\\
+ Series SNSPD \cite{bib:Mattioli16} & 0.5@1310$nm$ & 0.116 & - & 24\\
+ &&&&\\
+ MPPC \cite{bib:Afek09} & 50@400$nm$ & 20 & 115 000 & 10 \\
+ & 8@800$nm$&&& \\
 &&&& \\
  \hline
 \end{tabular}
@@ -514,11 +503,31 @@ SNSPD \cite{bib:Takesue07} & 0.7@1550$nm$ & 0.06 & 10 & 1\tnote{a} \\
 \end{tablenotes}
 \end{threeparttable}
 \end{table}
-%\footnote{Has no photon-number-resolving capabilities.}
-\section{Optical switching}
+
+Broadly speaking, there are two main classes of photodetectors: non-photon-number-resolving (also referred to as bucket, or on/off) detectors, and photon-number-resolving (PNR) detectors. As the names suggest, non-PNR detectors only detect the presence or absence of photons in an incident beam, while PNR detectors are able to measure its number of photons. The outcomes of a PNR detector are described by the measurement projectors,
+\begin{align}
+\hat\Pi_n &= \ket{n}\bra{n}, \ n=0,1,\ldots \ ,
+\end{align}
+while those of the non-photon-number-resolving detectors are given by
+\begin{align}
+\hat\Pi_\text{off} = \hat\Pi_0, \ {\rm and} \ \hat\Pi_\text{on} = \hat{I} - \hat\Pi_\text{on}\ .
+\end{align}
+\sihui{Theoretical modeling of these photodetectors can be made to include realistic effects such as detector finite efficiency, finite-number resolution, dark counts, and crosstalk \cite{bib:LeeYurtsever04, bib:Ramilli10,bib:Kalashnikov12}. These effects are typically described as projections onto mixed states \cite{bib:BARNETT1998}, and their outcomes are represented by positive-operator valued measures. Such modeling allows us to analyze these realistic effects on various quantum information protocols, see for {\it e.g.~}\cite{bib:Ozdemir2001,bib:Sperling2014, bib:Matthews16}, and update our characterization of non-classicality \cite{bib:Sperlingbinomial12,bib:Kalashnikov12b, bib:Sperling15,bib:Heilmanndc15, bib:Tan2016}.}
+
+\sihui{There are many different types of photodetectors. Detailed reviews have been written about \sihui{them} \cite{bib:Hadfield09,bib:Eisaman11}, so we shall only outline a few important examples. }A common example of a non-PNR detector is the avalanche photodiode (APD). These devices are made up of semiconductor material, usually silicon, which generate an electron that quickly generates a cascade of electrons. This avalanche of electrons generate a current that can be measured. APDs are affordable, offer low dark count rates with reasonable efficiency, and can be made to operate in a broad spectrum of wavelengths. \sihui{It is the preferred detection method in quantum information protocols as they are widely available, and do not require special environments to run like some of the other detectors, as we discuss later in this section. Nonetheless, they have their limitations. A downside to using APD is their deadtime, which is a period of time following an avalanche during which the avalanche is stopped by a quenching circuit to reset the APD. No photons can be detected during the 
+deadtime and contributes to photon loss in an APD. Deadtime delays for APDs range from tens of nanoseconds to $\mu$s.} Superconducting nanowire single-photon detector (SNSPD) is another  type of non-PNR detector. This detector operates in its superconducting phase just below the critical density, and it\sihui{s} phase changes back to normal when a photon is absorbed. This causes a spike in current around it, which, when detected, would indicate the absorption of the photon. \sihui{This SNSPD detector tends to be faster than the APD detector with lower dark count rates. However, they require low operating temperatures of 4K maintained by special cryogenic equipment that are expensive and bulky.}
+
+
+
+PNR detectors are a wonderful addition to the \sihui{linear optical} toolbox. A notable example is the superconducting transition edge sensor (TES) which has an extremely high quantum efficiency. The principle it operates on is very similar to the SNSPD, but with a much higher sensitivity that allows it to detect the energy of single photons. \sihui{They have low dark count rates, however, they are also quite slow, have low maximum counting rates, and, like the SNSPD detectors, are costly to operate due to their very low operating temperatures.} The visible light photon counter (VLPC) is another kind of PNR detector. The way VLPC works is in principle very similar to the APD, but with an additional layer of silicon that is lightly doped with arsenic (As). Owing to the presence of the As, a single photon absorption event always create an electrical signal that is always of the same magnitude. Thus, the output electrical signal is just proportional to the number of detected photons. \sihui{The VLPC can achieve a high quantum efficiency, in fact almost as high as that of the TES, and has a distinct advantage over the TES of not requiring superconducting temperatures. However, they do suffer from high dark count rate, and low speeds.}
+Last, PNR detectors can be created by connecting many non-PNR detectors in parallel to one another, and summing the signals at the output. For instance, like in the theoretical proposal of \cite{bib:Sperling12}. Such an approach has been successfully demonstrated with SNSPD \cite{bib:Divochiy08}, and spatially multiplexed APDs known as multi-pixel photon counters (MPPCs) \cite{bib:Afek09, bib:Chrapkiewicz14}. \sihui{Characteristic experimental values for the detector efficiency, timing jitter, dark count rates, and maximum photon number of some types of photodetectors are given in Table \ref{table:PNR}.}
+
+
+
+\section{Optical switching}\label{sec:switch}
 
 \peter{
-Some of the protocols thus far require switching between different optical modes. \sihui{One way to achieve this experimentally for time-bin qubits is} via a Mach-Zehnder interferometer with a dynamic, classically-controlled phase-shift in one path \cite{bib:Takesue14}. The variable phase may be implemented in a number of ways using various types of phase modulators, such as electro-optic or acousto-optic modulators. With this construction setting the phase to $\phi=0$ performs the identity operation, whereas for $\phi=\pi$ it performs a swap gate. This is shown in Fig. \ref{figMZ}. \sihui{Ref.~\cite{bib:Takesue14} reports a switching time of 100 picoseconds for this type of switch.}
+Some of the protocols thus far require switching between different optical modes. \sihui{One way to achieve this experimentally for time-bin qubits uses} a Mach-Zehnder interferometer with a dynamic, classically-controlled phase-shift in one path \cite{bib:Takesue14} (see Fig.~\ref{figMZ}). The variable phase may be implemented in a number of ways using various types of phase modulators, such as electro-optic or acousto-optic modulators. With this construction setting the phase to $\phi=0$ performs the identity operation, whereas for $\phi=\pi$ it performs a swap gate.\sihui{Ref.~\cite{bib:Takesue14} reports a switching time of 100 picoseconds for this type of switch.}
 }
 
 \begin{figure}[!htb]
@@ -527,10 +536,10 @@ Some of the protocols thus far require switching between different optical modes
 \caption{} \label{figMZ}
 \end{figure}
  
- \sihui{It is also possible to perform switching of photons by first converting temporal and spatial labels of the photon to a polarization one, and then perform a fast polarization switch before converting it back \cite{bib:HAK11,bib:Humphreys13}. Such switches are able to achieve a polarization switch within a 10 picoseconds time window. Other ways rely on conditional scattering of signal photons on ultrafast timescales, usually involving coupling between field modes and strongly correlated systems \cite{bib:Volz2012, bib:Bose2012, bib:Dietrich16}. The typical speed for this type of switching is of order of picoseconds \cite{bib:Dietrich16}.
+ \sihui{Another way to perform switching is to first convert temporal and spatial labels of the photon to a polarization one, and then perform a fast polarization switch before converting it back \cite{bib:HAK11,bib:Humphreys13}. Such switches are able to achieve a polarization switch within a 10 picoseconds time window. Other ways rely on conditional scattering of signal photons on ultrafast timescales, usually involving coupling between field modes and strongly correlated systems \cite{bib:Volz2012, bib:Bose2012, bib:Dietrich16}. The typical speed for this type of switching is of order of picoseconds \cite{bib:Dietrich16}.
  }
  
-\sihui{This concept for switching is widely used in current labs, however it is very slow using present-day technology. Although switching on its own can be completed in a timespan of the order of picoseconds, the process is slowed by the time needed for its control electronic. This is especially crucial in switching for the purposes of fast-feedforward that is required, for example, for universal optical quantum computing. In this application, we would require total switching times, including time for control electronics to respond, on the order of nanoseconds, {\it i.e.~}faster than the time to the destination of the light it needs to switch, and this is still not possible. Presently this remains a daunting challenge, requiring much further research, with quantum memories being a candidate for loosening the switching time limitations.
+\sihui{This concept for switching is widely used in current laboratories, however it is very slow using present-day technology. Although switching on its own can be completed in a timespan of the order of picoseconds, the process is slowed by the response time needed for its electronic control. Overcoming this hurdle is especially crucial in switching for fast-feedforward that is required, for example, in universal optical quantum computing. In this application, we would require total switching times, including time for control electronics to respond, on the order of nanoseconds, {\it i.e.~}faster than the time to the destination of the light it needs to switch, and this is still not possible. Presently this remains a daunting challenge, requiring much further research, with quantum memories being a candidate for loosening the switching time limitations.
 }
 
 %\peter{
@@ -571,7 +580,7 @@ Some of the protocols thus far require switching between different optical modes
 %important role of detectors in linear optical quantum computation 
 %(see Section \ref{sec:LOQC}), more could be done to improve them.
 
-\section{Applications for linear optics interferometry}
+\section{Applications for linear optics interferometry}\label{sec:applications}
 
 \subsection{Linear optical quantum computation (LOQC)}\label{sec:LOQC}
 The advancements in linear optics have opened up avenues for implementation. One of the key requirements is nonlinear couplings between the different optical modes. Photons do not naturally interact with one another so some careful engineering is needed to achieve this coupling. Methods used include measurements and feedforwarding \cite{bib:KLM01}, and photon-atom interactions \cite{bib:Brod16}. The former requires non-deterministic operations, which succeed only part of the time and have to be repeated. This can be challenging given the limited resources to begin with. \sihui{Various linear-optical implementations of two-qubit gates important for approximately universal quantum computation are listed in Ref.~\cite{bib:Bartkowiak2010}, and comprehensive reviews have been written previously to cover this topic \cite{bib:JW12,bib:Kok05}, hence we will focus on recent advances.}
@@ -588,7 +597,7 @@ Cross-Kerr nonlinearity is a type of nonlinearity implemented through
  quantum gates.
  
   
-  Although there has been tremendous progress in linear optics, it seems likely that an efficient, and fault-tolerant universal quantum computer will require a hybrid system. \sihui{We also briefly mention here that single photons and waveplates are used in a related application, namely, quantum key distribution (QKD). While QKD fundamentally does not require interferometry \cite{bib:BennetBrassard84,bib:Ekert91}, some QKD protocols rely on the Mach-Zehnder \cite{Bennett92, bib:Hughes2000,bib:Sasaki14,bib:Takesue15} and Franson interferometers \cite{bib:Ali-Khan07,bib:Brougham13}. Practical quantum key distribution relying on photonic technology is reviewed in \cite{bib:Scarani09,bib:Hoi-Kwong14}, and incredibly has been implemented at a distance of 1200 km by Earth-satellite transmissions \cite{bib:Liao17}. On the other hand, optimal quantum-optical cloning implementations \cite{bib:Fan2014} based on Mach-Zehnder interferometers have been applied to perform attacks on known quantum cryptographic schemes \cite{bib:Bartkiewicz2013,bib:Bartkiewicz2017}. Thus, linear optics remains fascinating platform for applications and foundation work. 
+  Although there has been tremendous progress in linear optics, it seems likely that an efficient, and fault-tolerant universal quantum computer will require a hybrid system. \sihui{Linear optics is still interesting in its own right for other tasks as discussed in the remainder of this sections. We also briefly mention here that single photons and waveplates are used in an already commercial application, namely, quantum key distribution (QKD). While QKD fundamentally does not require interferometry \cite{bib:BennetBrassard84,bib:Ekert91}, some QKD protocols rely on the Mach-Zehnder \cite{Bennett92, bib:Hughes2000,bib:Sasaki14,bib:Takesue15} and Franson interferometers \cite{bib:Ali-Khan07,bib:Brougham13}. Practical quantum key distribution relying on photonic technology is reviewed in \cite{bib:Scarani09,bib:Hoi-Kwong14}, and incredibly has been implemented at a distance of 1200 km by Earth-satellite transmissions \cite{bib:Liao17}. On the other hand, optimal quantum-optical cloning implementations \cite{bib:Fan2014} based on Mach-Zehnder interferometers have been applied to perform attacks on known quantum cryptographic schemes \cite{bib:Bartkiewicz2013,bib:Bartkiewicz2017}. Thus, linear optics remains fascinating platform for applications and foundation work. 
 }
 
 
@@ -601,14 +610,14 @@ The difficulty in producing nonlinear operations required for universal LOQC led
 p(s_1,\ldots,s_m)=\frac{|{\rm Per}(U_S)|^2}{s_1!\ldots s_n!} \ ,	
 \end{align}
 %<<<<<<< HEAD:paper.tex
-where $\text{Per}()$ denotes the permanent of a matrix, $S=\{s_1,\dots,s_m\}$ denotes an output photon-number configuration, and $U_S$ is obtained from the interferometer unitary $U$ by keeping its first $n$ columns and repeating its $j$th row $s_j$ times. The appearance of the permanent, which is \#P-hard in general (a complexity class even harder than NP-hard), in this statistics contributes to the hardness of the boson-sampling problem. Note that the number of configurations $|S|=\binom{n+m-1}{n}$ in the output superposition scales exponentially with $m$. For this reason, the boson sampler does not let us \emph{calculate} matrix permanents, as this would require knowing individual amplitudes with high precision, which would require an exponential number of samples. Rather, the boson sampler samples across a distribution of permanents without actually revealing any of them to the experimenter. Nonetheless, this is a classically intractable problem. It is also known that boson-sampling is as hard as stimulating the short time evolution of a certain Hamiltonian\cite{bib:Peropadre17}.
+where $\text{Per}()$ denotes the permanent of a matrix, $S=\{s_1,\dots,s_m\}$ denotes an output photon-number configuration, and $U_S$ is obtained from the interferometer unitary $U$ by keeping its first $n$ columns and repeating its $j$th row $s_j$ times. The appearance of the permanent, which is \#P-hard in general (a complexity class even harder than NP-hard), in this statistics contributes to the hardness of the boson-sampling problem. Note that the number of configurations $|S|=\binom{n+m-1}{n}$ in the output superposition scales exponentially with $m$. For this reason, the boson sampler does not let us \emph{calculate} matrix permanents, as this would require knowing individual amplitudes with high precision, which would require an exponential number of samples. Rather, the boson sampler samples across a distribution of permanents without actually revealing any of them to the experimenter. Nonetheless, this is a classically intractable problem. It is also known that boson-sampling is as hard as stimulating the short time evolution of a certain Hamiltonian \cite{bib:Peropadre17}.
 
 %>>>>>>> origin/master:(PR final edits) linear_optics_review/paper.tex
 
 \begin{figure}[!htb]
 \centering
 \includegraphics[width=0.3\columnwidth]{BS_model}
-\caption{The Boson-Sampling model. A string of n singlephotons is prepared in m optical modes. They are evolvedvia a passive interferometer $U$. Finally the photon-statisticsare sampled from the distribution $p(s_1,\ldots,s_m)$.
+\caption{The Boson-Sampling model. A string of $n$ singlephotons is prepared in $m$ optical modes. They are evolvedvia a passive interferometer $U$. Finally the photon-statisticsare sampled from the distribution $p(s_1,\ldots,s_m)$.
 } \label{fig:BosonSampling}	
 \end{figure} 
 
@@ -617,16 +626,12 @@ Owing to the simplicity of {\sc BosonSampling} and its overarching implications 
 
 Certifying that a {\sc bosonsampling} task has been correctly performed is non-trivial. Some efforts look into discriminating between a valid {\sc bosonsampling} and a uniform distributions \cite{bib:Gogolin13,bib:Aaronson13}. Another shows how to discriminate data arising from either indistinguishable or distinguishable photons \cite{bib:Spagnolo14,bib:Carolan14}. More general benchmark standards have also been instituted \cite{bib:Walschaeprs16}. Another approach to verify that the interferometer is behaving as expected is to make use of suppression laws \cite{bib:Tichy14} together with fully reconfigurable optical circuits. When the circuits are tuned to implement certain unitary matrices, specific input and output combinations are suppressed \cite{bib:Crespi16}. Last but not least, a bound for the transition amplitudes for {\sc bosonsampling} indicates that an approximation algorithm for the permanent is possible \cite{bib:Yung16}. Such an algorithm can help with verifying the sampling distribution, but their proof does not construct the algorithm needed for this to happen.
 
-As experimental imperfections threaten the scalability of {\sc bosonsampling}, there have been efforts to look into its error tolerance \cite{bib:Rohde12_tol}, fault-tolerance \cite{bib:Leverrier15}, and experimental artefacts \cite{bib:Shchesnobich14,bib:Tamma16}. Some works have resulted in interesting connections to exotic mathematical entities like immanants \cite{bib:Tan2013,bib:deGuise2014} and the multi-dimensional permanent \cite{bib:Tichy15}. A time-bin implementation of {\sc bosonsampling} \cite{bib:Motes14} seems particularly attractive in terms of robustness \cite{bib:Motes15_timebin}.
-
-\subsection{Other sampling problems -- hard \& easy}
-
 \peter{
 Numerous other sampling problems have since been described, using, for example,
 \begin{enumerate}
 	\item Cat states (superpositions of coherent states)
-	\item Photon-added coherent states .
-	\item Photon-added or -subtracted squeezed vacuum states.
+	\item Photon-added coherent states.
+	\item Photon-added or photon-subtracted squeezed vacuum states.
 	\item Two-mode squeezed vacuum states (SPDC states).
 	\item Gaussian states.
 	\item Positive P-function states.
@@ -634,7 +639,10 @@ Numerous other sampling problems have since been described, using, for example,
 }
 
 \peter{
-Of these, 1-4 have been shown to yield hard sampling problems under photodetection, assuming certain reasonable complexity assumptions. And 5-6 have been shown to implement polynomial-time classical algorithms, under Gaussian measurements.}
+Of these, 1--4 have been shown to yield hard sampling problems under photodetection, assuming certain reasonable complexity assumptions. And 5--6 have been shown to implement polynomial-time classical algorithms, under Gaussian measurements.}
+
+As experimental imperfections threaten the scalability of {\sc bosonsampling}, there have been efforts to look into its error tolerance \cite{bib:Rohde12_tol}, fault-tolerance \cite{bib:Leverrier15}, and experimental artefacts \cite{bib:Shchesnobich14,bib:Tamma16}. Some works have resulted in interesting connections to exotic mathematical entities like immanants \cite{bib:Tan2013,bib:deGuise2014} and the multi-dimensional permanent \cite{bib:Tichy15}. A time-bin implementation of {\sc bosonsampling} \cite{bib:Motes14,bib:HeDing17} seems particularly attractive in terms of robustness \cite{bib:Motes15_timebin}.
+
 
 \sihui{
 \subsection{Quantum simulations}
@@ -682,19 +690,19 @@ An archetypal task for quantum metrology is the following: Given a Mach-\sihui{Z
 \subsection{Repeater networks}
 
 
-Quantum repeaters are devices that distribute entanglement across a network, or teleport quantum states between nodes of a network. The purpose of such a quantum network is to communicate and process quantum information over long distances. While photons serve as great medium for information transfer, many implementations of photonic repeater network require some kind of nonlinear interactions involving cavities for entanglement distillation \cite{Briegel98}, quantum memories \cite{Duan01}, or feedforwarding \cite{bib:Azuma15}. The seminal work of Duan et al.~ \cite{Duan01}, in particular, uses atomic ensemble as quantum memories. Single photon interference then facilitates creation of entanglement between them. However, this makes the repeater node susceptible to interferometric instability which later schemes improve upon by using two-photon interference instead \cite{Zhao07,YCZCS08,CZCS07}. Error correction codes for photon loss and dark counts \cite{bib:RHG05} have also been applied for use in repeaters \cite{bib:MHSDN10,bib:Muralidhara14,bib:Ewert16,bib:Ewert17}. Another scheme combines the use of two-photon interference and spectral multiplexing to boost high entanglement distribution rates \cite{bib:Sinclair14}.  
+Quantum repeaters are devices that distribute entanglement across a network, or teleport quantum states between nodes of a network. The purpose of such a quantum network is to communicate and process quantum information over long distances. While photons serve as useful medium for information transfer, many implementations of photonic repeater network require some kind of nonlinear interactions involving cavities for entanglement distillation \cite{Briegel98}, quantum memories \cite{Duan01}, or feedforwarding \cite{bib:Azuma15}. The seminal work of Duan et al.~ \cite{Duan01}, in particular, uses atomic ensemble as quantum memories. Single photon interference then facilitates creation of entanglement between them. However, this makes the repeater node susceptible to interferometric instability which later schemes improve upon by using two-photon interference instead \cite{Zhao07,YCZCS08,CZCS07}. Error correction codes for photon loss and dark counts \cite{bib:RHG05} have also been applied for use in repeaters \cite{bib:MHSDN10,bib:Muralidhara14,bib:Ewert16,bib:Ewert17}. Another scheme combines the use of two-photon interference and spectral multiplexing to boost high entanglement distribution rates \cite{bib:Sinclair14}.  
 
-Without the use of repeaters, it has been shown that the rate transmission of a channel with loss without entanglement assistance has a linear fallout \cite{bib:TGW14}, and its bound is known as the Takeoka-Guha-Wilde (TGW) bound. The minimal resources required to exceed the TGW bound is a subject of active research, and so far it has been shown that the performance of the repeater schemes of Ewert-Bergmann-van Loock \cite{bib:Ewert16}, and Sinclair et al. \cite{bib:Sinclair14} are able to exceed the TGW bound. Other benchmarking tools have also been used to analyze many of these repeater schemes in detail \cite{bib:Muralidhara16}. In terms of implementation, the greatest distance that a quantum state has been teleported to-date is 1400 km \cite{bib:Ren17}, and is demonstrated between an earth-based source with a detection unit on a satellite in space. This is a culmination of many decades of research from many groups in extending this distance. If it could be made to work with other basic units of quantum repeater networks that have been implemented \cite{bib:Kimble08,bib:Sangouard11, bib:MATN15}, a large-scale, long-distance repeater network could soon be possible.
+Without the use of repeaters, it has been shown that the rate transmission of a channel with loss without entanglement assistance has a linear fallout \cite{bib:TGW14}, and its bound is known as the Takeoka-Guha-Wilde (TGW) bound. The minimal resources required to exceed the TGW bound is a subject of active research, and so far it has been shown that the performance of the repeater schemes of Ewert-Bergmann-van Loock \cite{bib:Ewert16}, and Sinclair et al. \cite{bib:Sinclair14} are able to exceed the TGW bound. Other benchmarking tools have also been used to analyze some of these repeater schemes in detail \cite{bib:Muralidhara16}. In terms of implementation, the greatest distance that a quantum state has been teleported to-date is 1400 km \cite{bib:Ren17}, and is demonstrated between an earth-based source with a detection unit on a satellite in space. This is a culmination of many decades of research from many groups in extending this distance. If it could be made to work with other basic units of quantum repeater networks that have been implemented \cite{bib:Kimble08,bib:Sangouard11, bib:MATN15}, a large-scale, long-distance repeater network could soon be possible.
 
 }
 
 \section{Conclusion}
 
-Linear optical interferometry has become a leading contender for the implementation of quantum information processing protocols. The preparation, manipulation and measurement of photonic quantum information has become mainstream and widely employed, with impressive experimental accuracies.
+Linear optical interferometry has become a leading contender for the implementation of quantum information processing protocols. The preparation, manipulation and measurement of photonic quantum information \sihui{is already} mainstream and widely employed, with impressive experimental accuracies.
 
 We have discussed the various ways in which quantum information can be represented \sihui{in photonics}, how they can be manipulated and detected, and some of their leading applications.
 
-Although there are countless physical architectures for the implementation of quantum information processing, and it is far from certain which will win `the quantum race for supremacy, optics will always find a home as the only contender for applications involving quantum communication. For this reason, the future of linear optics interferometry is a bright one, which will find inevitable applicability in the future quantum world.
+Although there are countless physical architectures for the implementation of quantum information processing, and it is far from certain which will win `the quantum race for supremacy, optics will always find a home as the only contender for applications involving quantum communication. For this reason, the future of linear optics interferometry is a bright one, a sentiment echoed by others \cite{bib:Rudolph17}, which will find inevitable applicability in the future quantum world.
 
 %
 % Acknowledgments
