@@ -1,56 +1,745 @@
-This is BibTeX, Version 0.99d (TeX Live 2014)
+This is BibTeX, Version 0.99d (TeX Live 2016)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: /Users/peterrohde/OneDrive/Documents/Publications/GitHub/Interferometry-Review/.texpadtmp/peter.aux
-The style file: apsrev.bst
-Reallocated singl_function (elt_size=4) to 100 items from 50.
+The top-level auxiliary file: /Users/124106/Library/Mobile Documents/com~apple~CloudDocs/Publications/GitHub/Interferometry-Review/.texpadtmp/peter.aux
+The style file: ../elsarticle-num.bst
+output.null is an unknown function---line 1113 of file ../elsarticle-num.bst
 Database file #1: ../paper.bib
-Repeated entry---line 2253 of file ../paper.bib
- : @article{bib:OBrien04
- :                      ,
+Warning--string name "x" is undefined
+--line 26 of file ../paper.bib
+Missing "}" in string command---line 26 of file ../paper.bib
+ : @string{pra          =x 
+ :                         "Phys. Rev. A"}
+I'm skipping whatever remains of this command
+I was expecting a `,' or a `}'---line 1225 of file ../paper.bib
+ :   
+ :   year = {2015}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1266 of file ../paper.bib
+ :     journal = Opt. 
+ :                    Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1569 of file ../paper.bib
+ :    journal = Phys. 
+ :                    Rev. A,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1575 of file ../paper.bib
+ : @article{bib:Kim01
+ :                   ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1591 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1600 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+Warning--string name "phy." is undefined
+--line 1609 of file ../paper.bib
+I was expecting a `,' or a `}'---line 1609 of file ../paper.bib
+ :     journal = phy. 
+ :                    Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1618 of file ../paper.bib
+ :  journal = Phys. 
+ :                  Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1626 of file ../paper.bib
+ :  journal = Phy. 
+ :                 Rev. A,
+I'm skipping whatever remains of this entry
+You're missing a field name---line 1654 of file ../paper.bib
+ : 
+ : %    author  = "Daniel E. Browne and Terry Rudolph and Michael
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1664 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1673 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1714 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1723 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1732 of file ../paper.bib
+ :  journal = Phys. 
+ :                  Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1752 of file ../paper.bib
+ :   journal = Phys. 
+ :                   Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1786 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1814 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1832 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1841 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1850 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1871 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1889 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1914 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1932 of file ../paper.bib
+ :  journal = Phys. 
+ :                  Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1941 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1962 of file ../paper.bib
+ :  journal = Phys. 
+ :                  Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1971 of file ../paper.bib
+ :  journal = Phys. 
+ :                  Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1992 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2001 of file ../paper.bib
+ :  journal = Phys. 
+ :                  Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2043 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2164 of file ../paper.bib
+ : 
+ : s}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2180 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2189 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2209 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2248 of file ../paper.bib
+ :     journal = Am. 
+ :                   J. Phys.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2265 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2273 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2282 of file ../paper.bib
+ :  journal = J. 
+ :               Opt. B,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2291 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2312 of file ../paper.bib
+ :  journal = Phys. 
+ :                  Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2329 of file ../paper.bib
+ :     journal = Rev. 
+ :                    Mod. Phys.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2338 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2347 of file ../paper.bib
+ :  journal = Phys. 
+ :                  Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2386 of file ../paper.bib
+ :   journal = Phys. 
+ :                   Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2396 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2426 of file ../paper.bib
+ :  journal = Phys. 
+ :                  Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2442 of file ../paper.bib
+ :     journal = J. 
+ :                  Opt. B,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2458 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Lett. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2467 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2483 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2492 of file ../paper.bib
+ :  journal = J. 
+ :               Mod. Opt.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2501 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2510 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2519 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2528 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2544 of file ../paper.bib
+ :  journal  = Phys. 
+ :                   Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2566 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2612 of file ../paper.bib
+ :  journal = Phys. 
+ :                  Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2621 of file ../paper.bib
+ :  journal = New 
+ :                J. Phys.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2630 of file ../paper.bib
+ :     journal = Appl. 
+ :                     Phys. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2639 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2732 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2741 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2790 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+Warning--string name "rev." is undefined
+--line 3069 of file ../paper.bib
+I was expecting a `,' or a `}'---line 3069 of file ../paper.bib
+ :     journal = rev. 
+ :                    Mod. Phys.,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3114 of file ../paper.bib
+ : @article{bib:Huh15
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3279 of file ../paper.bib
+ : @article{bib:Baumgratz16
+ :                         ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3355 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3364 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3371 of file ../paper.bib
+ :   journal = Phys. 
+ :                   Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3381 of file ../paper.bib
+ :  journal = New 
+ :                J. Phys.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3394 of file ../paper.bib
+ :   journal = J. 
+ :                Opt. B,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3404 of file ../paper.bib
+ :  journal = Phys. 
+ :                  Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3413 of file ../paper.bib
+ :  journal = Phys. 
+ :                  Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3422 of file ../paper.bib
+ :  journal = Phys. 
+ :                  Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3431 of file ../paper.bib
+ :     journal = J. 
+ :                  Mod. Opt.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3440 of file ../paper.bib
+ :     journal = Appl. 
+ :                     Phys. B,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3449 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3492 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3501 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3510 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3519 of file ../paper.bib
+ :  journal = Phys. 
+ :                  Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3541 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3550 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3581 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3590 of file ../paper.bib
+ :  journal = Phys. 
+ :                  Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3598 of file ../paper.bib
+ :  journal = Phys. 
+ :                  Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3607 of file ../paper.bib
+ :  journal = Phys. 
+ :                  Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3639 of file ../paper.bib
+ :     journal = Rev. 
+ :                    Mod. Phys.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3648 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3657 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3709 of file ../paper.bib
+ :  journal = Phys. 
+ :                  Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3837 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3872 of file ../paper.bib
+ :     journal = Appl. 
+ :                     Phys. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3890 of file ../paper.bib
+ :     journal = New 
+ :                   J. Phys.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3899 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3921 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3952 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3979 of file ../paper.bib
+ :  journal = Rep. 
+ :                 Math. Phys.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3997 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4042 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4050 of file ../paper.bib
+ :  journal = Phys. 
+ :                  Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4060 of file ../paper.bib
+ :     journal = J. 
+ :                  Opt. B,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4069 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4126 of file ../paper.bib
+ :  journal = Phys. 
+ :                  Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4135 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4144 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4259 of file ../paper.bib
+ :  journal = J. 
+ :               Mod. Opt.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4275 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4284 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4289 of file ../paper.bib
+ : @article{bib:Pittman03
+ :                       ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4302 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4311 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4331 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4340 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4349 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4358 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Lett. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4367 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4376 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4385 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4394 of file ../paper.bib
+ :     journal = Rep. 
+ :                    Prog. Phys.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4403 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+Warning--string name "phys." is undefined
+--line 4412 of file ../paper.bib
+I was expecting a `,' or a `}'---line 4412 of file ../paper.bib
+ :     journal = phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4455 of file ../paper.bib
+ :     journal = J. 
+ :                  Opt. B,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4464 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4473 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4482 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4491 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4500 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4509 of file ../paper.bib
+ :     journal = J. 
+ :                  Mod. Opt.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4518 of file ../paper.bib
+ :  journal = Phys. 
+ :                  Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4541 of file ../paper.bib
+ :  journal = New 
+ :                J. Phys.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4595 of file ../paper.bib
+ :  journal = New 
+ :                J. Phys.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4635 of file ../paper.bib
+ :  journal = Phys. 
+ :                  Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4643 of file ../paper.bib
+ :  journal = Phys. 
+ :                  Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4652 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4668 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4677 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+Warning--string name "new" is undefined
+--line 4702 of file ../paper.bib
+I was expecting a `,' or a `}'---line 4702 of file ../paper.bib
+ :  journal = new 
+ :                J. Phys.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4768 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4804 of file ../paper.bib
+ : @article{bib:Chen17
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4813 of file ../paper.bib
+ : @article{bib:Shapiro07
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4833 of file ../paper.bib
+ : @article{bib:Kalashnikov12
+ :                           ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4859 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4868 of file ../paper.bib
+ :     journal = New 
+ :                   J. Phys.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4877 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4896 of file ../paper.bib
+ :     journal = Appl. 
+ :                     Phys. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4905 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4946 of file ../paper.bib
+ :   journal = Opt. 
+ :                  Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4954 of file ../paper.bib
+ :   journal = Opt. 
+ :                  Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 5025 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 5049 of file ../paper.bib
+ :  journal = Phys. 
+ :                  Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 5068 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 5075 of file ../paper.bib
+ :   journal = Phys. 
+ :                   Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 5085 of file ../paper.bib
+ :     journal = J. 
+ :                  Opt. B,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 5094 of file ../paper.bib
+ :     journal = J. 
+ :                  Opt. B,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 5111 of file ../paper.bib
+ :     journal = J. 
+ :                  Chem. Phys.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 5132 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 5141 of file ../paper.bib
+ :     journal = J. 
+ :                  Opt. Soc. Am. B,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 5150 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 5168 of file ../paper.bib
+ :  journal = Phys. 
+ :                  Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 5177 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 5186 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 5195 of file ../paper.bib
+ :  journal = Phys. 
+ :                  Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 5238 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 5283 of file ../paper.bib
+ :  journal = Phys. 
+ :                  Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 5308 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Reck"
 Warning--I didn't find a database entry for "Rohde"
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 32 entries,
-            3411 wiz_defined-function locations,
-            1440 strings with 18793 characters,
-and the built_in function-call counts, 30363 in all, are:
-= -- 1507
-> -- 1445
-< -- 180
-+ -- 1295
-- -- 354
-* -- 4465
-:= -- 2997
-add.period$ -- 32
-call.type$ -- 32
-change.case$ -- 128
-chr.to.int$ -- 31
-cite$ -- 32
-duplicate$ -- 2628
-empty$ -- 2331
-format.name$ -- 810
-if$ -- 5610
-int.to.chr$ -- 2
-int.to.str$ -- 33
-missing$ -- 393
-newline$ -- 111
-num.names$ -- 96
-pop$ -- 638
+Warning--empty chapter and pages in bib:GHZ89
+Warning--empty journal in bib:Briegel01
+Warning--empty journal in bib:Raussendorf03
+Warning--empty journal in bib:Kok05
+Warning--empty journal in bib:Shapiro07
+Warning--empty year in bib:Leverrier15
+You've used 126 entries,
+            2934 wiz_defined-function locations,
+            1448 strings with 32988 characters,
+and the built_in function-call counts, 39950 in all, are:
+= -- 3336
+> -- 2367
+< -- 2
++ -- 873
+- -- 747
+* -- 3290
+:= -- 6115
+add.period$ -- 126
+call.type$ -- 126
+change.case$ -- 125
+chr.to.int$ -- 0
+cite$ -- 132
+duplicate$ -- 991
+empty$ -- 3761
+format.name$ -- 865
+if$ -- 9675
+int.to.chr$ -- 0
+int.to.str$ -- 126
+missing$ -- 127
+newline$ -- 386
+num.names$ -- 126
+pop$ -- 659
 preamble$ -- 1
-purify$ -- 128
+purify$ -- 0
 quote$ -- 0
-skip$ -- 1166
+skip$ -- 2166
 stack$ -- 0
-substring$ -- 816
-swap$ -- 2282
-text.length$ -- 177
+substring$ -- 2286
+swap$ -- 123
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 192
-warning$ -- 0
-while$ -- 93
-width$ -- 0
-write$ -- 358
-(There was 1 error message)
+type$ -- 0
+warning$ -- 6
+while$ -- 279
+width$ -- 129
+write$ -- 1003
+(There were 170 error messages)

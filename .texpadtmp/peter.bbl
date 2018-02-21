@@ -1,380 +1,620 @@
-\begin{thebibliography}{32}
-\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
-\expandafter\ifx\csname bibnamefont\endcsname\relax
-  \def\bibnamefont#1{#1}\fi
-\expandafter\ifx\csname bibfnamefont\endcsname\relax
-  \def\bibfnamefont#1{#1}\fi
-\expandafter\ifx\csname citenamefont\endcsname\relax
-  \def\citenamefont#1{#1}\fi
+\begin{thebibliography}{100}
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
 \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
-\providecommand{\bibinfo}[2]{#2}
-\providecommand{\eprint}[2][]{\url{#2}}
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
 
-\bibitem[{\citenamefont{Tillmann et~al.}(2015)\citenamefont{Tillmann, Tan,
-  Stoeckl, Sanders, de~Guise, Heilmann, Nolte, Szameit, and
-  Walther}}]{bib:Tillmann2015}
-\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Tillmann}},
-  \bibinfo{author}{\bibfnamefont{S.-H.} \bibnamefont{Tan}},
-  \bibinfo{author}{\bibfnamefont{S.~E.} \bibnamefont{Stoeckl}},
-  \bibinfo{author}{\bibfnamefont{B.~C.} \bibnamefont{Sanders}},
-  \bibinfo{author}{\bibfnamefont{H.}~\bibnamefont{de~Guise}},
-  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Heilmann}},
-  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Nolte}},
-  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Szameit}}, \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Walther}},
-  \bibinfo{journal}{Phys. Rev. X} \textbf{\bibinfo{volume}{5}},
-  \bibinfo{pages}{041015} (\bibinfo{year}{2015}),
-  \urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevX.5.041015}.
+\bibitem{bib:Northup14}
+T.~E. Northup, R.~Blatt, Quantum information transfer using photons, Nat Photon
+  8~(5) (2014) 356--363.
 
-\bibitem[{\citenamefont{Bozinovic et~al.}(2013)\citenamefont{Bozinovic, Yue,
-  Ren, Tur, Kristensen, Huang, Willner, and Ramachandran}}]{bib:Bozinovic2013}
-\bibinfo{author}{\bibfnamefont{N.}~\bibnamefont{Bozinovic}},
-  \bibinfo{author}{\bibfnamefont{Y.}~\bibnamefont{Yue}},
-  \bibinfo{author}{\bibfnamefont{Y.}~\bibnamefont{Ren}},
-  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Tur}},
-  \bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Kristensen}},
-  \bibinfo{author}{\bibfnamefont{H.}~\bibnamefont{Huang}},
-  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Willner}}, \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Ramachandran}},
-  \bibinfo{journal}{Science} \textbf{\bibinfo{volume}{340}},
-  \bibinfo{pages}{1545} (\bibinfo{year}{2013}).
+\bibitem{bib:Lo14}
+H.-K. Lo, M.~Curty, K.~Tamaki, Secure quantum key distribution, Nat Photon
+  8~(8) (2014) 595--604.
 
-\bibitem[{\citenamefont{Nicolas et~al.}(2014)\citenamefont{Nicolas, Veissier,
-  Giner, Giacobino, Maxein, and Laurat}}]{bib:Nicolas2014}
-\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Nicolas}},
-  \bibinfo{author}{\bibfnamefont{L.}~\bibnamefont{Veissier}},
-  \bibinfo{author}{\bibfnamefont{L.}~\bibnamefont{Giner}},
-  \bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Giacobino}},
-  \bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Maxein}}, \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Laurat}},
-  \bibinfo{journal}{Nat.~Photonics} \textbf{\bibinfo{volume}{8}},
-  \bibinfo{pages}{234} (\bibinfo{year}{2014}).
+\bibitem{bib:KLM01}
+E.~Knill, R.~Laflamme, G.~Milburn, A scheme for efficient quantum computation
+  with linear optics, Nature (London) 409 (2001) 46--52.
 
-\bibitem[{\citenamefont{Humphreys et~al.}(2013)\citenamefont{Humphreys,
-  Metcalf, Spring, Moore, Jin, Barbieri, Kolthammer, and
-  Walmsley}}]{bib:Humphreys2013}
-\bibinfo{author}{\bibfnamefont{P.~C.} \bibnamefont{Humphreys}},
-  \bibinfo{author}{\bibfnamefont{B.~J.} \bibnamefont{Metcalf}},
-  \bibinfo{author}{\bibfnamefont{J.~B.} \bibnamefont{Spring}},
-  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Moore}},
-  \bibinfo{author}{\bibfnamefont{X.-M.} \bibnamefont{Jin}},
-  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Barbieri}},
-  \bibinfo{author}{\bibfnamefont{W.~S.} \bibnamefont{Kolthammer}},
-  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{I.~A.}
-  \bibnamefont{Walmsley}}, \bibinfo{journal}{Phys. Rev. Lett.}
-  \textbf{\bibinfo{volume}{111}}, \bibinfo{pages}{150501}
-  (\bibinfo{year}{2013}),
-  \urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevLett.111.150501}.
+\bibitem{bib:Meany15}
+T.~Meany, M.~Gr\"a~fe, R.~Heilmann, A.~Perez-Leija, S.~Gross, M.~J. Steel,
+  M.~J. Withford, A.~Szameit, Laser written circuits for quantum photonics,
+  Laser \& Photonics Reviews 9~(4) (2015) 363--384.
 
-\bibitem[{\citenamefont{Donohue et~al.}(2013)\citenamefont{Donohue, Agnew,
-  Lavoie, and Resch}}]{bib:Donohue2013}
-\bibinfo{author}{\bibfnamefont{J.~M.} \bibnamefont{Donohue}},
-  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Agnew}},
-  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Lavoie}}, \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{K.~J.} \bibnamefont{Resch}},
-  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{111}},
-  \bibinfo{pages}{153602} (\bibinfo{year}{2013}),
-  \urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevLett.111.153602}.
+\bibitem{bib:Sprengers11}
+J.~P. Sprengers, A.~Gaggero, D.~Sahin, S.~Jahanmirinejad, G.~Frucci,
+  F.~Mattioli, R.~Leoni, J.~Beetz, M.~Lermer, M.~Kamp, S.~Höfling,
+  R.~Sanjines, A.~Fiore, Waveguide superconducting single-photon detectors for
+  integrated quantum photonic circuits, Applied Physics Letters 99~(18) (2011)
+  181110.
 
-\bibitem[{\citenamefont{Reck et~al.}(1994)\citenamefont{Reck, Zeilinger,
-  Bernstein, and Bertani}}]{bib:Reck1994}
-\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Reck}},
-  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Zeilinger}},
-  \bibinfo{author}{\bibfnamefont{H.~J.} \bibnamefont{Bernstein}},
-  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Bertani}},
-  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{73}},
-  \bibinfo{pages}{58} (\bibinfo{year}{1994}),
-  \urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevLett.73.58}.
+\bibitem{bib:Silverstone14}
+J.~W. Silverstone, D.~Bonneau, K.~Ohira, N.~Suzuki, H.~Yoshida, N.~Iizuka,
+  M.~Ezaki, C.~M. Natarajan, M.~G. Tanner, R.~H. Hadfield, V.~Zwiller, G.~D.
+  Marshall, J.~G. Rarity, J.~L. O'Brien, M.~G. Thompson, On-chip quantum
+  interference between silicon photon-pair sources, Nat Photon 8~(2) (2014)
+  104--108.
 
-\bibitem[{\citenamefont{Dhand and Goyal}(2015)}]{bib:Dhand2015}
-\bibinfo{author}{\bibfnamefont{I.}~\bibnamefont{Dhand}} \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{S.~K.} \bibnamefont{Goyal}},
-  \bibinfo{journal}{Phys. Rev. A} \textbf{\bibinfo{volume}{92}},
-  \bibinfo{pages}{043813} (\bibinfo{year}{2015}),
-  \urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevA.92.043813}.
+\bibitem{bib:Li15}
+Y.~Li, P.~C. Humphreys, G.~J. Mendoza, S.~C. Benjamin, Resource costs for
+  fault-tolerant linear optical quantum computing, Phys. Rev. X 5 (2015)
+  041007.
 
-\bibitem[{\citenamefont{Tan et~al.}(2013)\citenamefont{Tan, Gao, de~Guise, and
-  Sanders}}]{bib:Tan2013}
-\bibinfo{author}{\bibfnamefont{S.-H.} \bibnamefont{Tan}},
-  \bibinfo{author}{\bibfnamefont{Y.~Y.} \bibnamefont{Gao}},
-  \bibinfo{author}{\bibfnamefont{H.}~\bibnamefont{de~Guise}}, \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{B.~C.} \bibnamefont{Sanders}},
-  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{110}},
-  \bibinfo{pages}{113603} (\bibinfo{year}{2013}),
-  \urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevLett.110.113603}.
+\bibitem{bib:Spagnolo12}
+N.~Spagnolo, L.~Aparo, C.~Vitelli, A.~Crespi, R.~Ramponi, R.~Osellame,
+  P.~Mataloni, F.~Sciarrino, Quantum interferometry with three-dimensional
+  geometry, Scientific Reports 2 (2012) 862.
 
-\bibitem[{\citenamefont{de~Guise et~al.}(2014)\citenamefont{de~Guise, Tan,
-  Poulin, and Sanders}}]{bib:deGuise2014}
-\bibinfo{author}{\bibfnamefont{H.}~\bibnamefont{de~Guise}},
-  \bibinfo{author}{\bibfnamefont{S.-H.} \bibnamefont{Tan}},
-  \bibinfo{author}{\bibfnamefont{I.~P.} \bibnamefont{Poulin}},
-  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{B.~C.}
-  \bibnamefont{Sanders}}, \bibinfo{journal}{Phys. Rev. A}
-  \textbf{\bibinfo{volume}{89}}, \bibinfo{pages}{063819}
-  (\bibinfo{year}{2014}),
-  \urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevA.89.063819}.
+\bibitem{bib:Tillmann13}
+M.~Tillmann, B.~Dakic, R.~Heilmann, S.~Nolte, A.~Szameit, P.~Walther,
+  Experimental boson sampling, Nat Photon 7~(7) (2013) 540--544.
 
-\bibitem[{\citenamefont{de~Guise et~al.}(2016)\citenamefont{de~Guise, Spivak,
-  Kulp, and Dhand}}]{bib:deGuise2015}
-\bibinfo{author}{\bibfnamefont{H.}~\bibnamefont{de~Guise}},
-  \bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Spivak}},
-  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Kulp}}, \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{I.}~\bibnamefont{Dhand}},
-  \bibinfo{journal}{J.~Phys.~A:Math.~Theor.} \textbf{\bibinfo{volume}{49}},
-  \bibinfo{pages}{09LT01} (\bibinfo{year}{2016}).
+\bibitem{bib:Spring13}
+J.~B. Spring, B.~J. Metcalf, P.~C. Humphreys, W.~S. Kolthammer, X.-M. Jin,
+  M.~Barbieri, A.~Datta, N.~Thomas-Peter, N.~K. Langford, D.~Kundys, J.~C.
+  Gates, B.~J. Smith, P.~G.~R. Smith, I.~A. Walmsley, Boson sampling on a
+  photonic chip, Science 339~(6121) (2013) 798--801.
 
-\bibitem[{\citenamefont{Ra et~al.}(2013)\citenamefont{Ra, Tichy, Lim, Kwon,
-  Mintert, Buchleitner, and Kim}}]{bib:Ra2013}
-\bibinfo{author}{\bibfnamefont{Y.-S.} \bibnamefont{Ra}},
-  \bibinfo{author}{\bibfnamefont{M.~C.} \bibnamefont{Tichy}},
-  \bibinfo{author}{\bibfnamefont{H.-T.} \bibnamefont{Lim}},
-  \bibinfo{author}{\bibfnamefont{O.}~\bibnamefont{Kwon}},
-  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Mintert}},
-  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Buchleitner}},
-  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{Y.-H.} \bibnamefont{Kim}},
-  \bibinfo{journal}{Proceedings of the National Academy of Sciences}
-  \textbf{\bibinfo{volume}{110}}, \bibinfo{pages}{1227} (\bibinfo{year}{2013}),
-  \eprint{http://www.pnas.org/content/110/4/1227.full.pdf},
-  \urlprefix\url{http://www.pnas.org/content/110/4/1227.abstract}.
+\bibitem{bib:Broome13}
+M.~A. Broome, A.~Fedrizzi, S.~Rahimi-Keshari, J.~Dove, S.~Aaronson, T.~C.
+  Ralph, A.~G. White, Photonic boson sampling in a tunable circuit, Science
+  339~(6121) (2013) 794--798.
 
-\bibitem[{\citenamefont{Brendel et~al.}(1999)\citenamefont{Brendel, Gisin,
-  Tittel, and Zbinden}}]{bib:Brendel99}
-\bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Brendel}},
-  \bibinfo{author}{\bibfnamefont{N.}~\bibnamefont{Gisin}},
-  \bibinfo{author}{\bibfnamefont{W.}~\bibnamefont{Tittel}}, \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{H.}~\bibnamefont{Zbinden}},
-  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{82}},
-  \bibinfo{pages}{2594} (\bibinfo{year}{1999}),
-  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.82.2594}.
+\bibitem{bib:WangChen16}
+X.-L. Wang, L.-K. Chen, W.~Li, H.-L. Huang, C.~Liu, C.~Chen, Y.-H. Luo, Z.-E.
+  Su, D.~Wu, Z.-D. Li, H.~Lu, Y.~Hu, X.~Jiang, C.-Z. Peng, L.~Li, N.-L. Liu,
+  Y.-A. Chen, C.-Y. Lu, J.-W. Pan, Experimental ten-photon entanglement, Phys.
+  Rev. Lett. 117 (2016) 210502.
 
-\bibitem[{\citenamefont{Thew et~al.}(2002)\citenamefont{Thew, Tanzilli, Tittel,
-  Zbinden, and Gisin}}]{bib:Thew02}
-\bibinfo{author}{\bibfnamefont{R.~T.} \bibnamefont{Thew}},
-  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Tanzilli}},
-  \bibinfo{author}{\bibfnamefont{W.}~\bibnamefont{Tittel}},
-  \bibinfo{author}{\bibfnamefont{H.}~\bibnamefont{Zbinden}}, \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{N.}~\bibnamefont{Gisin}},
-  \bibinfo{journal}{Phys. Rev. A} \textbf{\bibinfo{volume}{66}},
-  \bibinfo{pages}{062304} (\bibinfo{year}{2002}),
-  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevA.66.062304}.
+\bibitem{bib:Chen17}
+L.-K. Chen, Z.-D. Li, X.-C. Yao, M.~Huang, W.~Li, H.~Lu, X.~Yuan, Y.-B. Zhang,
+  X.~Jiang, C.-Z. Peng, L.~Li, N.-L. Liu, X.~Ma, C.-Y. Lu, Y.-A. Chen, J.-W.
+  Pan, Observation of ten-photon entanglement using thin {BiB3O6} crystals,
+  Optica 4~(1) (2017) 77--83.
 
-\bibitem[{\citenamefont{Marcikic et~al.}(2004)\citenamefont{Marcikic,
-  de~Riedmatten, Tittel, Zbinden, Legr\'e, and Gisin}}]{bib:Marcikic04}
-\bibinfo{author}{\bibfnamefont{I.}~\bibnamefont{Marcikic}},
-  \bibinfo{author}{\bibfnamefont{H.}~\bibnamefont{de~Riedmatten}},
-  \bibinfo{author}{\bibfnamefont{W.}~\bibnamefont{Tittel}},
-  \bibinfo{author}{\bibfnamefont{H.}~\bibnamefont{Zbinden}},
-  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Legr\'e}}, \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{N.}~\bibnamefont{Gisin}},
-  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{93}},
-  \bibinfo{pages}{180502} (\bibinfo{year}{2004}),
-  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.93.180502}.
+\bibitem{bib:Ding16}
+X.~Ding, Y.~He, Z.-C. Duan, N.~Gregersen, M.-C. Chen, S.~Unsleber, S.~Maier,
+  C.~Schneider, M.~Kamp, S.~H\"ofling, C.-Y. Lu, J.-W. Pan, On-demand single
+  photons with high extraction efficiency and near-unity indistinguishability
+  from a resonantly driven quantum dot in a micropillar, Phys. Rev. Lett. 116
+  (2016) 020401.
 
-\bibitem[{\citenamefont{Knill et~al.}(2001)\citenamefont{Knill, Laflamme, and
-  Milburn}}]{bib:KLM01}
-\bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Knill}},
-  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Laflamme}}, \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{G.}~\bibnamefont{Milburn}},
-  \bibinfo{journal}{Nature (London)} \textbf{\bibinfo{volume}{409}},
-  \bibinfo{pages}{46} (\bibinfo{year}{2001}).
+\bibitem{bib:WangHe16}
+H.~Wang, Y.~He, Y.-H. Li, Z.-E. Su, B.~Li, H.-L. Huang, X.~Ding, M.-C. Chen,
+  C.~Liu, J.~Qin, J.-P. Li, Y.-M. He, C.~Schneider, M.~Kamp, C.-Z. Peng,
+  S.~H{\"o}fling, C.-Y. Lu, J.-W. Pan, High-efficiency multiphoton boson
+  sampling, Nature Photonics 11 (2017) 361.
 
-\bibitem[{\citenamefont{Motes et~al.}(2014)\citenamefont{Motes, Gilchrist,
-  Dowling, and Rohde}}]{bib:Motes14}
-\bibinfo{author}{\bibfnamefont{K.~R.} \bibnamefont{Motes}},
-  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Gilchrist}},
-  \bibinfo{author}{\bibfnamefont{J.~P.} \bibnamefont{Dowling}},
-  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{P.~P.} \bibnamefont{Rohde}},
-  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{113}},
-  \bibinfo{pages}{120501} (\bibinfo{year}{2014}),
-  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.113.120501}.
+\bibitem{bib:213601}
+H.~Wang, Z.-C. Duan, Y.-H. Li, S.~Chen, J.-P. Li, Y.-M. He, M.-C. Chen, Y.~He,
+  X.~Ding, C.-Z. Peng, C.~Schneider, M.~Kamp, S.~H\"ofling, C.-Y. Lu, J.-W.
+  Pan, Near-transform-limited single photons from an efficient solid-state
+  quantum emitter, Phys. Rev. Lett. 116 (2016) 213601.
 
-\bibitem[{\citenamefont{Englert et~al.}(2001)\citenamefont{Englert, Kurtsiefer,
-  and Weinfurter}}]{bib:Englert2001}
-\bibinfo{author}{\bibfnamefont{B.-G.} \bibnamefont{Englert}},
-  \bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Kurtsiefer}},
-  \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{H.}~\bibnamefont{Weinfurter}},
-  \bibinfo{journal}{Phys. Rev. A} \textbf{\bibinfo{volume}{63}},
-  \bibinfo{pages}{032303} (\bibinfo{year}{2001}),
-  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevA.63.032303}.
+\bibitem{bib:Tillmann2015}
+M.~Tillmann, S.-H. Tan, S.~E. Stoeckl, B.~C. Sanders, H.~de~Guise, R.~Heilmann,
+  S.~Nolte, A.~Szameit, P.~Walther, Generalized multiphoton quantum
+  interference, Phys. Rev. X 5 (2015) 041015.
 
-\bibitem[{\citenamefont{Bouland and Aaronson}(2014)}]{bib:Bouland2014}
-\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Bouland}} \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Aaronson}},
-  \bibinfo{journal}{Phys. Rev. A} \textbf{\bibinfo{volume}{89}},
-  \bibinfo{pages}{062316} (\bibinfo{year}{2014}),
-  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevA.89.062316}.
+\bibitem{bib:Bozinovic2013}
+N.~Bozinovic, Y.~Yue, Y.~Ren, M.~Tur, P.~Kristensen, H.~Huang, A.~Willner,
+  S.~Ramachandran, Terabit-scale orbital angular momentum mode division
+  multiplexing in fibers, Science 340 (2013) 1545--1548.
 
-\bibitem[{\citenamefont{Mitchell et~al.}(2003)\citenamefont{Mitchell, Ellenor,
-  Schneider, and Steinberg}}]{bib:Mitchell03}
-\bibinfo{author}{\bibfnamefont{M.~W.} \bibnamefont{Mitchell}},
-  \bibinfo{author}{\bibfnamefont{C.~W.} \bibnamefont{Ellenor}},
-  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Schneider}},
-  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{A.~M.}
-  \bibnamefont{Steinberg}}, \bibinfo{journal}{Phys. Rev. Lett.}
-  \textbf{\bibinfo{volume}{91}}, \bibinfo{pages}{120402}
-  (\bibinfo{year}{2003}).
+\bibitem{bib:Nicolas2014}
+A.~Nicolas, L.~Veissier, L.~Giner, E.~Giacobino, D.~Maxein, J.~Laurat, A
+  quantum memory for orbital angular momentum photonic qubits, Nat.~Photonics 8
+  (2014) 234--238.
 
-\bibitem[{\citenamefont{O'Brien et~al.}(2004)\citenamefont{O'Brien, Pryde,
-  Gilchrist, James, Langford, Ralph, and White}}]{bib:Obrien04}
-\bibinfo{author}{\bibfnamefont{J.~L.} \bibnamefont{O'Brien}},
-  \bibinfo{author}{\bibfnamefont{G.~J.} \bibnamefont{Pryde}},
-  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Gilchrist}},
-  \bibinfo{author}{\bibfnamefont{D.~F.~V.} \bibnamefont{James}},
-  \bibinfo{author}{\bibfnamefont{N.~K.} \bibnamefont{Langford}},
-  \bibinfo{author}{\bibfnamefont{T.~C.} \bibnamefont{Ralph}}, \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{A.~G.} \bibnamefont{White}},
-  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{93}},
-  \bibinfo{pages}{080502} (\bibinfo{year}{2004}),
-  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.93.080502}.
+\bibitem{bib:Humphreys2013}
+P.~C. Humphreys, B.~J. Metcalf, J.~B. Spring, M.~Moore, X.-M. Jin, M.~Barbieri,
+  W.~S. Kolthammer, I.~A. Walmsley, Linear optical quantum computing in a
+  single spatial mode, Phys. Rev. Lett. 111 (2013) 150501.
 
-\bibitem[{\citenamefont{Lobino et~al.}(2008)\citenamefont{Lobino, Korystov,
-  Kupchak, Figueroa, Sanders, and Lvovsky}}]{bib:Lobino08}
-\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Lobino}},
-  \bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Korystov}},
-  \bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Kupchak}},
-  \bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Figueroa}},
-  \bibinfo{author}{\bibfnamefont{B.~C.} \bibnamefont{Sanders}},
-  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{A.~I.}
-  \bibnamefont{Lvovsky}}, \bibinfo{journal}{Science}
-  \textbf{\bibinfo{volume}{322}}, \bibinfo{pages}{563} (\bibinfo{year}{2008}),
-  ISSN \bibinfo{issn}{0036-8075},
-  \eprint{http://science.sciencemag.org/content/322/5901/563.full.pdf},
-  \urlprefix\url{http://science.sciencemag.org/content/322/5901/563}.
+\bibitem{bib:Donohue2013}
+J.~M. Donohue, M.~Agnew, J.~Lavoie, K.~J. Resch, Coherent ultrafast measurement
+  of time-bin encoded photons, Phys. Rev. Lett. 111 (2013) 153602.
 
-\bibitem[{\citenamefont{Rahimi-Keshari
-  et~al.}(2011)\citenamefont{Rahimi-Keshari, Scherer, Mann, Rezakhani, Lvovsky,
-  and Sanders}}]{bib:Saleh11}
-\bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Rahimi-Keshari}},
-  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Scherer}},
-  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Mann}},
-  \bibinfo{author}{\bibfnamefont{A.~T.} \bibnamefont{Rezakhani}},
-  \bibinfo{author}{\bibfnamefont{A.~I.} \bibnamefont{Lvovsky}},
-  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{B.~C.}
-  \bibnamefont{Sanders}}, \bibinfo{journal}{New Journal of Physics}
-  \textbf{\bibinfo{volume}{13}}, \bibinfo{pages}{013006}
-  (\bibinfo{year}{2011}),
-  \urlprefix\url{http://stacks.iop.org/1367-2630/13/i=1/a=013006}.
+\bibitem{bib:Nielsen04}
+M.~A. Nielsen, Optical quantum computation using cluster states, Phys. Rev.
+  Lett. 93 (2004) 040503.
 
-\bibitem[{\citenamefont{Laing and O'Brien}(2012)}]{bib:Laing12}
-\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Laing}} \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{O'Brien}},
-  \bibinfo{journal}{arXiv: 1208.2868v1}  (\bibinfo{year}{2012}).
+\bibitem{bib:BrowneRudolph05}
+D.~E. Browne, T.~Rudolph, Resource-efficient linear optics quantum computation,
+  Phy. Rev. Lett. 95 (2005) 010501.
 
-\bibitem[{\citenamefont{Rahimi-Keshari
-  et~al.}(2013)\citenamefont{Rahimi-Keshari, Broome, Fickler, Fedrizzi, Ralph,
-  and White}}]{bib:Rahimi-Keshari13}
-\bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Rahimi-Keshari}},
-  \bibinfo{author}{\bibfnamefont{M.~A.} \bibnamefont{Broome}},
-  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Fickler}},
-  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Fedrizzi}},
-  \bibinfo{author}{\bibfnamefont{T.~C.} \bibnamefont{Ralph}}, \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{A.~G.} \bibnamefont{White}},
-  \bibinfo{journal}{Opt. Express} \textbf{\bibinfo{volume}{21}},
-  \bibinfo{pages}{13450} (\bibinfo{year}{2013}),
-  \urlprefix\url{http://www.opticsexpress.org/abstract.cfm?URI=oe-21-11-13450}.
+\bibitem{bib:Gimeno-Segovia15}
+M.~Gimeno-Segovia, P.~Shadbolt, D.~E. Browne, T.~Rudolph, From three-photon
+  greenberger-horne-zeilinger states to ballistic universal quantum
+  computation, Phys. Rev. Lett. 115 (2015) 020502.
 
-\bibitem[{\citenamefont{Dhand et~al.}(2016)\citenamefont{Dhand, Khalid, Lu, and
-  Sanders}}]{Dhand16}
-\bibinfo{author}{\bibfnamefont{I.}~\bibnamefont{Dhand}},
-  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Khalid}},
-  \bibinfo{author}{\bibfnamefont{H.}~\bibnamefont{Lu}}, \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{B.~C.} \bibnamefont{Sanders}},
-  \bibinfo{journal}{Journal of Optics} \textbf{\bibinfo{volume}{18}},
-  \bibinfo{pages}{035204} (\bibinfo{year}{2016}),
-  \urlprefix\url{http://stacks.iop.org/2040-8986/18/i=3/a=035204}.
+\bibitem{bib:Pant17}
+M.~Pant, D.~Towsley, D.~Englund, S.~Guha, Percolation thresholds for photonic
+  quantum computing, arXiv:1701.03775.
 
-\bibitem[{\citenamefont{Spagnolo et~al.}(2016)\citenamefont{Spagnolo, Maiorino,
-  Vitelli, Bentivegna, Crespi, Ramponi, Mataloni, Osellame, and
-  Sciarrino}}]{bib:Spagnolo16}
-\bibinfo{author}{\bibfnamefont{N.}~\bibnamefont{Spagnolo}},
-  \bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Maiorino}},
-  \bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Vitelli}},
-  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Bentivegna}},
-  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Crespi}},
-  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Ramponi}},
-  \bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Mataloni}},
-  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Osellame}}, \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Sciarrino}}
-  (\bibinfo{year}{2016}), \eprint{arXiv:1610.03291v1}.
+\bibitem{bib:Aaronson11}
+S.~Aaronson, A.~Arkhipov, The computational complexity of linear optics, in:
+  Proceedings of the Forty-third Annual ACM Symposium on Theory of Computing,
+  STOC '11, 2011, pp. 333--342.
 
-\bibitem[{\citenamefont{Tillmann et~al.}(2016)\citenamefont{Tillmann, Schmidt,
-  and Walther}}]{bib:Tillmann16}
-\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Tillmann}},
-  \bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Schmidt}}, \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Walther}},
-  \bibinfo{journal}{Journal of Optics} \textbf{\bibinfo{volume}{18}},
-  \bibinfo{pages}{114002} (\bibinfo{year}{2016}),
-  \urlprefix\url{http://stacks.iop.org/2040-8986/18/i=11/a=114002}.
+\bibitem{bib:Tan16}
+S.-H. Tan, J.~A. Kettlewell, Y.~Ouyang, L.~Chen, J.~F. Fitzsimons, A quantum
+  approach to homomorphic encryption, Scientific Reports 6 (2016) 33467.
 
-\bibitem[{\citenamefont{Heilmann et~al.}(2015)\citenamefont{Heilmann, Gräfe,
-  Nolte, and Szameit}}]{bib:Heilmann15}
-\bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Heilmann}},
-  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Gräfe}},
-  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Nolte}}, \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Szameit}},
-  \bibinfo{journal}{Science Bulletin} \textbf{\bibinfo{volume}{60}},
-  \bibinfo{pages}{96 } (\bibinfo{year}{2015}), ISSN \bibinfo{issn}{2095-9273},
-  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S2095927316305400}.
+\bibitem{bib:Reck1994}
+M.~Reck, A.~Zeilinger, H.~J. Bernstein, P.~Bertani, Experimental realization of
+  any discrete unitary operator, Phys. Rev. Lett. 73 (1994) 58--61.
 
-\bibitem[{\citenamefont{Kok et~al.}(2005)\citenamefont{Kok, Munro, Nemoto,
-  Ralph, Dowling, and Milburn}}]{bib:Kok05}
-\bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Kok}},
-  \bibinfo{author}{\bibfnamefont{W.~J.} \bibnamefont{Munro}},
-  \bibinfo{author}{\bibfnamefont{K.}~\bibnamefont{Nemoto}},
-  \bibinfo{author}{\bibfnamefont{T.~C.} \bibnamefont{Ralph}},
-  \bibinfo{author}{\bibfnamefont{J.~P.} \bibnamefont{Dowling}},
-  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{G.~J.}
-  \bibnamefont{Milburn}}, \bibinfo{journal}{Rev. Mod. Phys.}
-  \textbf{\bibinfo{volume}{79}}, \bibinfo{pages}{135} (\bibinfo{year}{2005}).
+\bibitem{bib:Tan2013}
+S.-H. Tan, Y.~Y. Gao, H.~de~Guise, B.~C. Sanders, {SU(3)} quantum
+  interferometry with single-photon input pulses, Phys. Rev. Lett. 110 (2013)
+  113603.
 
-\bibitem[{\citenamefont{Wang et~al.}(2016{\natexlab{a}})\citenamefont{Wang,
-  Chen, Li, Huang, Liu, Chen, Luo, Su, Wu, Li et~al.}}]{bib:WangChen16}
-\bibinfo{author}{\bibfnamefont{X.-L.} \bibnamefont{Wang}},
-  \bibinfo{author}{\bibfnamefont{L.-K.} \bibnamefont{Chen}},
-  \bibinfo{author}{\bibfnamefont{W.}~\bibnamefont{Li}},
-  \bibinfo{author}{\bibfnamefont{H.-L.} \bibnamefont{Huang}},
-  \bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Liu}},
-  \bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Chen}},
-  \bibinfo{author}{\bibfnamefont{Y.-H.} \bibnamefont{Luo}},
-  \bibinfo{author}{\bibfnamefont{Z.-E.} \bibnamefont{Su}},
-  \bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Wu}},
-  \bibinfo{author}{\bibfnamefont{Z.-D.} \bibnamefont{Li}},
-  \bibnamefont{et~al.}, \bibinfo{journal}{Phys. Rev. Lett.}
-  \textbf{\bibinfo{volume}{117}}, \bibinfo{pages}{210502}
-  (\bibinfo{year}{2016}{\natexlab{a}}),
-  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.117.210502}.
+\bibitem{bib:deGuise2014}
+H.~de~Guise, S.-H. Tan, I.~P. Poulin, B.~C. Sanders, Coincidence landscapes for
+  three-channel linear optical networks, Phys. Rev. A 89 (2014) 063819.
 
-\bibitem[{\citenamefont{Chen et~al.}(2017)\citenamefont{Chen, Li, Yao, Huang,
-  Li, Lu, Yuan, Zhang, Jiang, Peng et~al.}}]{bib:Chen17}
-\bibinfo{author}{\bibfnamefont{L.-K.} \bibnamefont{Chen}},
-  \bibinfo{author}{\bibfnamefont{Z.-D.} \bibnamefont{Li}},
-  \bibinfo{author}{\bibfnamefont{X.-C.} \bibnamefont{Yao}},
-  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Huang}},
-  \bibinfo{author}{\bibfnamefont{W.}~\bibnamefont{Li}},
-  \bibinfo{author}{\bibfnamefont{H.}~\bibnamefont{Lu}},
-  \bibinfo{author}{\bibfnamefont{X.}~\bibnamefont{Yuan}},
-  \bibinfo{author}{\bibfnamefont{Y.-B.} \bibnamefont{Zhang}},
-  \bibinfo{author}{\bibfnamefont{X.}~\bibnamefont{Jiang}},
-  \bibinfo{author}{\bibfnamefont{C.-Z.} \bibnamefont{Peng}},
-  \bibnamefont{et~al.}, \bibinfo{journal}{Optica} \textbf{\bibinfo{volume}{4}},
-  \bibinfo{pages}{77} (\bibinfo{year}{2017}),
-  \urlprefix\url{http://www.osapublishing.org/optica/abstract.cfm?URI=optica-4-1-77}.
+\bibitem{bib:deGuise2015}
+H.~de~Guise, D.~Spivak, J.~Kulp, I.~Dhand, $d$-functions and immanants of
+  unitary matrices and submatrices, J.~Phys.~A:Math.~Theor. 49 (2016) 09LT01.
 
-\bibitem[{\citenamefont{Wang et~al.}(2016{\natexlab{b}})\citenamefont{Wang, He,
-  Li, Su, Li, Huang, Ding, Chen, Liu, Qin et~al.}}]{bib:WangHe16}
-\bibinfo{author}{\bibfnamefont{H.}~\bibnamefont{Wang}},
-  \bibinfo{author}{\bibfnamefont{Y.}~\bibnamefont{He}},
-  \bibinfo{author}{\bibfnamefont{Y.-H.} \bibnamefont{Li}},
-  \bibinfo{author}{\bibfnamefont{Z.-E.} \bibnamefont{Su}},
-  \bibinfo{author}{\bibfnamefont{B.}~\bibnamefont{Li}},
-  \bibinfo{author}{\bibfnamefont{H.-L.} \bibnamefont{Huang}},
-  \bibinfo{author}{\bibfnamefont{X.}~\bibnamefont{Ding}},
-  \bibinfo{author}{\bibfnamefont{M.-C.} \bibnamefont{Chen}},
-  \bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Liu}},
-  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Qin}}, \bibnamefont{et~al.}
-  (\bibinfo{year}{2016}{\natexlab{b}}), \eprint{quant-ph:1612.06956}.
+\bibitem{bib:Ra2013}
+Y.-S. Ra, M.~C. Tichy, H.-T. Lim, O.~Kwon, F.~Mintert, A.~Buchleitner, Y.-H.
+  Kim, Nonmonotonic quantum-to-classical transition in multiparticle
+  interference, Proceedings of the National Academy of Sciences 110~(4) (2013)
+  1227--1231.
+
+\bibitem{bib:Agne17}
+S.~Agne, T.~Kauten, J.~Jin, E.~Meyer-Scott, J.~Z. Salvail, D.~R. Hamel, K.~J.
+  Resch, G.~Weihs, T.~Jennewein, Observation of genuine three-photon
+  interference, Phys. Rev. Lett. 118 (2017) 153602.
+
+\bibitem{bib:Menssen17}
+A.~J. Menssen, A.~E. Jones, B.~J. Metcalf, M.~C. Tichy, S.~Barz, W.~S.
+  Kolthammer, I.~A. Walmsley, Distinguishability and many-particle
+  interference, Phys. Rev. Lett. 118 (2017) 153603.
+
+\bibitem{bib:Wu13}
+L.-A. Wu, P.~Walther, D.~A. Lidar, No-go theorem for passive single-rail linear
+  optical quantum computing, Scientific Reports 3 (2013) 1394.
+
+\bibitem{bib:Brendel99}
+J.~Brendel, N.~Gisin, W.~Tittel, H.~Zbinden, Pulsed energy-time entangled
+  twin-photon source for quantum communication, Phys. Rev. Lett. 82 (1999)
+  2594--2597.
+
+\bibitem{bib:Thew02}
+R.~T. Thew, S.~Tanzilli, W.~Tittel, H.~Zbinden, N.~Gisin, Experimental
+  investigation of the robustness of partially entangled qubits over 11 km,
+  Phys. Rev. A 66 (2002) 062304.
+
+\bibitem{bib:Marcikic04}
+I.~Marcikic, H.~de~Riedmatten, W.~Tittel, H.~Zbinden, M.~Legr\'e, N.~Gisin,
+  Distribution of time-bin entangled qubits over 50 km of optical fiber, Phys.
+  Rev. Lett. 93 (2004) 180502.
+
+\bibitem{bib:Motes14}
+K.~R. Motes, A.~Gilchrist, J.~P. Dowling, P.~P. Rohde, Scalable boson sampling
+  with time-bin encoding using a loop-based architecture, Phys. Rev. Lett. 113
+  (2014) 120501.
+
+\bibitem{bib:Englert2001}
+B.-G. Englert, C.~Kurtsiefer, H.~Weinfurter, Universal unitary gate for
+  single-photon two-qubit states, Phys. Rev. A 63 (2001) 032303.
+
+\bibitem{bib:Bouland2014}
+A.~Bouland, S.~Aaronson, Generation of universal linear optics by any beam
+  splitter, Phys. Rev. A 89 (2014) 062316.
+
+\bibitem{bib:Dhand2015}
+I.~Dhand, S.~K. Goyal, Realization of arbitrary discrete unitary
+  transformations using spatial and internal modes of light, Phys. Rev. A 92
+  (2015) 043813.
+
+\bibitem{bib:Harris16}
+N.~C. Harris, D.~Bunandar, M.~Pant, G.~R. Steinbrecher, J.~Mower, M.~Prabhu,
+  T.~Baehr-Jones, M.~Hochberg, D.~Englund, Large-scale quantum photonic
+  circuits in silicon, Nanophotonics 5 (2016) 456--468.
+
+\bibitem{bib:Laing12}
+A.~Laing, J.~O'Brien, Super-stable tomography of any linear optical device,
+  arXiv: 1208.2868v1.
+
+\bibitem{Dhand16}
+I.~Dhand, A.~Khalid, H.~Lu, B.~C. Sanders, Accurate and precise
+  characterization of linear optical interferometers, Journal of Optics 18~(3)
+  (2016) 035204.
+
+\bibitem{bib:Spagnolo16}
+N.~Spagnolo, E.~Maiorino, C.~Vitelli, M.~Bentivegna, A.~Crespi, R.~Ramponi,
+  P.~Mataloni, R.~Osellame, F.~Sciarrino, Learning an unknown transformation
+  via a genetic approach, Scientific Reports 7~(1) (2017) 14316.
+
+\bibitem{bib:Tillmann16}
+M.~Tillmann, C.~Schmidt, P.~Walther, On unitary reconstruction of linear
+  optical networks, Journal of Optics 18~(11) (2016) 114002.
+
+\bibitem{bib:Rahimi-Keshari13}
+S.~Rahimi-Keshari, M.~A. Broome, R.~Fickler, A.~Fedrizzi, T.~C. Ralph, A.~G.
+  White, Direct characterization of linear-optical networks, Opt. Express
+  21~(11) (2013) 13450--13458.
+
+\bibitem{bib:Heilmann15}
+R.~Heilmann, M.~Gräfe, S.~Nolte, A.~Szameit, A novel integrated quantum
+  circuit for high-order w-state generation and its highly precise
+  characterization, Science Bulletin 60~(1) (2015) 96--100.
+
+\bibitem{bib:Kim01}
+Y.-H. Kim, S.~P. Kulik, Y.~Shih, Bell-state preparation using pulsed
+  nondegenerate two-photon entanglement, Phys. Rev. A 63 (2001) 060301.
+
+\bibitem{bib:Pittman03}
+T.~B. Pittman, M.~M. Donegan, M.~J. Fitch, B.~C. Jacobs, J.~D. Franson, P.~Kok,
+  H.~Lee, J.~P. Dowling, Heralded two-photon entanglement from probabilistic
+  quantum logic operations on multiple parametric down-conversion sources, IEEE
+  Journal of Selected Topics in Quantum Electronics 9~(6) (2003) 1478--1482.
+
+\bibitem{bib:Sliwa03}
+C.~\ifmmode~\acute{S}\else \'{S}\fi{}liwa, K.~Banaszek, Conditional preparation
+  of maximal polarization entanglement, Phys. Rev. A 67 (2003) 030101.
+
+\bibitem{bib:Walther07}
+P.~Walther, M.~Aspelmeyer, A.~Zeilinger, Heralded generation of multiphoton
+  entanglement, Phys. Rev. A 75 (2007) 012313.
+
+\bibitem{bib:Wagenknecht10}
+C.~Wagenknecht, C.-M. Li, A.~Reingruber, X.-H. Bao, A.~Goebel, Y.-A. Chen,
+  Q.~Zhang, K.~Chen, J.-W. Pan, Experimental demonstration of a heralded
+  entanglement source, Nat Photon 4~(8) (2010) 549--552.
+
+\bibitem{bib:Barz10}
+S.~Barz, G.~Cronenberg, A.~Zeilinger, P.~Walther, Heralded generation of
+  entangled photon pairs, Nat Photon 4~(8) (2010) 553--556.
+
+\bibitem{bib:GHZ89}
+D.~M. Greenberger, M.~A. Horne, A.~Z. (edited~by M.~Kafatos), Going beyond
+  Bell's theorem, Kluwer Academic, Dordrecht, The Netherlands, 1989, p.~73.
+
+\bibitem{bib:JW00}
+J.-W. Pan, D.~Bouwmeester, M.~Daniell, H.~Weinfurter, A.~Zeilinger,
+  Experimental test of quantum nonlocality in three-photon
+  greenberger-horne-zeilinger entanglement, Nature 403~(6769) (2000) 515--519.
+
+\bibitem{bib:Zhang15}
+C.~Zhang, Y.-F. Huang, Z.~Wang, B.-H. Liu, C.-F. Li, G.-C. Guo, Experimental
+  greenberger-horne-zeilinger-type six-photon quantum nonlocality, Phys. Rev.
+  Lett. 115 (2015) 260402.
+
+\bibitem{bib:JW12}
+J.-W. Pan, Z.-B. Chen, C.-Y. Lu, H.~Weinfurter, A.~Zeilinger,
+  M.~\ifmmode~\dot{Z}\else \.{Z}\fi{}ukowski, Multiphoton entanglement and
+  interferometry, Rev. Mod. Phys. 84 (2012) 777--838.
+
+\bibitem{bib:Lu06}
+C.-Y. Lu, X.-Q. Zhou, O.~Guhne, W.-B. Gao, J.~Zhang, Z.-S. Yuan, A.~Goebel,
+  T.~Yang, J.-W. Pan, Experimental entanglement of six photons in graph states,
+  Nat Phys 3~(2) (2007) 91--95.
+
+\bibitem{bib:Huang11}
+Y.-F. Huang, B.-H. Liu, L.~Peng, Y.-H. Li, L.~Li, C.-F. Li, G.-C. Guo,
+  Experimental generation of an eight-photon greenberger--horne--zeilinger
+  state, Nature Communications 2 (2011) 546.
+
+\bibitem{bib:Yao12}
+X.-C. Yao, T.-X. Wang, P.~Xu, H.~Lu, G.-S. Pan, X.-H. Bao, C.-Z. Peng, C.-Y.
+  Lu, Y.-A. Chen, J.-W. Pan, Observation of eight-photon entanglement, Nat
+  Photon 6~(4) (2012) 225--228.
+
+\bibitem{bib:Briegel01}
+H.~J. Briegel, R.~Raussendorf, Persistent entanglement in arrays of interacting
+  particles.
+
+\bibitem{bib:Raussendorf03}
+R.~Raussendorf, D.~E. Browne, H.~J. Briegel, Measurement-based quantum
+  computation on cluster states.
+
+\bibitem{bib:Mantri17}
+A.~Mantri, T.~F. Demarie, J.~F. Fitzsimons, Universality of quantum computation
+  with cluster states and (x, y)-plane measurements, Scientific Reports 7
+  (2017) 42861.
+
+\bibitem{bib:Walther05a}
+P.~Walther, K.~J. Resch, T.~Rudolph, E.~Schenck, H.~Weinfurter, V.~Vedral,
+  M.~Aspelmeyer, A.~Zeilinger, Experimental one-way quantum computing, Nature
+  (London) 434 (2005) 169.
+
+\bibitem{bib:Prevedel07}
+R.~Prevedel, P.~Walther, F.~Tiefenbacher, P.~Bohi, R.~Kaltenbaek, T.~Jennewein,
+  A.~Zeilinger, High-speed linear optics quantum computing using active
+  feed-forward, Nature 445~(7123) (2007) 65--69.
+
+\bibitem{bib:Tokunaga08}
+Y.~Tokunaga, S.~Kuwashiro, T.~Yamamoto, M.~Koashi, N.~Imoto, Generation of
+  high-fidelity four-photon cluster state and quantum-domain demonstration of
+  one-way quantum computing, Phys. Rev. Lett. 100 (2008) 210501.
+
+\bibitem{bib:Schwartz16}
+I.~Schwartz, D.~Cogan, E.~R. Schmidgall, Y.~Don, L.~Gantz, O.~Kenneth, N.~H.
+  Lindner, D.~Gershoni, Deterministic generation of a cluster state of
+  entangled photons, Science.
+
+\bibitem{bib:Yokoyama13}
+S.~Yokoyama, R.~Ukai, S.~C. Armstrong, C.~Sornphiphatphong, T.~Kaji, S.~Suzuki,
+  J.-i. Yoshikawa, H.~Yonezawa, N.~C. Menicucci, A.~Furusawa, Ultra-large-scale
+  continuous-variable cluster states multiplexed in the time domain, Nat Photon
+  7~(12) (2013) 982--986.
+
+\bibitem{Rohde15}
+P.~P. Rohde, Simple scheme for universal linear-optics quantum computing with
+  constant experimental complexity using fiber loops, Phys. Rev. A 91 (2015)
+  012306.
+
+\bibitem{bib:Hadfield09}
+R.~H. Hadfield, Single-photon detectors for optical quantum information
+  applications, Nat Photon 3~(12) (2009) 696--705.
+
+\bibitem{bib:Eisaman11}
+M.~Eisaman, J.~Fan, A.~Migdall, S.~Polyakov, Invited review article:
+  Single-photon sources and detectors, Review of Scientific Instruments 82.
+
+\bibitem{bib:Sperling12}
+J.~Sperling, W.~Vogel, G.~S. Agarwal, True photocounting statistics of multiple
+  on-off detectors, Phys. Rev. A 85 (2012) 023820.
+
+\bibitem{bib:Divochiy08}
+A.~Divochiy, F.~Marsili, D.~Bitauld, A.~Gaggero, R.~Leoni, F.~Mattioli,
+  A.~Korneev, V.~Seleznev, N.~Kaurova, O.~Minaeva, G.~Gol'tsman, K.~G.
+  Lagoudakis, M.~Benkhaoul, F.~Levy, A.~Fiore, Superconducting nanowire
+  photon-number-resolving detector at telecommunication wavelengths, Nat Photon
+  2~(5) (2008) 302--306.
+
+\bibitem{bib:Eraerds07}
+P.~Eraerds, M.~Legr\'{e}, A.~Rochas, H.~Zbinden, N.~Gisin, Sipm for fast
+  photon-counting and multiphoton detection, Opt. Express 15~(22) (2007)
+  14539--14549.
+
+\bibitem{bib:Afek09}
+I.~Afek, A.~Natan, O.~Ambar, Y.~Silberberg, Quantum state measurements using
+  multipixel photon detectors, Phys. Rev. A 79 (2009) 043830.
+
+\bibitem{bib:Kalashnikov12}
+D.~A. Kalashnikov, S.-H. Tan, L.~A. Krivitsky, Crosstalk calibration of
+  multi-pixel photon counters using coherent states, Opt. Express 20~(5) (2012)
+  5044--5051.
+
+\bibitem{bib:Chrapkiewicz14}
+R.~Chrapkiewicz, W.~Wasilewski, K.~Banaszek, High-fidelity spatially resolved
+  multiphoton counting for quantum imaging applications, Opt. Lett. 39~(17)
+  (2014) 5090--5093.
+
+\bibitem{bib:Brod16}
+D.~J. Brod, J.~Combes, Passive cphase gate via cross-kerr nonlinearities, Phys.
+  Rev. Lett. 117 (2016) 080502.
+
+\bibitem{bib:Kok05}
+P.~Kok, W.~J. Munro, K.~Nemoto, T.~C. Ralph, J.~P. Dowling, G.~J. Milburn,
+  Linear optical quantum computing with photonic qubits.
+
+\bibitem{bib:Metcalf14}
+B.~J. Metcalf, J.~B. Spring, P.~C. Humphreys, N.~Thomas-Peter, M.~Barbieri,
+  W.~S. Kolthammer, X.-M. Jin, N.~K. Langford, D.~Kundys, J.~C. Gates, B.~J.
+  Smith, P.~G.~R. Smith, I.~A. Walmsley, Quantum teleportation on a photonic
+  chip, Nat Photon 8~(10) (2014) 770--774.
+
+\bibitem{bib:Carolan15}
+J.~Carolan, C.~Harrold, C.~Sparrow, E.~Mart{\'\i}n-L{\'o}pez, N.~J. Russell,
+  J.~W. Silverstone, P.~J. Shadbolt, N.~Matsuda, M.~Oguma, M.~Itoh, G.~D.
+  Marshall, M.~G. Thompson, J.~C.~F. Matthews, T.~Hashimoto, J.~L.
+  O{\textquoteright}Brien, A.~Laing, Universal linear optics, Science.
+
+\bibitem{bib:Xiao-Song12}
+X.-S. Ma, T.~Herbst, T.~Scheidl, D.~Wang, S.~Kropatschek, W.~Naylor,
+  B.~Wittmann, A.~Mech, J.~Kofler, E.~Anisimova, V.~Makarov, T.~Jennewein,
+  R.~Ursin, A.~Zeilinger, Quantum teleportation over 143 kilometres using
+  active feed-forward, Nature 489~(7415) (2012) 269--273.
+
+\bibitem{bib:Mikova12}
+M.~Mikov\'a, H.~Fikerov\'a, I.~Straka, M.~Mi\ifmmode~\check{c}\else
+  \v{c}\fi{}uda, J.~Fiur\'a\ifmmode~\check{s}\else \v{s}\fi{}ek,
+  M.~Je\ifmmode~\check{z}\else \v{z}\fi{}ek, M.~Du\ifmmode~\check{s}\else
+  \v{s}\fi{}ek, Increasing efficiency of a linear-optical quantum gate using
+  electronic feed-forward, Phys. Rev. A 85 (2012) 012305.
+
+\bibitem{bib:Zhao14}
+T.-M. Zhao, H.~Zhang, J.~Yang, Z.-R. Sang, X.~Jiang, X.-H. Bao, J.-W. Pan,
+  Entangling different-color photons via time-resolved measurement and active
+  feed forward, Phys. Rev. Lett. 112 (2014) 103602.
+
+\bibitem{bib:Zhou11}
+X.-Q. Zhou, T.~C. Ralph, P.~Kalasuwan, M.~Zhang, A.~Peruzzo, B.~P. Lanyon,
+  J.~L. O'Brien, Adding control to arbitrary unknown quantum operations, Nature
+  Communications 2 (2011) 413.
+
+\bibitem{bib:Lanyon09}
+B.~P. Lanyon, M.~Barbieri, M.~P. Almeida, T.~Jennewein, T.~C. Ralph, K.~J.
+  Resch, G.~J. Pryde, J.~L. O/'Brien, A.~Gilchrist, A.~G. White, Simplifying
+  quantum logic using higher-dimensional hilbert spaces, Nat Phys 5~(2) (2009)
+  134--140.
+
+\bibitem{bib:Wang15}
+X.-L. Wang, X.-D. Cai, Z.-E. Su, M.-C. Chen, D.~Wu, L.~Li, N.-L. Liu, C.-Y. Lu,
+  J.-W. Pan, Quantum teleportation of multiple degrees of freedom of a single
+  photon, Nature 518~(7540) (2015) 516--519.
+
+\bibitem{bib:Micuda13}
+M.~Mi\ifmmode~\check{c}\else \v{c}\fi{}uda, M.~Sedl\'ak, I.~Straka,
+  M.~Mikov\'a, M.~Du\ifmmode~\check{s}\else \v{s}\fi{}ek,
+  M.~Je\ifmmode~\check{z}\else \v{z}\fi{}ek, J.~Fiur\'a\ifmmode~\check{s}\else
+  \v{s}\fi{}ek, Efficient experimental estimation of fidelity of linear optical
+  quantum toffoli gate, Phys. Rev. Lett. 111 (2013) 160407.
+
+\bibitem{bib:Patel16}
+R.~B. Patel, J.~Ho, F.~Ferreyrol, T.~C. Ralph, G.~J. Pryde, A quantum fredkin
+  gate, Science Advances 2~(3).
+
+\bibitem{bib:Starek16}
+R.~St{\'a}rek, M.~Mi{\v c}uda, M.~Mikov{\'a}, I.~Straka, M.~Du{\v s}ek,
+  M.~Je{\v z}ek, J.~Fiur{\'a}{\v s}ek, Experimental investigation of a
+  four-qubit linear-optical quantum logic circuit, Scientific Reports 6 (2016)
+  33475.
+
+\bibitem{bib:Shapiro06}
+J.~H. Shapiro, Single-photon kerr nonlinearities do not help quantum
+  computation, Phys. Rev. A 73 (2006) 062305.
+
+\bibitem{bib:Shapiro07}
+J.~H. Shapiro, M.~Razavi, Continuous-time cross-phase modulation and quantum
+  computation.
+
+\bibitem{bib:Gea-Banacloche10}
+J.~Gea-Banacloche, Impossibility of large phase shifts via the giant kerr
+  effect with single-photon wave packets, Phys. Rev. A 81 (2010) 043823.
+
+\bibitem{bib:Hoi13}
+I.-C. Hoi, A.~F. Kockum, T.~Palomaki, T.~M. Stace, B.~Fan, L.~Tornberg, S.~R.
+  Sathyamoorthy, G.~Johansson, P.~Delsing, C.~M. Wilson, Giant cross-{Kerr}
+  effect for propagating microwaves induced by an artificial atom, Phys. Rev.
+  Lett. 111 (2013) 053601.
+
+\bibitem{bib:Venkataraman13}
+V.~Venkataraman, K.~Saha, A.~L. Gaeta, Phase modulation at the few-photon level
+  for weak-nonlinearity-based quantum computing, Nat Photon 7~(2) (2013)
+  138--141.
+
+\bibitem{bib:Feizpour15}
+A.~Feizpour, M.~Hallaji, G.~Dmochowski, A.~M. Steinberg, Observation of the
+  nonlinear phase shift due to single post-selected photons, Nat Phys 11~(11)
+  (2015) 905--909.
+
+\bibitem{bib:Beck16}
+K.~M. Beck, M.~Hosseini, Y.~Duan, V.~Vuleti\'{c}, Large conditional
+  single-photon cross-phase modulation, Proceedings of the National Academy of
+  Sciences 113~(35) (2016) 9740--9744.
+
+\bibitem{bib:Peropadre17}
+B.~Peropadre, A.~Aspuru-Guzik, J.~J. Garc\'{\i}a-Ripoll, Equivalence between
+  spin hamiltonians and boson sampling, Phys. Rev. A 95 (2017) 032327.
+
+\bibitem{bib:Crespi13}
+A.~Crespi, R.~Osellame, R.~Ramponi, D.~J. Brod, E.~F. Galvao, N.~Spagnolo,
+  C.~Vitelli, E.~Maiorino, P.~Mataloni, F.~Sciarrino, Integrated multimode
+  interferometers with arbitrary designs for photonic boson sampling, Nat
+  Photon 7~(7) (2013) 545--549.
+
+\bibitem{bib:Lund14}
+A.~P. Lund, A.~Laing, S.~Rahimi-Keshari, T.~Rudolph, J.~L. O'Brien, T.~C.
+  Ralph, Boson sampling from a gaussian state, Phys. Rev. Lett. 113 (2014)
+  100502.
+
+\bibitem{bib:Bentivegna15}
+M.~Bentivegna, N.~Spagnolo, C.~Vitelli, F.~Flamini, N.~Viggianiello,
+  L.~Latmiral, P.~Mataloni, D.~J. Brod, E.~F. Galv{\~a}o, A.~Crespi,
+  R.~Ramponi, R.~Osellame, F.~Sciarrino, Experimental scattershot boson
+  sampling, Science Advances 1~(3).
+
+\bibitem{bib:Rohde15}
+P.~P. Rohde, K.~R. Motes, P.~A. Knott, J.~Fitzsimons, W.~J. Munro, J.~P.
+  Dowling, Evidence for the conjecture that sampling generalized cat states
+  with linear optics is hard, Phys. Rev. A 91 (2015) 012342.
+
+\bibitem{bib:Tamma14_thermal}
+V.~Tamma, S.~Laibacher, Multiboson correlation interferometry with multimode
+  thermal sources, Phys. Rev. A 90 (2014) 063836.
+
+\bibitem{bib:Huh15}
+J.~Huh, G.~G. Guerreschi, B.~Peropadre, J.~R. McClean, A.~Aspuru-Guzik, Boson
+  sampling for molecular vibronic spectra, Nat Photon 9 (2015) 615--620.
+
+\bibitem{bib:Gogolin13}
+C.~Gogolin, M.~Kliesch, L.~Aolita, J.~Eisert, Boson-sampling in the light of
+  sample complexity, arXiv:1306.3995.
+
+\bibitem{bib:Aaronson13}
+S.~Aaronson, A.~Arkhipov, Bosonsampling is far from uniform, Quantum
+  Information \& Computation 14.
+
+\bibitem{bib:Spagnolo14}
+N.~Spagnolo, C.~Vitelli, M.~Bentivegna, D.~J. Brod, A.~Crespi, F.~Flamini,
+  S.~Giacomini, G.~Milani, R.~Ramponi, P.~Mataloni, R.~Osellame, E.~F. Galvao,
+  F.~Sciarrino, Experimental validation of photonic boson sampling, Nat Photon
+  8 (2014) 615--620.
+
+\bibitem{bib:Carolan14}
+J.~Carolan, M.~D. A., P.~J. Shadbolt, N.~J. Russell, N.~Ismail, K.~W{\"o}rhoff,
+  T.~Rudolph, M.~G. Thompson, J.~L. O'Brien, M.~C. F., A.~Laing, On the
+  experimental verification of quantum complexity in linear optics, Nat Photon
+  8 (2014) 621--626.
+
+\bibitem{bib:Walschaeprs16}
+M.~Walschaers, J.~Kuipers, J.-D. Urbina, K.~Mayer, M.~C. Tichy, K.~Richter,
+  A.~Buchleitner, Statistical benchmark for bosonsampling, New Journal of
+  Physics 18~(3) (2016) 032001.
+
+\bibitem{bib:Tichy14}
+M.~C. Tichy, K.~Mayer, A.~Buchleitner, K.~M\o{}lmer, Stringent and efficient
+  assessment of boson-sampling devices, Phys. Rev. Lett. 113 (2014) 020502.
+
+\bibitem{bib:Crespi16}
+A.~Crespi, R.~Osellame, R.~Ramponi, M.~Bentivegna, F.~Flamini, N.~Spagnolo,
+  N.~Viggianiello, L.~Innocenti, P.~Mataloni, F.~Sciarrino, Suppression law of
+  quantum states in a 3d photonic fast fourier transform chip, Nature
+  Communications 7 (2016) 10469.
+
+\bibitem{bib:Yung16}
+M.-H. Yung, X.~Gao, J.~Huh, Universal bound on sampling bosons in linear
+  optics, arXiv:1608.00383.
+
+\bibitem{bib:Rohde12_tol}
+P.~P. Rohde, T.~C. Ralph, Error tolerance of the boson-sampling model for
+  linear optics quantum computing, Phys. Rev. A 85 (2012) 022332.
+
+\bibitem{bib:Leverrier15}
+A.~Leverrier, R.~Garc\'ia-Patr\'on, Analysis of circuit imperfections in
+  bosonsampling, Quantum Information \& Computation 15  0489--0512.
+
+\bibitem{bib:Shchesnobich14}
+V.~S. Shchesnovich, Sufficient condition for the mode mismatch of single
+  photons for scalability of the boson-sampling computer, Phys. Rev. A 89
+  (2014) 022333.
+
+\bibitem{bib:Tamma16}
+V.~Tamma, S.~Laibacher, Boson sampling with non-identical single photons,
+  Journal of Modern Optics 63~(1) (2016) 41--45.
+
+\bibitem{bib:Tichy15}
+M.~C. Tichy, Sampling of partially distinguishable bosons and the relation to
+  the multidimensional permanent, Phys. Rev. A 91 (2015) 022316.
+
+\bibitem{bib:Motes15}
+K.~R. Motes, J.~P. Olson, E.~J. Rabeaux, J.~P. Dowling, S.~J. Olson, P.~P.
+  Rohde, Linear optical quantum metrology with single photons: Exploiting
+  spontaneously generated entanglement to beat the shot-noise limit, Phys. Rev.
+  Lett. 114 (2015) 170802.
+
+\bibitem{bib:Giovannetti04}
+V.~Giovannetti, S.~Lloyd, L.~Maccone, Quantum-enhanced measurements: Beating
+  the standard quantum limit, Science 306~(5700) (2004) 1330--1336.
+
+\bibitem{bib:Dowling08}
+J.~P. Dowling, Quantum optical metrology--the lowdown on high-n00n states,
+  Contemporary Physics 49~(2) (2008) 125--143.
+
+\bibitem{bib:Giovannetti11}
+V.~Giovannetti, S.~Lloyd, L.~Maccone, Advances in quantum metrology, Nat Photon
+  5~(4) (2011) 222--229.
+
+\bibitem{bib:Szczykulska16}
+M.~Szczykulska, T.~Baumgratz, A.~Datta, Multi-parameter quantum metrology,
+  Advances in Physics: X 1~(4) (2016) 621--639.
+
+\bibitem{bib:Baumgratz16}
+T.~Baumgratz, A.~Datta, Quantum enhanced estimation of a multidimensional
+  field, Phys. Rev. Lett. 116 (2016) 030801.
+
+\bibitem{bib:Ciampini16}
+M.~A. Ciampini, N.~Spagnolo, C.~Vitelli, L.~Pezz{\`e}, A.~Smerzi, F.~Sciarrino,
+  Quantum-enhanced multiparameter estimation in multiarm interferometers,
+  Scientific Reports 6 (2016) 28881.
 
 \end{thebibliography}

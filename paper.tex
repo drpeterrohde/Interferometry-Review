@@ -39,7 +39,7 @@
 % Title
 %
 
-\title{The resurgence of the linear optics \sihui{quantum} interferometer --- recent advances \& applications}
+\title{The resurgence of the linear optics quantum interferometer --- recent advances \& applications}
 
 %
 % Authors
@@ -317,9 +317,9 @@ State tomography is achieved by measuring expectation values in a complete basis
 
 Process tomography employs state tomography as a primitive, applying an equivalent completeness relation, but across the space of quantum processes, which may be decomposed into a basis input to output states. For a single qubit process this may be represented as,}
 \begin{align} \label{eq:process_matrix}
-\mathcal{E}(\hat\rho) = \sum_{i,j=1}^4 \chi_{i,j} \hat{\sigma}_i\hat\rho\,\hat{\sigma}_j^\dag.
+\mathcal{E}(\hat\rho) = \sum_{i,j=1}^4 \chi_{i,j} \hat{\sigma}_i\hat\rho\,\hat{\sigma}_j^\dag,
 \end{align}
-\peter{which generalises to an arbitrary number of qubits. Here $\chi$ is the process matrix in the Pauli basis.}
+\peter{where $\hat\sigma_i$ are the Pauli operators. This generalises to an arbitrary number of qubits. Here $\chi$ is the process matrix in the Pauli basis, which fully characterises the quantum process.}
 %\cite{bib:Mitchell03,bib:Obrien04,bib:Lobino08,bib:Saleh11}.
 
 %\section{Experimental implementation}\label{sec:expt}
@@ -363,6 +363,14 @@ which are all maximally entangled and locally equivalent to one another. These a
 %\cite{bib:Kim01,bib:Kim03,bib:Brida07,bib:Dayan07}.
 In some applications, it may be desired to have the EPR pairs conditionally prepared, {\it i.e.~}successfully prepared only under certain measurement outcomes of auxiliary modes. Because the EPR qubits are not measured directly, they can be used subsequently. Several theoretical approaches have been proposed for this purpose \cite{bib:Pittman03,bib:Sliwa03,bib:Walther07}, and demonstrated \cite{bib:Wagenknecht10,bib:Barz10}.
 
+\subsection{NOON states}
+
+A closely related state is the NOON state, written as
+\begin{align}
+\ket{\psi^{\rm (NOON)}_n}=\frac{1}{\sqrt{2}}(\ket{n,0}+\ket{0,n})\ ,
+\end{align}
+in the second quantization representation, \sihui{and the basis is the same as that for eq.~(\ref{eq:dualrail})}. This state is structurally similar to an EPR state, but its large photon-number give it great metrological power in quantum phase estimation, allowing saturation of the Heisenberg limit -- a physical bound on accuracy in phase estimation.
+
 \subsection{Greenberger-Horne-Zeilinger (GHZ) states}
 
 GHZ states form a class of entangled quantum states on multiple subsystems with at least three parties \cite{bib:GHZ89}. For qubit encodings with $n$ subsystems, a GHZ state is of the form
@@ -370,12 +378,6 @@ GHZ states form a class of entangled quantum states on multiple subsystems with 
 \ket{\Psi_{n}^{\rm (GHZ)}}=\frac{\ket{0}^{\otimes n}+\ket{1}^{\otimes n}}{\sqrt{2}} \ .
 \end{align}
 These states are also non-local, and have been used extensively in experimental test for non-locality \cite{bib:JW00,bib:Zhang15}. This has been a subject matter covered in detail by another review \cite{bib:JW12}. To date, six- \cite{bib:Lu06,bib:Zhang15}, eight- \cite{bib:Huang11,bib:Yao12}, and ten-photons \cite{bib:WangChen16,bib:Chen17} GHZ states have been produced.
-
-The GHZ state is also known as the NOON state, because it is written as
-\begin{align}
-\ket{\psi^{\rm (NOON)}_n}=\frac{1}{\sqrt{2}}(\ket{n,0}+\ket{0,n})\ ,
-\end{align}
-in the second quantization representation, \sihui{and the basis is the same as that for eq.~(\ref{eq:dualrail})}. This notation is commonly used in quantum metrological applications.
 
 \subsection{Cluster states}\label{section:cluster}
 
@@ -527,7 +529,7 @@ Last, PNR detectors can be created by connecting many non-PNR detectors in paral
 \section{Optical switching}\label{sec:switch}
 
 \peter{
-Some of the protocols thus far require switching between different optical modes. \sihui{One way to achieve this experimentally for time-bin qubits uses} a Mach-Zehnder interferometer with a dynamic, classically-controlled phase-shift in one path \cite{bib:Takesue14} (see Fig.~\ref{figMZ}). The variable phase may be implemented in a number of ways using various types of phase modulators, such as electro-optic or acousto-optic modulators. With this construction setting the phase to $\phi=0$ performs the identity operation, whereas for $\phi=\pi$ it performs a swap gate.\sihui{Ref.~\cite{bib:Takesue14} reports a switching time of 100 picoseconds for this type of switch.}
+Some of the protocols thus far require switching between different optical modes. \sihui{One way to achieve this experimentally for time-bin qubits uses} a Mach-Zehnder interferometer with a dynamic, classically-controlled phase-shift in one path \cite{bib:Takesue14} (see Fig.~\ref{figMZ}). The variable phase may be implemented in a number of ways using various types of phase modulators, such as electro-optic or acousto-optic modulators. With this construction setting the phase to $\phi=0$ performs the identity operation, whereas for $\phi=\pi$ it performs a swap gate. \sihui{Ref.~\cite{bib:Takesue14} reports a switching time of 100 picoseconds for this type of switch.}
 }
 
 \begin{figure}[!htb]
@@ -626,33 +628,29 @@ Owing to the simplicity of {\sc BosonSampling} and its overarching implications 
 
 Certifying that a {\sc bosonsampling} task has been correctly performed is non-trivial. Some efforts look into discriminating between a valid {\sc bosonsampling} and a uniform distributions \cite{bib:Gogolin13,bib:Aaronson13}. Another shows how to discriminate data arising from either indistinguishable or distinguishable photons \cite{bib:Spagnolo14,bib:Carolan14}. More general benchmark standards have also been instituted \cite{bib:Walschaeprs16}. Another approach to verify that the interferometer is behaving as expected is to make use of suppression laws \cite{bib:Tichy14} together with fully reconfigurable optical circuits. When the circuits are tuned to implement certain unitary matrices, specific input and output combinations are suppressed \cite{bib:Crespi16}. Last but not least, a bound for the transition amplitudes for {\sc bosonsampling} indicates that an approximation algorithm for the permanent is possible \cite{bib:Yung16}. Such an algorithm can help with verifying the sampling distribution, but their proof does not construct the algorithm needed for this to happen.
 
-\peter{
-Numerous other sampling problems have since been described, using, for example,
+Numerous other hard sampling problems have since been described, using, for example,
 \begin{enumerate}
-	\item Cat states (superpositions of coherent states)
-	\item Photon-added coherent states.
-	\item Photon-added or photon-subtracted squeezed vacuum states.
-	\item Two-mode squeezed vacuum states (SPDC states).
-	\item Gaussian states.
-	\item Positive P-function states.
+	\item Cat states (superpositions of coherent states) \cite{RohdeCat15}.
+	\item Photon-added coherent states \cite{RohdeDisp15}.
+	\item Photon-added or photon-subtracted squeezed vacuum states \cite{RohdePhotAdd15}.
+	\item Two-mode squeezed vacuum states (SPDC states) \cite{SalehSPDC}.
 \end{enumerate}
-}
 
-\peter{
-Of these, 1--4 have been shown to yield hard sampling problems under photodetection, assuming certain reasonable complexity assumptions. And 5--6 have been shown to implement polynomial-time classical algorithms, under Gaussian measurements.}
+%\peter{
+%Of these, 1--4 have been shown to yield hard sampling problems under photodetection, assuming certain reasonable complexity assumptions. And 5--6 have been shown to implement polynomial-time classical algorithms, under Gaussian measurements.}
 
 As experimental imperfections threaten the scalability of {\sc bosonsampling}, there have been efforts to look into its error tolerance \cite{bib:Rohde12_tol}, fault-tolerance \cite{bib:Leverrier15}, and experimental artefacts \cite{bib:Shchesnobich14,bib:Tamma16}. Some works have resulted in interesting connections to exotic mathematical entities like immanants \cite{bib:Tan2013,bib:deGuise2014} and the multi-dimensional permanent \cite{bib:Tichy15}. A time-bin implementation of {\sc bosonsampling} \cite{bib:Motes14,bib:HeDing17} seems particularly attractive in terms of robustness \cite{bib:Motes15_timebin}.
 
 
 \sihui{
 \subsection{Quantum simulations}
-Quantum simulations is about simulating a quantum system by quantum mechanical means \cite{bib:Georgescu14}, and there are generally two approaches to achieving this. The first approach is known as digital quantum simulation and achieved by building a quantum computer from unitary gate components that are generated by a Hamiltonians of quantum processes. Progress using this approach has already been discussed in Section \ref{sec:LOQC}. The second approach is known as analog quantum simulation and involves building simpler analog devices that mimic other, perhaps less accessible, quantum systems. We focus on discussing analog quantum simulation in this section. Further discussions can be found in reviews written on quantum simulations \cite{bib:Buluta108, bib:Georgescu14}, including one specifically for optical quantum simulations \cite{bib:Aspuru-Guzik12}.
+Quantum simulation involves simulating a quantum system by quantum mechanical means \cite{bib:Georgescu14}, and there are generally two approaches to achieving this. The first approach is known as digital quantum simulation and achieved by building a quantum computer from unitary gate components that are generated by a Hamiltonians of quantum processes. Progress using this approach has already been discussed in Section \ref{sec:LOQC}. The second approach is known as analog quantum simulation and involves building simpler analog devices that mimic other, perhaps less accessible, quantum systems. We focus on discussing analog quantum simulation in this section. Further discussions can be found in reviews written on quantum simulations \cite{bib:Buluta108, bib:Georgescu14}, including one specifically for optical quantum simulations \cite{bib:Aspuru-Guzik12}.
 
  Quantum interferometers have been proposed and in some cases implemented as quantum simulators. In quantum chemistry, the energy spectrum of the hydrogen molecule has been calculated using a quantum simulator comprising of a pair of entangled photons in a polarization-dependent interferometer \cite{bib:Lanyon10}. With two entangled photon pairs, valence-bond states have been simulated and a fiber-based tunable directional coupler gives analogue control over superpositions of different valence-bond states \cite{bib:Ma2011}. The model of {\sc Bosonsampling}, when coupled with two-level systems that are coupled to the ports of the quantum interferometer, simulates a general spin XY Hamiltonian \cite{bib:Olivares16}. Quantum interferometers can also be used to simulate quantum walks which in turn can be used to simulate topological phases \cite{bib:Kitagawa12}, transitions between fermionic and bosonic behavior \cite{bib:Schreiber11, bib:Sansoni12,bib:Matthews13,bib:Keil16}, fractional statistics of anyons \cite{bib:Han07,bib:Pachos09, bib:Chao-Yang09}, and excitation transfer in biological systems \cite{bib:Caruso11,bib:Viciani16}.
   }
   
 \subsection{Quantum metrology}\label{subsec:metrology}
-An archetypal task for quantum metrology is the following: Given a Mach-\sihui{Zehnder} interferometer, with an unknown phase shift of magnitude $\varphi$ inserted in one of the two paths (see Fig. \ref{fig:MZ}), can one deduce $\varphi$ via a judicious use of quantum states and measurements with a higher sensitivity than that of a completely classical interferometer? Indeed, one can, and the standard deviation, $\Delta\varphi$, after $N$ trials using quantum estimation is $\Delta\varphi=1/N$, which gets a factor of $\sqrt{N}$ improvement over classical phase estimation. As this sensitivity is also a fundamental limit arising from Heisenberg's uncertainty principle, {\it i.e.} we cannot measure definitively the phase, it is known as the Heisenberg limit. Most famously, NOON states achieve this limit using $N$ photons in a single trial. Many reviews have been written for quantum metrology and Heisenberg-limited quantum phase estimation \cite{bib:Giovannetti04,bib:Dowling08,bib:Giovannetti11} so we will not dwell on the history of this application. Instead, we will discuss new paradigms for quantum metrology that have been made possible by the aforementioned advancements in linear optics.
+An archetypal task for quantum metrology is the following: Given a Mach-Zehnder interferometer, with an unknown phase shift of magnitude $\varphi$ inserted in one of the two paths (see Fig. \ref{fig:MZ}), can one deduce $\varphi$ via a judicious use of quantum states and measurements with a higher sensitivity than that of a completely classical interferometer? Indeed, one can, and the standard deviation, $\Delta\varphi$, after $N$ trials using quantum estimation is $\Delta\varphi=1/N$, which achieves a factor of $\sqrt{N}$ improvement over classical phase estimation. As this sensitivity is also a fundamental limit arising from Heisenberg's uncertainty principle, {\it i.e.} we cannot measure definitively the phase, it is known as the Heisenberg limit. Most famously, NOON states achieve this limit using $N$ photons in a single trial. Many reviews have been written for quantum metrology and Heisenberg-limited quantum phase estimation \cite{bib:Giovannetti04,bib:Dowling08,bib:Giovannetti11} so we will not dwell on the history of this application. Instead, we will discuss new paradigms for quantum metrology that have been made possible by the aforementioned advancements in linear optics.
  
 % \begin{figure}[!htb]
 % \centering
@@ -664,7 +662,7 @@ An archetypal task for quantum metrology is the following: Given a Mach-\sihui{Z
 
 
  
- As discussed in Section \ref{sec:bosonsampling}, the resources needed for Boson-sampling \peter{are} readily available, but executes a task that is believed to be hard classically. Surprisingly, an entanglement between a large number of path labels is possible with single photons in a passive linear optical device. Motes {\it et al.~}harnessed this so-called number-path entanglement for quantum metrology without the use of entangled states \cite{bib:Motes15_LOQM}. Here, the phase shift to be estimated, $\varphi$, manifests itself as a linear phase gradient across $N$ modes (See Fig. \ref{fig:MORDOR}). By straddling these modes among a quantum Fourier transform and its conjugate operation, it is possible to achieve $\Delta \varphi=\mathcal{O}(N^{-3/2})$ using a coincidence measurement with just a string of $N$ single photons, for up to at least $N=25$ modes. 
+ As discussed in Section \ref{sec:bosonsampling}, the resources needed for Boson-sampling are readily available, but executes a task that is believed to be hard classically. Surprisingly, an entanglement between a large number of path labels is possible with single photons in a passive linear optical device. Motes {\it et al.~}harnessed this so-called number-path entanglement for quantum metrology without the use of entangled states \cite{bib:Motes15_LOQM}. Here, the phase shift to be estimated, $\varphi$, manifests itself as a linear phase gradient across $N$ modes (See Fig. \ref{fig:MORDOR}). By straddling these modes among a quantum Fourier transform and its conjugate operation, it is possible to achieve $\Delta \varphi=\mathcal{O}(N^{-3/2})$ using a coincidence measurement with just a string of $N$ single photons, for up to at least $N=25$ modes. 
  
  Quantum multi-parameter estimation is the extension of quantum phase estimation to sense multiple phases in a multi-arm interferometer \cite{bib:Szczykulska16}. Theoretical work has shown that it is favorable to probe all phases simultaneously rather than individually \cite{bib:Baumgratz16,bib:Ciampini16}, and it remains to realize existing proposals for implementation \cite{bib:Spagnolo12}. Nonetheless, for a Heisenberg-limited sensitivity, entangled states and joint measurements across modes are likely to be required. 
  
@@ -690,7 +688,7 @@ An archetypal task for quantum metrology is the following: Given a Mach-\sihui{Z
 \subsection{Repeater networks}
 
 
-Quantum repeaters are devices that distribute entanglement across a network, or teleport quantum states between nodes of a network. The purpose of such a quantum network is to communicate and process quantum information over long distances. While photons serve as useful medium for information transfer, many implementations of photonic repeater network require some kind of nonlinear interactions involving cavities for entanglement distillation \cite{Briegel98}, quantum memories \cite{Duan01}, or feedforwarding \cite{bib:Azuma15}. The seminal work of Duan et al.~ \cite{Duan01}, in particular, uses atomic ensemble as quantum memories. Single photon interference then facilitates creation of entanglement between them. However, this makes the repeater node susceptible to interferometric instability which later schemes improve upon by using two-photon interference instead \cite{Zhao07,YCZCS08,CZCS07}. Error correction codes for photon loss and dark counts \cite{bib:RHG05} have also been applied for use in repeaters \cite{bib:MHSDN10,bib:Muralidhara14,bib:Ewert16,bib:Ewert17}. Another scheme combines the use of two-photon interference and spectral multiplexing to boost high entanglement distribution rates \cite{bib:Sinclair14}.  
+Quantum repeaters are devices that distribute entanglement across a network, or teleport quantum states between nodes of a network. The purpose of such a quantum network is to communicate and process quantum information over long distances. While photons serve as a useful medium for information transfer, many implementations of photonic repeater network require some kind of nonlinear interactions involving cavities for entanglement distillation \cite{Briegel98}, quantum memories \cite{Duan01}, or feedforwarding \cite{bib:Azuma15}. The seminal work of Duan et al.~ \cite{Duan01}, in particular, uses atomic ensemble as quantum memories. Single photon interference then facilitates creation of entanglement between them. However, this makes the repeater node susceptible to interferometric instability which later schemes improve upon by using two-photon interference instead \cite{Zhao07,YCZCS08,CZCS07}. Error correction codes for photon loss and dark counts \cite{bib:RHG05} have also been applied for use in repeaters \cite{bib:MHSDN10,bib:Muralidhara14,bib:Ewert16,bib:Ewert17}. Another scheme combines the use of two-photon interference and spectral multiplexing to boost high entanglement distribution rates \cite{bib:Sinclair14}.  
 
 Without the use of repeaters, it has been shown that the rate transmission of a channel with loss without entanglement assistance has a linear fallout \cite{bib:TGW14}, and its bound is known as the Takeoka-Guha-Wilde (TGW) bound. The minimal resources required to exceed the TGW bound is a subject of active research, and so far it has been shown that the performance of the repeater schemes of Ewert-Bergmann-van Loock \cite{bib:Ewert16}, and Sinclair et al. \cite{bib:Sinclair14} are able to exceed the TGW bound. Other benchmarking tools have also been used to analyze some of these repeater schemes in detail \cite{bib:Muralidhara16}. In terms of implementation, the greatest distance that a quantum state has been teleported to-date is 1400 km \cite{bib:Ren17}, and is demonstrated between an earth-based source with a detection unit on a satellite in space. This is a culmination of many decades of research from many groups in extending this distance. If it could be made to work with other basic units of quantum repeater networks that have been implemented \cite{bib:Kimble08,bib:Sangouard11, bib:MATN15}, a large-scale, long-distance repeater network could soon be possible.
 
@@ -698,9 +696,9 @@ Without the use of repeaters, it has been shown that the rate transmission of a 
 
 \section{Conclusion}
 
-Linear optical interferometry has become a leading contender for the implementation of quantum information processing protocols. The preparation, manipulation and measurement of photonic quantum information \sihui{is already} mainstream and widely employed, with impressive experimental accuracies.
+Linear optical interferometry has become a leading contender for the implementation of quantum information processing protocols. The preparation, manipulation and measurement of photonic quantum information is already mainstream and widely employed, with impressive experimental accuracies.
 
-We have discussed the various ways in which quantum information can be represented \sihui{in photonics}, how they can be manipulated and detected, and some of their leading applications.
+We have discussed the various ways in which quantum information can be represented photonically, how they can be manipulated and detected, and some of their leading applications.
 
 Although there are countless physical architectures for the implementation of quantum information processing, and it is far from certain which will win `the quantum race for supremacy, optics will always find a home as the only contender for applications involving quantum communication. For this reason, the future of linear optics interferometry is a bright one, a sentiment echoed by others \cite{bib:Rudolph17}, which will find inevitable applicability in the future quantum world.
 

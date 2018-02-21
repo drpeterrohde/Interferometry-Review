@@ -1,431 +1,755 @@
-This is BibTeX, Version 0.99d (TeX Live 2015)
+This is BibTeX, Version 0.99d (TeX Live 2016)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: /Users/sihui_tan/Documents/Interferometry-Review/.texpadtmp/paper.aux
+The top-level auxiliary file: /Users/124106/Library/Mobile Documents/com~apple~CloudDocs/Publications/GitHub/Interferometry-Review/.texpadtmp/paper.aux
 The style file: ../elsarticle-num.bst
 output.null is an unknown function---line 1113 of file ../elsarticle-num.bst
+Reallocated field_info (elt_size=4) to 10940 items from 5000.
 Database file #1: ../paper.bib
-Repeated entry---line 530 of file ../paper.bib
+Warning--string name "x" is undefined
+--line 26 of file ../paper.bib
+Missing "}" in string command---line 26 of file ../paper.bib
+ : @string{pra          =x 
+ :                         "Phys. Rev. A"}
+I'm skipping whatever remains of this command
+Repeated entry---line 730 of file ../paper.bib
  : @article{bib:Georgescu14
  :                         ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 1143 of file ../paper.bib
+I was expecting a `,' or a `}'---line 1265 of file ../paper.bib
  :   
  :   year = {2015}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 1485 of file ../paper.bib
+I was expecting a `,' or a `}'---line 1306 of file ../paper.bib
+ :     journal = Opt. 
+ :                    Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1609 of file ../paper.bib
+ :    journal = Phys. 
+ :                    Rev. A,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1615 of file ../paper.bib
  : @article{bib:Kim01
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3283 of file ../paper.bib
+I was expecting a `,' or a `}'---line 1631 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1640 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+Warning--string name "phy." is undefined
+--line 1649 of file ../paper.bib
+I was expecting a `,' or a `}'---line 1649 of file ../paper.bib
+ :     journal = phy. 
+ :                    Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1658 of file ../paper.bib
+ :  journal = Phys. 
+ :                  Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1666 of file ../paper.bib
+ :  journal = Phy. 
+ :                 Rev. A,
+I'm skipping whatever remains of this entry
+You're missing a field name---line 1694 of file ../paper.bib
+ : 
+ : %    author  = "Daniel E. Browne and Terry Rudolph and Michael
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1704 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1713 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1754 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1763 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1772 of file ../paper.bib
+ :  journal = Phys. 
+ :                  Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1792 of file ../paper.bib
+ :   journal = Phys. 
+ :                   Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1826 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1854 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1872 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1881 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1890 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1911 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1929 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1954 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1972 of file ../paper.bib
+ :  journal = Phys. 
+ :                  Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1981 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2002 of file ../paper.bib
+ :  journal = Phys. 
+ :                  Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2011 of file ../paper.bib
+ :  journal = Phys. 
+ :                  Rev. A,
+I'm skipping whatever remains of this entry
+Warning--string name "phys." is undefined
+--line 2032 of file ../paper.bib
+I was expecting a `,' or a `}'---line 2032 of file ../paper.bib
+ :     journal = phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2041 of file ../paper.bib
+ :  journal = Phys. 
+ :                  Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2083 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2204 of file ../paper.bib
+ : 
+ : s}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2220 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2229 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2249 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2288 of file ../paper.bib
+ :     journal = Am. 
+ :                   J. Phys.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2305 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2313 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2322 of file ../paper.bib
+ :  journal = J. 
+ :               Opt. B,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2331 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2352 of file ../paper.bib
+ :  journal = Phys. 
+ :                  Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2369 of file ../paper.bib
+ :     journal = Rev. 
+ :                    Mod. Phys.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2378 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2397 of file ../paper.bib
+ :  journal = Phys. 
+ :                  Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2436 of file ../paper.bib
+ :   journal = Phys. 
+ :                   Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2446 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2476 of file ../paper.bib
+ :  journal = Phys. 
+ :                  Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2492 of file ../paper.bib
+ :     journal = J. 
+ :                  Opt. B,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2508 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Lett. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2517 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2533 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2542 of file ../paper.bib
+ :  journal = J. 
+ :               Mod. Opt.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2551 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2560 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2569 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2578 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2594 of file ../paper.bib
+ :  journal  = Phys. 
+ :                   Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2616 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2662 of file ../paper.bib
+ :  journal = Phys. 
+ :                  Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2671 of file ../paper.bib
+ :  journal = New 
+ :                J. Phys.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2680 of file ../paper.bib
+ :     journal = Appl. 
+ :                     Phys. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2689 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2782 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2791 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2840 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+Warning--string name "rev." is undefined
+--line 3119 of file ../paper.bib
+I was expecting a `,' or a `}'---line 3119 of file ../paper.bib
+ :     journal = rev. 
+ :                    Mod. Phys.,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3164 of file ../paper.bib
  : @article{bib:Huh15
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3414 of file ../paper.bib
+Repeated entry---line 3329 of file ../paper.bib
  : @article{bib:Baumgratz16
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4513 of file ../paper.bib
+I was expecting a `,' or a `}'---line 3405 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3414 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3421 of file ../paper.bib
+ :   journal = Phys. 
+ :                   Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3431 of file ../paper.bib
+ :  journal = New 
+ :                J. Phys.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3444 of file ../paper.bib
+ :   journal = J. 
+ :                Opt. B,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3454 of file ../paper.bib
+ :  journal = Phys. 
+ :                  Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3463 of file ../paper.bib
+ :  journal = Phys. 
+ :                  Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3472 of file ../paper.bib
+ :  journal = Phys. 
+ :                  Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3481 of file ../paper.bib
+ :     journal = J. 
+ :                  Mod. Opt.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3490 of file ../paper.bib
+ :     journal = Appl. 
+ :                     Phys. B,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3499 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3542 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3551 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3560 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3569 of file ../paper.bib
+ :  journal = Phys. 
+ :                  Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3591 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3600 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3631 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3640 of file ../paper.bib
+ :  journal = Phys. 
+ :                  Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3648 of file ../paper.bib
+ :  journal = Phys. 
+ :                  Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3657 of file ../paper.bib
+ :  journal = Phys. 
+ :                  Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3689 of file ../paper.bib
+ :     journal = Rev. 
+ :                    Mod. Phys.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3698 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3707 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3759 of file ../paper.bib
+ :  journal = Phys. 
+ :                  Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3887 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3922 of file ../paper.bib
+ :     journal = Appl. 
+ :                     Phys. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3940 of file ../paper.bib
+ :     journal = New 
+ :                   J. Phys.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3949 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3971 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4002 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4029 of file ../paper.bib
+ :  journal = Rep. 
+ :                 Math. Phys.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4047 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4092 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4100 of file ../paper.bib
+ :  journal = Phys. 
+ :                  Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4110 of file ../paper.bib
+ :     journal = J. 
+ :                  Opt. B,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4119 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4176 of file ../paper.bib
+ :  journal = Phys. 
+ :                  Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4185 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4194 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4309 of file ../paper.bib
+ :  journal = J. 
+ :               Mod. Opt.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4325 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4334 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4339 of file ../paper.bib
  : @article{bib:Pittman03
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5018 of file ../paper.bib
+I was expecting a `,' or a `}'---line 4352 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4361 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4381 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4390 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4399 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4408 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Lett. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4417 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4426 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4435 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4444 of file ../paper.bib
+ :     journal = Rep. 
+ :                    Prog. Phys.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4453 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+Warning--string name "phys." is undefined
+--line 4462 of file ../paper.bib
+I was expecting a `,' or a `}'---line 4462 of file ../paper.bib
+ :     journal = phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4505 of file ../paper.bib
+ :     journal = J. 
+ :                  Opt. B,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4514 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4523 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4532 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4541 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4550 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4559 of file ../paper.bib
+ :     journal = J. 
+ :                  Mod. Opt.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4568 of file ../paper.bib
+ :  journal = Phys. 
+ :                  Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4591 of file ../paper.bib
+ :  journal = New 
+ :                J. Phys.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4645 of file ../paper.bib
+ :  journal = New 
+ :                J. Phys.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4685 of file ../paper.bib
+ :  journal = Phys. 
+ :                  Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4693 of file ../paper.bib
+ :  journal = Phys. 
+ :                  Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4702 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4718 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4727 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+Warning--string name "new" is undefined
+--line 4752 of file ../paper.bib
+I was expecting a `,' or a `}'---line 4752 of file ../paper.bib
+ :  journal = new 
+ :                J. Phys.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4818 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4854 of file ../paper.bib
  : @article{bib:Chen17
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5037 of file ../paper.bib
+Repeated entry---line 4863 of file ../paper.bib
  : @article{bib:Shapiro07
  :                       ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 4883 of file ../paper.bib
+ : @article{bib:Kalashnikov12
+ :                           ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4909 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4918 of file ../paper.bib
+ :     journal = New 
+ :                   J. Phys.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4927 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4946 of file ../paper.bib
+ :     journal = Appl. 
+ :                     Phys. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4955 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4996 of file ../paper.bib
+ :   journal = Opt. 
+ :                  Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 5004 of file ../paper.bib
+ :   journal = Opt. 
+ :                  Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 5075 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 5099 of file ../paper.bib
+ :  journal = Phys. 
+ :                  Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 5118 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 5125 of file ../paper.bib
+ :   journal = Phys. 
+ :                   Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 5135 of file ../paper.bib
+ :     journal = J. 
+ :                  Opt. B,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 5144 of file ../paper.bib
+ :     journal = J. 
+ :                  Opt. B,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 5161 of file ../paper.bib
+ :     journal = J. 
+ :                  Chem. Phys.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 5182 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 5191 of file ../paper.bib
+ :     journal = J. 
+ :                  Opt. Soc. Am. B,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 5200 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 5218 of file ../paper.bib
+ :  journal = Phys. 
+ :                  Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 5227 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 5236 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 5245 of file ../paper.bib
+ :  journal = Phys. 
+ :                  Rev. A,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 5288 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 5333 of file ../paper.bib
+ :  journal = Phys. 
+ :                  Rev. Lett.,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 5358 of file ../paper.bib
+ :     journal = Phys. 
+ :                     Rev. A,
+I'm skipping whatever remains of this entry
 ptr=1, stack=
- 9~(4) (2015) 363--384
----the literal stack isn't empty for entry bib:Meany15
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
-\href {http://arxiv.org/abs/http://dx.doi.org/10.1063/1.3657518} {\path{arXiv:http://dx.doi.org/10.1063/1.3657518}}
----the literal stack isn't empty for entry bib:Sprengers11
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
- 5 (2015) 041007
----the literal stack isn't empty for entry bib:Li15
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
-\href {http://arxiv.org/abs/http://science.sciencemag.org/content/339/6121/798.full.pdf} {\path{arXiv:http://science.sciencemag.org/content/339/6121/798.full.pdf}}
----the literal stack isn't empty for entry bib:Spring13
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
-\href {http://arxiv.org/abs/http://science.sciencemag.org/content/339/6121/794.full.pdf} {\path{arXiv:http://science.sciencemag.org/content/339/6121/794.full.pdf}}
----the literal stack isn't empty for entry bib:Broome13
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
- 117 (2016) 210502
----the literal stack isn't empty for entry bib:WangChen16
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
- 4~(1) (2017) 77--83
----the literal stack isn't empty for entry bib:Chen17
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
- 116 (2016) 020401
----the literal stack isn't empty for entry bib:Ding16
-while executing---line 1507 of file ../elsarticle-num.bst
-Warning--empty journal in bib:WangHe16
-ptr=1, stack=
- 116 (2016) 213601
----the literal stack isn't empty for entry bib:213601
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
- 5 (2015) 041015
----the literal stack isn't empty for entry bib:Tillmann2015
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
- 111 (2013) 150501
----the literal stack isn't empty for entry bib:Humphreys2013
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
- 111 (2013) 153602
----the literal stack isn't empty for entry bib:Donohue2013
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
- 115 (2015) 020502
----the literal stack isn't empty for entry bib:Gimeno-Segovia15
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
-\href {http://arxiv.org/abs/http://science.sciencemag.org/content/335/6066/303.full.pdf} {\path{arXiv:http://science.sciencemag.org/content/335/6066/303.full.pdf}}
----the literal stack isn't empty for entry bib:Barz12
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
-pp. 333--342
----the literal stack isn't empty for entry bib:Aaronson11
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
- 109 (2012) 150501
----the literal stack isn't empty for entry bib:Rohde_qw12
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
- 73 (1994) 58--61
----the literal stack isn't empty for entry bib:Reck1994
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
- 110 (2013) 113603
----the literal stack isn't empty for entry bib:Tan2013
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
- 89 (2014) 063819
----the literal stack isn't empty for entry bib:deGuise2014
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
-\href {http://arxiv.org/abs/http://www.pnas.org/content/110/4/1227.full.pdf} {\path{arXiv:http://www.pnas.org/content/110/4/1227.full.pdf}}
----the literal stack isn't empty for entry bib:Ra2013
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
- 118 (2017) 153602
----the literal stack isn't empty for entry bib:Agne17
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
- 118 (2017) 153603
----the literal stack isn't empty for entry bib:Menssen17
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
- 10~(6) (2016) 870--894
----the literal stack isn't empty for entry bib:Dietrich16
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
- 113 (2014) 120501
----the literal stack isn't empty for entry bib:Motes14
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
- 63 (2001) 032303
----the literal stack isn't empty for entry bib:Englert2001
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
- 89 (2014) 062316
----the literal stack isn't empty for entry bib:Bouland2014
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
- 92 (2015) 043813
----the literal stack isn't empty for entry bib:Dhand2015
-while executing---line 1507 of file ../elsarticle-num.bst
-Warning--empty journal in bib:Spagnolo16
-ptr=1, stack=
- 21~(11) (2013) 13450--13458
----the literal stack isn't empty for entry bib:Rahimi-Keshari13
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
- 60~(1) (2015) 96 -- 100
----the literal stack isn't empty for entry bib:Heilmann15
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
- 63 (2001) 060301
----the literal stack isn't empty for entry bib:Kim01
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
- 9~(6) (2003) 1478--1482
----the literal stack isn't empty for entry bib:Pittman03
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
- 67 (2003) 030101
----the literal stack isn't empty for entry bib:Sliwa03
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
- 75 (2007) 012313
----the literal stack isn't empty for entry bib:Walther07
+ 91 (2015) 013844
+---the literal stack isn't empty for entry bib:Shchesnovich15
 while executing---line 1507 of file ../elsarticle-num.bst
 Warning--empty chapter and pages in bib:GHZ89
-ptr=1, stack=
- 115 (2015) 260402
----the literal stack isn't empty for entry bib:Zhang15
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
- 84 (2012) 777--838
----the literal stack isn't empty for entry bib:JW12
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
- 100 (2008) 210501
----the literal stack isn't empty for entry bib:Tokunaga08
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
-\href {http://arxiv.org/abs/http://science.sciencemag.org/content/early/2016/09/07/science.aah4758.full.pdf} {\path{arXiv:http://science.sciencemag.org/content/early/2016/09/07/science.aah4758.full.pdf}}
----the literal stack isn't empty for entry bib:Schwartz16
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
- 81 (1998) 1604--1606
----the literal stack isn't empty for entry bib:Pegg98
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
- 60 (1999) 4965--4973
----the literal stack isn't empty for entry bib:Barnett99
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
- 62 (2000) 013802
----the literal stack isn't empty for entry bib:Koniorczyk2000
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
- 24~(2) (2007) 379--383
----the literal stack isn't empty for entry bib:Miranowicz07
-while executing---line 1507 of file ../elsarticle-num.bst
-Warning--empty journal in bib:Goyal13
-ptr=1, stack=
- 91 (2015) 012306
----the literal stack isn't empty for entry Rohde15
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
- 82
----the literal stack isn't empty for entry bib:Eisaman11
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
- 85 (2012) 023820
----the literal stack isn't empty for entry bib:Sperling12
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
- 37~(14) (2012) 2829--2831
----the literal stack isn't empty for entry bib:Kalashnikov12
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
- 39~(17) (2014) 5090--5093
----the literal stack isn't empty for entry bib:Chrapkiewicz14
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
- 117 (2016) 080502
----the literal stack isn't empty for entry bib:Brod16
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
-\href {http://arxiv.org/abs/http://science.sciencemag.org/content/early/2015/07/08/science.aab3642.full.pdf} {\path{arXiv:http://science.sciencemag.org/content/early/2015/07/08/science.aab3642.full.pdf}}
----the literal stack isn't empty for entry bib:Carolan15
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
- 85 (2012) 012305
----the literal stack isn't empty for entry bib:Mikova12
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
- 112 (2014) 103602
----the literal stack isn't empty for entry bib:Zhao14
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
- 111 (2013) 160407
----the literal stack isn't empty for entry bib:Micuda13
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
-\href {http://arxiv.org/abs/http://advances.sciencemag.org/content/2/3/e1501531.full.pdf} {\path{arXiv:http://advances.sciencemag.org/content/2/3/e1501531.full.pdf}}
----the literal stack isn't empty for entry bib:Patel16
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
- 68 (1992) 3121--3124
----the literal stack isn't empty for entry Bennett92
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
-\href {http://arxiv.org/abs/http://dx.doi.org/10.1080/09500340008244058} {\path{arXiv:http://dx.doi.org/10.1080/09500340008244058}}
----the literal stack isn't empty for entry bib:Hughes2000
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
- 98 (2007) 060503
----the literal stack isn't empty for entry bib:Ali-Khan07
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
- 81 (2009) 1301--1350
----the literal stack isn't empty for entry bib:Scarani09
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
- 73 (2006) 062305
----the literal stack isn't empty for entry bib:Shapiro06
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
- 81 (2010) 043823
----the literal stack isn't empty for entry bib:Gea-Banacloche10
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
- 111 (2013) 053601
----the literal stack isn't empty for entry bib:Hoi13
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
-\href {http://arxiv.org/abs/http://www.pnas.org/content/113/35/9740.full.pdf} {\path{arXiv:http://www.pnas.org/content/113/35/9740.full.pdf}}
----the literal stack isn't empty for entry bib:Beck16
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
- 95 (2017) 032327
----the literal stack isn't empty for entry bib:Peropadre17
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
- 113 (2014) 100502
----the literal stack isn't empty for entry bib:Lund14
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
-\href {http://arxiv.org/abs/http://advances.sciencemag.org/content/1/3/e1400255.full.pdf} {\path{arXiv:http://advances.sciencemag.org/content/1/3/e1400255.full.pdf}}
----the literal stack isn't empty for entry bib:Bentivegna15
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
- 91 (2015) 012342
----the literal stack isn't empty for entry bib:Rohde15
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
- 90 (2014) 063836
----the literal stack isn't empty for entry bib:Tamma14_thermal
-while executing---line 1507 of file ../elsarticle-num.bst
-Warning--empty journal in bib:Gogolin13
-Warning--empty journal in bib:Aaronson13
-ptr=1, stack=
- 113 (2014) 020502
----the literal stack isn't empty for entry bib:Tichy14
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
- 85 (2012) 022332
----the literal stack isn't empty for entry bib:Rohde12_tol
-while executing---line 1507 of file ../elsarticle-num.bst
+Warning--empty journal in bib:Briegel01
+Warning--empty journal in bib:Raussendorf03
+Warning--empty journal in bib:Kok05
+Warning--empty journal in bib:Shapiro07
+Warning--empty journal in bib:Ekert91
 Warning--empty year in bib:Leverrier15
-ptr=1, stack=
- 89 (2014) 022333
----the literal stack isn't empty for entry bib:Shchesnobich14
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
-\href {http://arxiv.org/abs/http://dx.doi.org/10.1080/09500340.2015.1088096} {\path{arXiv:http://dx.doi.org/10.1080/09500340.2015.1088096}}
----the literal stack isn't empty for entry bib:Tamma16
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
- 91 (2015) 022316
----the literal stack isn't empty for entry bib:Tichy15
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
- 92 (2015) 052319
----the literal stack isn't empty for entry bib:Motes15_timebin
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
- 86 (2014) 153--185
----the literal stack isn't empty for entry bib:Georgescu14
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
-\href {http://arxiv.org/abs/http://science.sciencemag.org/content/326/5949/108.full.pdf} {\path{arXiv:http://science.sciencemag.org/content/326/5949/108.full.pdf}}
----the literal stack isn't empty for entry bib:Buluta108
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
- 94 (2016) 022319
----the literal stack isn't empty for entry bib:Olivares16
-while executing---line 1507 of file ../elsarticle-num.bst
-Warning--empty journal in bib:Kitagawa12
-ptr=1, stack=
- 106 (2011) 180403
----the literal stack isn't empty for entry bib:Schreiber11
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
- 108 (2012) 010502
----the literal stack isn't empty for entry bib:Sansoni12
-while executing---line 1507 of file ../elsarticle-num.bst
-Warning--empty journal in bib:Matthews13
-ptr=1, stack=
- 116 (2016) 213901
----the literal stack isn't empty for entry bib:Keil16
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
- 98 (2007) 150404
----the literal stack isn't empty for entry bib:Han07
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
- 102 (2009) 030502
----the literal stack isn't empty for entry bib:Chao-Yang09
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
- 83 (2011) 013811
----the literal stack isn't empty for entry bib:Caruso11
-while executing---line 1507 of file ../elsarticle-num.bst
-Warning--empty journal in bib:Viciani16
-ptr=1, stack=
-\href {http://arxiv.org/abs/http://science.sciencemag.org/content/306/5700/1330.full.pdf} {\path{arXiv:http://science.sciencemag.org/content/306/5700/1330.full.pdf}}
----the literal stack isn't empty for entry bib:Giovannetti04
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
-\href {http://arxiv.org/abs/http://dx.doi.org/10.1080/00107510802091298} {\path{arXiv:http://dx.doi.org/10.1080/00107510802091298}}
----the literal stack isn't empty for entry bib:Dowling08
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
- 114 (2015) 170802
----the literal stack isn't empty for entry bib:Motes15_LOQM
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
-\href {http://arxiv.org/abs/http://dx.doi.org/10.1080/23746149.2016.1230476} {\path{arXiv:http://dx.doi.org/10.1080/23746149.2016.1230476}}
----the literal stack isn't empty for entry bib:Szczykulska16
-while executing---line 1507 of file ../elsarticle-num.bst
-ptr=1, stack=
- 116 (2016) 030801
----the literal stack isn't empty for entry bib:Baumgratz16
-while executing---line 1507 of file ../elsarticle-num.bst
-You've used 158 entries,
+You've used 220 entries,
             2934 wiz_defined-function locations,
-            1885 strings with 48666 characters,
-and the built_in function-call counts, 54782 in all, are:
-= -- 4860
-> -- 2849
+            1954 strings with 51331 characters,
+and the built_in function-call counts, 69690 in all, are:
+= -- 5936
+> -- 3943
 < -- 2
-+ -- 1055
-- -- 897
-* -- 5597
-:= -- 8347
-add.period$ -- 172
-call.type$ -- 158
-change.case$ -- 157
++ -- 1461
+- -- 1241
+* -- 5751
+:= -- 10567
+add.period$ -- 223
+call.type$ -- 220
+change.case$ -- 218
 chr.to.int$ -- 0
-cite$ -- 168
-duplicate$ -- 1380
-empty$ -- 5186
-format.name$ -- 1045
-if$ -- 13206
+cite$ -- 227
+duplicate$ -- 1736
+empty$ -- 6648
+format.name$ -- 1447
+if$ -- 16940
 int.to.chr$ -- 0
-int.to.str$ -- 158
-missing$ -- 159
-newline$ -- 630
-num.names$ -- 158
-pop$ -- 721
+int.to.str$ -- 220
+missing$ -- 222
+newline$ -- 672
+num.names$ -- 220
+pop$ -- 1131
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 2337
+skip$ -- 3764
 stack$ -- 0
-substring$ -- 3092
-swap$ -- 499
+substring$ -- 4188
+swap$ -- 224
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 10
-while$ -- 353
-width$ -- 161
-write$ -- 1422
-(There were 94 error messages)
+warning$ -- 7
+while$ -- 498
+width$ -- 223
+write$ -- 1758
+(There were 172 error messages)
