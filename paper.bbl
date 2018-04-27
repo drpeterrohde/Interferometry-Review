@@ -58,6 +58,10 @@ Y.~Li, P.~C. Humphreys, G.~J. Mendoza, S.~C. Benjamin, Resource costs for
   fault-tolerant linear optical quantum computing, Phys. Rev. X 5 (2015)
   041007.
 
+\bibitem{bib:Flamini2018}
+F.~Flamini, N.~Spagnolo, F.~Sciarrino, Photonic quantum information processing:
+  a review, arXiv:1803.02790v2.
+
 \bibitem{bib:Eisaman11}
 M.~Eisaman, J.~Fan, A.~Migdall, S.~Polyakov, Invited review article:
   Single-photon sources and detectors, Review of Scientific Instruments 82.
@@ -596,10 +600,6 @@ M.~Bartkowiak, A.~Miranowicz, Linear-optical implementations of the iswap and
 P.~Kok, W.~J. Munro, K.~Nemoto, T.~C. Ralph, J.~P. Dowling, G.~J. Milburn,
   Linear optical quantum computing with photonic qubits, Rev. Mod. Phys. 79
   (2005) 135.
-
-\bibitem{bib:Flamini2018}
-F.~Flamini, N.~Spagnolo, F.~Sciarrino, Photonic quantum information processing:
-  a review, arXiv:1803.02790v2.
 
 \bibitem{bib:Metcalf14}
 B.~J. Metcalf, J.~B. Spring, P.~C. Humphreys, N.~Thomas-Peter, M.~Barbieri,

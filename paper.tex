@@ -18,8 +18,8 @@
 %\usepackage[colorlinks]{hyperref}
 \usepackage[dvipsnames]{xcolor}
 
-\newcommand{\sihui}[1]{{\color{Orchid}{#1}}}
-\newcommand{\peter}[1]{{\color{blue}{#1}}}
+\newcommand{\sihui}[1]{{\color{red}{#1}}}
+\newcommand{\peter}[1]{{\color{red}{#1}}}
 \newcommand{\comment}[1]{{\color{YellowGreen}{#1}}}
 \newcommand{\ah}{\hat{a}}
 \newcommand{\adagh}{\hat{a}^\dag}
@@ -39,7 +39,7 @@
 % Title
 %
 
-\title{The resurgence of the linear optics quantum interferometer --- recent advances \& applications}
+\title{The resurgence of the linear optics \sihui{quantum} interferometer --- recent advances \& applications}
 
 %
 % Authors
@@ -89,7 +89,7 @@ Linear optics has seen a resurgence for applications in quantum information proc
 
 Linear optics play a prominent role in quantum information processing \cite{bib:LovettKok}. Photons make fantastic `flying' qubits, and are readily used for quantum communication \cite{bib:Northup14} and quantum key distribution \cite{bib:Lo14}. In 2001, Knill, Laflamme and Milburn (KLM) showed that efficient quantum computing is possible using only linear optical components, that is single photons, beamsplitters, phase shifters and photon counting  \sihui{for spatially encoded qubits \cite{bib:KLM01}. At about the same time, Koashi, Yamamoto, and Imoto (KYI) essentially came to the same result for polarization-encoded qubits \cite{Koashi01}.} Furthermore, an optical implementation of quantum protocols can potentially piggyback on existing communication infrastructure. Combined with the relative ease of transporting quantum states of light, as compared to say trapped ions or superconducting qubits, linear optics forms a powerful platform for quantum information processing.
 
-The promises offered by linear optics have spearheaded many \sihui{scientific and} technical advancements. One of the major successes for linear optics is \sihui{the detection of gravitational waves by the LIGO experiments based on the Michelson interferometer \cite{bib:LIGO2015}. The further application of squeezed light to the detectors promises to reduce quantum noise, which currently limits their performance \cite{bib:Barsotti18}. Another advancement is} the paradigm shift from bulk optics to integrated photonics \cite{bib:Meany15}. The advantage of using such integrated photonics over bulk optics is that it is more stable against phase fluctuations, and miniaturized. This has increased the scalability of optical implementations of quantum information protocols. Furthermore, it is now possible to have single-photon sources and detectors together with linear-optical networks on a silica chip \cite{bib:Sprengers11, bib:Silverstone14}. Having all components on chip reduces coupling losses which would be crucial for fault-tolerance \cite{bib:Li15}.
+The promises offered by linear optics have spearheaded many \sihui{scientific and} technical advancements. One of the major successes for linear optics is \sihui{the detection of gravitational waves by the LIGO experiments based on the Michelson interferometer \cite{bib:LIGO2015}. The further application of squeezed light to the detectors promises to reduce quantum noise, which currently limits their performance \cite{bib:Barsotti18}. Another advancement is} the paradigm shift from bulk optics to integrated photonics \cite{bib:Meany15}. The advantage of using such integrated photonics over bulk optics is that it is more stable against phase fluctuations, and miniaturized. This has increased the scalability of optical implementations of quantum information protocols. Furthermore, it is now possible to have single-photon sources and detectors together with linear-optical networks on a silica chip \cite{bib:Sprengers11, bib:Silverstone14}. Having all components on chip reduces coupling losses which would be crucial for fault-tolerance \cite{bib:Li15}. \sihui{Experimental advancements and limitations of photonic implementations of quantum information processing are discussed at length in another review \cite{bib:Flamini2018}.}
 
 In the last decade, single photons have been produced mainly through \sihui{nonlinear optical processes know as spontaneous parametric down-conversion (SPDC) and spontaneous four-wave mixing (SFWM) \cite{bib:Eisaman11,bib:Xiong16,bib:Solntsev17}.} \sihui{Both SPDC and SFWM produce} single photons in correlated pairs that has been a staple source of entanglement. \sihui{However, SPDC uses up one pump photons per pair, while SFWM requires two.} Through developments in production, the number of high quality indistinguishable photons that can be simultaneously produced have increased steadily over the years. Single-photon pairs, once a novelty, are now run-of-the-mill business for quantum optical \sihui{laboratories}, and three or four photons have become commonplace \cite{bib:Spagnolo12, bib:Tillmann13, bib:Spring13,bib:Broome13, bib:Crespi13}. Experiments using up to ten photons have been demonstrated \cite{bib:WangChen16, bib:Chen17}. We have also seen the meteoric rise of quantum dots in the role for producing single photons \cite{bib:Ding16,bib:WangHe16, bib:213601}. They are a scalable source of single photons which are highly indistinguishable, and are produced on demand--a significant advantage over \sihui{nonlinear optical processes which are inherently probabilistic.}
 
@@ -260,7 +260,6 @@ If the linear optical transformations \sihui{is to} be realized on various degre
 
 \section{Reconstructing linear optics networks}\label{sec:reconstruction}
 
-\peter{
 In many practical situations, the structure of a linear optical device in terms of its constituent beamsplitters and phase-shifters is known once it is built. However, owing to manufacturing imperfections, a precise characterization of these devices may still be needed post-production. One approach for achieving this is via quantum process tomography, discussed in the next section.
 
 However, quantum process tomography is an expensive approach in terms of the number of measurements required to characterise the network, with exponential overhead, becoming impractical for large optical networks which can contain hundreds of modes using present-day technology \cite{bib:Harris16}. To mitigate this problem, alternative characterisation protocols have been developed.
@@ -303,7 +302,7 @@ I_k=I(r_{1k}^2+r_{jk}^2+2 r_{1k}r_{kj}\cos(\phi+\theta_{jk})) \ ,
 where $\theta_{jk}=0$ for $k=1$, and $I$ is the intensity of the input coherent states. By scanning the phase shift $\phi$ and locating the maximum value of $I_k$ for $j=2,\ldots, m$, all unknown phases can be found via $\theta_{jk}=2\pi-\phi$. An elegant modification of this scheme removes the need for precise control of the phase-shift $\phi$ by suggesting instead to plot the output intensity $I_k$ with respect to the input intensity $I$ \cite{bib:Heilmann15}. In time, the natural drift in the laser source will cause this plot to trace out an ellipse, known as a Lissajous figure, whose orientation and direction of evolution will give the phase $\theta_{jk}$ and its sign respectively.
 
 While the input-to-output amplitudes of a linear optics network may be efficiently determined (in terms of number of measurements), it does not characterise the full quantum process it implements, which may contain errors in other degrees of freedom.
-}
+
 
 \section{Quantum state and process tomography}\label{secQPT}
 
