@@ -1,0 +1,28 @@
+\BOOKMARK [1][-]{section*.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section*.2}{Mathematical background}{}% 2
+\BOOKMARK [1][-]{section*.3}{Optical encoding of quantum information on single-photons}{}% 3
+\BOOKMARK [2][-]{section*.4}{Polarisation}{section*.3}% 4
+\BOOKMARK [2][-]{section*.5}{Dual-rail}{section*.3}% 5
+\BOOKMARK [2][-]{section*.6}{Time-bins}{section*.3}% 6
+\BOOKMARK [1][-]{section*.7}{Efficient circuit decompositions of linear optics networks}{}% 7
+\BOOKMARK [1][-]{section*.10}{Reconstructing linear optics networks}{}% 8
+\BOOKMARK [1][-]{section*.11}{Quantum state and process tomography}{}% 9
+\BOOKMARK [1][-]{section*.12}{State preparation}{}% 10
+\BOOKMARK [2][-]{section*.13}{Fock states}{section*.12}% 11
+\BOOKMARK [2][-]{section*.14}{Einstein-Podolsky-Rosen \(EPR\) pairs}{section*.12}% 12
+\BOOKMARK [2][-]{section*.15}{NOON states}{section*.12}% 13
+\BOOKMARK [2][-]{section*.16}{Greenberger-Horne-Zeilinger \(GHZ\) states}{section*.12}% 14
+\BOOKMARK [2][-]{section*.17}{Cluster states}{section*.12}% 15
+\BOOKMARK [2][-]{section*.19}{Quantum state engineering based on the multi-port Mach-Zehnder interferometer}{section*.12}% 16
+\BOOKMARK [1][-]{section*.21}{Time-bin loop-based architecture for linear optical networks}{}% 17
+\BOOKMARK [1][-]{section*.23}{Photodetection}{}% 18
+\BOOKMARK [1][-]{section*.26}{Optical switching}{}% 19
+\BOOKMARK [1][-]{section*.28}{Applications for linear optics interferometry}{}% 20
+\BOOKMARK [2][-]{section*.29}{Linear optical quantum computation \(LOQC\)}{section*.28}% 21
+\BOOKMARK [2][-]{section*.30}{Boson-sampling}{section*.28}% 22
+\BOOKMARK [2][-]{section*.32}{Quantum simulations}{section*.28}% 23
+\BOOKMARK [2][-]{section*.33}{Quantum metrology}{section*.28}% 24
+\BOOKMARK [2][-]{section*.35}{Repeater networks}{section*.28}% 25
+\BOOKMARK [1][-]{section*.36}{Conclusion}{}% 26
+\BOOKMARK [1][-]{section*.37}{Acknowledgments}{}% 27
+\BOOKMARK [1][-]{section*.38}{References}{}% 28
