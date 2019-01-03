@@ -1,10 +1,10 @@
 
-\documentclass[pra,singlecolumn,superscriptaddress,twoside,pra]{revtex4}
+\documentclass[pra,singlecolumn,superscriptaddress]{revtex4}
 
 %\documentclass[times,final]{elsarticle}
 %\usepackage{revip}
 \usepackage{framed,multirow,threeparttable}
-\usepackage{hyperref,mathrsfs,amsmath,amssymb,latexsym,array,hhline}
+\usepackage{mathrsfs,amsmath,amssymb,latexsym,array,hhline}
 \newcommand{\bra}[1]{\langle#1|}
 \newcommand{\ket}[1]{|#1\rangle}
 \newcommand{\op}[2]{\hat{\textbf{#1}}_{#2}}
@@ -14,15 +14,10 @@
 \captionsetup{compatibility=false}
 
 %\usepackage[colorlinks]{hyperref}
-\usepackage[dvipsnames]{xcolor}
 
-\newcommand{\sihui}[1]{{\color{red}{#1}}}
-\newcommand{\peter}[1]{{\color{red}{#1}}}
-\newcommand{\comment}[1]{{\color{YellowGreen}{#1}}}
 \newcommand{\ah}{\hat{a}}
 \newcommand{\adagh}{\hat{a}^\dag}
 
-\definecolor{newcolor}{rgb}{.8,.349,.1}
 
 \begin{document}
 %
@@ -34,10 +29,11 @@
 %
 % Authors
 %
-\author{Si-Hui Tan}
+\author{Si-Hui Tan}\email{sihui\_tan@sutd.edu.sg}
 \affiliation{Singapore University of Technology and Design, 20 Dover Drive, Singapore 138682}
 \affiliation{Centre for Quantum Technologies, National University of Singapore, Block S15, 3 Science Drive 2, Singapore 117543, Singapore}
 %
+
 \author{Peter P.~Rohde}
 \affiliation{Centre for Quantum Software \& Information (CQSI), Faculty 
 of Engineering \& Information Technology, University of Technology 
@@ -210,14 +206,14 @@ The task of implementing an arbitrary quantum computation on linear optics comes
 
 \begin{figure}[!htb]
 \centering
-\includegraphics[width=0.4\columnwidth]{reck}
+\includegraphics[width=0.4\columnwidth]{Reck.pdf}
 \caption{Efficient decomposition of arbitrary linear optics 
 networks into a sequence of beamsplitters and phase-shifters. This setup describes a generalized $n\times n$ multi-port Mach-Zehnder interferometer. Adapted from \cite{bib:Reck1994}.} \label{fig:Reck}	
 \end{figure}
 
 \begin{figure}[!htb]
 \centering
-\includegraphics[width=0.8\columnwidth]{configMZI}
+\includegraphics[width=0.8\columnwidth]{configMZI.pdf}
 \caption{(a) A decomposition of arbitrary linear optics networks into a sequence of subunitaries, $D_i$, made up of Mach-Zehnder interferometers, and is a universal linear-optical processing unit. These subunitaries are controlled via their photon amplitudes ($\alpha_{i,j}$) and phases ($\phi_{i,j}$). (b) A state-of-art implementation of a universal linear-optical processing unit is shown. The processor has 6 inputs entering from the left, and 6 outputs leaving to the right, and is constructed from a cascade of 15 Mach-Zehnder interferometers. The classical control and processing unit sets the parameters for the interferometer, and actively cools it. Adapted from \cite{bib:Carolan15}.} \label{fig:Carolan}	
 \end{figure}
 
@@ -356,13 +352,13 @@ Cluster states are a resource state for a model of quantum computation known as 
 \centering
 \begin{subfigure}{.5\columnwidth}
   \centering
-  \includegraphics[width=.5\columnwidth]{cluster_state}
+  \includegraphics[width=.5\columnwidth]{cluster_state.pdf}
   \caption{}
   \label{fig:cluster}
 \end{subfigure}%
 \begin{subfigure}{.5\columnwidth}
   \centering
-  \includegraphics[width=.65\columnwidth]{fusion}
+  \includegraphics[width=.65\columnwidth]{fusion.pdf}
   \caption{}
   \label{fig:fusion}
 \end{subfigure}
@@ -379,7 +375,7 @@ Linear optical inteferometers have been used for quantum state engineering. One 
 
 \begin{figure}[!htb]
 \centering
-\includegraphics[width=0.3\columnwidth]{qscissors}
+\includegraphics[width=0.3\columnwidth]{qscissors.pdf}
 \caption{Figure showing optical state truncation for $d=1$. The input state is $\ket{\phi}$, and when the photodetectors $D_1$ and $D_2$ register one and zero photons respectively, the output state is $\ket{\phi}_{\rm out}=c_0\ket{0}+c_1\ket{1}$ with an appropriate normalization factor. Adapted from \cite{bib:Pegg98}.} \label{fig:qscissors}	
 \end{figure}
 
@@ -397,13 +393,13 @@ beamsplitter operations.
 \centering
 \begin{subfigure}{.5\columnwidth}
   \centering
-  \includegraphics[width=0.7\columnwidth]{full_architecture}
+  \includegraphics[width=0.7\columnwidth]{full_architecture.pdf}
   \caption{}
   \label{fig:FL_arch}
 \end{subfigure}%
 \begin{subfigure}{0.5\columnwidth}
   \centering
-  \includegraphics[width=0.8\columnwidth]{PBS_TB}
+  \includegraphics[width=0.8\columnwidth]{PBS_TB.pdf}
   \caption{}
   \label{fig:PBS_TB}
 \end{subfigure}
@@ -497,7 +493,7 @@ Some of the protocols thus far require switching between different optical modes
 
 \begin{figure}[!htb]
 \centering
-\includegraphics[width=0.4\columnwidth]{MZ}	
+\includegraphics[width=0.4\columnwidth]{MZ.pdf}	
 \caption{An optical switch for time-bin qubits that uses a Mach-Zehnder interferometer with a dynamic, classicallly-controlled phase-shift in one path.}
 \label{figMZ}
 \end{figure}
@@ -579,7 +575,7 @@ where $\text{Per}()$ denotes the permanent of a matrix, $S=\{s_1,\dots,s_m\}$ de
 
 \begin{figure}[!htb]
 \centering
-\includegraphics[width=0.3\columnwidth]{BS_model}
+\includegraphics[width=0.3\columnwidth]{BS_model.pdf}
 \caption{The Boson-Sampling model. A string of $n$ single
 photons is prepared in $m$ optical modes. They are evolved
 via a passive interferometer $U$. Finally the photon-statistics
@@ -631,13 +627,13 @@ An archetypal task for quantum metrology is the following: Given a Mach-Zehnder 
 \centering
 \begin{subfigure}{.5\columnwidth}
   \centering
-  \includegraphics[width=0.4\columnwidth]{phE}
+  \includegraphics[width=0.4\columnwidth]{phE.pdf}
   \caption{}
    \label{fig:MZ}
 \end{subfigure}%
 \begin{subfigure}{0.5\columnwidth}
   \centering
-  \includegraphics[width=0.75\columnwidth]{MORDOR}
+  \includegraphics[width=0.75\columnwidth]{MORDOR.pdf}
   \caption{}
   \label{fig:MORDOR}
 \end{subfigure}
@@ -664,7 +660,7 @@ Although there are countless physical architectures for the implementation of qu
 %
 
 \section*{Acknowledgments}
-PPR is funded by an ARC Future Fellowship (project FT160100397). This research was supported in part by the Singapore National Research Foundation under NRF Award No. NRF-NRFF2013-01. ST acknowldeges support from the Air Force Office of Scientific Research under AOARD grant FA2386-15-1-4082.
+The authors thank A.~Laing and J.~O'Brien for their permission to use Figure 1 of \cite{bib:Carolan15}. PPR is funded by an ARC Future Fellowship (project FT160100397). This research was supported in part by the Singapore National Research Foundation under NRF Award No.~NRF-NRFF2013-01. ST acknowldeges support from the Air Force Office of Scientific Research under AOARD grant FA2386-15-1-4082.
 
 %
 % Bibliography
