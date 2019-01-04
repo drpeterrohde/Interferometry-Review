@@ -680,24 +680,24 @@ Warning--empty journal in bib:Shapiro07
 Warning--empty year in bib:Leverrier15
 You've used 233 entries,
             2935 wiz_defined-function locations,
-            2030 strings with 53913 characters,
-and the built_in function-call counts, 74091 in all, are:
-= -- 6349
+            2030 strings with 53903 characters,
+and the built_in function-call counts, 73994 in all, are:
+= -- 6335
 > -- 4145
 < -- 2
 + -- 1537
 - -- 1304
-* -- 6117
-:= -- 11221
+* -- 6107
+:= -- 11211
 add.period$ -- 235
 call.type$ -- 233
 change.case$ -- 231
 chr.to.int$ -- 0
 cite$ -- 236
 duplicate$ -- 1849
-empty$ -- 7089
+empty$ -- 7080
 format.name$ -- 1523
-if$ -- 18031
+if$ -- 18009
 int.to.chr$ -- 0
 int.to.str$ -- 233
 missing$ -- 235
@@ -709,14 +709,14 @@ purify$ -- 0
 quote$ -- 0
 skip$ -- 3988
 stack$ -- 0
-substring$ -- 4522
+substring$ -- 4491
 swap$ -- 238
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 3
-while$ -- 532
+while$ -- 531
 width$ -- 236
 write$ -- 1869
 (There were 166 error messages)
